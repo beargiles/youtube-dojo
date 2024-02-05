@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
+  ~ All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- do not specify 'parent' here! -->
+    <groupId>com.coyotesong.dojo.youtube</groupId>
+    <artifactId>bom</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Youtube Dojo - BOM</name>
+
+    <properties>
+
+        <spring-boot.version>3.2.0</spring-boot.version>
+
+        <jetbrains.version>19.0.0</jetbrains.version>
+
+        <jooq.version>3.18.7</jooq.version>
+
+        <hamcrest.version>2.2</hamcrest.version>
+        <testng.version>7.8.0</testng.version>
+        <junit.version>5.10.0</junit.version>
+
+        <google-api-services-youtube.version>v3-rev20231011-2.0.0</google-api-services-youtube.version>
+
+        <!--
+        <spring-boot-test.version>2.7.5</spring-boot-test.version>
+        -->
+
+        <!-- for auto-generation -->
+        <testcontainers.version>1.19.1</testcontainers.version>
+        <testcontainers-jooq-codegen-maven-plugin.version>0.0.3</testcontainers-jooq-codegen-maven-plugin.version>
+        <jooq.target.directory>src/main/java.jooq</jooq.target.directory>
+        <jooq.target.packageName>com.coyotesong.tabs.repo.jooq.generated</jooq.target.packageName>
+        <postgresql-jdbc.version>42.6.0</postgresql-jdbc.version>
+        <postgresql-docker.version>15-alpine</postgresql-docker.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--
+            <dependency>
+                <groupId>org.junit</groupId>
+                <artifactId>junit-bom</artifactId>
+                <version>${junit.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            -->
+
+            <!-- this 'import' dependency allows us to inherit all -->
+            <!-- of the package dependencies in spring boot without -->
+            <!-- actually limiting us to using it as the parent pom -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+
+            <!-- for transactions -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-jdbc</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-jooq</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetbrains</groupId>
+                <artifactId>annotations</artifactId>
+                <version>${jetbrains.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.apis</groupId>
+                <artifactId>google-api-services-youtube</artifactId>
+                <version>${google-api-services-youtube.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
