@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,10 +28,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Youtube Channel
+ * YouTube Subscription
  * <p>
- * What about Channel Section?
- * </p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Subscription.html">Subscription</a>
  */
 @SuppressWarnings("unused")
 public class Subscription implements Serializable {
@@ -55,26 +54,29 @@ public class Subscription implements Serializable {
     private Boolean nsfw;
     private Instant lastChecked;
 
-
-    private List<Playlist> playlists = new ArrayList<>();
+    private ArrayList<Playlist> playlists;
 
     // wikipedia
-    private List<WikipediaTopic> topicCategories = new ArrayList<>();
+    private ArrayList<WikipediaTopic> topicCategories;
     // topicIds = freebase topic ids
-    private List<String> topicIds = new ArrayList<>();
+    private ArrayList<String> topicIds;
 
     // statistics = commentCount, hiddenSubscriberCount(boolean), subscriberCount, videoCount, viewCount),
     // status = isLinked, longUploadStatus, madeForKids, privacyStatus, selfDeclaredMadeForKids
 
     // values that seem to be null in the channels I care: view_count, favorites, likes, watch_history, watch_later
 
-    private List<Video> videos = new ArrayList<>();
+    private ArrayList<Video> videos;
 
     /**
      * Default constructor.
      */
     public Subscription() {
-
+        // fields are explicitly ArrayList<> due to serialization warnings
+        this.playlists = new ArrayList<>();
+        this.topicCategories = new ArrayList<>();
+        this.topicIds = new ArrayList<>();
+        this.videos = new ArrayList<>();
     }
 
     public String getId() {
@@ -187,7 +189,12 @@ public class Subscription implements Serializable {
     }
 
     public void setPlaylists(List<Playlist> playlists) {
-        this.playlists = playlists;
+        if (playlists instanceof ArrayList) {
+            this.playlists = (ArrayList<Playlist>) playlists;
+        } else {
+            this.playlists.clear();
+            this.playlists.addAll(playlists);
+        }
     }
 
     public List<WikipediaTopic> getTopicCategories() {
@@ -195,7 +202,12 @@ public class Subscription implements Serializable {
     }
 
     public void setTopicCategories(List<WikipediaTopic> topicCategories) {
-        this.topicCategories = topicCategories;
+        if (topicCategories instanceof ArrayList) {
+            this.topicCategories = (ArrayList<WikipediaTopic>) topicCategories;
+        } else {
+            this.topicCategories.clear();
+            this.topicCategories.addAll(topicCategories);
+        }
     }
 
     public List<String> getTopicIds() {
@@ -203,7 +215,12 @@ public class Subscription implements Serializable {
     }
 
     public void setTopicIds(List<String> topicIds) {
-        this.topicIds = topicIds;
+        if (topicIds instanceof ArrayList) {
+            this.topicIds = (ArrayList<String>) topicIds;
+        } else {
+            this.topicIds.clear();
+            this.topicIds.addAll(topicIds);
+        }
     }
 
     public Boolean getNsfw() {
@@ -219,7 +236,12 @@ public class Subscription implements Serializable {
     }
 
     public void setVideos(List<Video> videos) {
-        this.videos = videos;
+        if (videos instanceof ArrayList) {
+            this.videos = (ArrayList<Video>) videos;
+        } else {
+            this.videos.clear();
+            this.videos.addAll(videos);
+        }
     }
 
     @Override

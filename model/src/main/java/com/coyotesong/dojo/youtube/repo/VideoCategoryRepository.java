@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.repo;
+package com.coyotesong.dojo.youtube.repo;
 
-import com.coyotesong.tabs.model.VideoCategory;
+import com.coyotesong.dojo.youtube.model.VideoCategory;
 
 import java.util.Collection;
 import java.util.List;
@@ -25,10 +25,12 @@ import java.util.List;
 /**
  * Persistence mechanism for video categories
  */
+@SuppressWarnings("unused")
 public interface VideoCategoryRepository {
 
     /**
      * Save video details
+     *
      * @param categories
      */
     void insert(Collection<VideoCategory> categories);

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,15 +15,19 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.repo;
+package com.coyotesong.dojo.youtube.repo;
 
-import com.coyotesong.tabs.model.Video;
+import com.coyotesong.dojo.youtube.model.Video;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Persistence mechanism for videos
+ */
+@SuppressWarnings("unused")
 public interface VideoRepository {
 
     /**

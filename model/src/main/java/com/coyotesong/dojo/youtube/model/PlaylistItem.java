@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,28 +14,38 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coyotesong.tabs.model;
+package com.coyotesong.dojo.youtube.model;
 
-import com.google.api.services.youtube.model.*;
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.time.Instant;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
-public class PlaylistItem {
-    private static final YTUtils utils = new YTUtils();
+/**
+ * YouTube playlist item
+ * <p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/PlaylistItem.html">PlaylistItem</a>
+ */
+@SuppressWarnings("unused")
+public class PlaylistItem implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
 
-    private String playlistItemId;
+    private String id;
     private String etag;
     private String playlistId;
     private Instant publishedAt;
     private String channelId;
+    private String channelTitle;
     private String title;
     private String description;
     private String videoOwnerChannelId;
     private Long position;
     private String videoId;
-    private String kind;
     private String note;
     private Instant videoPublishedAt;
     private String privacyStatus;
@@ -43,60 +53,12 @@ public class PlaylistItem {
 
     // channelTitle and videoOwnerChannelTitle can be found in 'channel' table
 
-    public PlaylistItem() {
-
+    public String getId() {
+        return id;
     }
 
-    public PlaylistItem(com.google.api.services.youtube.model.PlaylistItem item) {
-        this.playlistItemId = item.getId();
-        this.etag = item.getEtag();
-
-        final PlaylistItemSnippet snippet = item.getSnippet();
-        if (snippet != null) {
-            if (snippet.getPublishedAt() != null) {
-                this.publishedAt = Instant.ofEpochMilli(snippet.getPublishedAt().getValue());
-            }
-
-            this.channelId = snippet.getChannelId();
-            this.title = snippet.getTitle();
-            this.description = snippet.getDescription();
-            this.videoOwnerChannelId = snippet.getVideoOwnerChannelId();
-            this.playlistId = snippet.getPlaylistId();
-            this.position = snippet.getPosition();
-            if (snippet.getResourceId() != null) {
-                this.videoId = snippet.getResourceId().getVideoId();
-                this.kind = snippet.getResourceId().getKind();
-            }
-
-            final ThumbnailDetails td = snippet.getThumbnails();
-            if ((td != null) && !td.isEmpty() && !td.getDefault().isEmpty()) {
-                this.thumbnailUrl = td.getDefault().getUrl();
-            }
-        }
-
-        final PlaylistItemContentDetails contents = item.getContentDetails();
-        if (contents != null) {
-            if (this.videoId == null) {
-                this.videoId = contents.getVideoId();
-            }
-            this.note = contents.getNote();
-            if (contents.getVideoPublishedAt() != null) {
-                this.videoPublishedAt = Instant.ofEpochMilli(contents.getVideoPublishedAt().getValue());
-            }
-        }
-
-        final PlaylistItemStatus status = item.getStatus();
-        if (status != null) {
-            this.privacyStatus = status.getPrivacyStatus();
-        }
-    }
-
-    public String getPlaylistItemId() {
-        return playlistItemId;
-    }
-
-    public void setPlaylistItemId(String playlistItemId) {
-        this.playlistItemId = playlistItemId;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getEtag() {
@@ -129,6 +91,14 @@ public class PlaylistItem {
 
     public void setChannelId(String channelId) {
         this.channelId = channelId;
+    }
+
+    public String getChannelTitle() {
+        return channelTitle;
+    }
+
+    public void setChannelTitle(String channelTitle) {
+        this.channelTitle = channelTitle;
     }
 
     public String getTitle() {
@@ -171,14 +141,6 @@ public class PlaylistItem {
         this.videoId = videoId;
     }
 
-    public String getKind() {
-        return kind;
-    }
-
-    public void setKind(String kind) {
-        this.kind = kind;
-    }
-
     public String getNote() {
         return note;
     }
@@ -209,5 +171,42 @@ public class PlaylistItem {
 
     public void setThumbnailUrl(String thumbnailUrl) {
         this.thumbnailUrl = thumbnailUrl;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+
+        if (o == null || getClass() != o.getClass()) return false;
+
+        PlaylistItem that = (PlaylistItem) o;
+
+        return new EqualsBuilder().append(etag, that.etag).append(playlistId, that.playlistId).append(publishedAt, that.publishedAt).append(channelId, that.channelId).append(channelTitle, that.channelTitle).append(title, that.title).append(description, that.description).append(videoOwnerChannelId, that.videoOwnerChannelId).append(position, that.position).append(videoId, that.videoId).append(note, that.note).append(videoPublishedAt, that.videoPublishedAt).append(privacyStatus, that.privacyStatus).append(thumbnailUrl, that.thumbnailUrl).isEquals();
+    }
+
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder(17, 37).append(etag).append(playlistId).append(title).append(description).toHashCode();
+    }
+
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+                .append("id", id)
+                .append("etag", etag)
+                .append("playlistId", playlistId)
+                .append("publishedAt", publishedAt)
+                .append("channelId", channelId)
+                .append("channelTitle", channelTitle)
+                .append("title", title)
+                .append("description", description)
+                .append("videoOwnerChannelId", videoOwnerChannelId)
+                .append("position", position)
+                .append("videoId", videoId)
+                .append("note", note)
+                .append("videoPublishedAt", videoPublishedAt)
+                .append("privacyStatus", privacyStatus)
+                .append("thumbnailUrl", thumbnailUrl)
+                .toString();
     }
 }

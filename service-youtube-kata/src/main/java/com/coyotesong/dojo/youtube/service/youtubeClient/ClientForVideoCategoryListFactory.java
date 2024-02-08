@@ -17,7 +17,13 @@
 
 package com.coyotesong.dojo.youtube.service.youtubeClient;
 
+import com.coyotesong.dojo.youtube.model.VideoCategory;
+import com.coyotesong.dojo.youtube.security.LogSanitizer;
 import com.google.api.services.youtube.YouTube;
+import com.google.api.services.youtube.model.VideoCategoryListResponse;
+import com.google.api.services.youtube.model.VideoCategorySnippet;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -25,6 +31,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import static org.apache.commons.lang3.StringUtils.isBlank;
 import static org.apache.commons.lang3.StringUtils.isNotBlank;
 
 /**
@@ -34,26 +41,30 @@ import static org.apache.commons.lang3.StringUtils.isNotBlank;
 @SuppressWarnings("unused")
 public class ClientForVideoCategoryListFactory {
     private final YouTube.Builder ytBuilder;
+    private final LogSanitizer sanitize;
 
-    public ClientForVideoCategoryListFactory(YouTube.Builder ytBuilder) {
+    public ClientForVideoCategoryListFactory(YouTube.Builder ytBuilder, LogSanitizer sanitize) {
         this.ytBuilder = ytBuilder;
+        this.sanitize = sanitize;
     }
 
     public Builder newBuilder() {
-        return new Builder(ytBuilder);
+        return new Builder(ytBuilder, sanitize);
     }
 
     public static class Builder {
-        private static final List<String> VIDEO_PARTS = Arrays.asList("contentDetails", "contentOwnerDetails", "id", "snippet", "topicDetails");
+        private static final List<String> VIDEO_PARTS = Arrays.asList("id", "snippet");
 
         private final YouTube.Builder ytBuilder;
+        private final LogSanitizer sanitize;
 
         private List<String> ids = Collections.emptyList();
-        private String forUsername;
         private String hl;
+        private String quotaUser;
 
-        private Builder(YouTube.Builder ytBuilder) {
+        private Builder(YouTube.Builder ytBuilder, LogSanitizer sanitize) {
             this.ytBuilder = ytBuilder;
+            this.sanitize = sanitize;
         }
 
         public Builder withId(String id) {
@@ -66,13 +77,13 @@ public class ClientForVideoCategoryListFactory {
             return this;
         }
 
-        public Builder withForUsername(String forUsername) {
-            this.forUsername = forUsername;
+        public Builder withHl(String hl) {
+            this.hl = hl;
             return this;
         }
 
-        public Builder withHl(String hl) {
-            this.hl = hl;
+        public Builder withQuotaUser(String quotaUser) {
+            this.quotaUser = quotaUser;
             return this;
         }
 
@@ -82,20 +93,87 @@ public class ClientForVideoCategoryListFactory {
          * @return
          * @throws IOException
          */
-        public ClientForVideoList build() throws IOException {
-            final YouTube.Videos.List request = ytBuilder.build().videos().list(VIDEO_PARTS);
+        public ClientForVideoCategoryList build() throws IOException {
+            final YouTube.VideoCategories.List request = ytBuilder.build().videoCategories().list(VIDEO_PARTS);
+
+            if (isBlank(hl)) {
+                throw new IllegalStateException("'hl' must be specified");
+            }
 
             if (!ids.isEmpty()) {
                 request.setId(ids);
+            }
+
+            request.setHl(hl);
+
+            if (isNotBlank(quotaUser)) {
+                request.setQuotaUser(quotaUser);
+            }
+
+            return new ClientForVideoCategoryList(request, sanitize);
+        }
+    }
+
+    public static class ClientForVideoCategoryList extends ClientForYouTubeRequest<VideoCategory, VideoCategoryListResponse, com.google.api.services.youtube.model.VideoCategory> {
+        public ClientForVideoCategoryList(YouTube.VideoCategories.List request, LogSanitizer sanitize) {
+            super(new VideoCategoryState(request, sanitize));
+        }
+    }
+
+    public static class VideoCategoryState extends AbstractClientState<VideoCategory, VideoCategoryListResponse, com.google.api.services.youtube.model.VideoCategory> {
+        private final static Logger LOG = LoggerFactory.getLogger(VideoCategoryState.class);
+        private final static YTUtils utils = new YTUtils();
+
+        private final YouTube.VideoCategories.List request;
+        private final LogSanitizer sanitize;
+
+        public VideoCategoryState(YouTube.VideoCategories.List request, LogSanitizer sanitize) {
+            this.request = request;
+            this.sanitize = sanitize;
+        }
+
+        /**
+         * Perform YouTube API call
+         */
+        @Override
+        public void update() throws IOException {
+            // request.setPageToken(getNextPageToken());
+            final VideoCategoryListResponse response = request.execute();
+
+            setEtag(response.getEtag());
+            setEventId(response.getEventId());
+            setNextPageToken(response.getNextPageToken());
+            setPageInfo(response.getPageInfo());
+            setVisitorId(response.getVisitorId());
+
+            if (response.isEmpty() || (response.getItems() == null) || response.getItems().isEmpty()) {
+                setItems(Collections.emptyList());
             } else {
-                throw new IllegalStateException("'id'/'ids' must be specified");
+                setItems(response.getItems().stream().map(this::convert).toList());
+            }
+        }
+
+        /**
+         * Convert YouTube API object to ours.
+         *
+         * @param category
+         * @return
+         */
+        public VideoCategory convert(com.google.api.services.youtube.model.VideoCategory category) {
+            final VideoCategory value = new VideoCategory();
+
+            value.setId(category.getId());
+            value.setEtag(category.getEtag());
+
+            if (category.getSnippet() != null) {
+                final VideoCategorySnippet snippet = category.getSnippet();
+                // this will always(?) be 'UCBR8-60-B28hp2BmDPdntcQ'
+                value.setChannelId(snippet.getChannelId());
+                value.setTitle(snippet.getTitle());
+                value.setAssignable(snippet.getAssignable());
             }
 
-            if (isNotBlank(hl)) {
-                request.setHl(hl);
-            }
-
-            return new ClientForVideoList(request);
+            return value;
         }
     }
 }

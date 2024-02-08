@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,12 +14,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coyotesong.tabs.model;
+package com.coyotesong.dojo.youtube.model;
 
-import com.google.api.services.youtube.model.ChannelContentDetails;
-import com.google.api.services.youtube.model.ChannelSnippet;
-import com.google.api.services.youtube.model.ChannelTopicDetails;
-import com.google.api.services.youtube.model.ThumbnailDetails;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
@@ -28,15 +24,13 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 import java.io.Serial;
 import java.io.Serializable;
 import java.time.Instant;
-import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Youtube Channel
+ * YouTube Channel
  * <p>
- * What about Channel Section?
- * </p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Channel.html">Channel</a>
  */
 @SuppressWarnings("unused")
 public class Channel implements Serializable {
@@ -60,78 +54,26 @@ public class Channel implements Serializable {
     private Boolean nsfw;
     private Instant lastChecked;
 
-
-    private List<Playlist> playlists = new ArrayList<>();
+    private ArrayList<Playlist> playlists;
 
     // wikipedia
-    private List<WikipediaTopic> topicCategories = new ArrayList<>();
+    private ArrayList<WikipediaTopic> topicCategories;
     // topicIds = freebase topic ids
-    private List<String> topicIds = new ArrayList<>();
+    private ArrayList<String> topicIds;
 
     // statistics = commentCount, hiddenSubscriberCount(boolean), subscriberCount, videoCount, viewCount),
     // status = isLinked, longUploadStatus, madeForKids, privacyStatus, selfDeclaredMadeForKids
 
     // values that seem to be null in the channels I care: view_count, favorites, likes, watch_history, watch_later
 
-    private List<Video> videos = new ArrayList<>();
+    private ArrayList<Video> videos;
 
     public Channel() {
-
-    }
-
-    public Channel(com.google.api.services.youtube.model.Channel channel) {
-        this.id = channel.getId();
-        this.etag = channel.getEtag();
-
-        if (channel.getContentOwnerDetails() != null) {
-            this.contentOwner = channel.getContentOwnerDetails().getContentOwner();
-            // skip 'timeLinked'
-        }
-
-        // skip localizations
-        if (channel.getSnippet() != null) {
-            final ChannelSnippet snippet = channel.getSnippet();
-            this.country = snippet.getCountry();
-            this.customUrl = snippet.getCustomUrl();
-            this.lang = snippet.getDefaultLanguage();
-            this.description = snippet.getDescription();
-            if (snippet.getPublishedAt() != null) {
-                this.publishedAt = Instant.ofEpochMilli(snippet.getPublishedAt().getValue());
-            }
-            this.title = snippet.getTitle();
-            final ThumbnailDetails td = snippet.getThumbnails();
-            if ((td != null) && !td.isEmpty() && !td.getDefault().isEmpty()) {
-                this.tnUrl = td.getDefault().getUrl();
-            }
-        }
-
-        if (channel.getContentDetails() != null) {
-            final ChannelContentDetails details = channel.getContentDetails();
-            this.uploads = details.getRelatedPlaylists().getUploads();
-            // this.favorites = details.getRelatedPlaylists().getFavorites();
-            // this.likes = details.getRelatedPlaylists().getLikes();
-            // this.watchHistory = details.getRelatedPlaylists().getWatchHistory();
-            // this.watchLater = details.getRelatedPlaylists().getWatchLater();
-        }
-
-        if (channel.getTopicDetails() != null) {
-            ChannelTopicDetails details = channel.getTopicDetails();
-            if (details.getTopicCategories() != null) {
-                for (String category : details.getTopicCategories()) {
-                    topicCategories.add(new WikipediaTopic(category));
-                }
-            }
-            if (details.getTopicIds() != null) {
-                topicIds.addAll(details.getTopicIds());
-            }
-        }
-
-        this.lastChecked = Instant.now().truncatedTo(ChronoUnit.SECONDS);
-
-        // statistics
-        //    comments, hidden subscriber count, video count, view count
-        // status
-        //    isLinked, longUploadStatus, madeForKids, privacyStatus, selfDeclaredMadeForKids
+        // fields are explicitly ArrayList<> due to serialization warnings
+        this.playlists = new ArrayList<>();
+        this.topicCategories = new ArrayList<>();
+        this.topicIds = new ArrayList<>();
+        this.videos = new ArrayList<>();
     }
 
     public String getId() {
@@ -214,7 +156,6 @@ public class Channel implements Serializable {
         this.title = title;
     }
 
-
     public String getUploads() {
         return uploads;
     }
@@ -244,7 +185,12 @@ public class Channel implements Serializable {
     }
 
     public void setPlaylists(List<Playlist> playlists) {
-        this.playlists = playlists;
+        if (playlists instanceof ArrayList) {
+            this.playlists = (ArrayList<Playlist>) playlists;
+        } else {
+            this.playlists.clear();
+            this.playlists.addAll(playlists);
+        }
     }
 
     public List<WikipediaTopic> getTopicCategories() {
@@ -252,7 +198,12 @@ public class Channel implements Serializable {
     }
 
     public void setTopicCategories(List<WikipediaTopic> topicCategories) {
-        this.topicCategories = topicCategories;
+        if (topicCategories instanceof ArrayList) {
+            this.topicCategories = (ArrayList<WikipediaTopic>) topicCategories;
+        } else {
+            this.topicCategories.clear();
+            this.topicCategories.addAll(topicCategories);
+        }
     }
 
     public List<String> getTopicIds() {
@@ -260,7 +211,12 @@ public class Channel implements Serializable {
     }
 
     public void setTopicIds(List<String> topicIds) {
-        this.topicIds = topicIds;
+        if (topicIds instanceof ArrayList) {
+            this.topicIds = (ArrayList<String>) topicIds;
+        } else {
+            this.topicIds.clear();
+            this.topicIds.addAll(topicIds);
+        }
     }
 
     public Boolean getNsfw() {
@@ -276,7 +232,12 @@ public class Channel implements Serializable {
     }
 
     public void setVideos(List<Video> videos) {
-        this.videos = videos;
+        if (videos instanceof ArrayList) {
+            this.videos = (ArrayList<Video>) videos;
+        } else {
+            this.videos.clear();
+            this.videos.addAll(videos);
+        }
     }
 
     @Override
@@ -312,9 +273,23 @@ public class Channel implements Serializable {
     public String toString() {
         return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
                 .append("id", id)
+                .append("etag", etag)
+                .append("username", username)
+                .append("contentOwner", contentOwner)
+                .append("country", country)
                 .append("customUrl", customUrl)
+                .append("lang", lang)
+                .append("publishedAt", publishedAt)
+                .append("description", description)
                 .append("title", title)
+                .append("uploads", uploads)
+                .append("tnUrl", tnUrl)
+                .append("nsfw", nsfw)
                 .append("lastChecked", lastChecked)
+                .append("playlists", playlists)
+                .append("topicCategories", topicCategories)
+                .append("topicIds", topicIds)
+                .append("videos", videos)
                 .toString();
     }
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,43 +16,54 @@
  */
 package com.coyotesong.dojo.youtube.service;
 
-import com.coyotesong.tabs.model.Playlist;
-import com.coyotesong.tabs.model.PlaylistItem;
+import com.coyotesong.dojo.youtube.model.Playlist;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import org.jetbrains.annotations.Unmodifiable;
 
 import java.io.IOException;
 import java.util.List;
 
 /**
- * YouTube API client for unauthenticated users.
+ * YouTube 'playlists' API client
+ * <p>
+ * Other options:
+ *     <ul>
+ *         <li>HL</li>
+ *         <li>Mine</li>
+ *     </ul>
+ *     The 'OnBehalfOfContentOwner' is intended for use by YouTube content partners.
+ * </p>
+ * <p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/index.html?com/google/api/services/youtube/YouTube.Playlists.List.html">YouTube.Playlists.List</a>
  */
 @SuppressWarnings("unused")
 public interface YouTubePlaylistsService {
 
     /**
      * Retrieve information about specified playlist
+     *
      * @param playlistId playlist to load
      * @return requested playlist (when available)
      */
-    Playlist getPlaylist(String playlistId) throws IOException;
+    @Nullable
+    Playlist getPlaylist(@NotNull String playlistId) throws IOException;
 
     /**
      * Retrieve information about specified playlists
+     *
      * @param playlistIds playlists to load
      * @return requested playlists (when available)
      */
-    List<Playlist> getPlaylists(List<String> playlistIds) throws IOException;
+    @NotNull
+    List<Playlist> getPlaylists(@NotNull @Unmodifiable List<String> playlistIds) throws IOException;
 
     /**
      * Retrieve information about specified playlists
+     *
      * @param channelId channel id
      * @return requested playlists (when available)
      */
-    List<Playlist> getPlaylistsForChannelId(String channelId) throws IOException;
-
-    /**
-     * Retrieve information about specified playlist items
-     * @param ids playlist (not playlist item) to load
-     * @return requested playlist items (when available)
-     */
-    List<PlaylistItem> getPlaylistItems(List<String> ids) throws IOException;
+    @NotNull
+    List<Playlist> getPlaylistsForChannelId(@NotNull String channelId) throws IOException;
 }

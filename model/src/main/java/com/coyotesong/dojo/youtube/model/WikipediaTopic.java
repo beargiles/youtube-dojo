@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,21 +15,24 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.model;
+package com.coyotesong.dojo.youtube.model;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.io.Serial;
 import java.io.Serializable;
 
 /**
- * The 'topic category' field contains a wikipedia link.
- *
+ * The YouTube 'topic category' field contains a wikipedia link.
+ * <p>
  * There is a many-to-many relationship between this table and (channels, videos).
- *
+ * <p>
  * This class maintains both URL and a simplified label.
  */
+@SuppressWarnings("unused")
 public class WikipediaTopic implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
@@ -104,5 +107,15 @@ public class WikipediaTopic implements Serializable {
     @Override
     public int hashCode() {
         return new HashCodeBuilder(17, 37).append(url).toHashCode();
+    }
+
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+                .append("id", id)
+                .append("url", url)
+                .append("label", label)
+                .append("custom", custom)
+                .toString();
     }
 }

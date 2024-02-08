@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +17,7 @@
 
 package com.coyotesong.dojo.youtube.form;
 
-import com.coyotesong.tabs.model.SearchResult;
+import com.coyotesong.dojo.youtube.model.SearchResult;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +25,7 @@ import java.util.List;
 /**
  * Subscription form
  */
+@SuppressWarnings("unused")
 public class SubscriptionForm {
     private List<SearchResult> results;
 

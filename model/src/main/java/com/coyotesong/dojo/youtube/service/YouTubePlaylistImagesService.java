@@ -16,27 +16,26 @@
  */
 package com.coyotesong.dojo.youtube.service;
 
-import com.coyotesong.dojo.youtube.form.YouTubeSearchForm;
-import com.coyotesong.dojo.youtube.model.SearchResult;
+import com.coyotesong.dojo.youtube.model.PlaylistImage;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.io.IOException;
-import java.util.List;
 
 /**
- * YouTube 'search' API client
+ * YouTube 'playlistImages' API client
  * <p>
- * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/index.html?com/google/api/services/youtube/YouTube.Search.List.html">YouTube.Search.List</a>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/index.html?com/google/api/services/youtube/YouTube.PlaylistItems.List.html">YouTube.PlaylistItems.List</a>
  */
 @SuppressWarnings("unused")
-public interface YouTubeSearchService {
+public interface YouTubePlaylistImagesService {
 
     /**
-     * Perform a search
+     * Retrieve information about specified playlist image
      *
-     * @param form search form
-     * @throws IOException a REST client issue problem occurred
+     * @param playlistId playlist image to load
+     * @return requested playlist image (when available)
      */
-    @NotNull
-    List<SearchResult> search(@NotNull YouTubeSearchForm form) throws IOException;
+    @Nullable
+    PlaylistImage getPlaylistImageForPlaylistId(@NotNull String playlistId) throws IOException;
 }

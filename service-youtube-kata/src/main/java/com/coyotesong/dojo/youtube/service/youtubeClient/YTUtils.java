@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,8 +15,9 @@
  * limitations under the License.
  */
 
-package com.coyotesong.dojo.youtube.model;
+package com.coyotesong.dojo.youtube.service.youtubeClient;
 
+import com.coyotesong.dojo.youtube.model.Thumbnail;
 import com.google.api.services.youtube.model.ThumbnailDetails;
 
 import java.util.LinkedHashMap;
@@ -27,23 +28,23 @@ public class YTUtils {
         final Map<String, Thumbnail> thumbnails = new LinkedHashMap<>();
 
         if ((td.getDefault() != null) && !td.getDefault().isEmpty()) {
-            thumbnails.put("default", new Thumbnail(id, "default", td.getDefault()));
+            thumbnails.put("default", new Thumbnail(id, Thumbnail.Size.DEFAULT, td.getDefault().getUrl()));
         }
 
         if ((td.getStandard() != null) && !td.getStandard().isEmpty()) {
-            thumbnails.put("standard", new Thumbnail(id, "standard", td.getStandard()));
+            thumbnails.put("standard", new Thumbnail(id, Thumbnail.Size.STANDARD, td.getStandard().getUrl()));
         }
 
         if ((td.getHigh() != null) && !td.getHigh().isEmpty()) {
-            thumbnails.put("high", new Thumbnail(id, "high", td.getHigh()));
+            thumbnails.put("high", new Thumbnail(id, Thumbnail.Size.HIGH, td.getHigh().getUrl()));
         }
 
         if ((td.getMedium() != null) && !td.getMedium().isEmpty()) {
-            thumbnails.put("medium", new Thumbnail(id, "medium", td.getMedium()));
+            thumbnails.put("medium", new Thumbnail(id, Thumbnail.Size.MEDIUM, td.getMedium().getUrl()));
         }
 
         if ((td.getMaxres() != null) && !td.getMaxres().isEmpty()) {
-            thumbnails.put("maxres", new Thumbnail(id, "maxres", td.getMaxres()));
+            thumbnails.put("maxres", new Thumbnail(id, Thumbnail.Size.MAX_RES, td.getMaxres().getUrl()));
         }
 
         return thumbnails;

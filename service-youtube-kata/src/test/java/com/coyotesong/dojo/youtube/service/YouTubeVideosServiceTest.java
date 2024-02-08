@@ -1,9 +1,26 @@
+/*
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
+ * All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.coyotesong.dojo.youtube.service;
 
 import com.coyotesong.dojo.youtube.config.YouTubeContext;
-import com.coyotesong.dojo.youtube.model.Channel;
+import com.coyotesong.dojo.youtube.model.Video;
 import com.coyotesong.dojo.youtube.security.LogSanitizerImpl;
-import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForChannelListFactory;
+import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForVideoListFactory;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +37,13 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.not;
 import static org.hamcrest.Matchers.nullValue;
-// import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
+/**
+ * Test YouTubeVideosService
+ * <p>
+ * NOTE: this is actually an integration test
+ */
 // @ContextConfiguration
 @ExtendWith(SpringExtension.class)
 @Import({
@@ -31,59 +53,56 @@ import static org.hamcrest.Matchers.nullValue;
         YouTubeContext.class
 })
 @SpringBootTest(classes = {
-        ClientForChannelListFactory.class,
-        YouTubeChannelsServiceImpl.class
+        ClientForVideoListFactory.class,
+        YouTubeVideosServiceImpl.class
 })
 public class YouTubeVideosServiceTest {
-    private static final String TEST_CHANNEL_ID = "UCciQ8wFcVoIIMi-lfu8-cjQ";
-    private static final String TEST_CHANNEL_USERNAME = "whatdamath";
-    private static final String BAD_TEST_CHANNEL_ID = "test-bad-channel-id";
-    private static final String BAD_TEST_CHANNEL_USERNAME = "test-bad-channel_user";
+    private static final String TEST_VIDEO_ID = "r56jAAychzY";
+    private static final String BAD_TEST_VIDEO_ID = "test-bad-video-id";
 
     @Autowired
-    private YouTubeChannelsService service;
+    private YouTubeVideosService service;
 
     @Test
-    public void givenChannelId_whenGetChannel_thenGetChannel() throws IOException {
-        final Channel channel = service.getChannel(TEST_CHANNEL_ID);
-        assertThat("channel id does not match", channel.getId(), equalTo(TEST_CHANNEL_ID));
-        assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+    public void Given_UserIsAuthenticated_When_GetVideoWithValidId_Then_Success() throws IOException {
+        final Video video = service.getVideo(TEST_VIDEO_ID);
+        assertThat("video id does not match", video.getId(), equalTo(TEST_VIDEO_ID));
     }
 
     @Test
-    public void givenChannelId_whenGetChannels_thenGetChannel() throws IOException {
-        final List<Channel> channels = service.getChannels(Collections.singletonList(TEST_CHANNEL_ID));
-        assertThat("no channels found", not(channels.isEmpty()));
-        assertThat("channel id does not match", channels.get(0).getId(), equalTo(TEST_CHANNEL_ID));
-        assertThat("channel custom URL does not match", channels.get(0).getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+    public void Given_UserIsAuthenticated_When_GetVideosWithValidId_Then_Success() throws IOException {
+        final List<Video> videos = service.getVideos(Collections.singletonList(TEST_VIDEO_ID));
+        assertThat("no videos found", not(videos.isEmpty()));
+        if (!videos.isEmpty()) {
+            assertThat("video id does not match", videos.get(0).getId(), equalTo(TEST_VIDEO_ID));
+        }
     }
 
     @Test
-    public void givenUsername_whenGetChannelForUser_thenGetChannel() throws IOException {
-        final Channel channel = service.getChannelForUser(TEST_CHANNEL_USERNAME);
-        assertThat("channel id does not match", channel.getId(), equalTo(TEST_CHANNEL_ID));
-        assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+    public void Given_UserIsAuthenticated_When_GetVideosWithEmptyList_Then_Success() throws IOException {
+        final List<Video> videos = service.getVideos(Collections.emptyList());
+        assertThat("videos found", not(videos.isEmpty()));
     }
 
     @Test
-    public void givenBadChannelId_whenGetChannel_thenFailure() throws IOException {
-        final Channel channel = service.getChannel(BAD_TEST_CHANNEL_ID);
-        assertThat("channel should be null", channel, nullValue());
-
-        // final IOException thrown = assertThrows(
-        //         IOException.class,
-        //         () -> service.getChannel(BAD_TEST_CHANNEL_ID),
-        //         "Expected getChannel('bad') to throw exception");
+    public void Given_UserIsAuthenticated_When_GetVideoWithInvalidId_Then_ReturnNull() throws IOException {
+        final Video video = service.getVideo(BAD_TEST_VIDEO_ID);
+        assertThat("video is null", video, nullValue());
     }
 
     @Test
-    public void givenBadUsername_whenGetChannelForUser_thenFailure() throws IOException {
-        final Channel channel = service.getChannelForUser(BAD_TEST_CHANNEL_USERNAME);
-        assertThat("channel should be null", channel, nullValue());
+    public void Given_UserIsAuthenticated_When_GetVideoWithNull_Then_ThrowException() {
+        assertThrows(
+                IllegalArgumentException.class,
+                () -> service.getVideo(null),
+                "Expected getVideo(null) to throw exception");
+    }
 
-        // final IOException thrown = assertThrows(
-        //         IOException.class,
-        //        () -> service.getChannelForUser(BAD_TEST_CHANNEL_USERNAME),
-        //         "Expected getChannelForUser('bad') to throw exception");
+    @Test
+    public void Given_UserIsAuthenticated_When_GetVideosWithNull_Then_ThrowException() {
+        assertThrows(
+                IllegalArgumentException.class,
+                () -> service.getVideos(null),
+                "Expected getVideos(null) to throw exception");
     }
 }

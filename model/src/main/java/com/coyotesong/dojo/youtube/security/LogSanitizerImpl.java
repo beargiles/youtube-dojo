@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +17,6 @@
 
 package com.coyotesong.dojo.youtube.security;
 
-import com.coyotesong.tabs.model.Channel;
 import org.springframework.stereotype.Service;
 
 /**
@@ -36,25 +35,8 @@ public class LogSanitizerImpl implements LogSanitizer {
         return s;
     }
 
-    /**
-     * Sanitize 'channel' object
-     *
-     * @param channel channel object
-     * @return sanitized string
-     */
-    @Override
-    public String forChannel(Channel channel) {
-        // do nothing special... yet
-        return forString(String.valueOf(channel));
-    }
-
     @Override
     public String forUsername(String username) {
         return forString(username);
-    }
-
-    @Override
-    public String forChannelId(String channelId) {
-        return forString(channelId);
     }
 }

@@ -14,7 +14,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package com.coyotesong.dojo.youtube.model;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
@@ -26,18 +25,22 @@ import java.io.Serial;
 import java.io.Serializable;
 
 /**
- * The 'freebase topic' field contains a (deprecated) freebase category.
+ * YouTube playlist image
  * <p>
- * There is a many-to-many relationship between this table and (channels, videos).
+ * Note: this class does not have an 'etag' value
+ * </p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/PlaylistImage.html">PlaylistImage</a>
  */
 @SuppressWarnings("unused")
-public class FreebaseTopic implements Serializable {
+public class PlaylistImage implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
     private String id;
-    private String description;
-    private boolean custom = false;
+    private Integer height;
+    private String playlistId;
+    private String type;
+    private Integer width;
 
     public String getId() {
         return id;
@@ -47,20 +50,36 @@ public class FreebaseTopic implements Serializable {
         this.id = id;
     }
 
-    public String getDescription() {
-        return description;
+    public Integer getHeight() {
+        return height;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setHeight(Integer height) {
+        this.height = height;
     }
 
-    public boolean isCustom() {
-        return custom;
+    public String getPlaylistId() {
+        return playlistId;
     }
 
-    public void setCustom(boolean custom) {
-        this.custom = custom;
+    public void setPlaylistId(String playlistId) {
+        this.playlistId = playlistId;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public Integer getWidth() {
+        return width;
+    }
+
+    public void setWidth(Integer width) {
+        this.width = width;
     }
 
     @Override
@@ -69,26 +88,24 @@ public class FreebaseTopic implements Serializable {
 
         if (o == null || getClass() != o.getClass()) return false;
 
-        FreebaseTopic that = (FreebaseTopic) o;
+        final PlaylistImage that = (PlaylistImage) o;
 
-        return new EqualsBuilder()
-                .append(id, that.id)
-                .append(description, that.description)
-                .append(custom, that.custom)
-                .isEquals();
+        return new EqualsBuilder().append(height, that.height).append(playlistId, that.playlistId).append(type, that.type).append(width, that.width).isEquals();
     }
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(17, 37).append(id).append(description).toHashCode();
+        return new HashCodeBuilder(17, 37).append(playlistId).append(type).toHashCode();
     }
 
     @Override
     public String toString() {
         return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
                 .append("id", id)
-                .append("description", description)
-                .append("custom", custom)
+                .append("height", height)
+                .append("playlistId", playlistId)
+                .append("type", type)
+                .append("width", width)
                 .toString();
     }
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,16 +14,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coyotesong.tabs.model;
+package com.coyotesong.dojo.youtube.model;
 
-import com.google.api.services.youtube.model.*;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.time.Instant;
 
-public class Playlist {
-    private static final YTUtils utils = new YTUtils();
+/**
+ * YouTube Playlist
+ * <p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Playlist.html">Playlist</a>
+ */
+@SuppressWarnings("unused")
+public class Playlist implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
 
     private String id;
     private String etag;
@@ -46,44 +56,6 @@ public class Playlist {
     // note: description is always empty and title is always "Uploads from ${channel_title}"
     // note: thumbnailVideoId seems to always be empty
     // note: 'tags' is deprecated
-
-    public Playlist() {
-
-    }
-
-    public Playlist(com.google.api.services.youtube.model.Playlist playlist) {
-        this.id = playlist.getId();
-        this.etag = playlist.getEtag();
-
-        final PlaylistSnippet snippet = playlist.getSnippet();
-        if (snippet != null) {
-            if (snippet.getPublishedAt() != null) {
-                this.publishedAt = Instant.ofEpochMilli(snippet.getPublishedAt().getValue());
-            }
-
-            this.channelId = snippet.getChannelId();
-            this.title = snippet.getTitle();
-            this.description = snippet.getDescription();
-            this.channelTitle = snippet.getChannelTitle();
-            this.lang = snippet.getDefaultLanguage();
-
-            this.tnVideoId = snippet.getThumbnailVideoId();
-
-            if (snippet.getTags() != null) {
-                this.tags = "\"" + String.join("\", \"", snippet.getTags()) + "\"";
-            }
-
-            final ThumbnailDetails td = snippet.getThumbnails();
-            if ((td != null) && !td.isEmpty() && !td.getDefault().isEmpty()) {
-                this.tnUrl = td.getDefault().getUrl();
-            }
-        }
-
-        final PlaylistPlayer player = playlist.getPlayer();
-        if (player != null) {
-            this.embedHtml = player.getEmbedHtml();
-        }
-    }
 
     public String getId() {
         return id;
@@ -216,5 +188,24 @@ public class Playlist {
     @Override
     public int hashCode() {
         return new HashCodeBuilder(17, 37).append(etag).append(channelId).append(title).toHashCode();
+    }
+
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+                .append("id", id)
+                .append("etag", etag)
+                .append("publishedAt", publishedAt)
+                .append("channelId", channelId)
+                .append("title", title)
+                .append("description", description)
+                .append("lang", lang)
+                .append("channelTitle", channelTitle)
+                .append("embedHtml", embedHtml)
+                .append("tnUrl", tnUrl)
+                .append("tnVideoId", tnVideoId)
+                .append("lastChecked", lastChecked)
+                .append("tags", tags)
+                .toString();
     }
 }

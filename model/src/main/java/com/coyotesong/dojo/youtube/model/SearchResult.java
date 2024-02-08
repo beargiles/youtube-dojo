@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,20 +15,21 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.model;
+package com.coyotesong.dojo.youtube.model;
 
-import com.google.api.services.youtube.model.ResourceId;
-import com.google.api.services.youtube.model.SearchResultSnippet;
-import com.google.api.services.youtube.model.ThumbnailDetails;
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.time.Instant;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
+/**
+ * Search results
+ */
+@SuppressWarnings("unused")
 public class SearchResult {
-    private Boolean subscribed;
     private String channelId;
-    private String playlistId;
     private String videoId;
     private String etag;
     private String description;
@@ -37,37 +38,9 @@ public class SearchResult {
     private Instant publishedAt;
     private String tnUrl;
     private String channelTitle;
+    private Instant lastChecked;
 
     public SearchResult() {
-    }
-
-    public SearchResult(com.google.api.services.youtube.model.SearchResult result) {
-        if (result.getId().getChannelId() != null) {
-            this.channelId = result.getId().getChannelId();
-        }
-        if (result.getId().getPlaylistId() != null) {
-            this.playlistId = result.getId().getPlaylistId();
-        }
-        if (result.getId().getVideoId() != null) {
-            this.videoId = result.getId().getVideoId();
-        }
-
-        this.etag = result.getEtag();
-        if (result.getSnippet() != null) {
-            final SearchResultSnippet snippet = result.getSnippet();
-            this.channelId = snippet.getChannelId();
-            this.title = snippet.getTitle();
-            this.description = snippet.getDescription();
-            this.liveBroadcastContent = snippet.getLiveBroadcastContent();
-            if (snippet.getPublishedAt() != null) {
-                this.publishedAt = Instant.ofEpochMilli(snippet.getPublishedAt().getValue());;
-            }
-            final ThumbnailDetails thumbnailDetails = snippet.getThumbnails();
-            if ((thumbnailDetails != null) && (thumbnailDetails.getDefault() != null)) {
-                this.tnUrl = thumbnailDetails.getDefault().getUrl();
-            }
-            this.channelTitle = snippet.getChannelTitle();
-        }
     }
 
     public SearchResult(Channel channel) {
@@ -79,28 +52,12 @@ public class SearchResult {
         this.channelTitle = channel.getTitle();
     }
 
-    public Boolean getSubscribed() {
-        return subscribed;
-    }
-
-    public void setSubscribed(Boolean subscribed) {
-        this.subscribed = subscribed;
-    }
-
     public String getChannelId() {
         return channelId;
     }
 
     public void setChannelId(String channelId) {
         this.channelId = channelId;
-    }
-
-    public String getPlaylistId() {
-        return playlistId;
-    }
-
-    public void setPlaylistId(String playlistId) {
-        this.playlistId = playlistId;
     }
 
     public String getVideoId() {
@@ -167,7 +124,43 @@ public class SearchResult {
         this.channelTitle = channelTitle;
     }
 
+    public Instant getLastChecked() {
+        return lastChecked;
+    }
+
+    public void setLastChecked(Instant lastChecked) {
+        this.lastChecked = lastChecked;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+
+        if (o == null || getClass() != o.getClass()) return false;
+
+        SearchResult that = (SearchResult) o;
+
+        return new EqualsBuilder().append(channelId, that.channelId).append(videoId, that.videoId).append(etag, that.etag).append(description, that.description).append(title, that.title).append(liveBroadcastContent, that.liveBroadcastContent).append(publishedAt, that.publishedAt).append(tnUrl, that.tnUrl).append(channelTitle, that.channelTitle).append(lastChecked, that.lastChecked).isEquals();
+    }
+
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder(17, 37).append(channelId).append(videoId).append(etag).append(description).append(title).toHashCode();
+    }
+
+    @Override
     public String toString() {
-        return String.format("%s  '%-20.20s'  '%-40.40s'", channelId, title, description);
+        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+                .append("channelId", channelId)
+                .append("videoId", videoId)
+                .append("etag", etag)
+                .append("description", description)
+                .append("title", title)
+                .append("liveBroadcastContent", liveBroadcastContent)
+                .append("publishedAt", publishedAt)
+                .append("tnUrl", tnUrl)
+                .append("channelTitle", channelTitle)
+                .append("lastChecked", lastChecked)
+                .toString();
     }
 }

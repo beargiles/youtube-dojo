@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,22 +16,25 @@
  */
 package com.coyotesong.dojo.youtube.service;
 
-// see https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/YouTube.html
-
 import com.coyotesong.dojo.youtube.model.VideoCategory;
+import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
 import java.util.List;
 
 /**
- * YouTube API client for unauthenticated users.
+ * YouTube 'video categories' API client
+ * <p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/index.html?com/google/api/services/youtube/YouTube.VideoCategories.List.html">YouTube.VideoCategories.List</a>
  */
-public interface YouTubeService {
+public interface YouTubeVideoCategoriesService {
 
     /**
      * Retrieve information about specified video categories
+     *
      * @param hl - language or language + country
      * @return requested video categories (when available)
      */
-    List<VideoCategory> getVideoCategories(String hl) throws IOException;
+    @NotNull
+    List<VideoCategory> getVideoCategories(@NotNull String hl) throws IOException;
 }

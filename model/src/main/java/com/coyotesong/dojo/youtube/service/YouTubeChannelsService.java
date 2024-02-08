@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,42 +16,68 @@
  */
 package com.coyotesong.dojo.youtube.service;
 
-import com.coyotesong.tabs.model.*;
+import com.coyotesong.dojo.youtube.model.Channel;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import org.jetbrains.annotations.Unmodifiable;
 
 import java.io.IOException;
 import java.util.List;
 
 /**
- * YouTube API client for unauthenticated users.
+ * YouTube 'channels' API client
+ * <p>
+ * Other options:
+ *     <ul>
+ *         <li>CategoryId</li>
+ *         <li>HL/Locale</li>
+ *         <li>ManagedByMe</li>
+ *         <li>Mine</li>
+ *         <li>MySubscribers</li>
+ *     </ul>
+ *     The 'OnBehalfOfContentOwner' is intended for use by YouTube content partners.
+ * </p>
+ * <p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/index.html?com/google/api/services/youtube/YouTube.Channels.List.html">YouTube.Channels.List</a>
  */
 @SuppressWarnings("unused")
 public interface YouTubeChannelsService {
 
     /**
      * Retrieve information about specified channel
+     *
      * @param id - channel to load
      * @return requested channel (when available)
      * @throws IOException a REST client issue problem occurred
      */
-    Channel getChannel(String id) throws IOException;
+    @Nullable
+    Channel getChannel(@NotNull String id) throws IOException;
 
     /**
      * Retrieve information about specified channels
+     *
      * @param ids - channels to load
      * @return requested channels (when available)
      * @throws IOException a REST client issue problem occurred
      */
-    List<Channel> getChannels(List<String> ids) throws IOException;
+    @NotNull
+    List<Channel> getChannels(@NotNull @Unmodifiable List<String> ids) throws IOException;
+
+    /**
+     * Retrieve information about channel owned by a specific handle
+     *
+     * @param handle YouTube handle
+     * @throws IOException a REST client issue problem occurred
+     */
+    @Nullable
+    Channel getChannelForHandle(@NotNull String handle) throws IOException;
 
     /**
      * Retrieve information about channel owned by a specific user
-     * <p>
-     * Note: I have not confirmed that the REST API will never
-     * return more than a single channel.
-     * </p>
      *
      * @param username YouTube username
      * @throws IOException a REST client issue problem occurred
      */
-    Channel getChannelForUser(String username) throws IOException;
+    @Nullable
+    Channel getChannelForUsername(@NotNull String username) throws IOException;
 }

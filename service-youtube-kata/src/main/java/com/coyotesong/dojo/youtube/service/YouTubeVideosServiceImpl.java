@@ -15,47 +15,37 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.service.service;
+package com.coyotesong.dojo.youtube.service;
 
-import com.coyotesong.tabs.cache.LruCache;
-import com.coyotesong.tabs.cache.VideoCache;
-import com.coyotesong.tabs.model.Video;
-import com.coyotesong.tabs.repo.VideoRepository;
-import com.coyotesong.tabs.security.LogSanitizer;
-import com.coyotesong.tabs.service.youtubeClient.ClientForVideoList;
-import com.coyotesong.tabs.service.youtubeClient.ClientForVideoListFactory;
+import com.coyotesong.dojo.youtube.model.Video;
+import com.coyotesong.dojo.youtube.security.LogSanitizer;
+import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForVideoListFactory;
+import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForVideoListFactory.ClientForVideoList;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import org.jetbrains.annotations.Unmodifiable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 
 @Component
-@CacheConfig(cacheNames = VideoCache.NAME)
 public class YouTubeVideosServiceImpl implements YouTubeVideosService {
     private static final Logger LOG = LoggerFactory.getLogger(YouTubeVideosServiceImpl.class);
-
-    private final VideoCache videoCache;
-    private final VideoRepository videoDao;
 
     private final ClientForVideoListFactory clientForVideoListFactory;
     private final LogSanitizer sanitize;
 
     @Autowired
-    public YouTubeVideosServiceImpl(LogSanitizer sanitize, VideoCache videoCache,
-                                      @NotNull ClientForVideoListFactory clientForVideoListFactory,
-                                      @NotNull VideoRepository videoDao) {
-        this.sanitize = sanitize;
-        this.videoCache = videoCache;
+    public YouTubeVideosServiceImpl(@NotNull ClientForVideoListFactory clientForVideoListFactory,
+                                    LogSanitizer sanitize) {
         this.clientForVideoListFactory = clientForVideoListFactory;
-        this.videoDao = videoDao;
+        this.sanitize = sanitize;
     }
 
     /**
@@ -66,8 +56,18 @@ public class YouTubeVideosServiceImpl implements YouTubeVideosService {
      * @throws IOException
      */
     @Override
-    public Video getVideo(String id) throws IOException {
-        return getVideos(Collections.singletonList(id)).get(0);
+    @Nullable
+    public Video getVideo(@NotNull String id) throws IOException {
+        LOG.trace("getVideo('{}')...", sanitize.forVideoId(id));
+        final List<Video> videos = getVideos(Collections.singletonList(id));
+        if (!videos.isEmpty()) {
+            LOG.trace("getVideo('{}') -> '{}'", sanitize.forVideoId(id),
+                    sanitize.forString(videos.get(0).getTitle()));
+            return videos.get(0);
+        }
+
+        LOG.trace("getVideo('{}') -> null", sanitize.forChannelId(id));
+        return null;
     }
 
     /**
@@ -76,69 +76,27 @@ public class YouTubeVideosServiceImpl implements YouTubeVideosService {
      * @param ids - videos to load
      * @return requested videos (when available)
      */
-    public List<Video> getVideos(List<String> ids) throws IOException {
-        LOG.info("call to getVideos()...");
+    @Override
+    @NotNull
+    public List<Video> getVideos(@NotNull @Unmodifiable List<String> ids) throws IOException {
+        LOG.trace("getVideos()...");
 
         // check for cached values
         final List<Video> videos = new ArrayList<>();
-        final List<String> misses = new ArrayList<>();
-
-        final Loader loader = new Loader(videoDao, misses);
-
-        for (String id : ids) {
-            final Video video = videoCache.get(id, loader);
-            if (video != null) {
-                videos.add(video);
-            }
-        }
 
         // make REST call for remaining values.
-        if (!misses.isEmpty()) {
-            final List<Video> uncachedVideos = new ArrayList<>();
+        if (!ids.isEmpty()) {
             // TODO - should handle this in underlying service...
-            for (int offset = 0; offset < misses.size(); offset += 50) {
-                final List<String> list = misses.subList(offset, Math.min(offset + 50, misses.size()));
+            for (int offset = 0; offset < ids.size(); offset += 50) {
+                final List<String> list = ids.subList(offset, Math.min(offset + 50, ids.size()));
                 final ClientForVideoList client = clientForVideoListFactory.newBuilder().withIds(list).build();
                 while (client.hasNext()) {
-                    uncachedVideos.addAll(client.next());
+                    videos.addAll(client.next());
                 }
             }
-            uncachedVideos.forEach(video -> videoCache.put(video.getId(), video));
-            videos.addAll(uncachedVideos);
         }
 
+        LOG.trace("getVideos({}) -> {} record(s)", ids.size(), videos.size());
         return videos;
-    }
-
-    public static class Loader implements LruCache.LruCacheLoader<Video> {
-        private final VideoRepository videoDao;
-        private final ThreadLocal<String> key = new ThreadLocal<>();
-        private final List<String> misses;
-
-        public Loader(VideoRepository videoDao, List<String> misses) {
-            this.videoDao = videoDao;
-            this.misses = misses;
-        }
-
-        public void setKey(String key) {
-            this.key.set(key);
-        }
-
-        /**
-         * @return
-         * @throws Exception
-         */
-        @Override
-        public Video call() throws Exception {
-            // LOG.info("call('{}')", key.get());
-            final Optional<Video> video = videoDao.getById(key.get());
-
-            if (video.isEmpty()) {
-                misses.add(key.get());
-                return null;
-            } else {
-                return video.get();
-            }
-        }
     }
 }

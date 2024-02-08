@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,8 +15,20 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.model;
+package com.coyotesong.dojo.youtube.model;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
+
+/**
+ * YouTube Tag
+ * <p>
+ * This class has fields for both the original value and a cleaned up
+ * version (standardized capitalization, etc.) better suited for searches.
+ * </p>
+ */
 @SuppressWarnings("unused")
 public class Tag {
     private Integer id;
@@ -54,5 +66,30 @@ public class Tag {
         this.id = id;
         this.tag = tag;
         this.original = original;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Tag tag1 = (Tag) o;
+
+        return new EqualsBuilder().append(tag, tag1.tag).append(original, tag1.original).isEquals();
+    }
+
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder(17, 37).append(tag).toHashCode();
+    }
+
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this, ToStringStyle.SIMPLE_STYLE)
+                .append("id", id)
+                .append("tag", tag)
+                .append("original", original)
+                .toString();
     }
 }

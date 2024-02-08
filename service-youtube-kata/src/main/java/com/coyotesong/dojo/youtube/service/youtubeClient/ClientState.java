@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.service.service.youtubeClient;
+package com.coyotesong.dojo.youtube.service.youtubeClient;
 
 import com.google.api.client.json.GenericJson;
 import com.google.api.services.youtube.model.PageInfo;
@@ -30,20 +30,27 @@ public interface ClientState<R, S extends GenericJson, T extends GenericJson> ex
     List<R> next();
 
     String getEtag();
+
     String getEventId();
+
     String getNextPageToken();
+
     PageInfo getPageInfo();
+
     String getVisitorId();
 
     // normal exit
     boolean isFinished();
+
     void setFinished(boolean finished);
 
     // abnormal exit (often GoogleJsonResponseException, code 403, errors[0].reason 'quotaExceeded'
     boolean isFailed();
+
     void setFailed(boolean failed);
 
     int getStart();
+
     int getCount();
 
     void update() throws IOException;
