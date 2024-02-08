@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,23 +14,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coyotesong.tabs.repo;
+package com.coyotesong.dojo.youtube.repo;
 
-import com.coyotesong.tabs.model.Channel;
-import com.coyotesong.tabs.model.Playlist;
-import com.coyotesong.tabs.model.Video;
+import com.coyotesong.dojo.youtube.model.Video;
 
-import java.sql.SQLException;
 import java.util.Collection;
-import java.util.List;
 
 /**
  * Persistence mechanism for YouTube channels
  */
+@SuppressWarnings("unused")
 public interface ThumbnailRepository {
 
     /**
      * Save video thumbnails
+     *
      * @param videos
      */
     void saveThumbnails(Collection<Video> videos);

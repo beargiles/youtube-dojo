@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,19 +14,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coyotesong.tabs.repo;
+package com.coyotesong.dojo.youtube.repo;
 
-import com.coyotesong.tabs.model.*;
+import com.coyotesong.dojo.youtube.model.PlaylistItem;
 
 import java.util.Collection;
 
 /**
  * Persistence mechanism for Playlist Items
  */
+@SuppressWarnings("unused")
 public interface PlaylistItemRepository {
 
     /**
      * Save playlist item details
+     *
      * @param items
      */
     void savePlaylistItems(Collection<PlaylistItem> items);

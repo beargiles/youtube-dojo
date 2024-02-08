@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,9 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coyotesong.tabs.repo;
+package com.coyotesong.dojo.youtube.repo;
 
-import com.coyotesong.tabs.model.WikipediaTopic;
+import com.coyotesong.dojo.youtube.model.WikipediaTopic;
 
 import java.util.Collection;
 import java.util.List;
@@ -24,6 +24,7 @@ import java.util.List;
 /**
  * Persistence mechanism for (Channel, Video) Topic Categories
  */
+@SuppressWarnings("unused")
 public interface WikipediaTopicRepository {
 
     /**
@@ -35,6 +36,7 @@ public interface WikipediaTopicRepository {
 
     /**
      * Save channel details
+     *
      * @param categories
      */
     void saveTopicCategories(Collection<WikipediaTopic> categories);

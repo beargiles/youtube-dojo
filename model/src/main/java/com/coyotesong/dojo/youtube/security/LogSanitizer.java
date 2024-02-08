@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,6 +24,7 @@ package com.coyotesong.dojo.youtube.security;
 public interface LogSanitizer {
     /**
      * Sanitize arbitrary string
+     *
      * @param s arbitrary string
      * @return sanitized string
      */
@@ -31,5 +32,23 @@ public interface LogSanitizer {
 
     String forUsername(String username);
 
-    String forChannelId(String channelId);
+    default String forHandle(String handle) {
+        return forString(handle);
+    }
+
+    default String forChannelId(String channelId) {
+        return forString(channelId);
+    }
+
+    default String forPlaylistId(String playlistId) {
+        return forString(playlistId);
+    }
+
+    default String forPlaylistItemId(String playlistItemId) {
+        return forString(playlistItemId);
+    }
+
+    default String forVideoId(String videoId) {
+        return forString(videoId);
+    }
 }

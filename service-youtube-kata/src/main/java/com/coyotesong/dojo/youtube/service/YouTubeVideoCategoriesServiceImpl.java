@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +18,8 @@ package com.coyotesong.dojo.youtube.service;
 
 import com.coyotesong.dojo.youtube.model.VideoCategory;
 import com.coyotesong.dojo.youtube.security.LogSanitizer;
-import com.coyotesong.dojo.youtube.service.youtubeClient.*;
+import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForVideoCategoryListFactory;
+import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForVideoCategoryListFactory.ClientForVideoCategoryList;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,15 +36,15 @@ import java.util.List;
  * Implementation of YouTubeService
  */
 @Service("YouTubeService")
-public class YouTubeVideoCategoriesVideoCategoriesServiceImpl implements YouTubeVideoCategoriesService {
-    private static final Logger LOG = LoggerFactory.getLogger(YouTubeVideoCategoriesVideoCategoriesServiceImpl.class);
+public class YouTubeVideoCategoriesServiceImpl implements YouTubeVideoCategoriesService {
+    private static final Logger LOG = LoggerFactory.getLogger(YouTubeVideoCategoriesServiceImpl.class);
 
     private final ClientForVideoCategoryListFactory clientForVideoCategoryListFactory;
     private final LogSanitizer sanitize;
 
     @Autowired
-    public YouTubeVideoCategoriesVideoCategoriesServiceImpl(@NotNull ClientForVideoCategoryListFactory clientForVideoCategoryListFactory,
-                                                            @NotNull LogSanitizer sanitize) {
+    public YouTubeVideoCategoriesServiceImpl(@NotNull ClientForVideoCategoryListFactory clientForVideoCategoryListFactory,
+                                             @NotNull LogSanitizer sanitize) {
         this.clientForVideoCategoryListFactory = clientForVideoCategoryListFactory;
         this.sanitize = sanitize;
     }
@@ -54,7 +55,9 @@ public class YouTubeVideoCategoriesVideoCategoriesServiceImpl implements YouTube
      * @param hl - language or language + country
      * @return requested video categories (when available)
      */
-    public List<VideoCategory> getVideoCategories(String hl) throws IOException {
+    @Override
+    @NotNull
+    public List<VideoCategory> getVideoCategories(@NotNull String hl) throws IOException {
         final List<VideoCategory> categories = new ArrayList<>();
 
         final List<String> ids = new ArrayList<>();
@@ -69,7 +72,7 @@ public class YouTubeVideoCategoriesVideoCategoriesServiceImpl implements YouTube
             ids.add("" + i);
         }
 
-        final ClientForVideoCategoryList client = clientForVideoCategoryListFactory.newBuilder().withHl(hl).build();
+        final ClientForVideoCategoryList client = clientForVideoCategoryListFactory.newBuilder().withIds(ids).withHl(hl).build();
         while (client.hasNext()) {
             categories.addAll(client.next());
         }

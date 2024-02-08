@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,8 +15,15 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.model;
+package com.coyotesong.dojo.youtube.model;
 
+/**
+ * Common languages
+ * <p>
+ * This is primarily intended to support testing i18n code
+ * </p>
+ */
+@SuppressWarnings("unused")
 public enum Lang {
     ENGLISH("en"),
     GREEK("el"),
@@ -26,12 +33,11 @@ public enum Lang {
     RUSSIAN("ru"),
     JAPANESE("ja"),
     KOREAN("ko"),
-    CHINSE("zh")
-    ;
+    CHINSE("zh");
 
     private final String isoCode;
 
-    private Lang(String isoCode) {
+    Lang(String isoCode) {
         this.isoCode = isoCode;
     }
 

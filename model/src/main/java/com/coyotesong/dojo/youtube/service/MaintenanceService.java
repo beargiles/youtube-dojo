@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,5 +24,6 @@ import java.io.IOException;
  */
 public interface MaintenanceService {
     void loadVideoCategory(String lang) throws IOException;
+
     void loadVideoCategories() throws IOException;
 }

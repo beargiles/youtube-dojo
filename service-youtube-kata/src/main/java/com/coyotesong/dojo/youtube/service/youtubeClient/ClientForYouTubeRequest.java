@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023-2024 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.service.service.youtubeClient;
+package com.coyotesong.dojo.youtube.service.youtubeClient;
 
 import com.google.api.client.googleapis.json.GoogleJsonError;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
@@ -69,8 +69,15 @@ public class ClientForYouTubeRequest<R, S extends GenericJson, T extends Generic
             state.setFinished(StringUtils.isBlank(state.getNextPageToken()));
         } catch (GoogleJsonResponseException e) {
             final GoogleJsonError error = e.getDetails();
-            if ((error.getCode() == 403) && !error.getErrors().isEmpty() && "youtube.quota".equals(error.getErrors().get(0).getDomain())) {
-                LOG.info("Quota issue: {}", error.getErrors().get(0).getReason());
+            if (error.getCode() == 403) {
+                if (!error.getErrors().isEmpty() && "youtube.quota".equals(error.getErrors().get(0).getDomain())) {
+                    LOG.warn("Quota issue: {}", error.getErrors().get(0).getReason());
+                } else {
+                    LOG.warn("Authentication issue: {}", error.getMessage());
+                }
+            } else if (error.getCode() == 404) {
+                // this is not consistently seen with unknown channel, playlist, video, etc.
+                LOG.info("Not found: {}", error.getMessage());
             } else {
                 LOG.warn("GoogleJsonError: {}", error);
             }

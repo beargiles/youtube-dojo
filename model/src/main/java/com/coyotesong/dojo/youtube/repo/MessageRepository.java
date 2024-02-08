@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.repo;
+package com.coyotesong.dojo.youtube.repo;
 
 import java.util.Locale;
 import java.util.Optional;
@@ -23,6 +23,7 @@ import java.util.Optional;
 /**
  * Persistence mechanism for Messages.
  */
+@SuppressWarnings("unused")
 public interface MessageRepository {
     Optional<String> findOptionalForCodeAndLocale(String code, Locale locale);
 }

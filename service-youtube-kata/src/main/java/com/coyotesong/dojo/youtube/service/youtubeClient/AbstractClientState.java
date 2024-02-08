@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.coyotesong.tabs.service.service.youtubeClient;
+package com.coyotesong.dojo.youtube.service.youtubeClient;
 
 import com.google.api.client.json.GenericJson;
 import com.google.api.services.youtube.model.PageInfo;

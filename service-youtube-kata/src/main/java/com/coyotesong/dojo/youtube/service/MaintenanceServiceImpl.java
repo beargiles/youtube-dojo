@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,21 +15,21 @@
  * limitations under the License.
  */
 
-package com.coyotesong.dojo.youtube.service.youtubeClient;
+package com.coyotesong.dojo.youtube.service;
 
-import com.coyotesong.dojo.youtube.service.MaintenanceService;
-import com.coyotesong.dojo.youtube.service.YouTubeService;
-import com.google.api.services.youtube.model.VideoCategory;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-import java.util.List;
 
 /**
  * Implementation of MaintenanceService
  */
 @Service
 public class MaintenanceServiceImpl implements MaintenanceService {
+    public void loadVideoCategory(String lang) throws IOException {
+    }
+
+    /*
     private final YouTubeService service;
     private final VideoCategoryRepository videoCategoryDao;
 
@@ -42,6 +42,7 @@ public class MaintenanceServiceImpl implements MaintenanceService {
         final List<VideoCategory> categories = service.getVideoCategories(lang);
         videoCategoryDao.insert(categories);
     }
+    */
 
     public void loadVideoCategories() throws IOException {
         loadVideoCategory("de");

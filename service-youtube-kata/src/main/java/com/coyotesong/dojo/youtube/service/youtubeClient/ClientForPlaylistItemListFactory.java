@@ -17,12 +17,9 @@
 
 package com.coyotesong.dojo.youtube.service.youtubeClient;
 
-import com.coyotesong.dojo.youtube.model.Playlist;
+import com.coyotesong.dojo.youtube.model.PlaylistItem;
 import com.google.api.services.youtube.YouTube;
-import com.google.api.services.youtube.model.PlaylistListResponse;
-import com.google.api.services.youtube.model.PlaylistPlayer;
-import com.google.api.services.youtube.model.PlaylistSnippet;
-import com.google.api.services.youtube.model.ThumbnailDetails;
+import com.google.api.services.youtube.model.*;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -34,14 +31,14 @@ import java.util.List;
 import static org.apache.commons.lang3.StringUtils.isNotBlank;
 
 /**
- * Playlist list client factory
+ * PlaylistItem list client factory
  */
 @Component
 @SuppressWarnings("unused")
-public class ClientForPlaylistListFactory {
+public class ClientForPlaylistItemListFactory {
     private final YouTube.Builder ytBuilder;
 
-    public ClientForPlaylistListFactory(YouTube.Builder ytBuilder) {
+    public ClientForPlaylistItemListFactory(YouTube.Builder ytBuilder) {
         this.ytBuilder = ytBuilder;
     }
 
@@ -50,13 +47,13 @@ public class ClientForPlaylistListFactory {
     }
 
     public static class Builder {
-        private static final List<String> PLAYLIST_PARTS = Arrays.asList("contentDetails", "id", "player", "snippet", "status");
+        private static final List<String> PLAYLIST_ITEM_PARTS = Arrays.asList("contentDetails", "id", "snippet", "status");
 
         private final YouTube.Builder ytBuilder;
 
         private List<String> ids = Collections.emptyList();
-        private String channelId;
-        private String hl;
+        private String playlistId;
+        private String videoId;
         private String quotaUser;
 
         private Builder(YouTube.Builder ytBuilder) {
@@ -73,13 +70,13 @@ public class ClientForPlaylistListFactory {
             return this;
         }
 
-        public Builder withChannelId(String channelId) {
-            this.channelId = channelId;
+        public Builder withPlaylistId(String playlistId) {
+            this.playlistId = playlistId;
             return this;
         }
 
-        public Builder withHl(String hl) {
-            this.hl = hl;
+        public Builder withVideoId(String videoId) {
+            this.videoId = videoId;
             return this;
         }
 
@@ -94,40 +91,41 @@ public class ClientForPlaylistListFactory {
          * @return
          * @throws IOException
          */
-        public ClientForPlaylistList build() throws IOException {
-            final YouTube.Playlists.List request = ytBuilder.build().playlists().list(PLAYLIST_PARTS);
+        public ClientForPlaylistItemList build() throws IOException {
+            final YouTube.PlaylistItems.List request = ytBuilder.build().playlistItems().list(PLAYLIST_ITEM_PARTS);
 
             if (!ids.isEmpty()) {
                 request.setId(ids);
-            } else if (isNotBlank(channelId)) {
-                request.setChannelId(channelId);
+            } else if (isNotBlank(playlistId)) {
+                request.setPlaylistId(playlistId);
             } else {
-                throw new IllegalStateException("either 'id' or 'channelId' must be specified");
+                throw new IllegalStateException("either 'id', 'playlistId' must be specified");
             }
 
-            if (isNotBlank(hl)) {
-                request.setHl(hl);
+            // the server complains if this is the only thing we specify
+            if (isNotBlank(videoId)) {
+                request.setVideoId(videoId);
             }
 
             if (isNotBlank(quotaUser)) {
                 request.setQuotaUser(quotaUser);
             }
 
-            return new ClientForPlaylistList(request);
+            return new ClientForPlaylistItemList(request);
         }
     }
 
-    public static class ClientForPlaylistList extends ClientForYouTubeRequest<Playlist, PlaylistListResponse, com.google.api.services.youtube.model.Playlist> {
-        public ClientForPlaylistList(YouTube.Playlists.List request) {
-            super(new PlaylistState(request));
+    public static class ClientForPlaylistItemList extends ClientForYouTubeRequest<PlaylistItem, PlaylistItemListResponse, com.google.api.services.youtube.model.PlaylistItem> {
+        public ClientForPlaylistItemList(YouTube.PlaylistItems.List request) {
+            super(new PlaylistItemState(request));
         }
     }
 
 
-    public static class PlaylistState extends AbstractClientState<Playlist, PlaylistListResponse, com.google.api.services.youtube.model.Playlist> {
-        private final YouTube.Playlists.List request;
+    public static class PlaylistItemState extends AbstractClientState<PlaylistItem, PlaylistItemListResponse, com.google.api.services.youtube.model.PlaylistItem> {
+        private final YouTube.PlaylistItems.List request;
 
-        public PlaylistState(YouTube.Playlists.List request) {
+        public PlaylistItemState(YouTube.PlaylistItems.List request) {
             this.request = request;
         }
 
@@ -137,7 +135,7 @@ public class ClientForPlaylistListFactory {
         @Override
         public void update() throws IOException {
             request.setPageToken(getNextPageToken());
-            final PlaylistListResponse response = request.execute();
+            final PlaylistItemListResponse response = request.execute();
 
             setEtag(response.getEtag());
             setEventId(response.getEventId());
@@ -155,41 +153,49 @@ public class ClientForPlaylistListFactory {
         /**
          * Convert YouTube object to ours.
          *
-         * @param playlist
+         * @param item
          * @return
          */
-        public Playlist convert(com.google.api.services.youtube.model.Playlist playlist) {
-            final Playlist value = new Playlist();
-            value.setId(playlist.getId());
-            value.setEtag(playlist.getEtag());
+        public PlaylistItem convert(com.google.api.services.youtube.model.PlaylistItem item) {
+            final PlaylistItem value = new PlaylistItem();
+            value.setId(item.getId());
+            value.setEtag(item.getEtag());
 
-            final PlaylistSnippet snippet = playlist.getSnippet();
+            final PlaylistItemContentDetails details = item.getContentDetails();
+            if (details != null) {
+                value.setVideoId(details.getVideoId());
+                value.setNote(details.getNote());
+                // details.getStartAt();
+                // details.getEndAt();
+                // details.getVideoPublishedAt();
+            }
+
+            final PlaylistItemSnippet snippet = item.getSnippet();
             if (snippet != null) {
+                value.setChannelId(snippet.getChannelId());
+                value.setChannelTitle(snippet.getChannelTitle());
+                value.setDescription(snippet.getDescription());
+                value.setPlaylistId(snippet.getPlaylistId());
+                value.setPosition(snippet.getPosition());
+                value.setTitle(snippet.getTitle());
+                value.setVideoOwnerChannelId(snippet.getVideoOwnerChannelId());
+                // snippet.getVideoOwnerChannelTitle();
+
                 if (snippet.getPublishedAt() != null) {
                     value.setPublishedAt(Instant.ofEpochMilli(snippet.getPublishedAt().getValue()));
                 }
 
-                value.setChannelId(snippet.getChannelId());
-                value.setTitle(snippet.getTitle());
-                value.setDescription(snippet.getDescription());
-                value.setChannelTitle(snippet.getChannelTitle());
-                value.setLang(snippet.getDefaultLanguage());
-
-                value.setTnVideoId(snippet.getThumbnailVideoId());
-
-                if (snippet.getTags() != null) {
-                    value.setTags("\"" + String.join("\", \"", snippet.getTags()) + "\"");
+                final ResourceId resourceId = snippet.getResourceId();
+                if (resourceId != null) {
+                    // resourceId().getVideoId();
+                    // resourceId().getPlaylistId();
+                    // resourceId.getChannelId();
                 }
 
                 final ThumbnailDetails td = snippet.getThumbnails();
                 if ((td != null) && !td.isEmpty() && !td.getDefault().isEmpty()) {
-                    value.setTnUrl(td.getDefault().getUrl());
+                    value.setThumbnailUrl(td.getDefault().getUrl());
                 }
-            }
-
-            final PlaylistPlayer player = playlist.getPlayer();
-            if (player != null) {
-                value.setEmbedHtml(player.getEmbedHtml());
             }
 
             return value;

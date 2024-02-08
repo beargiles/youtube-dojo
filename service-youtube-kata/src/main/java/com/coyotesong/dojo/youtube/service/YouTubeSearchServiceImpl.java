@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,109 +14,59 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coyotesong.tabs.service.service;
+package com.coyotesong.dojo.youtube.service;
 
-import com.coyotesong.tabs.form.YouTubeSearchForm;
-import com.google.api.services.youtube.YouTube;
-import com.google.api.services.youtube.model.SearchListResponse;
-import com.google.api.services.youtube.model.SearchResult;
+import com.coyotesong.dojo.youtube.form.YouTubeSearchForm;
+import com.coyotesong.dojo.youtube.model.SearchResult;
+import com.coyotesong.dojo.youtube.security.LogSanitizer;
+import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForSearchListFactory;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.List;
-
-import static java.util.Collections.singletonList;
-import static org.apache.commons.lang3.StringUtils.isNotBlank;
 
 /**
  * Implementation of YouTubeSearchService
  */
 @Service
-@CacheConfig(cacheNames = "searches" )
 public class YouTubeSearchServiceImpl implements YouTubeSearchService {
     private static final Logger LOG = LoggerFactory.getLogger(YouTubeSearchServiceImpl.class);
 
-    private final YouTube.Builder builder;
+    private final ClientForSearchListFactory clientForSearchListFactory;
+    private final LogSanitizer sanitize;
 
     @Autowired
-    public YouTubeSearchServiceImpl(@NotNull YouTube.Builder builder) {
-        this.builder = builder;
+    public YouTubeSearchServiceImpl(@NotNull ClientForSearchListFactory clientForSearchListFactory,
+                                    LogSanitizer sanitize) {
+        this.clientForSearchListFactory = clientForSearchListFactory;
+        this.sanitize = sanitize;
     }
 
-    @Cacheable(cacheNames = "searches")
-    public List<SearchResult> search(YouTubeSearchForm form) throws IOException {
-        final YouTube yt = builder.build();
-        final YouTube.Search.List request = yt.search()
-                .list(singletonList("snippet"));
+    /**
+     * Retrieve search results
+     *
+     * @param searchForm search criteria
+     * @return
+     * @throws IOException
+     */
+    @Override
+    @Nullable
+    public List<SearchResult> search(@NotNull YouTubeSearchForm searchForm) throws IOException {
+        LOG.trace("search()...");
 
-        request.setType(form.getTypes());
-        request.setMaxResults(50L);
-
-        // concrete values
-        if (isNotBlank(form.getChannelId())) {
-            request.setChannelId(form.getChannelId());
-        }
-        // if (isNotBlank(form.getLocation())) {
-        //     request.setLocationform.getLocation());
-        // }
-        // if (isNotBlank(form.getLocationRadius())) {
-        //     request.setLocationRadiusform.getLocationRadius());
-        // }
-        if (isNotBlank(form.getQuery())) {
-            request.setQ(form.getQuery());
+        final List<SearchResult> results = new ArrayList<>();
+        final ClientForSearchListFactory.ClientForSearchList client = clientForSearchListFactory.newBuilder().withSearchForm(searchForm).build();
+        while (client.hasNext()) {
+            results.addAll(client.next());
         }
 
-        // enums
-        if (isNotBlank(form.getChannelType())) {
-            request.setChannelType(form.getChannelType());
-        }
-        if (isNotBlank(form.getEventType())) {
-            request.setEventType(form.getEventType());
-        }
-        if (isNotBlank(form.getOrder())) {
-            request.setOrder(form.getOrder());
-        }
-        if (isNotBlank(form.getLang())) {
-            request.setRelevanceLanguage(form.getLang());
-        }
-
-        // .setPublishedAfter()
-        // .setPublishedBefore()
-        // .setRegionCode()
-        // .setRelevanceLanguage()
-        // .setSafeSearch()
-        // .setTopicId();
-
-        // if (instanceof VideoSearchForm) {
-        //   .setVideoCaption();
-        //   .setVideoCategoryId()
-        //   .setVideoDefinition()
-        //   .setVideoDimension()
-        //   .setVideoDuration()
-        //   .setVideoEmbeddable()
-        //   .setVideoLicense()
-        //   .setVideoSyndicated()
-        //   .setVideoType()
-        // }
-
-        final SearchListResponse response = request.execute();
-
-        if (response.isEmpty() || (response.getItems() == null)) {
-            return Collections.emptyList();
-        }
-
-        final String token = response.getNextPageToken();
-        if (isNotBlank(token)) {
-            LOG.info("token!! '{}'", token);
-        }
-
-        return response.getItems().stream().map(SearchResult::new).toList();
+        LOG.trace("search() -> {} record(s)", results.size());
+        return null;
     }
 }

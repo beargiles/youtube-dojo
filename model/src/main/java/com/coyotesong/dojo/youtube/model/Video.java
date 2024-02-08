@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,27 +14,37 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coyotesong.tabs.model;
+package com.coyotesong.dojo.youtube.model;
 
-import com.google.api.services.youtube.model.*;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
+import java.io.Serial;
+import java.io.Serializable;
 import java.math.BigInteger;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
+/**
+ * YouTube video
+ * <p>
+ * This class has been extended with a 'NSFW' flag.
+ * </p>
+ * <p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Video.html">Video</a>
+ */
 @SuppressWarnings("unused")
-public class Video {
+public class Video implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
     private static final Logger LOG = LoggerFactory.getLogger(Video.class);
-    private static final YTUtils utils = new YTUtils();
 
     private String id;
     private String etag;
@@ -73,8 +83,8 @@ public class Video {
     // localized
     private Instant publishedAt;
 
-    private Map<String, Thumbnail> thumbnails = new LinkedHashMap<>();
-    private List<Tag> tags = new ArrayList<>();
+    private LinkedHashMap<String, Thumbnail> thumbnails;
+    private ArrayList<Tag> tags;
 
     // statistics
     private BigInteger commentCount;
@@ -86,19 +96,28 @@ public class Video {
     // status
     private Boolean embeddable;
     private String license;
-    // private Boolean madeForKids;
+    private Boolean madeForKids;
     private String privacyStatus;
     private Boolean publicStatsViewable;
-    // private Boolean selfDeclaredMadeForKids;
+    private Boolean selfDeclaredMadeForKids;
     private String uploadStatus;
 
     private Instant lastChecked;
 
-    private List<String> topicCategories = new ArrayList<>();
-    private List<String> topicIds = new ArrayList<>();
-    private List<String> relevantTopicIds = new ArrayList<>();
+    private ArrayList<String> topicCategories;
+    private ArrayList<String> topicIds;
+    private ArrayList<String> relevantTopicIds;
 
     private Boolean nsfw;
+
+    public Video() {
+        // fields are explicitly ArrayList<> due to serialization warnings
+        this.thumbnails = new LinkedHashMap<>();
+        this.tags = new ArrayList<>();
+        this.topicCategories = new ArrayList<>();
+        this.topicIds = new ArrayList<>();
+        this.relevantTopicIds = new ArrayList<>();
+    }
 
     public String getId() {
         return id;
@@ -283,6 +302,7 @@ public class Video {
     public void setRegionRestrictions(String regionRestrictions) {
         this.regionRestrictions = regionRestrictions;
     }
+
     public String getCategoryId() {
         return categoryId;
     }
@@ -336,7 +356,12 @@ public class Video {
     }
 
     public void setThumbnails(Map<String, Thumbnail> thumbnails) {
-        this.thumbnails = thumbnails;
+        if (thumbnails instanceof LinkedHashMap<String, Thumbnail>) {
+            this.thumbnails = (LinkedHashMap<String, Thumbnail>) thumbnails;
+        } else {
+            this.thumbnails.clear();
+            this.thumbnails.putAll(thumbnails);
+        }
     }
 
     public List<Tag> getTags() {
@@ -344,7 +369,12 @@ public class Video {
     }
 
     public void setTags(List<Tag> tags) {
-        this.tags = tags;
+        if (tags instanceof ArrayList) {
+            this.tags = (ArrayList<Tag>) tags;
+        } else {
+            this.tags.clear();
+            this.tags.addAll(tags);
+        }
     }
 
     // statistics
@@ -407,6 +437,14 @@ public class Video {
         this.license = license;
     }
 
+    public Boolean getMadeForKids() {
+        return madeForKids;
+    }
+
+    public void setMadeForKids(Boolean madeForKids) {
+        this.madeForKids = madeForKids;
+    }
+
     public String getPrivacyStatus() {
         return privacyStatus;
     }
@@ -421,6 +459,14 @@ public class Video {
 
     public void setPublicStatsViewable(Boolean publicStatsViewable) {
         this.publicStatsViewable = publicStatsViewable;
+    }
+
+    public Boolean getSelfDeclaredMadeForKids() {
+        return selfDeclaredMadeForKids;
+    }
+
+    public void setSelfDeclaredMadeForKids(Boolean selfDeclaredMadeForKids) {
+        this.selfDeclaredMadeForKids = selfDeclaredMadeForKids;
     }
 
     public String getUploadStatus() {
@@ -444,7 +490,12 @@ public class Video {
     }
 
     public void setTopicCategories(List<String> topicCategories) {
-        this.topicCategories = topicCategories;
+        if (topicCategories instanceof ArrayList) {
+            this.topicCategories = (ArrayList<String>) topicCategories;
+        } else {
+            this.topicCategories.clear();
+            this.topicCategories.addAll(topicCategories);
+        }
     }
 
     public List<String> getTopicIds() {
@@ -452,7 +503,12 @@ public class Video {
     }
 
     public void setTopicIds(List<String> topicIds) {
-        this.topicIds = topicIds;
+        if (topicIds instanceof ArrayList) {
+            this.topicIds = (ArrayList<String>) topicIds;
+        } else {
+            this.topicIds.clear();
+            this.topicIds.addAll(topicIds);
+        }
     }
 
     public List<String> getRelevantTopicIds() {
@@ -460,7 +516,12 @@ public class Video {
     }
 
     public void setRelevantTopicIds(List<String> relevantTopicIds) {
-        this.relevantTopicIds = relevantTopicIds;
+        if (relevantTopicIds instanceof ArrayList) {
+            this.relevantTopicIds = (ArrayList<String>) relevantTopicIds;
+        } else {
+            this.relevantTopicIds.clear();
+            this.relevantTopicIds.addAll(relevantTopicIds);
+        }
     }
 
     public Boolean getNsfw() {
@@ -471,158 +532,71 @@ public class Video {
         this.nsfw = nsfw;
     }
 
-    public Video() {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
 
+        if (o == null || getClass() != o.getClass()) return false;
+
+        final Video video = (Video) o;
+
+        return new EqualsBuilder().append(etag, video.etag).append(embedSrc, video.embedSrc).append(embedHtml, video.embedHtml).append(embedHeight, video.embedHeight).append(embedWidth, video.embedWidth).append(recordingDetails, video.recordingDetails).append(title, video.title).append(projectDetails, video.projectDetails).append(caption, video.caption).append(contentRating, video.contentRating).append(mpaaRating, video.mpaaRating).append(mpaatRating, video.mpaatRating).append(tvpgRating, video.tvpgRating).append(ytRating, video.ytRating).append(countryRestriction, video.countryRestriction).append(definition, video.definition).append(dimension, video.dimension).append(duration, video.duration).append(hasCustomThumbnail, video.hasCustomThumbnail).append(licensedContent, video.licensedContent).append(projection, video.projection).append(regionRestrictions, video.regionRestrictions).append(categoryId, video.categoryId).append(channelId, video.channelId).append(channelTitle, video.channelTitle).append(description, video.description).append(lang, video.lang).append(publishedAt, video.publishedAt).append(thumbnails, video.thumbnails).append(tags, video.tags).append(commentCount, video.commentCount).append(dislikeCount, video.dislikeCount).append(favoriteCount, video.favoriteCount).append(likeCount, video.likeCount).append(viewCount, video.viewCount).append(embeddable, video.embeddable).append(license, video.license).append(privacyStatus, video.privacyStatus).append(publicStatsViewable, video.publicStatsViewable).append(uploadStatus, video.uploadStatus).append(lastChecked, video.lastChecked).append(topicCategories, video.topicCategories).append(topicIds, video.topicIds).append(relevantTopicIds, video.relevantTopicIds).append(nsfw, video.nsfw).isEquals();
     }
 
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder(17, 37).append(etag).append(title).append(channelId).append(description).append(lang).append(publishedAt).toHashCode();
+    }
 
-    public Video(com.google.api.services.youtube.model.Video video) {
-        this.id = video.getId();
-        this.etag = video.getEtag();
-        if (video.getPlayer() != null) {
-            final VideoPlayer player = video.getPlayer();
-            // full embedded HTML is
-            // <iframe width="480" height="270" src="//www.youtube.com/embed/XYZ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            final String s = player.getEmbedHtml();
-            this.embedHtml = s;
-            if (StringUtils.isNotBlank(s)) {
-                final Pattern pattern = Pattern.compile(".*src=\"([^\"]+)\".*");
-                final Matcher m = pattern.matcher(s);
-                if (m.matches()) {
-                    this.embedSrc = "https:" + m.group(1);
-                }
-            }
-            this.embedHeight = player.getEmbedHeight();
-            this.embedWidth = player.getEmbedWidth();
-        }
-
-        if (video.getContentDetails() != null) {
-            final VideoContentDetails details = video.getContentDetails();
-            this.caption = details.getCaption();
-            this.definition = details.getDefinition();
-            this.dimension = details.getDimension();
-            this.duration = details.getDuration();
-            this.hasCustomThumbnail = details.getHasCustomThumbnail();
-            this.licensedContent = details.getLicensedContent();
-            this.projection = details.getProjection();
-
-            if (details.getContentRating() != null){
-                ContentRating contentRating = details.getContentRating();
-                this.ytRating = contentRating.getYtRating();
-                this.mpaaRating = contentRating.getMpaaRating();
-                // trailers, ads, DVDs
-                this.mpaatRating = contentRating.getMpaatRating();
-                this.tvpgRating = contentRating.getTvpgRating();
-                try {
-                    this.contentRating = details.getContentRating().toPrettyString();
-                    if ("{}".equals(this.contentRating)) {
-                        this.contentRating = null;
-                    }
-                } catch (IOException e) {
-                    LOG.info("error encoding content rating for video {}", id);
-                }
-            }
-            if (details.getCountryRestriction() != null) {
-                try {
-                    this.countryRestriction = details.getCountryRestriction().toPrettyString();
-                } catch (IOException e) {
-                    LOG.info("error encoding country restriction for video {}", id);
-                }
-            }
-            if (details.getRegionRestriction() != null) {
-                try {
-                    this.regionRestrictions = details.getRegionRestriction().toPrettyString();
-                } catch (IOException e) {
-                    LOG.info("error encoding region restriction for video {}", id);
-                }
-            }
-        }
-
-        if (video.getSnippet() != null) {
-            final VideoSnippet snippet = video.getSnippet();
-            this.categoryId = snippet.getCategoryId();
-            this.channelId = snippet.getChannelId();
-            this.channelTitle = snippet.getChannelTitle();
-            // defaultAudioLanguage, defaultLanguage
-            this.description = snippet.getDescription();
-            // liveBroadcastContent, localized
-            this.lang = snippet.getDefaultLanguage();
-            if (snippet.getPublishedAt() != null) {
-                this.publishedAt = Instant.ofEpochMilli(snippet.getPublishedAt().getValue());
-            }
-            /*
-            if ((snippet.getTags() != null) && !snippet.getTags().isEmpty()) {
-                for (String tag : snippet.getTags()) {
-                    this.tags.add(new Tag(id, tag, tag));
-                }
-            }
-             */
-            this.title = snippet.getTitle();
-
-            final ThumbnailDetails td = snippet.getThumbnails();
-            if ((td != null) && !td.isEmpty()) {
-                this.thumbnails.putAll(utils.convertThumbnails(id, td));
-            }
-        }
-
-        if (video.getStatistics() != null) {
-            final VideoStatistics statistics = video.getStatistics();
-            this.dislikeCount = statistics.getDislikeCount();
-            this.favoriteCount = statistics.getFavoriteCount();
-            this.likeCount = statistics.getLikeCount();
-            this.viewCount = statistics.getViewCount();
-        }
-
-        if (video.getStatus() != null) {
-            final VideoStatus status = video.getStatus();
-            this.embeddable = status.getEmbeddable();
-            this.license = status.getLicense();
-            // this.madeForKids = status.getMadeForKids();
-            this.privacyStatus = status.getPrivacyStatus();
-            this.publicStatsViewable = status.getPublicStatsViewable();
-            if (status.getPublishAt() != null) {
-                this.publishedAt = Instant.ofEpochMilli(status.getPublishAt().getValue());
-            }
-            // this.selfDeclaredMadeForKids = status.getSelfDeclaredMadeForKids();
-            this.uploadStatus = status.getUploadStatus();
-        }
-
-        if (video.getRecordingDetails() != null) {
-            final VideoRecordingDetails details = video.getRecordingDetails();
-            details.getLocation();
-            details.getLocationDescription();
-            details.getRecordingDate();
-            // this.recordingDetails = video.getRecordingDetails().toPrettyString();
-        }
-
-        if (video.getTopicDetails() != null) {
-            final VideoTopicDetails details = video.getTopicDetails();
-            if (details.getTopicCategories() != null) {
-                for (String category : details.getTopicCategories()) {
-                    final int ridx = category.lastIndexOf("/");
-                    final String shortCategory = category.substring(ridx + 1).replace("_", " ");
-                    LOG.info("category: {} -> {}", category, shortCategory);
-                    topicCategories.add(shortCategory);
-                }
-            }
-            if (details.getTopicIds() != null) {
-                topicIds.addAll(details.getTopicIds());
-            }
-            if (details.getRelevantTopicIds() != null) {
-                relevantTopicIds.addAll(details.getRelevantTopicIds());
-            }
-        }
-
-        // there doesn't seem to be anything here... at least nothing standard
-        /*
-        if (video.getProjectDetails() != null) {
-            VideoProjectDetails details = video.getProjectDetails();
-            try {
-                this.projectDetails = video.getProjectDetails().toPrettyString());
-            } catch (IOException e) {
-                //
-            }
-        }
-         */
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+                .append("id", id)
+                .append("etag", etag)
+                .append("embedSrc", embedSrc)
+                .append("embedHtml", embedHtml)
+                .append("embedHeight", embedHeight)
+                .append("embedWidth", embedWidth)
+                .append("recordingDetails", recordingDetails)
+                .append("title", title)
+                .append("projectDetails", projectDetails)
+                .append("caption", caption)
+                .append("contentRating", contentRating)
+                .append("mpaaRating", mpaaRating)
+                .append("mpaatRating", mpaatRating)
+                .append("tvpgRating", tvpgRating)
+                .append("ytRating", ytRating)
+                .append("countryRestriction", countryRestriction)
+                .append("definition", definition)
+                .append("dimension", dimension)
+                .append("duration", duration)
+                .append("hasCustomThumbnail", hasCustomThumbnail)
+                .append("licensedContent", licensedContent)
+                .append("projection", projection)
+                .append("regionRestrictions", regionRestrictions)
+                .append("categoryId", categoryId)
+                .append("channelId", channelId)
+                .append("channelTitle", channelTitle)
+                .append("description", description)
+                .append("lang", lang)
+                .append("publishedAt", publishedAt)
+                .append("thumbnails", thumbnails)
+                .append("tags", tags)
+                .append("commentCount", commentCount)
+                .append("dislikeCount", dislikeCount)
+                .append("favoriteCount", favoriteCount)
+                .append("likeCount", likeCount)
+                .append("viewCount", viewCount)
+                .append("embeddable", embeddable)
+                .append("license", license)
+                .append("privacyStatus", privacyStatus)
+                .append("publicStatsViewable", publicStatsViewable)
+                .append("uploadStatus", uploadStatus)
+                .append("lastChecked", lastChecked)
+                .append("topicCategories", topicCategories)
+                .append("topicIds", topicIds)
+                .append("relevantTopicIds", relevantTopicIds)
+                .append("nsfw", nsfw)
+                .toString();
     }
 }

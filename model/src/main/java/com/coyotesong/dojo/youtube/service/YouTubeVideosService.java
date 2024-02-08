@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,30 +16,48 @@
  */
 package com.coyotesong.dojo.youtube.service;
 
-import com.coyotesong.tabs.model.Video;
+import com.coyotesong.dojo.youtube.model.Video;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import org.jetbrains.annotations.Unmodifiable;
 
 import java.io.IOException;
 import java.util.List;
 
 /**
- * YouTube API client for unauthenticated users.
+ * YouTube 'videos' API client
+ * <p>
+ * Other options:
+ *     <ul>
+ *         <li>Chart (?)</li>
+ *         <li>HL/Locale</li>
+ *         <li>MaxWidth [72..8192]/MaxHeight [72..8192]</li>
+ *         <li>MyRating</li>
+ *         <li>RegionCode</li>
+ *         <li>VideoCategoryId</li>
+ *     </ul>
+ *     The 'OnBehalfOfContentOwner' is intended for use by YouTube content partners.
+ * </p>
+ * <p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/index.html?com/google/api/services/youtube/YouTube.Videos.List.html">YouTube.Videos.List</a>
  */
 @SuppressWarnings("unused")
 public interface YouTubeVideosService {
     /**
      * Retrieve information about specified video
+     *
      * @param id video to load
      * @return requested video (when available)
      */
-    Video getVideo(String id) throws IOException;
+    @Nullable
+    Video getVideo(@NotNull String id) throws IOException;
 
     /**
-     * Retrieve information about specified video categories
-
-     /**
      * Retrieve information about specified videos
+     *
      * @param ids videos to load
      * @return requested videos (when available)
      */
-    List<Video> getVideos(List<String> ids) throws IOException;
+    @NotNull
+    List<Video> getVideos(@NotNull @Unmodifiable List<String> ids) throws IOException;
 }

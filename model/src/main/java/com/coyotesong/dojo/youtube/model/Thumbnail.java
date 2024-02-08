@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * Copyright (c) 2024 Bear Giles <bgiles@coyotesong.com>.
  * All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,30 +14,80 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coyotesong.tabs.model;
+package com.coyotesong.dojo.youtube.model;
 
-//
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
+
+import java.io.Serial;
+import java.io.Serializable;
 
 /**
- * Thumbnails
- *
+ * YouTube Thumbnails
+ * <p>
  * The channel, playlist, and playlist item thumbnails can be reduced to just the URL since
  * they always have the 'default' resolution (90x120).
- *
- * The video thumbnails can be one of five resolutions:
- *
- * - default: 90x120
- * - medium: 180x320
- * - high: 360x480
- * - standard: 480x640
- * - maxres: 720x1280
+ * </p><p>
+ * TODO: fully replace 'name' string with Size enum.
+ * </p>
+ * <p>
+ * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Thumbnail.html">Thumbnail</a>
  */
-public class Thumbnail {
+@SuppressWarnings("unused")
+public class Thumbnail implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
+
+    public enum Size {
+        DEFAULT(90, 120),
+        MEDIUM(180, 320),
+        HIGH(360, 480),
+        STANDARD(480, 640),
+        MAX_RES(720, 1280);
+
+        private final int height;
+        private final int width;
+
+        Size(int height, int width) {
+            this.height = height;
+            this.width = width;
+        }
+
+        public int getHeight() {
+            return height;
+        }
+
+        public int getWidth() {
+            return width;
+        }
+    }
+
     private String videoId;
+    private Size size;
     private String name; // = default, medium, high, standard, maxres
     private Integer height;
     private String url;
     private Integer width;
+
+    /**
+     * Default constructor
+     */
+    public Thumbnail() {
+    }
+
+    public Thumbnail(String videoId, Size size, String url) {
+        this.videoId = videoId;
+        this.size = size;
+        this.url = url;
+
+        if (size != null) {
+            this.name = size.name().toLowerCase();
+            this.height = size.getHeight();
+            this.width = size.getWidth();
+        }
+    }
 
     public String getVideoId() {
         return videoId;
@@ -79,19 +129,28 @@ public class Thumbnail {
         this.width = width;
     }
 
-    public Thumbnail() {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
 
+        if (o == null || getClass() != o.getClass()) return false;
+
+        final Thumbnail thumbnail = (Thumbnail) o;
+
+        return new EqualsBuilder().append(videoId, thumbnail.videoId).append(name, thumbnail.name).append(height, thumbnail.height).append(url, thumbnail.url).append(width, thumbnail.width).isEquals();
     }
 
-    public Thumbnail(String videoId, String name, com.google.api.services.youtube.model.Thumbnail thumbnail) {
-        this.videoId = videoId;
-        this.name = name;
-        if (thumbnail.getHeight() != null) {
-            this.height = thumbnail.getHeight().intValue();
-        }
-        this.url = thumbnail.getUrl();
-        if (thumbnail.getWidth() != null) {
-            this.width = thumbnail.getWidth().intValue();
-        }
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder(17, 37).append(videoId).append(name).append(url).toHashCode();
+    }
+
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this, ToStringStyle.SIMPLE_STYLE)
+                .append("videoId", videoId)
+                .append("name", name)
+                .append("url", url)
+                .toString();
     }
 }
