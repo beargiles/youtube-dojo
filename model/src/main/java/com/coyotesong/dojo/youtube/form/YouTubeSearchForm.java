@@ -31,7 +31,7 @@ import java.util.List;
  */
 @SuppressWarnings("unused")
 public class YouTubeSearchForm {
-    private List<String> types = new ArrayList<>(); // channel, playlist, video ?
+    private List<String> types = new ArrayList<>(); // channel, playlist, video
     private String query;  // can include both OR (|) and NOT (-)  URL-escape for | is '%7C'
 
     private String channelId;

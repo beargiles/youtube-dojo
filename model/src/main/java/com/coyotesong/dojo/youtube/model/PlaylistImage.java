@@ -27,7 +27,7 @@ import java.io.Serializable;
 /**
  * YouTube playlist image
  * <p>
- * Note: this class does not have an 'etag' value
+ * Note: the 'etag' value will always be null
  * </p>
  * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/PlaylistImage.html">PlaylistImage</a>
  */
@@ -37,6 +37,8 @@ public class PlaylistImage implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private String id;
+    private String etag;
+    private String parentEtag;
     private Integer height;
     private String playlistId;
     private String type;
@@ -48,6 +50,22 @@ public class PlaylistImage implements Serializable {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public void setEtag(String etag) {
+        this.etag = etag;
+    }
+
+    public String getEtag() {
+        return etag;
+    }
+
+    public String getParentEtag() {
+        return parentEtag;
+    }
+
+    public void setParentEtag(String parentEtag) {
+        this.parentEtag = parentEtag;
     }
 
     public Integer getHeight() {
@@ -90,12 +108,23 @@ public class PlaylistImage implements Serializable {
 
         final PlaylistImage that = (PlaylistImage) o;
 
-        return new EqualsBuilder().append(height, that.height).append(playlistId, that.playlistId).append(type, that.type).append(width, that.width).isEquals();
+        return new EqualsBuilder()
+                .append(etag, that.etag)
+                .append(parentEtag, that.parentEtag)
+                .append(height, that.height)
+                .append(playlistId, that.playlistId)
+                .append(type, that.type)
+                .append(width, that.width)
+                .isEquals();
     }
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(17, 37).append(playlistId).append(type).toHashCode();
+        return new HashCodeBuilder(17, 37)
+                .append(etag)
+                .append(playlistId)
+                .append(type)
+                .toHashCode();
     }
 
     @Override

@@ -18,9 +18,10 @@
 package com.coyotesong.dojo.youtube.service;
 
 import com.coyotesong.dojo.youtube.config.YouTubeContext;
+import com.coyotesong.dojo.youtube.config.YouTubeProperties;
 import com.coyotesong.dojo.youtube.model.PlaylistItem;
 import com.coyotesong.dojo.youtube.security.LogSanitizerImpl;
-import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForPlaylistItemListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.ClientForPlaylistItemListFactory;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,9 +34,11 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 
+import static com.coyotesong.dojo.youtube.service.TestConstants.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 /**
  * Test YouTubePlaylistItemsService
@@ -48,64 +51,92 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
         LogSanitizerImpl.class
 })
 @ImportAutoConfiguration(classes = {
-        YouTubeContext.class
+        YouTubeContext.class,
+        YouTubeProperties.class
 })
 @SpringBootTest(classes = {
         ClientForPlaylistItemListFactory.class,
         YouTubePlaylistItemsServiceImpl.class
 })
 public class YouTubePlaylistItemsListServiceTest {
-    private static final String TEST_PLAYLIST_ID = "PL9hNFus3sjE5fWOXSJRo4CEj7xnTaysOW";
-    private static final String TEST_PLAYLIST_ITEM_ID = "UEw5aE5GdXMzc2pFNWZXT1hTSlJvNENFajd4blRheXNPVy41NkI0NEY2RDEwNTU3Q0M2";
-    private static final String BAD_TEST_PLAYLIST_ID = "test-bad-playlist-id";
-    private static final String BAD_TEST_PLAYLIST_ITEM_ID = "test-bad-playlist-item-id";
 
     @Autowired
     private YouTubePlaylistItemsService service;
 
     @Test
     public void Given_UserIsAuthenticated_When_GetPlaylistItemWithValidId_Then_Success() throws IOException {
-        final PlaylistItem item = service.getPlaylistItem(TEST_PLAYLIST_ITEM_ID);
-        assertThat("playlist id does not match", item.getId(), equalTo(TEST_PLAYLIST_ITEM_ID));
+        try {
+            final PlaylistItem item = service.getPlaylistItem(TEST_PLAYLIST_ITEM_ID);
+            assertThat("playlist id does not match", item.getId(), equalTo(TEST_PLAYLIST_ITEM_ID));
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
-    public void Given_UserIsAuthenticated_When_GetPlaylistItemssIdWithValidId_Then_Success() throws IOException {
-        final List<PlaylistItem> items = service.getPlaylistItems(Collections.singletonList(TEST_PLAYLIST_ITEM_ID));
-        assertThat("no items found", items, not(empty()));
-        if (!items.isEmpty()) {
-            assertThat("playlist item id does not match", items.get(0).getId(), equalTo(TEST_PLAYLIST_ITEM_ID));
+    public void Given_UserIsAuthenticated_When_GetPlaylistItemsIdWithValidId_Then_Success() throws IOException {
+        try {
+            final List<PlaylistItem> items = service.getPlaylistItems(Collections.singletonList(TEST_PLAYLIST_ITEM_ID));
+            assertThat("no items found", items, not(empty()));
+            for (PlaylistItem item : items) {
+                assertThat("playlist item id does not match", item.getId(), equalTo(TEST_PLAYLIST_ITEM_ID));
+            }
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
         }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetPlaylistItemsIdWithEmptyList_Then_Success() throws IOException {
-        final List<PlaylistItem> items = service.getPlaylistItems(Collections.emptyList());
-        assertThat("items found", items, empty());
+        try {
+            final List<PlaylistItem> items = service.getPlaylistItems(Collections.emptyList());
+            assertThat("items found", items, empty());
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetPlaylistItemsForPlaylistIdWithValidId_Then_Success() throws IOException {
-        final List<PlaylistItem> items = service.getPlaylistItemsForPlaylistId(TEST_PLAYLIST_ID);
-        assertThat("no items found", items, not(empty()));
+        try {
+            final List<PlaylistItem> items = service.getPlaylistItemsForPlaylistId(TEST_PLAYLIST_ID);
+            assertThat("no items found", items, not(empty()));
+            for (PlaylistItem item : items) {
+                assertThat("playlist item id does not match", item.getPlaylistId(), equalTo(TEST_PLAYLIST_ID));
+            }
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetPlaylistWithInvalidId_Then_ReturnNull() throws IOException {
-        final PlaylistItem item = service.getPlaylistItem(BAD_TEST_PLAYLIST_ITEM_ID);
-        assertThat("item found", item, nullValue());
+        try {
+            final PlaylistItem item = service.getPlaylistItem(BAD_TEST_PLAYLIST_ITEM_ID);
+            assertThat("item found", item, nullValue());
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetPlaylistsWithInvalidId_Then_ReturnNull() throws IOException {
-        final List<PlaylistItem> items = service.getPlaylistItems(Collections.singletonList(BAD_TEST_PLAYLIST_ITEM_ID));
-        assertThat("items found", items, empty());
+        try {
+            final List<PlaylistItem> items = service.getPlaylistItems(Collections.singletonList(BAD_TEST_PLAYLIST_ITEM_ID));
+            assertThat("items found", items, empty());
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetPlaylistItemsForPlaylistIdWithInvalidId_Then_Success() throws IOException {
-        final List<PlaylistItem> items = service.getPlaylistItemsForPlaylistId(BAD_TEST_PLAYLIST_ID);
-        assertThat("playlist items found", items, empty());
+        try {
+            final List<PlaylistItem> items = service.getPlaylistItemsForPlaylistId(BAD_TEST_PLAYLIST_ID);
+            assertThat("playlist items found", items, empty());
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test

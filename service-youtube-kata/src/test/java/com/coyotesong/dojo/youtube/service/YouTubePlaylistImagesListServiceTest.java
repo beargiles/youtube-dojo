@@ -18,9 +18,9 @@
 package com.coyotesong.dojo.youtube.service;
 
 import com.coyotesong.dojo.youtube.config.YouTubeContext;
-import com.coyotesong.dojo.youtube.model.PlaylistImage;
+import com.coyotesong.dojo.youtube.config.YouTubeProperties;
 import com.coyotesong.dojo.youtube.security.LogSanitizerImpl;
-import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForPlaylistImageListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.ClientForPlaylistImageListFactory;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,9 +31,8 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.io.IOException;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.nullValue;
+import static com.coyotesong.dojo.youtube.service.TestConstants.BAD_TEST_PLAYLIST_ID;
+import static com.coyotesong.dojo.youtube.service.TestConstants.TEST_PLAYLIST_ID;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
@@ -48,31 +47,42 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
         LogSanitizerImpl.class
 })
 @ImportAutoConfiguration(classes = {
-        YouTubeContext.class
+        YouTubeContext.class,
+        YouTubeProperties.class
 })
 @SpringBootTest(classes = {
         ClientForPlaylistImageListFactory.class,
         YouTubePlaylistImagesServiceImpl.class
 })
 public class YouTubePlaylistImagesListServiceTest {
-    private static final String TEST_PLAYLIST_ID = "PL9hNFus3sjE5fWOXSJRo4CEj7xnTaysOW";
-    private static final String BAD_TEST_PLAYLIST_ID = "test-bad-playlist-id";
 
     @Autowired
     private YouTubePlaylistImagesService service;
 
     @Test
     public void Given_UserIsAuthenticated_When_GetPlaylistImageForPlaylistIdWithValidId_Then_Success() throws IOException {
-        final PlaylistImage image = service.getPlaylistImageForPlaylistId(TEST_PLAYLIST_ID);
-        // we might not have a playlist with an associated image
-        assumeTrue(image != null, "playlist does not have associated image?");
-        assertThat("playlist id does not match", image.getPlaylistId(), equalTo(TEST_PLAYLIST_ID));
+        try {
+            // oops - it turns out that we'll need Oauth token for this call!
+            assertThrows(
+                    YouTubeAccessForbiddenException.class,
+                    () -> service.getPlaylistImageForPlaylistId(TEST_PLAYLIST_ID),
+                    "Expected AccessForbidden Exception");
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetPlaylistImageForPlaylistIdWithInvalidId_Then_ReturnNull() throws IOException {
-        final PlaylistImage image = service.getPlaylistImageForPlaylistId(BAD_TEST_PLAYLIST_ID);
-        assertThat("image found", image, nullValue());
+        try {
+            // oops - it turns out that we'll need Oauth token for this call!
+            assertThrows(
+                    YouTubeAccessForbiddenException.class,
+                    () -> service.getPlaylistImageForPlaylistId(BAD_TEST_PLAYLIST_ID),
+                    "Expected AccessForbidden Exception");
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test

@@ -30,8 +30,10 @@ import java.time.Instant;
 @SuppressWarnings("unused")
 public class SearchResult {
     private String channelId;
+    private String playlistId;
     private String videoId;
     private String etag;
+    private String parentEtag;
     private String description;
     private String title;
     private String liveBroadcastContent;
@@ -60,6 +62,14 @@ public class SearchResult {
         this.channelId = channelId;
     }
 
+    public String getPlaylistId() {
+        return playlistId;
+    }
+
+    public void setPlaylistId(String playlistId) {
+        this.playlistId = playlistId;
+    }
+
     public String getVideoId() {
         return videoId;
     }
@@ -74,6 +84,14 @@ public class SearchResult {
 
     public void setEtag(String etag) {
         this.etag = etag;
+    }
+
+    public String getParentEtag() {
+        return parentEtag;
+    }
+
+    public void setParentEtag(String parentEtag) {
+        this.parentEtag = parentEtag;
     }
 
     public String getTitle() {
@@ -138,22 +156,43 @@ public class SearchResult {
 
         if (o == null || getClass() != o.getClass()) return false;
 
-        SearchResult that = (SearchResult) o;
+        final SearchResult that = (SearchResult) o;
 
-        return new EqualsBuilder().append(channelId, that.channelId).append(videoId, that.videoId).append(etag, that.etag).append(description, that.description).append(title, that.title).append(liveBroadcastContent, that.liveBroadcastContent).append(publishedAt, that.publishedAt).append(tnUrl, that.tnUrl).append(channelTitle, that.channelTitle).append(lastChecked, that.lastChecked).isEquals();
+        return new EqualsBuilder()
+                .append(etag, that.etag)
+                .append(channelId, that.channelId)
+                .append(playlistId, that.playlistId)
+                .append(videoId, that.videoId)
+                .append(parentEtag, that.parentEtag)
+                .append(description, that.description)
+                .append(title, that.title)
+                .append(liveBroadcastContent, that.liveBroadcastContent)
+                .append(publishedAt, that.publishedAt)
+                .append(tnUrl, that.tnUrl)
+                .append(channelTitle, that.channelTitle)
+                .append(lastChecked, that.lastChecked)
+                .isEquals();
     }
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(17, 37).append(channelId).append(videoId).append(etag).append(description).append(title).toHashCode();
+        return new HashCodeBuilder(17, 37)
+                .append(etag)
+                .append(channelId)
+                .append(playlistId)
+                .append(videoId)
+                .append(description)
+                .append(title)
+                .toHashCode();
     }
 
     @Override
     public String toString() {
         return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
-                .append("channelId", channelId)
-                .append("videoId", videoId)
                 .append("etag", etag)
+                .append("channelId", channelId)
+                .append("playlistId", playlistId)
+                .append("videoId", videoId)
                 .append("description", description)
                 .append("title", title)
                 .append("liveBroadcastContent", liveBroadcastContent)

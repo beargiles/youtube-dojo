@@ -37,6 +37,7 @@ public class Playlist implements Serializable {
 
     private String id;
     private String etag;
+    private String parentEtag;
     private Instant publishedAt;
     private String channelId;
     private String title;
@@ -46,6 +47,8 @@ public class Playlist implements Serializable {
     private String embedHtml;
     private String tnUrl;
     private String tnVideoId;
+    private String hl;
+
     private Instant lastChecked;
 
     private String tags;
@@ -71,6 +74,14 @@ public class Playlist implements Serializable {
 
     public void setEtag(String etag) {
         this.etag = etag;
+    }
+
+    public String getParentEtag() {
+        return parentEtag;
+    }
+
+    public void setParentEtag(String parentEtag) {
+        this.parentEtag = parentEtag;
     }
 
     public Instant getPublishedAt() {
@@ -153,6 +164,14 @@ public class Playlist implements Serializable {
         this.tags = tags;
     }
 
+    public String getHl() {
+        return hl;
+    }
+
+    public void setHl(String hl) {
+        this.hl = hl;
+    }
+
     public Instant getLastChecked() {
         return lastChecked;
     }
@@ -167,27 +186,33 @@ public class Playlist implements Serializable {
 
         if (o == null || getClass() != o.getClass()) return false;
 
-        Playlist playlist = (Playlist) o;
+        final Playlist that = (Playlist) o;
 
-        return new EqualsBuilder().append(etag, playlist.etag)
-                .append(channelId, playlist.channelId)
-                .append(title, playlist.title)
-                .append(description, playlist.description)
-                .append(publishedAt, playlist.publishedAt)
-                .append(tnUrl, playlist.tnUrl)
-                .append(channelTitle, playlist.channelTitle)
-                .append(embedHtml, playlist.embedHtml)
-                .append(lastChecked, playlist.lastChecked)
+        return new EqualsBuilder().append(etag, that.etag)
+                .append(parentEtag, that.parentEtag)
+                .append(channelId, that.channelId)
+                .append(title, that.title)
+                .append(description, that.description)
+                .append(publishedAt, that.publishedAt)
+                .append(tnUrl, that.tnUrl)
+                .append(channelTitle, that.channelTitle)
+                .append(embedHtml, that.embedHtml)
+                .append(lastChecked, that.lastChecked)
                 // these are often null
-                .append(lang, playlist.lang)
-                .append(tnVideoId, playlist.tnVideoId)
-                .append(tags, playlist.tags)
+                .append(lang, that.lang)
+                .append(tnVideoId, that.tnVideoId)
+                .append(tags, that.tags)
+                .append(hl, that.hl)
                 .isEquals();
     }
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(17, 37).append(etag).append(channelId).append(title).toHashCode();
+        return new HashCodeBuilder(17, 37)
+                .append(etag)
+                .append(channelId)
+                .append(title)
+                .toHashCode();
     }
 
     @Override

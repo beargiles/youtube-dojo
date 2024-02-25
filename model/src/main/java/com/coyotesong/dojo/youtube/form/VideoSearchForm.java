@@ -32,7 +32,7 @@ public class VideoSearchForm extends YouTubeSearchForm {
     private String videoLicense; // any, youtube, creativeCommon
     // private String videoPaidProductPlacement; // any, true
     private String videoSyndicated; // any, true
-    private String videoType; // any, episode, movie
+    private String videoType = "any"; // any, episode, movie
 
     public VideoSearchForm() {
         super("video");

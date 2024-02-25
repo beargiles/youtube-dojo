@@ -18,7 +18,8 @@ package com.coyotesong.dojo.youtube.service;
 
 import com.coyotesong.dojo.youtube.model.Playlist;
 import com.coyotesong.dojo.youtube.security.LogSanitizer;
-import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForPlaylistListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.ClientForPlaylistListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.YouTubeClient.ListPlaylists;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.annotations.Unmodifiable;
@@ -33,12 +34,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import static org.apache.commons.lang3.StringUtils.isBlank;
+
 // see https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/YouTube.html
 
 /**
  * Implementation of YouTubeService
  */
-@Service
+@Service("YouTubePlaylistsService")
 @CacheConfig(cacheNames = {"playlists"})
 public class YouTubePlaylistsServiceImpl implements YouTubePlaylistsService {
     private static final Logger LOG = LoggerFactory.getLogger(YouTubePlaylistsServiceImpl.class);
@@ -61,6 +64,10 @@ public class YouTubePlaylistsServiceImpl implements YouTubePlaylistsService {
     @Override
     @Nullable
     public Playlist getPlaylist(@NotNull String playlistId) throws IOException {
+        if (isBlank(playlistId)) {
+            throw new IllegalArgumentException("'playlistId' must not be blank");
+        }
+
         LOG.trace("getPlaylist('{}')...", sanitize.forPlaylistId(playlistId));
         final List<Playlist> playlists = getPlaylists(Collections.singletonList(playlistId));
         if (!playlists.isEmpty()) {
@@ -82,14 +89,21 @@ public class YouTubePlaylistsServiceImpl implements YouTubePlaylistsService {
     @Override
     @NotNull
     public List<Playlist> getPlaylists(@NotNull @Unmodifiable List<String> ids) throws IOException {
-        LOG.trace("call to getPlaylists()...");
+        if (ids == null) {
+            throw new IllegalArgumentException("'ids' must not be null");
+        } else if (ids.isEmpty()) {
+            return Collections.emptyList();
+        }
+        // TODO: check for blank elements
+
+        LOG.trace("getPlaylists()...");
 
         final List<Playlist> playlists = new ArrayList<>();
 
         // TODO - should handle this in underlying service...
         for (int offset = 0; offset < ids.size(); offset += 50) {
             final List<String> list = ids.subList(offset, Math.min(offset + 50, ids.size()));
-            final ClientForPlaylistListFactory.ClientForPlaylistList client = clientForPlaylistListFactory.newBuilder().withIds(list).build();
+            final ListPlaylists client = clientForPlaylistListFactory.newBuilder().withIds(list).build();
             while (client.hasNext()) {
                 playlists.addAll(client.next());
             }
@@ -108,10 +122,15 @@ public class YouTubePlaylistsServiceImpl implements YouTubePlaylistsService {
     @Override
     @NotNull
     public List<Playlist> getPlaylistsForChannelId(@NotNull String channelId) throws IOException {
+        if (isBlank(channelId)) {
+            throw new IllegalArgumentException("'channelId' must not be blank");
+        }
+
         LOG.trace("getPlaylistsForChannelId('{}')...", sanitize.forChannelId(channelId));
+
         final List<Playlist> playlists = new ArrayList<>();
 
-        final ClientForPlaylistListFactory.ClientForPlaylistList client = clientForPlaylistListFactory.newBuilder().withChannelId(channelId).build();
+        final ListPlaylists client = clientForPlaylistListFactory.newBuilder().withChannelId(channelId).build();
         while (client.hasNext()) {
             playlists.addAll(client.next());
         }

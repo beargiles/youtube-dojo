@@ -18,7 +18,8 @@ package com.coyotesong.dojo.youtube.service;
 
 import com.coyotesong.dojo.youtube.model.PlaylistImage;
 import com.coyotesong.dojo.youtube.security.LogSanitizer;
-import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForPlaylistImageListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.ClientForPlaylistImageListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.YouTubeClient.ListPlaylistImages;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
@@ -30,12 +31,14 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.apache.commons.lang3.StringUtils.isBlank;
+
 // see https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/YouTube.html
 
 /**
  * Implementation of YouTubeService
  */
-@Service
+@Service("YouTubePlaylistImages")
 public class YouTubePlaylistImagesServiceImpl implements YouTubePlaylistImagesService {
     private static final Logger LOG = LoggerFactory.getLogger(YouTubePlaylistImagesServiceImpl.class);
 
@@ -57,10 +60,14 @@ public class YouTubePlaylistImagesServiceImpl implements YouTubePlaylistImagesSe
     @Override
     @Nullable
     public PlaylistImage getPlaylistImageForPlaylistId(@NotNull String playlistId) throws IOException {
+        if (isBlank(playlistId)) {
+            throw new IllegalArgumentException("'playlistId' must not be blank");
+        }
+
         LOG.trace("getPlaylistImageForPlaylistId('{}')...", sanitize.forPlaylistId(playlistId));
 
         final List<PlaylistImage> images = new ArrayList<>();
-        final ClientForPlaylistImageListFactory.ClientForPlaylistImageList client = clientForPlaylistImageListFactory.newBuilder().withPlaylistId(playlistId).build();
+        final ListPlaylistImages client = clientForPlaylistImageListFactory.newBuilder().withPlaylistId(playlistId).build();
         while (client.hasNext()) {
             images.addAll(client.next());
         }

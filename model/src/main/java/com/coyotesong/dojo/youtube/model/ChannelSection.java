@@ -21,12 +21,25 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * YouTube Channel Section
  * <p>
+ * 'Type' will be one of
+ * <ul>
+ *     <li>channelsectiontypeundefined</li>
+ *     <li>recentuploads</li>
+ *     <li>popularuploads</li>
+ *     <li>singleplaylist</li>
+ *     <li>multipleplaylists</li>
+ *     <li>singlechannel ?</li>
+ *     <li>multiplechannels ?</li>
+ * </ul>
+ * and possibly other values.
+ * </p>
  * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/ChannelSection.html">ChannelSection</a>
  */
 @SuppressWarnings("unused")
@@ -34,6 +47,7 @@ public class ChannelSection {
 
     private String id;
     private String etag;
+    private String parentEtag;
 
     // from 'ChannelSectionContentDetails'
     private List<String> channelIds = new ArrayList<>();
@@ -47,14 +61,14 @@ public class ChannelSection {
     private String style;
     private String title;
     private String type;
+    private String hl;
+    private Instant lastChecked;
 
     // from 'getLocalizations'
     // Map<String, ChannelSectionLocalization>
 
     // from 'ChannelSectionTargeting'
-    private List<String> countries = new ArrayList<>();
-    private List<String> languages = new ArrayList<>();
-    private List<String> regions = new ArrayList<>();
+    // List<String> of countries, languages, and regions
 
     public String getId() {
         return id;
@@ -70,6 +84,14 @@ public class ChannelSection {
 
     public void setEtag(String etag) {
         this.etag = etag;
+    }
+
+    public String getParentEtag() {
+        return parentEtag;
+    }
+
+    public void setParentEtag(String parentEtag) {
+        this.parentEtag = parentEtag;
     }
 
     public List<String> getChannelIds() {
@@ -136,28 +158,20 @@ public class ChannelSection {
         this.type = type;
     }
 
-    public List<String> getCountries() {
-        return countries;
+    public String getHl() {
+        return hl;
     }
 
-    public void setCountries(List<String> countries) {
-        this.countries = countries;
+    public void setHl(String hl) {
+        this.hl = hl;
     }
 
-    public List<String> getLanguages() {
-        return languages;
+    public Instant getLastChecked() {
+        return lastChecked;
     }
 
-    public void setLanguages(List<String> languages) {
-        this.languages = languages;
-    }
-
-    public List<String> getRegions() {
-        return regions;
-    }
-
-    public void setRegions(List<String> regions) {
-        this.regions = regions;
+    public void setLastChecked(Instant lastChecked) {
+        this.lastChecked = lastChecked;
     }
 
     @Override
@@ -168,12 +182,30 @@ public class ChannelSection {
 
         final ChannelSection that = (ChannelSection) o;
 
-        return new EqualsBuilder().append(etag, that.etag).append(channelIds, that.channelIds).append(playlistIds, that.playlistIds).append(channelId, that.channelId).append(lang, that.lang).append(position, that.position).append(style, that.style).append(title, that.title).append(type, that.type).append(countries, that.countries).append(languages, that.languages).append(regions, that.regions).isEquals();
+        return new EqualsBuilder()
+                .append(etag, that.etag)
+                .append(parentEtag, that.parentEtag)
+                .append(channelIds, that.channelIds)
+                .append(playlistIds, that.playlistIds)
+                .append(channelId, that.channelId)
+                .append(lang, that.lang)
+                .append(position, that.position)
+                .append(style, that.style)
+                .append(title, that.title)
+                .append(type, that.type)
+                .append(hl, that.hl)
+                .append(lastChecked, that.lastChecked)
+                .isEquals();
     }
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(17, 37).append(etag).append(channelId).append(title).append(type).toHashCode();
+        return new HashCodeBuilder(17, 37)
+                .append(etag)
+                .append(channelId)
+                .append(title)
+                .append(type)
+                .toHashCode();
     }
 
     @Override
@@ -181,7 +213,13 @@ public class ChannelSection {
         return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
                 .append("id", id)
                 .append("etag", etag)
+                .append("channelId", channelId)
                 .append("title", title)
+                .append("type", type)
+                .append("style", style)
+                .append("position", position)
+                .append("channelIds", channelIds)
+                .append("playlistIds", playlistIds)
                 .toString();
     }
 }

@@ -39,6 +39,7 @@ public class Channel implements Serializable {
 
     private String id;
     private String etag;
+    private String parentEtag;
 
     private String username;
     private String contentOwner;
@@ -50,6 +51,7 @@ public class Channel implements Serializable {
     private String title;
     private String uploads;
     private String tnUrl;
+    private String hl;
 
     private Boolean nsfw;
     private Instant lastChecked;
@@ -90,6 +92,14 @@ public class Channel implements Serializable {
 
     public void setEtag(String etag) {
         this.etag = etag;
+    }
+
+    public String getParentEtag() {
+        return parentEtag;
+    }
+
+    public void setParentEtag(String parentEtag) {
+        this.parentEtag = parentEtag;
     }
 
     public String getUsername() {
@@ -172,6 +182,14 @@ public class Channel implements Serializable {
         this.tnUrl = tnUrl;
     }
 
+    public String getHl() {
+        return hl;
+    }
+
+    public void setHl(String hl) {
+        this.hl = hl;
+    }
+
     public Instant getLastChecked() {
         return lastChecked;
     }
@@ -246,27 +264,32 @@ public class Channel implements Serializable {
 
         if (o == null || getClass() != o.getClass()) return false;
 
-        Channel channel = (Channel) o;
+        final Channel that = (Channel) o;
 
-        return new EqualsBuilder().append(etag, channel.etag)
-                .append(customUrl, channel.customUrl)
-                .append(title, channel.title)
-                .append(description, channel.description)
-                .append(publishedAt, channel.publishedAt)
-                .append(uploads, channel.uploads)
-                .append(tnUrl, channel.tnUrl)
-                .append(lastChecked, channel.lastChecked)
+        return new EqualsBuilder().append(etag, that.etag)
+                .append(customUrl, that.customUrl)
+                .append(title, that.title)
+                .append(description, that.description)
+                .append(publishedAt, that.publishedAt)
+                .append(uploads, that.uploads)
+                .append(tnUrl, that.tnUrl)
+                .append(lastChecked, that.lastChecked)
                 // these are often null
-                .append(contentOwner, channel.contentOwner)
-                .append(lang, channel.lang)
-                .append(country, channel.country)
-                .append(username, channel.username)
+                .append(hl, that.hl)
+                .append(parentEtag, that.parentEtag)
+                .append(contentOwner, that.contentOwner)
+                .append(lang, that.lang)
+                .append(country, that.country)
+                .append(username, that.username)
                 .isEquals();
     }
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(17, 37).append(etag).append(customUrl).toHashCode();
+        return new HashCodeBuilder(17, 37)
+                .append(etag)
+                .append(customUrl)
+                .toHashCode();
     }
 
     @Override
@@ -284,6 +307,7 @@ public class Channel implements Serializable {
                 .append("title", title)
                 .append("uploads", uploads)
                 .append("tnUrl", tnUrl)
+                .append("hl", hl)
                 .append("nsfw", nsfw)
                 .append("lastChecked", lastChecked)
                 .append("playlists", playlists)

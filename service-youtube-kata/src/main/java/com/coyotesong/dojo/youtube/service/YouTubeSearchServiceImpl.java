@@ -19,7 +19,8 @@ package com.coyotesong.dojo.youtube.service;
 import com.coyotesong.dojo.youtube.form.YouTubeSearchForm;
 import com.coyotesong.dojo.youtube.model.SearchResult;
 import com.coyotesong.dojo.youtube.security.LogSanitizer;
-import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForSearchListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.ClientForSearchListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.YouTubeClient.ListSearchResults;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
@@ -34,7 +35,7 @@ import java.util.List;
 /**
  * Implementation of YouTubeSearchService
  */
-@Service
+@Service("YouTubeSearchService")
 public class YouTubeSearchServiceImpl implements YouTubeSearchService {
     private static final Logger LOG = LoggerFactory.getLogger(YouTubeSearchServiceImpl.class);
 
@@ -60,13 +61,14 @@ public class YouTubeSearchServiceImpl implements YouTubeSearchService {
     public List<SearchResult> search(@NotNull YouTubeSearchForm searchForm) throws IOException {
         LOG.trace("search()...");
 
+        int counter = 0;
         final List<SearchResult> results = new ArrayList<>();
-        final ClientForSearchListFactory.ClientForSearchList client = clientForSearchListFactory.newBuilder().withSearchForm(searchForm).build();
-        while (client.hasNext()) {
+        final ListSearchResults client = clientForSearchListFactory.newBuilder().withSearchForm(searchForm).build();
+        while (client.hasNext() && counter++ < 3) {
             results.addAll(client.next());
         }
 
         LOG.trace("search() -> {} record(s)", results.size());
-        return null;
+        return results;
     }
 }
