@@ -15,24 +15,23 @@
  * limitations under the License.
  */
 
-package com.coyotesong.dojo.youtube.service.youtubeClient;
+package com.coyotesong.dojo.youtube.service.youTubeClient;
 
 import com.coyotesong.dojo.youtube.form.VideoSearchForm;
 import com.coyotesong.dojo.youtube.form.YouTubeSearchForm;
 import com.coyotesong.dojo.youtube.model.SearchResult;
 import com.google.api.services.youtube.YouTube;
+import com.google.api.services.youtube.model.ResourceId;
 import com.google.api.services.youtube.model.SearchListResponse;
 import com.google.api.services.youtube.model.SearchResultSnippet;
 import com.google.api.services.youtube.model.ThumbnailDetails;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import static org.apache.commons.lang3.StringUtils.isNotBlank;
@@ -45,16 +44,17 @@ import static org.apache.commons.lang3.StringUtils.isNotBlank;
 public class ClientForSearchListFactory {
     private final YouTube.Builder ytBuilder;
 
-    public ClientForSearchListFactory(YouTube.Builder ytBuilder) {
+    public ClientForSearchListFactory(@NotNull YouTube.Builder ytBuilder) {
         this.ytBuilder = ytBuilder;
     }
 
+    @NotNull
     public Builder newBuilder() {
         return new Builder(ytBuilder);
     }
 
     public static class Builder {
-        private static final List<String> SEARCH_PARTS = Arrays.asList("contentDetails", "contentOwnerDetails", "id", "snippet", "topicDetails");
+        private static final List<String> SEARCH_PARTS = Arrays.asList(Constants.Part.ID.toString(), Constants.Part.SNIPPET.toString());
 
         private final YouTube.Builder ytBuilder;
 
@@ -62,16 +62,16 @@ public class ClientForSearchListFactory {
 
         private String quotaUser;
 
-        private Builder(YouTube.Builder ytBuilder) {
+        private Builder(@NotNull YouTube.Builder ytBuilder) {
             this.ytBuilder = ytBuilder;
         }
 
-        public Builder withSearchForm(YouTubeSearchForm searchForm) {
+        public Builder withSearchForm(@NotNull YouTubeSearchForm searchForm) {
             this.searchForm = searchForm;
             return this;
         }
 
-        public Builder withQuotaUser(String quotaUser) {
+        public Builder withQuotaUser(@NotNull String quotaUser) {
             this.quotaUser = quotaUser;
             return this;
         }
@@ -82,7 +82,8 @@ public class ClientForSearchListFactory {
          * @return
          * @throws IOException
          */
-        public ClientForSearchList build() throws IOException {
+        @NotNull
+        public YouTubeClient.ListSearchResults build() throws IOException {
             final YouTube.Search.List request = ytBuilder.build().search().list(SEARCH_PARTS);
 
             if (searchForm != null) {
@@ -121,7 +122,10 @@ public class ClientForSearchListFactory {
                     request.setTopicId(searchForm.getTopicId());
                 }
 
-                if (searchForm instanceof VideoSearchForm) {
+                if (searchForm instanceof VideoSearchForm videoSearchForm) {
+                    if (isNotBlank(videoSearchForm.getVideoType())) {
+                        request.setVideoType(videoSearchForm.getVideoType());
+                    }
                     // nothing additional... yet
                 }
             }
@@ -130,81 +134,53 @@ public class ClientForSearchListFactory {
                 request.setQuotaUser(quotaUser);
             }
 
-            return new ClientForSearchList(request);
+            final YouTubeClientState<SearchResult, YouTube.Search.List, SearchListResponse, com.google.api.services.youtube.model.SearchResult> state =
+                    new YouTubeClientState<>(request, ClientForSearchListFactory::convert);
+
+            return new YouTubeClient.ListSearchResults(state);
         }
     }
 
-    public static class ClientForSearchList extends ClientForYouTubeRequest<SearchResult, SearchListResponse, com.google.api.services.youtube.model.SearchResult> {
-        ClientForSearchList(YouTube.Search.List request) {
-            super(new SearchState(request));
+    /**
+     * Convert YouTube API object to ours.
+     *
+     * @param result
+     * @return
+     */
+    @NotNull
+    public static SearchResult convert(@NotNull com.google.api.services.youtube.model.SearchResult result) {
+        final SearchResult value = new SearchResult();
+        // value.setId(result.getId());
+        value.setEtag(result.getEtag());
+
+        final ResourceId id = result.getId();
+        if (id != null) {
+            value.setChannelId(id.getChannelId());
+            value.setPlaylistId(id.getPlaylistId());
+            value.setVideoId(id.getVideoId());
         }
-    }
 
-    public static class SearchState extends AbstractClientState<SearchResult, SearchListResponse, com.google.api.services.youtube.model.SearchResult> {
-        private static final Logger LOG = LoggerFactory.getLogger(SearchState.class);
-        private final YouTube.Search.List request;
+        if (result.getSnippet() != null) {
+            final SearchResultSnippet snippet = result.getSnippet();
 
-        public SearchState(YouTube.Search.List request) {
-            this.request = request;
-        }
+            value.setChannelId(snippet.getChannelId());
+            value.setChannelTitle(snippet.getChannelTitle());
+            value.setDescription(snippet.getDescription());
+            value.setLiveBroadcastContent(snippet.getLiveBroadcastContent());
+            value.setTitle(snippet.getTitle());
 
-        /**
-         * Perform YouTube API call.
-         */
-        public void update() throws IOException {
-            request.setMaxResults(5L);  // FIXME...
-            request.setPageToken(getNextPageToken());
-            final SearchListResponse response = request.execute();
+            if (snippet.getPublishedAt() != null) {
+                value.setPublishedAt(Instant.ofEpochMilli(snippet.getPublishedAt().getValue()));
+            }
 
-            setEtag(response.getEtag());
-            setEventId(response.getEventId());
-            setPageInfo(response.getPageInfo());
-            setVisitorId(response.getVisitorId());
-
-            // 'setNextPageToken()' is handled here in order to ensure that it's a null value
-            // if there's an empty response.
-            if (response.isEmpty() || (response.getItems() == null) || response.getItems().isEmpty()) {
-                setItems(Collections.emptyList());
-                setNextPageToken(null);
-            } else {
-                setItems(response.getItems().stream().map(this::convert).toList());
-                setNextPageToken(response.getNextPageToken());
+            final ThumbnailDetails td = snippet.getThumbnails();
+            if ((td != null) && !td.isEmpty() && !td.getDefault().isEmpty()) {
+                value.setTnUrl(td.getDefault().getUrl());
             }
         }
 
-        /**
-         * Convert YouTube API object to ours.
-         *
-         * @param result
-         * @return
-         */
-        public SearchResult convert(com.google.api.services.youtube.model.SearchResult result) {
-            final SearchResult value = new SearchResult();
-            // value.setId(result.getId());
-            value.setEtag(result.getEtag());
+        value.setLastChecked(Instant.now().truncatedTo(ChronoUnit.SECONDS));
 
-            if (result.getSnippet() != null) {
-                final SearchResultSnippet snippet = result.getSnippet();
-
-                value.setChannelId(snippet.getChannelId());
-                value.setChannelTitle(snippet.getChannelTitle());
-                value.setDescription(snippet.getDescription());
-                value.setLiveBroadcastContent(snippet.getLiveBroadcastContent());
-                value.setTitle(snippet.getTitle());
-
-                if (snippet.getPublishedAt() != null) {
-                    value.setPublishedAt(Instant.ofEpochMilli(snippet.getPublishedAt().getValue()));
-                }
-
-                final ThumbnailDetails td = snippet.getThumbnails();
-                if ((td != null) && !td.isEmpty() && !td.getDefault().isEmpty()) {
-                    value.setTnUrl(td.getDefault().getUrl());
-                }
-            }
-
-            value.setLastChecked(Instant.now().truncatedTo(ChronoUnit.SECONDS));
-
-            return value;
-        }
+        return value;
     }
 }

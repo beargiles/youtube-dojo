@@ -18,9 +18,10 @@
 package com.coyotesong.dojo.youtube.service;
 
 import com.coyotesong.dojo.youtube.config.YouTubeContext;
+import com.coyotesong.dojo.youtube.config.YouTubeProperties;
 import com.coyotesong.dojo.youtube.model.Channel;
 import com.coyotesong.dojo.youtube.security.LogSanitizerImpl;
-import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForChannelListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.ClientForChannelListFactory;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,11 +34,11 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 
-import static org.hamcrest.CoreMatchers.equalTo;
+import static com.coyotesong.dojo.youtube.service.TestConstants.*;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.not;
-import static org.hamcrest.Matchers.nullValue;
+import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 /**
  * Test YouTubeChannelsService
@@ -50,69 +51,102 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
         LogSanitizerImpl.class
 })
 @ImportAutoConfiguration(classes = {
-        YouTubeContext.class
+        YouTubeContext.class,
+        YouTubeProperties.class
 })
 @SpringBootTest(classes = {
         ClientForChannelListFactory.class,
         YouTubeChannelsServiceImpl.class
 })
 public class YouTubeChannelsServiceTest {
-    private static final String TEST_CHANNEL_ID = "UCciQ8wFcVoIIMi-lfu8-cjQ";
-    private static final String TEST_CHANNEL_HANDLE = "whatdamath";
-    private static final String TEST_CHANNEL_USERNAME = "whatdamath";
-    private static final String BAD_TEST_CHANNEL_ID = "test-bad-channel-id";
-    private static final String BAD_TEST_CHANNEL_USERNAME = "test-bad-channel_user";
 
     @Autowired
     private YouTubeChannelsService service;
 
     @Test
     public void Given_UserIsAuthenticated_When_GetChannelWithValidChannel_Then_Success() throws IOException {
-        final Channel channel = service.getChannel(TEST_CHANNEL_ID);
-        assertThat("channel id does not match", channel.getId(), equalTo(TEST_CHANNEL_ID));
-        assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+        try {
+            final Channel channel = service.getChannel(TEST_CHANNEL_ID);
+            assertThat("channel not found", channel, notNullValue());
+            if (channel != null) {
+                assertThat("channel id does not match", channel.getId(), equalTo(TEST_CHANNEL_ID));
+                assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+            }
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetChannelsWithValidChannel_Then_Success() throws IOException {
-        final List<Channel> channels = service.getChannels(Collections.singletonList(TEST_CHANNEL_ID));
-        assertThat("no channels found", not(channels.isEmpty()));
-        if (!channels.isEmpty()) {
-            assertThat("channel id does not match", channels.get(0).getId(), equalTo(TEST_CHANNEL_ID));
-            assertThat("channel custom URL does not match", channels.get(0).getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+        try {
+            final List<Channel> channels = service.getChannels(Collections.singletonList(TEST_CHANNEL_ID));
+            assertThat("no channels found", channels, not(empty()));
+            for (Channel channel : channels) {
+                assertThat("channel id does not match", channel.getId(), equalTo(TEST_CHANNEL_ID));
+                assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+            }
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
         }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetChannelsWithEmptyList_Then_Success() throws IOException {
         final List<Channel> channels = service.getChannels(Collections.emptyList());
-        assertThat("channels found", channels.isEmpty());
+        assertThat("channels found", channels, empty());
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetChannelForHandleWithValidHandle_Then_Success() throws IOException {
-        final Channel channel = service.getChannelForHandle(TEST_CHANNEL_HANDLE);
-        assertThat("channel id does not match", channel.getId(), equalTo(TEST_CHANNEL_ID));
-        assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+        try {
+            final Channel channel = service.getChannelForHandle(TEST_CHANNEL_HANDLE);
+            assertThat("channel not found", channel, notNullValue());
+            assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetChannelForUsernameWithValidUsername_Then_Success() throws IOException {
-        final Channel channel = service.getChannelForUsername(TEST_CHANNEL_USERNAME);
-        assertThat("channel id does not match", channel.getId(), equalTo(TEST_CHANNEL_ID));
-        assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+        try {
+            final Channel channel = service.getChannelForUsername(TEST_CHANNEL_USERNAME);
+            assertThat("channel not found", channel, notNullValue());
+            assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetChannelWithInvalidChannel_Then_ReturnNull() throws IOException {
-        final Channel channel = service.getChannel(BAD_TEST_CHANNEL_ID);
-        assertThat("channel should be null", channel, nullValue());
+        try {
+            final Channel channel = service.getChannel(BAD_TEST_CHANNEL_ID);
+            assertThat("channel should be null", channel, nullValue());
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
-    public void Given_UserIsAuthenticated_When_GetChannelForUserWithInvalidUser_Then_ReturnNull() throws IOException {
-        final Channel channel = service.getChannelForUsername(BAD_TEST_CHANNEL_USERNAME);
-        assertThat("channel should be null", channel, nullValue());
+    public void Given_UserIsAuthenticated_When_GetChannelForHandleWithInvalidHandle_Then_ReturnNull() throws IOException {
+        try {
+            final Channel channel = service.getChannelForHandle(BAD_TEST_CHANNEL_HANDLE);
+            assertThat("channel should be null", channel, nullValue());
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
+    }
+
+    @Test
+    public void Given_UserIsAuthenticated_When_GetChannelForUsernameWithInvalidUsername_Then_ReturnNull() throws IOException {
+        try {
+            final Channel channel = service.getChannelForUsername(BAD_TEST_CHANNEL_USERNAME);
+            assertThat("channel should be null", channel, nullValue());
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test

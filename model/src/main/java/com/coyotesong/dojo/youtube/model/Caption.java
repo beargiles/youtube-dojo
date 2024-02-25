@@ -188,14 +188,34 @@ public class Caption implements Serializable {
 
         if (o == null || getClass() != o.getClass()) return false;
 
-        Caption caption = (Caption) o;
+        final Caption that = (Caption) o;
 
-        return new EqualsBuilder().append(etag, caption.etag).append(audioTrackType, caption.audioTrackType).append(failureReason, caption.failureReason).append(isAutoSynced, caption.isAutoSynced).append(isCc, caption.isCc).append(isDraft, caption.isDraft).append(isEasyReader, caption.isEasyReader).append(isLarge, caption.isLarge).append(Language, caption.Language).append(lastUpdated, caption.lastUpdated).append(name, caption.name).append(status, caption.status).append(trackKind, caption.trackKind).append(videoId, caption.videoId).append(lastChecked, caption.lastChecked).isEquals();
+        return new EqualsBuilder()
+                .append(etag, that.etag)
+                .append(audioTrackType, that.audioTrackType)
+                .append(failureReason, that.failureReason)
+                .append(isAutoSynced, that.isAutoSynced)
+                .append(isCc, that.isCc)
+                .append(isDraft, that.isDraft)
+                .append(isEasyReader, that.isEasyReader)
+                .append(isLarge, that.isLarge)
+                .append(Language, that.Language)
+                .append(lastUpdated, that.lastUpdated)
+                .append(name, that.name)
+                .append(status, that.status)
+                .append(trackKind, that.trackKind)
+                .append(videoId, that.videoId)
+                .append(lastChecked, that.lastChecked)
+                .isEquals();
     }
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(17, 37).append(etag).append(name).append(videoId).toHashCode();
+        return new HashCodeBuilder(17, 37)
+                .append(etag)
+                .append(name)
+                .append(videoId)
+                .toHashCode();
     }
 
     @Override

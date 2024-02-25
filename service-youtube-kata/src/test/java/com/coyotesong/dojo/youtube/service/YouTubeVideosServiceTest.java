@@ -18,9 +18,10 @@
 package com.coyotesong.dojo.youtube.service;
 
 import com.coyotesong.dojo.youtube.config.YouTubeContext;
+import com.coyotesong.dojo.youtube.config.YouTubeProperties;
 import com.coyotesong.dojo.youtube.model.Video;
 import com.coyotesong.dojo.youtube.security.LogSanitizerImpl;
-import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForVideoListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.ClientForVideoListFactory;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,11 +34,12 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 
-import static org.hamcrest.CoreMatchers.equalTo;
+import static com.coyotesong.dojo.youtube.service.TestConstants.BAD_TEST_VIDEO_ID;
+import static com.coyotesong.dojo.youtube.service.TestConstants.TEST_VIDEO_ID;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.not;
-import static org.hamcrest.Matchers.nullValue;
+import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 /**
  * Test YouTubeVideosService
@@ -50,44 +52,62 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
         LogSanitizerImpl.class
 })
 @ImportAutoConfiguration(classes = {
-        YouTubeContext.class
+        YouTubeContext.class,
+        YouTubeProperties.class
 })
 @SpringBootTest(classes = {
         ClientForVideoListFactory.class,
         YouTubeVideosServiceImpl.class
 })
 public class YouTubeVideosServiceTest {
-    private static final String TEST_VIDEO_ID = "r56jAAychzY";
-    private static final String BAD_TEST_VIDEO_ID = "test-bad-video-id";
 
     @Autowired
     private YouTubeVideosService service;
 
     @Test
     public void Given_UserIsAuthenticated_When_GetVideoWithValidId_Then_Success() throws IOException {
-        final Video video = service.getVideo(TEST_VIDEO_ID);
-        assertThat("video id does not match", video.getId(), equalTo(TEST_VIDEO_ID));
+        try {
+            final Video video = service.getVideo(TEST_VIDEO_ID);
+            assertThat("video not found", video, notNullValue());
+            if (video != null) {
+                assertThat("video id does not match", video.getId(), equalTo(TEST_VIDEO_ID));
+            }
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetVideosWithValidId_Then_Success() throws IOException {
-        final List<Video> videos = service.getVideos(Collections.singletonList(TEST_VIDEO_ID));
-        assertThat("no videos found", not(videos.isEmpty()));
-        if (!videos.isEmpty()) {
-            assertThat("video id does not match", videos.get(0).getId(), equalTo(TEST_VIDEO_ID));
+        try {
+            final List<Video> videos = service.getVideos(Collections.singletonList(TEST_VIDEO_ID));
+            assertThat("no videos found", videos, not(empty()));
+            for (Video video : videos) {
+                assertThat("video id does not match", video.getId(), equalTo(TEST_VIDEO_ID));
+            }
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
         }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetVideosWithEmptyList_Then_Success() throws IOException {
-        final List<Video> videos = service.getVideos(Collections.emptyList());
-        assertThat("videos found", not(videos.isEmpty()));
+        try {
+            final List<Video> videos = service.getVideos(Collections.emptyList());
+            assertThat("videos found", videos, empty());
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test
     public void Given_UserIsAuthenticated_When_GetVideoWithInvalidId_Then_ReturnNull() throws IOException {
-        final Video video = service.getVideo(BAD_TEST_VIDEO_ID);
-        assertThat("video is null", video, nullValue());
+        try {
+            final Video video = service.getVideo(BAD_TEST_VIDEO_ID);
+            assertThat("video is null", video, nullValue());
+        } catch (YouTubeAccountException e) {
+            assumeTrue(false, "quota exceeded");
+        }
     }
 
     @Test

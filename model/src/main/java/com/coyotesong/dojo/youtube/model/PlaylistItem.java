@@ -37,6 +37,7 @@ public class PlaylistItem implements Serializable {
 
     private String id;
     private String etag;
+    private String parentEtag;
     private String playlistId;
     private Instant publishedAt;
     private String channelId;
@@ -67,6 +68,14 @@ public class PlaylistItem implements Serializable {
 
     public void setEtag(String etag) {
         this.etag = etag;
+    }
+
+    public String getParentEtag() {
+        return parentEtag;
+    }
+
+    public void setParentEtag(String parentEtag) {
+        this.parentEtag = parentEtag;
     }
 
     public String getPlaylistId() {
@@ -181,7 +190,7 @@ public class PlaylistItem implements Serializable {
 
         PlaylistItem that = (PlaylistItem) o;
 
-        return new EqualsBuilder().append(etag, that.etag).append(playlistId, that.playlistId).append(publishedAt, that.publishedAt).append(channelId, that.channelId).append(channelTitle, that.channelTitle).append(title, that.title).append(description, that.description).append(videoOwnerChannelId, that.videoOwnerChannelId).append(position, that.position).append(videoId, that.videoId).append(note, that.note).append(videoPublishedAt, that.videoPublishedAt).append(privacyStatus, that.privacyStatus).append(thumbnailUrl, that.thumbnailUrl).isEquals();
+        return new EqualsBuilder().append(etag, that.etag).append(parentEtag, that.parentEtag).append(playlistId, that.playlistId).append(publishedAt, that.publishedAt).append(channelId, that.channelId).append(channelTitle, that.channelTitle).append(title, that.title).append(description, that.description).append(videoOwnerChannelId, that.videoOwnerChannelId).append(position, that.position).append(videoId, that.videoId).append(note, that.note).append(videoPublishedAt, that.videoPublishedAt).append(privacyStatus, that.privacyStatus).append(thumbnailUrl, that.thumbnailUrl).isEquals();
     }
 
     @Override

@@ -25,13 +25,12 @@ import com.google.api.client.json.JsonFactory;
 import com.google.api.client.json.gson.GsonFactory;
 import com.google.api.services.youtube.YouTube;
 import com.google.api.services.youtube.YouTubeRequestInitializer;
+import org.jetbrains.annotations.NotNull;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.Reader;
 import java.security.GeneralSecurityException;
 import java.util.Properties;
 
@@ -39,7 +38,6 @@ import java.util.Properties;
  * Handle YouTube Client API configuration.
  */
 @Configuration
-// @EnableTransactionManagement
 public class YouTubeContext {
 
     /**
@@ -50,13 +48,8 @@ public class YouTubeContext {
      * @throws GeneralSecurityException may be thrown by newTrustedTransport()
      */
     @Bean
-    public YouTube.Builder builder() throws IOException, GeneralSecurityException {
-        // could also check environmnent viables, etc.
-        final Properties youtubeProperties = new Properties();
-        final File path = new File(new File(new File(System.getProperty("user.home")), ".config"), "youtube.properties");
-        try (Reader r = new FileReader(path)) {
-            youtubeProperties.load(r);
-        }
+    @Autowired
+    public YouTube.Builder builder(@NotNull Properties youtubeProperties) throws IOException, GeneralSecurityException {
 
         // this method - alone - may trigger IOException or GeneralSecurityException
         final HttpTransport transport = GoogleNetHttpTransport.newTrustedTransport();

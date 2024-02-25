@@ -15,16 +15,18 @@
  * limitations under the License.
  */
 
-package com.coyotesong.dojo.youtube.service.youtubeClient;
+package com.coyotesong.dojo.youtube.service.youTubeClient;
 
 import com.coyotesong.dojo.youtube.model.Thumbnail;
 import com.google.api.services.youtube.model.ThumbnailDetails;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class YTUtils {
-    Map<String, Thumbnail> convertThumbnails(String id, ThumbnailDetails td) {
+    @NotNull
+    Map<String, Thumbnail> convertThumbnails(@NotNull String id, @NotNull ThumbnailDetails td) {
         final Map<String, Thumbnail> thumbnails = new LinkedHashMap<>();
 
         if ((td.getDefault() != null) && !td.getDefault().isEmpty()) {

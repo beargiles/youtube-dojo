@@ -18,8 +18,8 @@ package com.coyotesong.dojo.youtube.service;
 
 import com.coyotesong.dojo.youtube.model.VideoCategory;
 import com.coyotesong.dojo.youtube.security.LogSanitizer;
-import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForVideoCategoryListFactory;
-import com.coyotesong.dojo.youtube.service.youtubeClient.ClientForVideoCategoryListFactory.ClientForVideoCategoryList;
+import com.coyotesong.dojo.youtube.service.youTubeClient.ClientForVideoCategoryListFactory;
+import com.coyotesong.dojo.youtube.service.youTubeClient.YouTubeClient.ListVideoCategories;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,12 +30,14 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.apache.commons.lang3.StringUtils.isBlank;
+
 // see https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/YouTube.html
 
 /**
- * Implementation of YouTubeService
+ * Implementation of YouTubeVideoCategoriesService
  */
-@Service("YouTubeService")
+@Service("YouTubeVideoCategoriesService")
 public class YouTubeVideoCategoriesServiceImpl implements YouTubeVideoCategoriesService {
     private static final Logger LOG = LoggerFactory.getLogger(YouTubeVideoCategoriesServiceImpl.class);
 
@@ -58,6 +60,10 @@ public class YouTubeVideoCategoriesServiceImpl implements YouTubeVideoCategories
     @Override
     @NotNull
     public List<VideoCategory> getVideoCategories(@NotNull String hl) throws IOException {
+        if (isBlank(hl)) {
+            throw new IllegalArgumentException("'hl' must not be blank");
+        }
+
         final List<VideoCategory> categories = new ArrayList<>();
 
         final List<String> ids = new ArrayList<>();
@@ -72,7 +78,7 @@ public class YouTubeVideoCategoriesServiceImpl implements YouTubeVideoCategories
             ids.add("" + i);
         }
 
-        final ClientForVideoCategoryList client = clientForVideoCategoryListFactory.newBuilder().withIds(ids).withHl(hl).build();
+        final ListVideoCategories client = clientForVideoCategoryListFactory.newBuilder().withIds(ids).withHl(hl).build();
         while (client.hasNext()) {
             categories.addAll(client.next());
         }

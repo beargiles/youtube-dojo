@@ -48,6 +48,7 @@ public class Video implements Serializable {
 
     private String id;
     private String etag;
+    private String parentEtag;
     private String embedSrc;
     private String embedHtml;
     private Long embedHeight;
@@ -102,6 +103,7 @@ public class Video implements Serializable {
     private Boolean selfDeclaredMadeForKids;
     private String uploadStatus;
 
+    private String hl;
     private Instant lastChecked;
 
     private ArrayList<String> topicCategories;
@@ -133,6 +135,14 @@ public class Video implements Serializable {
 
     public void setEtag(String etag) {
         this.etag = etag;
+    }
+
+    public String getParentEtag() {
+        return parentEtag;
+    }
+
+    public void setParentEtag(String parentEtag) {
+        this.parentEtag = parentEtag;
     }
 
     public String getEmbedSrc() {
@@ -524,6 +534,14 @@ public class Video implements Serializable {
         }
     }
 
+    public String getHl() {
+        return hl;
+    }
+
+    public void setHl(String hl) {
+        this.hl = hl;
+    }
+
     public Boolean getNsfw() {
         return nsfw;
     }
@@ -538,14 +556,68 @@ public class Video implements Serializable {
 
         if (o == null || getClass() != o.getClass()) return false;
 
-        final Video video = (Video) o;
+        final Video that = (Video) o;
 
-        return new EqualsBuilder().append(etag, video.etag).append(embedSrc, video.embedSrc).append(embedHtml, video.embedHtml).append(embedHeight, video.embedHeight).append(embedWidth, video.embedWidth).append(recordingDetails, video.recordingDetails).append(title, video.title).append(projectDetails, video.projectDetails).append(caption, video.caption).append(contentRating, video.contentRating).append(mpaaRating, video.mpaaRating).append(mpaatRating, video.mpaatRating).append(tvpgRating, video.tvpgRating).append(ytRating, video.ytRating).append(countryRestriction, video.countryRestriction).append(definition, video.definition).append(dimension, video.dimension).append(duration, video.duration).append(hasCustomThumbnail, video.hasCustomThumbnail).append(licensedContent, video.licensedContent).append(projection, video.projection).append(regionRestrictions, video.regionRestrictions).append(categoryId, video.categoryId).append(channelId, video.channelId).append(channelTitle, video.channelTitle).append(description, video.description).append(lang, video.lang).append(publishedAt, video.publishedAt).append(thumbnails, video.thumbnails).append(tags, video.tags).append(commentCount, video.commentCount).append(dislikeCount, video.dislikeCount).append(favoriteCount, video.favoriteCount).append(likeCount, video.likeCount).append(viewCount, video.viewCount).append(embeddable, video.embeddable).append(license, video.license).append(privacyStatus, video.privacyStatus).append(publicStatsViewable, video.publicStatsViewable).append(uploadStatus, video.uploadStatus).append(lastChecked, video.lastChecked).append(topicCategories, video.topicCategories).append(topicIds, video.topicIds).append(relevantTopicIds, video.relevantTopicIds).append(nsfw, video.nsfw).isEquals();
+        return new EqualsBuilder()
+                .append(etag, that.etag)
+                .append(embedSrc, that.embedSrc)
+                .append(embedHtml, that.embedHtml)
+                .append(embedHeight, that.embedHeight)
+                .append(embedWidth, that.embedWidth)
+                .append(recordingDetails, that.recordingDetails)
+                .append(title, that.title)
+                .append(projectDetails, that.projectDetails)
+                .append(caption, that.caption)
+                .append(contentRating, that.contentRating)
+                .append(mpaaRating, that.mpaaRating)
+                .append(mpaatRating, that.mpaatRating)
+                .append(tvpgRating, that.tvpgRating)
+                .append(ytRating, that.ytRating)
+                .append(countryRestriction, that.countryRestriction)
+                .append(definition, that.definition)
+                .append(dimension, that.dimension)
+                .append(duration, that.duration)
+                .append(hasCustomThumbnail, that.hasCustomThumbnail)
+                .append(licensedContent, that.licensedContent)
+                .append(projection, that.projection)
+                .append(regionRestrictions, that.regionRestrictions)
+                .append(categoryId, that.categoryId)
+                .append(channelId, that.channelId)
+                .append(channelTitle, that.channelTitle)
+                .append(description, that.description)
+                .append(lang, that.lang)
+                .append(publishedAt, that.publishedAt)
+                .append(thumbnails, that.thumbnails)
+                .append(tags, that.tags)
+                .append(commentCount, that.commentCount)
+                .append(dislikeCount, that.dislikeCount)
+                .append(favoriteCount, that.favoriteCount)
+                .append(likeCount, that.likeCount)
+                .append(viewCount, that.viewCount)
+                .append(embeddable, that.embeddable)
+                .append(license, that.license)
+                .append(privacyStatus, that.privacyStatus)
+                .append(publicStatsViewable, that.publicStatsViewable)
+                .append(uploadStatus, that.uploadStatus)
+                .append(lastChecked, that.lastChecked)
+                .append(topicCategories, that.topicCategories)
+                .append(topicIds, that.topicIds)
+                .append(relevantTopicIds, that.relevantTopicIds)
+                .append(hl, that.hl)
+                .append(nsfw, that.nsfw)
+                .isEquals();
     }
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(17, 37).append(etag).append(title).append(channelId).append(description).append(lang).append(publishedAt).toHashCode();
+        return new HashCodeBuilder(17, 37)
+                .append(etag)
+                .append(title)
+                .append(channelId)
+                .append(description)
+                .append(lang)
+                .append(publishedAt)
+                .toHashCode();
     }
 
     @Override
@@ -553,6 +625,7 @@ public class Video implements Serializable {
         return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
                 .append("id", id)
                 .append("etag", etag)
+                .append("parentEtag", parentEtag)
                 .append("embedSrc", embedSrc)
                 .append("embedHtml", embedHtml)
                 .append("embedHeight", embedHeight)

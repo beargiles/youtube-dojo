@@ -39,13 +39,14 @@ public class VideoCategory implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private String id;
-    private String channelId;
     private String etag;
+    private String parentEtag;
+
+    private String channelId;
     private String title;
     private Boolean assignable;
-    private String lang;
+    private String hl;
 
-    private String parentEtag;
 
     public String getId() {
         return id;
@@ -55,20 +56,28 @@ public class VideoCategory implements Serializable {
         this.id = id;
     }
 
-    public String getChannelId() {
-        return channelId;
-    }
-
-    public void setChannelId(String channelId) {
-        this.channelId = channelId;
-    }
-
     public String getEtag() {
         return etag;
     }
 
     public void setEtag(String etag) {
         this.etag = etag;
+    }
+
+    public String getParentEtag() {
+        return parentEtag;
+    }
+
+    public void setParentEtag(String parentEtag) {
+        this.parentEtag = parentEtag;
+    }
+
+    public String getChannelId() {
+        return channelId;
+    }
+
+    public void setChannelId(String channelId) {
+        this.channelId = channelId;
     }
 
     public String getTitle() {
@@ -87,20 +96,12 @@ public class VideoCategory implements Serializable {
         this.assignable = assignable;
     }
 
-    public String getLang() {
-        return lang;
+    public String getHl() {
+        return hl;
     }
 
-    public void setLang(String lang) {
-        this.lang = lang;
-    }
-
-    public String getParentEtag() {
-        return parentEtag;
-    }
-
-    public void setParentEtag(String parentEtag) {
-        this.parentEtag = parentEtag;
+    public void setHl(String hl) {
+        this.hl = hl;
     }
 
     @Override
@@ -113,17 +114,22 @@ public class VideoCategory implements Serializable {
 
         return new EqualsBuilder()
                 .append(etag, that.etag)
-                .append(lang, that.lang)
+                .append(parentEtag, that.parentEtag)
                 .append(channelId, that.channelId)
+                .append(hl, that.hl)
                 .append(title, that.title)
                 .append(assignable, that.assignable)
-                .append(parentEtag, that.parentEtag)
                 .isEquals();
     }
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(17, 37).append(etag).append(lang).append(channelId).toHashCode();
+        return new HashCodeBuilder(17, 37)
+                .append(etag)
+                .append(parentEtag)
+                .append(channelId)
+                .append(hl)
+                .toHashCode();
     }
 
     @Override
@@ -131,7 +137,7 @@ public class VideoCategory implements Serializable {
         return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
                 .append("id", id)
                 .append("etag", etag)
-                .append("lang", lang)
+                .append("hl", hl)
                 .append("title", title)
                 .append("assignable", assignable)
                 .append("parentEtag", parentEtag)
