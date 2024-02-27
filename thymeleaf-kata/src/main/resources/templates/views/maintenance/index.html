@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.thymeleaf.org/layout"
+      layout:decorate="~{layouts/main}">
+<head>
+    <title th:text="#{title.maintenance-home-page}">(maintenance home page)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous"></link>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../../../static/css/application.css" th:href="@{/css/application.css}"
+          type='text/css'/>
+</head>
+<body>
+
+<div class="content" layout:fragment="content">
+    <div class="logo" th:replace="~{fragments/page :: logo}"></div>
+
+    <h1 th:text="#{header.maintenance-home-page}">(maintenance Page)</h1>
+
+    <h2 style="clear: left;">[Topics]</h2>
+    <table class="table table-bordered col-span-12">
+        <thead>
+        <tr>
+            <td th:text="#{label.topic}">(topic)</td>
+            <td th:text="#{label.url}">(url)</td>
+        </tr>
+        </thead>
+        <th:block th:unless="${topics == null}">
+            <tbody>
+            <tr th:if="${topics.empty}">
+                <td colspan="2" th:text="#{table.noResults}">(no matches found)</td>
+            </tr>
+            <tr th:unless="${topics.empty}" th:each="topic : ${topics}">
+                <td th:text="${topic.label}">(label)</td>
+                <td><a th:text="${topic.url}" th:href="${topic.url}">(url)</a></td>
+            </tr>
+            </tbody>
+        </th:block>
+    </table>
+
+    <h2 style="clear: left;">[Freebase Topics]</h2>
+    <table class="table table-bordered col-span-12">
+        <thead>
+        <tr>
+            <td th:text="#{label.id}">(id)</td>
+            <td th:text="#{label.description}">(description)</td>
+        </tr>
+        </thead>
+        <th:block th:unless="${freebaseTopics == null}">
+            <tbody>
+            <tr th:if="${freebaseTopics.empty}">
+                <td colspan="2" th:text="#{table.noResults}">(no matches found)</td>
+            </tr>
+            <tr th:unless="${freebaseTopics.empty}" th:each="topic : ${freebaseTopics}">
+                <td th:text="${topic.id}">(id)</td>
+                <td th:text="${topic.description}">(description)</td>
+            </tr>
+            </tbody>
+        </th:block>
+    </table>
+
+    <h2 style="clear: left;">[Video Categories]</h2>
+    <table class="table table-bordered col-span-12">
+        <thead>
+        <tr>
+            <td th:text="#{label.category}">(category)</td>
+            <td th:text="#{label.title}">(title)</td>
+            <td th:text="#{label.assignable}">(assignable)</td>
+        </tr>
+        </thead>
+        <th:block th:unless="${videoCategories == null}">
+            <tbody>
+            <tr th:if="${videoCategories.empty}">
+                <td colspan="3" th:text="#{table.noResults}">(no matches found)</td>
+            </tr>
+            <tr th:unless="${videoCategories.empty}" th:each="category : ${videoCategories}">
+                <td th:text="${category.categoryId}">(id)</td>
+                <td th:text="${category.title}">(title)</td>
+                <td th:text="${category.assignable}">(assignable)</td>
+            </tr>
+            </tbody>
+        </th:block>
+    </table>
+</div>
+</body>
+</html>

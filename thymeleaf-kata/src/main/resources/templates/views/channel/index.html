@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.thymeleaf.org/layout"
+      layout:decorate="~{layouts/main}">
+<head>
+    <title>YT Cache Channels Page</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <div class="logo" th:replace="~{fragments/page :: logo}"></div>
+
+    <h1>Channels</h1>
+    <p>Description.</p>
+
+    <h2 style="clear: left;">Channels</h2>
+    <table class="table table-bordered table-striped col-span-12">
+        <thead>
+        <tr>
+            <th>Channel</th>
+            <th>Description</th>
+            <th>Topics</th>
+            <th>Categories</th>
+        </tr>
+        </thead>
+        <tbody th:if="${channels == null} ">
+        <td colspan="4">Channels is null!</td>
+        <tbody>
+        <tbody th:unless="${channels == null} ">
+        <tr th:if="${channels.empty}">
+            <td colspan="4">No Channels</td>
+        </tr>
+        <tr th:each="channel : ${channels}">
+            <th:block th:unless="${channel.nsfw}">
+
+                <td><a th:href="@{'id/' + ${channel.id}}"><img style="clear: left;" th:src="${channel.tnUrl}"
+                                                               th:alt="${channel.customUrl}"></img></a></td>
+                <td><a th:href="@{'id/' + ${channel.id}}"><b th:text="${channel.title}">title</b></a>
+                    <hr/>
+                    <textarea th:text="${channel.description}" cols="60">description</textarea>
+                    <ul th:each="video : ${channel.videos}">
+                        <li th:text="${video.title}"></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul th:each="topic : ${channel.topicIds}">
+                        <li th:text="${topic}"></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul th:each="category : ${channel.topicCategories}">
+                        <li th:text="${category.label}"></li>
+                    </ul>
+                </td>
+            </th:block>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

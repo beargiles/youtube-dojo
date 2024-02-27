@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.thymeleaf.org/layout"
+      layout:decorate="~{layouts/main}">
+<head>
+    <title>Channel Subscription Results</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <div class="logo" th:replace="~{fragments/page :: logo}"></div>
+
+    <h1>Channel Subscription</h1>
+    <p>Description.</p>
+
+    <h2 style="clear: left;">Channels</h2>
+    <div th:replace="fragments/channel :: channelSearchResults">(channel search results)</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.thymeleaf.org/layout"
+      layout:decorate="~{layouts/main}">
+<head>
+    <!-- // xmlns:layout="http://www.ultraq.net.gz/thymeleaf/layout"/> //-->
+    <title>Search Results</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <div class="logo" th:replace="~{fragments/page :: logo}"></div>
+
+    <h1>Search Results</h1>
+    <p>Description.</p>
+
+    <h2 style="clear: left;">Playlists</h2>
+    <p>paragraph...</p>
+    <table class="table table-bordered table-striped col-span-12">
+        <thead>
+        <tr>
+            <td>Video</td>
+            <td>Description</td>
+        </tr>
+        </thead>
+        <tbody th:each="entry : ${mapResults}">
+        <!-- <tr colspan="4"><td><a th:href="@{'/channel/' + ${video.channelId}}" th:text="${video.channelTitle}">channel title</a></td></tr> -->
+        <tr>
+            <td>&nbsp;</td>
+            <td th:text="${entry.key}">channel title</td>
+        </tr>
+        <tr th:each="playlist : ${entry.value}">
+            <td>
+                <iframe width="640" height="360"
+                        th:src="@{http://www.youtube.com/embed/videoseries(list=${playlist.playlistId})}"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                </iframe>
+            </td>
+            <!--//
+            <td><a th:href="@{'/playlist/' + ${playlist.playlistId}}"><img th:src="${playlist.tnUrl}"
+                                                                  alt="video thumbnail"></img></a></td> //-->
+            <td><a th:href="@{'/playlist/' + ${playlist.playlistId}}" th:text="${playlist.title}">title</a><br/>
+                <textarea th:unless=${playlist.description.empty} th:text="${playlist.description}" cols="60" rows="3">description</textarea><br/>
+                <!--// <span th:text="${#calendars.format(result.publishedAt,'MM/dd/yyyy hh:mm:ss')}">time</span> //-->
+                <span th:text="${playlist.publishedAt}">time</span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

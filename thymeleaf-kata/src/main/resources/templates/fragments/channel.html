@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>'channel' fragments</title>
+</head>
+<body>
+
+<!--
+ - Search for channel associated with username
+ -->
+<form th:fragment="userSearchForm" method="POST" class="searchForm col-sm-6" th:action="@{/user/search}"
+      th:object="${userSearchForm}"
+      enctype="multipart/form-data">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="username" th:text="#{label.username}">(username)</label>
+            <input type="text" id="username" value="(username)" class="form-control"
+                   th:field="*{username}" th:errorclass="error-field"/>
+            <th:block th:if="${#fields.hasErrors('username')}">
+                <div class="form-errors">
+                    <label>&nbsp;</label>
+                    <ul class="form-control">
+                        <li th:each="error : ${#fields.errors('username')}" th:text="${error}"/>
+                    </ul>
+                </div>
+            </th:block>
+        </div>
+        <div class="form-group">
+            <label>&nbsp;</label>
+            <input type="submit" value="(search)" th:value="#{button.search}"
+                   class="btn btn-success btn-sm form-control"/>
+        </div>
+        <th:block th:if="${#fields.hasErrors('global')}">
+            <ul class="form-control form-errors">
+                <li th:each="error : ${#fields.errors('global')}" th:text="${error}">error</li>
+            </ul>
+        </th:block>
+    </div>
+</form>
+
+<!--
+  - Generic channel search
+  -->
+<form th:fragment="channelSearchForm" method="POST" class="searchForm col-sm-6" th:action="@{/channel/search}"
+      th:object="${channelSearchForm}"
+      enctype="multipart/form-data">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="lang" th:text="#{label.language}">(lang)</label>
+            <select id="lang" th:field="*{lang}" class="form-control">
+                <option value=""> --</option>
+                <option value="en">English</option>
+                <option value="el">Ελληνικά</option>
+                <option value="de">Deutsch</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+                <option value="ru">Русский</option>
+            </select>
+            <th:block th:if="${#fields.hasErrors('lang')}">
+                <div class="form-errors">
+                    <label>&nbsp;</label>
+                    <ul class="form-control">
+                        <li th:each="error : ${#fields.errors('lang')}" th:text="${error}"/>
+                    </ul>
+                </div>
+            </th:block>
+        </div>
+        <div class="form-group">
+            <label for="order" th:text="#{label.order}">(order)</label>
+            <select id="order" th:field="*{order}" class="form-control">
+                <option value="date" th:text="#{option.order.date}">(date)</option>
+                <option value="rating" th:text="#{option.order.rating}">(rating)</option>
+                <option value="relevance" th:text="#{option.order.relevance}">(relevance)</option>
+                <option value="title" th:text="#{option.order.title}">(title)</option>
+                <option value="videoCount" th:text="#{option.order.videoCount}">(video count)</option>
+                <option value="viewCount" th:text="#{option.order.viewCount}">(view count)</option>
+            </select>
+            <th:block th:if="${#fields.hasErrors('order')}">
+                <div class="form-errors">
+                    <label>&nbsp;</label>
+                    <ul class="form-control">
+                        <li th:each="error : ${#fields.errors('order')}" th:text="${error}"/>
+                    </ul>
+                </div>
+            </th:block>
+        </div>
+        <div class="form-group">
+            <label for="safeSearch" th:text="#{label.safeSearch}">(safe search)</label>
+            <select id="safeSearch" th:field="*{safeSearch}" class="form-control">
+                <option value="none" th:text="#{option.safeSearch.none}">(none)</option>
+                <option value="moderate" th:text="#{option.safeSearch.moderate}">(moderate)</option>
+                <option value="strict" th:text="#{option.safeSearch.strict}">(strict)</option>
+            </select>
+            <th:block th:if="${#fields.hasErrors('safeSearch')}">
+                <div class="form-errors">
+                    <label>&nbsp;</label>
+                    <ul class="form-control">
+                        <li th:each="error : ${#fields.errors('safeSearch')}" th:text="${error}"/>
+                    </ul>
+                </div>
+            </th:block>
+        </div>
+        <div class="form-group">
+            <label for="publishedAfter" th:text="#{label.publishedAfter}"/>
+            <input type="datetime-local" id="publishedAfter" class="form-control"
+                   th:field="*{publishedAfter}" th:errorclass="error-field"/>
+            <th:block th:if="${#fields.hasErrors('publishedAfter')}">
+                <div class="form-errors">
+                    <label>&nbsp;</label>
+                    <ul class="form-control">
+                        <li th:each="error : ${#fields.errors('publishedAfter')}" th:text="${error}"/>
+                    </ul>
+                </div>
+            </th:block>
+        </div>
+        <div class="form-group">
+            <label for="publishedBefore" th:text="#{label.publishedBefore}"/>
+            <input type="datetime-local" id="publishedBefore" class="form-control"
+                   th:field="*{publishedBefore}"/>
+            <th:block th:if="${#fields.hasErrors('publishedBefore')}">
+                <div class="form-errors">
+                    <label>&nbsp;</label>
+                    <ul class="form-control">
+                        <li th:each="error : ${#fields.errors('publishedBefore')}" th:text="${error}"/>
+                    </ul>
+                </div>
+            </th:block>
+        </div>
+        <div class="form-group">
+            <label for="query" th:text="#{label.query}"/>
+            <input type="text" id="query" class="form-control"
+                   th:field="*{query}" th:errorclass="error-field"/>
+            <th:block th:if="${#fields.hasErrors('query')}">
+                <div class="form-errors">
+                    <label>&nbsp;</label>
+                    <ul class="form-control">
+                        <li th:each="error : ${#fields.errors('query')}" th:text="${error}"/>
+                    </ul>
+                </div>
+            </th:block>
+        </div>
+        <div class="form-group">
+            <label>&nbsp;</label>
+            <input type="submit" value="(search)" th:value="#{button.search}"
+                   class="btn btn-success btn-sm form-control">
+        </div>
+        <th:block th:if="${#fields.hasErrors('global')}">
+            <ul class="form-control form-errors">
+                <li th:each="error : ${#fields.errors('global')}" th:text="${error}">error</li>
+            </ul>
+        </th:block>
+    </div>
+</form>
+
+<!--
+ - Channel search results
+ -->
+<div th:fragment="channelSearchResults">
+    <form method="POST" th:action="@{/channel/subscribe}" th:object="${subscriptionForm}"
+          enctype="multipart/form-data">
+        <table class="table table-bordered table-striped col-span-12" th:with="results=${subscriptionForm.results}">
+            <thead>
+            <tr>
+                <th th:text="#{column.subscribed}"/>
+                <th th:text="#{column.channel}"/>
+                <th th:text="#{column.title}"/>
+                <th th:text="#{column.description}"/>
+            </tr>
+            </thead>
+            <tbody th:unless="${results == null} ">
+            <tr th:if="${results.empty}">
+                <td colspan="4" th:text="#{table.noResults}"/>
+            </tr>
+            <tr th:each="result : ${results}">
+                <td class="centered"><input type="checkbox" th:value="${result.subscribed}"/>
+                <td><a th:href="@{'/channel/' + ${result.channelId}}"><img class="centered"
+                                                                           th:src="${result.tnUrl}"
+                                                                           alt="channel thumbnail"/></a></td>
+                <td><a th:href="@{'/channel/' + ${result.channelId}}" th:text="${result.title}">title</a><br/>
+                    <!--// <span th:text="${#calendars.format(result.publishedAt,'MM/dd/yyyy hh:mm:ss')}">time</span> //-->
+                    <span th:text="${result.publishedAt}">time</span></td>
+                <td th:if="${result.description.empty}">&nbsp;</td>
+                <td th:unless="${result.description.empty}"><textarea readonly="readonly"
+                                                                      th:text="${result.description}" cols="60"
+                                                                      rows="3">description</textarea></td>
+            </tr>
+            </tbody>
+            <tfoot th:unless="${results == null}">
+            <tr th:unless="${results.empty}">
+                <td>&nbsp;</td>
+                <td colspan="3"><input type="submit" class="btn btn-success btn-sm"
+                                       th:value="#{button.subscribe}"/></td>
+            </tr>
+            </tfoot>
+        </table>
+
+    </form>
+</div>
+
+<!--
+ - Search results
+ -->
+<tr th:fragment="searchResultsRow" class="form-row">
+    <td class="centered">
+        <th:block class="form-group">
+            <input type="hidden" th:value="${result.channelId}" th:id="|id-${status.index|"/>
+        </th:block>
+        <th:block class="form-group form-check form-check-inline">
+            <input type="checkbox" th:value="${result.subscribed}" th:id="|subscribed-${status.index}|"
+                   class="form-check-input"/>
+        </th:block>
+    </td>
+    <td><a th:href="@{'/channel/' + ${result.channelId}}"><img class="centered"
+                                                               th:src="${result.tnUrl}"
+                                                               alt="channel thumbnail"/></a></td>
+    <td><a th:href="@{'/channel/' + ${result.channelId}}" th:text="${result.title}">title</a><br/>
+        <!--// <span th:text="${#calendars.format(result.publishedAt,'MM/dd/yyyy hh:mm:ss')}">time</span> //-->
+        <span th:text="${result.publishedAt}">time</span></td>
+    <td th:if="${result.description.empty}">&nbsp;</td>
+    <td th:unless="${result.description.empty}" class="form-group"><textarea class="form-control" readonly="readonly"
+                                                                             th:text="${result.description}" cols="60"
+                                                                             rows="3">description</textarea></td>
+</tr>
+
+<!--
+ - Subscription results
+ -->
+<th:block th:fragment="subscriptionResultsRow">
+    <tr class="form-row">
+        <td class="form-group form-check">
+            <input type="checkbox" th:checked="${result.subscribed}" th:id="|subscribed-${status.index}|"
+                   class="form-check-input"/>
+        </td>
+        <td><a th:href="@{'/channel/id/' + ${result.channelId}}"><img class="channel-thumbnail"
+                                                                      th:src="${result.tnUrl}"
+                                                                      alt="channel thumbnail"/></a></td>
+        <td><a th:href="@{'/channel/id/' + ${result.channelId}}" th:text="${result.title}">title</a><br/>
+            <time th:datetime="${result.publishedAt}" th:text="${result.publishedAt}"></time>
+        </td>
+        <td th:if="${result.description.empty}">&nbsp;</td>
+        <td th:unless="${result.description.empty}"><textarea readonly="readonly"
+                                                              th:text="${result.description}" cols="60"
+                                                              rows="3">description</textarea></td>
+        <td class="form-group" style="display: none;">
+            <input type="hidden" th:value="${result.channelId}" th:id="|id-${status.index}|" class="form-control"/>
+        </td>
+    </tr>
+</th:block>
+
+<!-- note: 'radio' adds 'form-check-inline' but 'checkbox' does not -->
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.thymeleaf.org/layout"
+      layout:decorator="layouts/main">
+<head>
+    <title>Error</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <img src="/images/tumblr_guided_muscle_500.gif"/>
+    <h2>Error Details</h2>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Key</th>
+            <th>Value</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>URI</th>
+            <td th:text="${uri}">uri</td>
+        </tr>
+        <tr>
+            <th>TimeStamp</th>
+            <td th:text="${timestamp}">timestamp</td>
+        </tr>
+        <tr>
+            <th>Status</th>
+            <td th:text="${status}">status</td>
+        </tr>
+        <tr>
+            <th>Message</th>
+            <td th:text="${message}">message</td>
+        </tr>
+        <tr>
+            <th>Error</th>
+            <td th:text="${error}">error</td>
+        </tr>
+        <tr>
+            <th>Path</th>
+            <td th:text="${path}">path</td>
+        </tr>
+        <tr th:if="(${exception} != null)">
+            <th>Exception</th>
+            <td th:text="${exception}"></td>
+        </tr>
+        <tr th:if="(${stackTrace} != null)">
+            <th>Stack Trace</th>
+            <td>
+                <textarea th:text="${stackTrace}" cols="60" rows="10">stack trace</textarea>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

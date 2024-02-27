@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.thymeleaf.org/layout"
+      layout:decorate="~{layouts/main}">
+<head>
+    <!-- // xmlns:layout="http://www.ultraq.net.gz/thymeleaf/layout"/> //-->
+    <title th:text="#{title.playlistDetails}">(playlist details)</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <div class="logo" th:replace="~{fragments/page :: logo}"></div>
+
+    <h1 th:text="#{header.playlistDetails}">(playlistDetails)</h1>
+
+    <h2 style="clear: left;" th:text="#{header.searchResults}">(search results)</h2>
+    <div id="search-results">
+        <table class="table table-bordered col-span-12">
+            <thead>
+            <tr>
+                <th th:text="#{column.playlist}">(playlist)</th>
+                <th th:text="#{column.title}">(title)</th>
+                <th th:text="#{column.description}">(description)</th>
+                <th style="display: none;">(channel id)</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td><a th:href="@{'/playlist/id/' + ${playlist.id}}"><img class="channel-thumbnail"
+                                                                          th:src="${playlist.tnUrl}"
+                                                                          alt="channel thumbnail"/></a></td>
+                <td><a th:href="@{'/playlist/id/' + ${playlist.id}}" th:text="${playlist.title}">(title)</a><br/>
+                    <time th:datetime="${playlist.publishedAt}" th:text="${playlist.publishedAt}"></time>
+                </td>
+                <td th:if="${playlist.description.empty}">&nbsp;</td>
+                <td th:unless="${playlist.description.empty}"><textarea readonly="readonly"
+                                                                        th:text="${playlist.description}" cols="60"
+                                                                        rows="3">description</textarea></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <h2 th:text="#{header.videos}">(videos)</h2>
+    <div id="search-results">
+        <table class="table table-bordered col-span-12">
+            <thead>
+            <tr>
+                <th th:text="#{column.video}">(video)</th>
+                <th th:text="#{column.title}">(title)</th>
+                <th th:text="#{column.description}">(description)</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr th:if="${results.empty}">
+                <td>&nbsp;</td>
+                <td colspan="3" th:text="#{table.noResults}" style="text-align: center;">(No results)</td>
+                <td style="display: none;">&nbsp;</td>
+            </tr>
+            <tr>
+                <td><a th:href="@{'/playlist/id/' + ${playlist.id}}"><img class="channel-thumbnail"
+                                                                          th:src="${playlist.tnUrl}"
+                                                                          alt="channel thumbnail"/></a></td>
+                <td><a th:href="@{'/playlist/id/' + ${playlist.id}}" th:text="${playlist.title}">(title)</a><br/>
+                    <time th:datetime="${playlist.publishedAt}" th:text="${playlist.publishedAt}"></time>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

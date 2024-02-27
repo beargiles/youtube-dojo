@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.thymeleaf.org/layout">
+<head>
+    <!-- // xmlns:layout="http://www.ultraq.net.gz/thymeleaf/layout"/> //-->
+    <title>Search Results</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <div class="logo" th:replace="~{fragments/page :: logo}"></div>
+
+    <h1>Search Results</h1>
+    <p>Description.</p>
+
+    <h2 style="clear: left;">Links</h2>
+    <ul>
+        <li><a th:href="@{'channel/'}">channel</a></li>
+        <li><a th:href="@{'playlist/'}">playlist</a></li>
+        <li><a th:href="@{'video/'}">video</a></li>
+    </ul>
+</div>
+</body>
+</html>

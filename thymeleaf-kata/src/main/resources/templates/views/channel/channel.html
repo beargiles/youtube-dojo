@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.thymeleaf.org/layout"
+      layout:decorate="~{layouts/main}">
+<head>
+    <title th:text="${'YT: ' + channel.title}">(title)</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <div class="logo" th:replace="~{fragments/page :: logo}"></div>
+
+    <h1 th:text="${channel.title}">(channel details)</h1>
+
+    <th:block th:unless="${channel == null}">
+        <h2 style="clear: left;" th:text="${channel.title + ' Channel'}">(channel title)</h2>
+        <textarea th:text="${channel.description}" cols="60" rows="10"/>
+
+        <h3 th:text="#{header.playlists}">(playlists)</h3>
+        <!--// <table class="table table-bordered table-striped col-span-12"> //-->
+        <table class="table table-bordered table-striped col-span-12">
+            <thead>
+            <tr>
+                <th th:text="#{column.playlist}">(playlist)</th>
+                <th th:text="#{column.title}">(title)</th>
+                <th th:text="#{column.description}">(title)</th>
+            </tr>
+
+            </thead>
+            <tbody>
+            <tr th:if="${channel.playlists.empty}">
+                <td colspan="3" th:text="#{table.noResults}">(no matching records)</td>
+            </tr>
+            <tr th:each="playlist : ${channel.playlists}" style="vertical-align: top;">
+                <td><a th:href="@{'/playlist/id/' + ${playlist.id}}"><img th:src="${playlist.tnUrl}" width="120"
+                                                                          height="90"
+                                                                          alt="playlist thumbnail"></img></a></td>
+                <td><a th:href="@{'/playlist/id/' + ${playlist.id}}" th:text="${playlist.title}">title</a><br/>
+                    <time th:datetime="${playlist.publishedAt}" th:text="${playlist.publishedAt}"></time>
+                <td th:if="${playlist.description.empty}">&nbsp;</td>
+                <td th:unless="${playlist.description.empty}"><textarea readonly="readonly"
+                                                                        th:text="${playlist.description}" cols="60"
+                                                                        rows="3">description</textarea></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h3 th:text="#{header.videos}">(videos)</h3>
+        <!--// <table class="table table-bordered table-striped col-span-12"> //-->
+        <table class="table table-bordered table-striped col-span-12">
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th th:text="#{column.title}">(title)</th>
+                <th th:text="#{column.description}">(title)</th>
+            </tr>
+
+            </thead>
+            <tbody>
+            <tr th:if="${channel.videos.empty}">
+                <td colspan="3" th:text="#{table.noResults}">(no matching records)</td>
+            </tr>
+            <tr th:each="video : ${channel.videos}" style="vertical-align: top;">
+                <td th:if="${video.embeddable}">
+                    <iframe width="480" height="270" th:src="${video.embedSrc}" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </td>
+                <td th:unless="${video.embeddable}">(Not embeddable)</td>
+                <!--// <td><a th:href="@{'/video/id/' + ${video.id}}"><img th:src="@{${video.thumbnails['default'].url}}"></img></a></td> //-->
+                <td><a th:href="@{'/video/id/' + ${video.id}}" th:text="${video.title}">title</a><br/>
+                    <time th:datetime="${video.publishedAt}" th:text="${video.publishedAt}"></time>
+                    <br/>
+                    <span th:text="${video.duration}"></span></td>
+                <td th:if="${video.description.empty}">&nbsp;</td>
+                <td th:unless="${video.description.empty}"><textarea readonly="readonly"
+                                                                     th:text="${video.description}" cols="60"
+                                                                     rows="10">description</textarea></td>
+            </tr>
+            </tbody>
+        </table>
+    </th:block>
+
+    <th:block th:if="${channel == null}">
+        <p>No channel was found</p>
+    </th:block>
+</div>
+</div>
+</body>
+</html>

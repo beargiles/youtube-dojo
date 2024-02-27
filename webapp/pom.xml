@@ -27,9 +27,13 @@
         <version>0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.coyotesong.dojo.youtube</groupId>
-    <artifactId>service-youtube-kata</artifactId>
+    <artifactId>webapp</artifactId>
 
-    <name>YouTube Dojo - Services (YouTube API kata)</name>
+    <name>YouTube Dojo - Webapp</name>
+
+    <description>
+        Webapp
+    </description>
 
     <dependencyManagement>
         <dependencies>
@@ -41,7 +45,12 @@
             </dependency>
             <dependency>
                 <groupId>com.coyotesong.dojo.youtube</groupId>
-                <artifactId>model</artifactId>
+                <artifactId>controller-spring-mvc-kata</artifactId>
+                <version>${parent.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.coyotesong.dojo.youtube</groupId>
+                <artifactId>thymeleaf-kata</artifactId>
                 <version>${parent.version}</version>
             </dependency>
         </dependencies>
@@ -50,29 +59,11 @@
     <dependencies>
         <dependency>
             <groupId>com.coyotesong.dojo.youtube</groupId>
-            <artifactId>model</artifactId>
+            <artifactId>controller-spring-mvc-kata</artifactId>
         </dependency>
-
         <dependency>
-            <groupId>com.google.apis</groupId>
-            <artifactId>google-api-services-youtube</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-        </dependency>
-
-        <!-- test dependencies -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
+            <groupId>com.coyotesong.dojo.youtube</groupId>
+            <artifactId>thymeleaf-kata</artifactId>
         </dependency>
     </dependencies>
 </project>

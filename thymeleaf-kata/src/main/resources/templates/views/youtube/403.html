@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.thymeleaf.org/layout"
+      layout:decorate="~{layouts/main}">
+<head>
+    <title>Error Page</title>
+</head>
+<body>
+<div layout:fragment="content">
+    <img src="images/tumblr_guided_muscle_500.gif" th:src="@{'/images/tumblr_guided_muscle_500.gif'}"></img>
+    <p></p>
+    <h2>YouTube Unauthorized Details</h2>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Key</th>
+            <th>Value</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>TimeStamp</th>
+            <td th:text="${#calendars.format(timestamp,'yyyy-MM-dd HH:mm:ss zz')}">time</td>
+        </tr>
+        <tr>
+            <th>Path</th>
+            <td th:text="${path}">path</td>
+        </tr>
+        <tr style="display: none;">
+            <th>Status</th>
+            <td><span th:text="${status}">status</span>
+                (<span th:text="${error}">error</span>)
+            </td>
+        </tr>
+        <tr style="display: none;">
+            <th>Message</th>
+            <td th:text="${message}">message</td>
+        </tr>
+        <tr th:unless="${details == null || details.empty}">
+            <th>Details</th>
+            <td>
+                <table class="table table-bordered ">
+                    <tr>
+                        <th>Detail</th>
+                        <th>Reason</th>
+                        <th>Type</th>
+                        <th>Parameter Violations</th>
+                    </tr>
+                    <tr th:each="detail : ${details}">
+                        <td th:text="${detail.detail}"></td>
+                        <td th:text="${detail.reason}"></td>
+                        <td th:text="${detail.type}"></td>
+                        <!-- parameter violations is a list -->
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr th:unless="${errors == null || errors.empty}">
+            <th>Errors</th>
+            <td>
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Domain</th>
+                        <!-- <th>Location</th> -->
+                        <!-- <th>Location Type</th> -->
+                        <th>Reason</th>
+                        <th>Message</th>
+                    </tr>
+                    <tr th:each="error : ${errors}">
+                        <td th:text="${error.domain}"></td>
+                        <!-- <td th:text="${error.location}"></td> -->
+                        <!-- td th:text="${error.locationType}"></td> -->
+                        <td th:text="${error.reason}"></td>
+                        <td th:text="${error.message}"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr th:if="(${exception} != null)">
+            <th>Exception</th>
+            <td th:text="${exception}">exception</td>
+        </tr>
+        <tr th:if="(${stackTrace} != null)">
+            <th>Stack Trace</th>
+            <td>
+                <textarea class="error" th:text="${stackTrace}" cols="100" rows="20">stack trace</textarea>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>

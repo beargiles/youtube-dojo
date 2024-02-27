@@ -1,0 +1,143 @@
+/*
+ * Copyright (c) 2023 Bear Giles <bgiles@coyotesong.com>.
+ * All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Exo");
+@import url("https://fonts.googleapis.com/css?family=Fira+Code");
+/* @import url("https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css"); */
+
+.navbar {
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Exo', sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2, h3 {
+    margin-top: 2em;
+}
+
+li.nav-link, a.navbar-brand label {
+    font-family: Exo, sans-serif;
+}
+
+td, p, address {
+    font-family: Roboto, sans-serif;
+}
+
+form.searchForm {
+    border: 1px solid white;
+
+    div.form-row {
+        margin: 0.5em;
+
+        div.form-group {
+            label {
+                font-family: Exo, sans-serif;
+                width: 25%;
+                margin: 0.25em;
+            }
+
+            .form-control {
+                display: inline-block; /* otherwise will require multiple lines */
+                font-family: Roboto, sans-serif;
+                width: 70%;
+                margin: 0.25em;
+
+                list-style-type: none;
+            }
+
+            .form-errors {
+                label {
+                    visibility: hidden;
+                }
+
+                ul {
+                    border: 1px solid red;
+
+                    li {
+                        font-style: italic;
+                        margin: 0.25em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+form.search-results {
+    table {
+        tbody {
+            tr.form-row {
+                td.form-check {
+                    text-align: -webkit-center;
+                    vertical-align: middle;
+                    /* this is required for proper table borders */
+                    display: table-cell;
+
+                    input.form-check-input[type=checkbox] {
+                        margin: auto;
+                        /* unset this value - otherwise checkbox will be to the left of the table */
+                        float: unset;
+                    }
+                }
+            }
+        }
+    }
+}
+
+img.channel-thumbnail {
+    display: block;
+    width: 88px;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* application logo */
+img.logo {
+    margin-right: 10px;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea.error {
+    font-family: 'Fira Code', monospace;
+}
+
+/* font-family : 'Fira Code',Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace; */
+/*    font-family : 'Fira Code',monospace; */
+/*
+textarea {
+    font-size: 11pt;
+    font-family: 'Fira Code',monospace;
+}
+ */
+
+/*
+@supports (font-variation-settings: normal) {
+    /* textarea { font-family: 'Fira Code', monospace; } *;
+}
+ */
