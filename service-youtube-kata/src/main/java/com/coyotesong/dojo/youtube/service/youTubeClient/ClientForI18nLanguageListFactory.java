@@ -25,7 +25,7 @@ import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static org.apache.commons.lang3.StringUtils.isBlank;
@@ -49,7 +49,7 @@ public class ClientForI18nLanguageListFactory {
     }
 
     public static class Builder {
-        private static final List<String> I18N_LANGUAGE_PARTS = Arrays.asList(Constants.Part.SNIPPET.toString());
+        private static final List<String> I18N_LANGUAGE_PARTS = Collections.singletonList(Constants.Part.SNIPPET.toString());
 
         private final YouTube.Builder ytBuilder;
 

@@ -39,7 +39,7 @@ import static com.coyotesong.dojo.youtube.service.TestConstants.TEST_VIDEO_ID;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.junit.jupiter.api.Assumptions.abort;
 
 /**
  * Test YouTubeVideosService
@@ -73,7 +73,7 @@ public class YouTubeVideosServiceTest {
                 assertThat("video id does not match", video.getId(), equalTo(TEST_VIDEO_ID));
             }
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -86,7 +86,7 @@ public class YouTubeVideosServiceTest {
                 assertThat("video id does not match", video.getId(), equalTo(TEST_VIDEO_ID));
             }
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -96,7 +96,7 @@ public class YouTubeVideosServiceTest {
             final List<Video> videos = service.getVideos(Collections.emptyList());
             assertThat("videos found", videos, empty());
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -106,7 +106,7 @@ public class YouTubeVideosServiceTest {
             final Video video = service.getVideo(BAD_TEST_VIDEO_ID);
             assertThat("video is null", video, nullValue());
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 

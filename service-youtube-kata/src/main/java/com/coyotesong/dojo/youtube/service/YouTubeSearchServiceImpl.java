@@ -22,7 +22,6 @@ import com.coyotesong.dojo.youtube.security.LogSanitizer;
 import com.coyotesong.dojo.youtube.service.youTubeClient.ClientForSearchListFactory;
 import com.coyotesong.dojo.youtube.service.youTubeClient.YouTubeClient.ListSearchResults;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,6 +39,7 @@ public class YouTubeSearchServiceImpl implements YouTubeSearchService {
     private static final Logger LOG = LoggerFactory.getLogger(YouTubeSearchServiceImpl.class);
 
     private final ClientForSearchListFactory clientForSearchListFactory;
+    @SuppressWarnings("unused")
     private final LogSanitizer sanitize;
 
     @Autowired
@@ -53,12 +53,12 @@ public class YouTubeSearchServiceImpl implements YouTubeSearchService {
      * Retrieve search results
      *
      * @param searchForm search criteria
-     * @return
-     * @throws IOException
+     * @return search results
+     * @throws IOException error during REST call
      */
     @Override
-    @Nullable
-    public List<SearchResult> search(@NotNull YouTubeSearchForm searchForm) throws IOException {
+    @NotNull
+    public <T extends YouTubeSearchForm> List<SearchResult> search(@NotNull T searchForm) throws IOException {
         LOG.trace("search()...");
 
         int counter = 0;

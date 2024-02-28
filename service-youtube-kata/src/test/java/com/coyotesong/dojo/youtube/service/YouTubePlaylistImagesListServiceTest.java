@@ -34,7 +34,7 @@ import java.io.IOException;
 import static com.coyotesong.dojo.youtube.service.TestConstants.BAD_TEST_PLAYLIST_ID;
 import static com.coyotesong.dojo.youtube.service.TestConstants.TEST_PLAYLIST_ID;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.junit.jupiter.api.Assumptions.abort;
 
 /**
  * Test YouTubePlaylistImagesService
@@ -68,7 +68,7 @@ public class YouTubePlaylistImagesListServiceTest {
                     () -> service.getPlaylistImageForPlaylistId(TEST_PLAYLIST_ID),
                     "Expected AccessForbidden Exception");
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -81,7 +81,7 @@ public class YouTubePlaylistImagesListServiceTest {
                     () -> service.getPlaylistImageForPlaylistId(BAD_TEST_PLAYLIST_ID),
                     "Expected AccessForbidden Exception");
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 

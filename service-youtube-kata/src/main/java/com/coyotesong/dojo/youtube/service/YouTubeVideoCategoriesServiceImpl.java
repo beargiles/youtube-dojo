@@ -21,8 +21,6 @@ import com.coyotesong.dojo.youtube.security.LogSanitizer;
 import com.coyotesong.dojo.youtube.service.youTubeClient.ClientForVideoCategoryListFactory;
 import com.coyotesong.dojo.youtube.service.youTubeClient.YouTubeClient.ListVideoCategories;
 import org.jetbrains.annotations.NotNull;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -39,9 +37,9 @@ import static org.apache.commons.lang3.StringUtils.isBlank;
  */
 @Service("YouTubeVideoCategoriesService")
 public class YouTubeVideoCategoriesServiceImpl implements YouTubeVideoCategoriesService {
-    private static final Logger LOG = LoggerFactory.getLogger(YouTubeVideoCategoriesServiceImpl.class);
 
     private final ClientForVideoCategoryListFactory clientForVideoCategoryListFactory;
+    @SuppressWarnings("unused")
     private final LogSanitizer sanitize;
 
     @Autowired

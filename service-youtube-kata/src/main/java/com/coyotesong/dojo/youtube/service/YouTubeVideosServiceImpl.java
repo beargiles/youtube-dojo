@@ -57,8 +57,8 @@ public class YouTubeVideosServiceImpl implements YouTubeVideosService {
      * Retrieve information about video
      *
      * @param id video to load
-     * @return
-     * @throws IOException
+     * @return requested video, if available
+     * @throws IOException error occurred during REST call
      */
     @Override
     @Nullable
@@ -89,7 +89,7 @@ public class YouTubeVideosServiceImpl implements YouTubeVideosService {
     @NotNull
     public List<Video> getVideos(@NotNull @Unmodifiable List<String> ids) throws IOException {
         if (ids == null) {
-            throw new IllegalArgumentException("'ids' may null");
+            throw new IllegalArgumentException("'ids' must be non-null");
         } else if (ids.isEmpty()) {
             return Collections.emptyList();
         }

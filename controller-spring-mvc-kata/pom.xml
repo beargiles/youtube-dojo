@@ -45,7 +45,7 @@
             </dependency>
             <dependency>
                 <groupId>com.coyotesong.dojo.youtube</groupId>
-                <artifactId>service-youtube-kata</artifactId>
+                <artifactId>model</artifactId>
                 <version>${parent.version}</version>
             </dependency>
         </dependencies>
@@ -53,16 +53,17 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.coyotesong.dojo.youtube</groupId>
+            <artifactId>model</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web-services</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.coyotesong.dojo.youtube</groupId>
-            <artifactId>service-youtube-kata</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

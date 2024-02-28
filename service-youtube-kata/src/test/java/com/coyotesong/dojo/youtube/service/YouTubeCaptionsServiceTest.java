@@ -40,7 +40,7 @@ import static com.coyotesong.dojo.youtube.service.TestConstants.TEST_VIDEO_ID;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.junit.jupiter.api.Assumptions.abort;
 
 /**
  * Test YouTubeCaptionsService
@@ -76,7 +76,7 @@ public class YouTubeCaptionsServiceTest {
             }
             LOG.debug("\ncaptions:" + String.join("\n  ", captions.stream().map(Caption::toString).toList()));
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -86,7 +86,7 @@ public class YouTubeCaptionsServiceTest {
             final List<Caption> captions = service.getCaptionsForVideoId(BAD_TEST_VIDEO_ID);
             assertThat("captions found", captions, empty());
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 

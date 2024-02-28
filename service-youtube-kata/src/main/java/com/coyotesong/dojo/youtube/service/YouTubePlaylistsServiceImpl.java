@@ -58,8 +58,8 @@ public class YouTubePlaylistsServiceImpl implements YouTubePlaylistsService {
 
     /**
      * @param playlistId playlist to load
-     * @return
-     * @throws IOException
+     * @return requested playlist, if available
+     * @throws IOException error during REST call
      */
     @Override
     @Nullable
@@ -90,7 +90,7 @@ public class YouTubePlaylistsServiceImpl implements YouTubePlaylistsService {
     @NotNull
     public List<Playlist> getPlaylists(@NotNull @Unmodifiable List<String> ids) throws IOException {
         if (ids == null) {
-            throw new IllegalArgumentException("'ids' must not be null");
+            throw new IllegalArgumentException("'ids' must be non-null");
         } else if (ids.isEmpty()) {
             return Collections.emptyList();
         }

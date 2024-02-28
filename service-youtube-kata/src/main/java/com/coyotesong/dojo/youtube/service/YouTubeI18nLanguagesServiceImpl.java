@@ -39,6 +39,7 @@ import static org.apache.commons.lang3.StringUtils.isBlank;
 public class YouTubeI18nLanguagesServiceImpl implements YouTubeI18nLanguagesService {
 
     private final ClientForI18nLanguageListFactory clientForI18nLanguageListFactory;
+    @SuppressWarnings("unused")
     private final LogSanitizer sanitize;
 
     @Autowired

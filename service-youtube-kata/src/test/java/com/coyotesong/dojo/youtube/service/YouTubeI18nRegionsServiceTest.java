@@ -41,7 +41,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.empty;
 import static org.hamcrest.Matchers.not;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.junit.jupiter.api.Assumptions.abort;
 
 /**
  * Test YouTubeI18nRegionsService
@@ -74,7 +74,7 @@ public class YouTubeI18nRegionsServiceTest {
             assertThat("regions do not exist", regions, not(empty()));
             LOG.debug("\regions:" + String.join("\n  ", regions.stream().map(I18nRegion::toString).toList()));
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -86,7 +86,7 @@ public class YouTubeI18nRegionsServiceTest {
                     () -> service.getI18nRegions(BAD_TEST_HL),
                     "Expected getI18nRegions('bad') to throw exception");
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 

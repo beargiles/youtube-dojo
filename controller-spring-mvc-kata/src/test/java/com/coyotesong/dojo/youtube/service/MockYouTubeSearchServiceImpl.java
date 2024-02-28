@@ -15,33 +15,26 @@
  * limitations under the License.
  */
 
-package com.coyotesong.dojo.youtube.form;
+package com.coyotesong.dojo.youtube.service;
 
+import com.coyotesong.dojo.youtube.data.TestSearchResults;
+import com.coyotesong.dojo.youtube.form.YouTubeSearchForm;
 import com.coyotesong.dojo.youtube.model.SearchResult;
+import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Subscription form
+ * Mock implementation of YouTubeSearchService
  */
-@SuppressWarnings("unused")
-public class SubscriptionForm {
-    private List<SearchResult> results;
-
-    public SubscriptionForm() {
-        this(new ArrayList<>());
-    }
-
-    public SubscriptionForm(List<SearchResult> searchResults) {
-        this.results = searchResults;
-    }
-
-    public List<SearchResult> getResults() {
-        return results;
-    }
-
-    public void setResults(List<SearchResult> results) {
-        this.results = results;
+public class MockYouTubeSearchServiceImpl implements YouTubeSearchService {
+    /**
+     * Perform a search
+     *
+     * @param form search form
+     */
+    @Override
+    public @NotNull <T extends YouTubeSearchForm> List<SearchResult> search(@NotNull T form) {
+        return TestSearchResults.MISSING_SEARCH_RESULTS.getSearchResults();
     }
 }

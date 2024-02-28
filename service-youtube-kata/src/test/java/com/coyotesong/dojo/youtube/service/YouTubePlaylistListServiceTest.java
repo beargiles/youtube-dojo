@@ -38,7 +38,7 @@ import static com.coyotesong.dojo.youtube.service.TestConstants.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.junit.jupiter.api.Assumptions.abort;
 
 /**
  * Test YouTubePlaylistsService
@@ -72,7 +72,7 @@ public class YouTubePlaylistListServiceTest {
                 assertThat("playlist id does not match", playlist.getId(), equalTo(TEST_PLAYLIST_ID));
             }
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -85,7 +85,7 @@ public class YouTubePlaylistListServiceTest {
                 assertThat("playlist id does not match", playlist.getId(), equalTo(TEST_PLAYLIST_ID));
             }
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -95,7 +95,7 @@ public class YouTubePlaylistListServiceTest {
             final List<Playlist> playlists = service.getPlaylists(Collections.emptyList());
             assertThat("playlists found", playlists, empty());
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -108,7 +108,7 @@ public class YouTubePlaylistListServiceTest {
                 assertThat("channel id does not match", playlist.getChannelId(), equalTo(TEST_CHANNEL_ID));
             }
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -118,7 +118,7 @@ public class YouTubePlaylistListServiceTest {
             final Playlist playlist = service.getPlaylist(BAD_TEST_PLAYLIST_ID);
             assertThat("playlists found", playlist, nullValue());
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -128,7 +128,7 @@ public class YouTubePlaylistListServiceTest {
             final List<Playlist> playlist = service.getPlaylists(Collections.singletonList(BAD_TEST_PLAYLIST_ID));
             assertThat("playlists found", playlist, empty());
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -138,7 +138,7 @@ public class YouTubePlaylistListServiceTest {
             final List<Playlist> playlists = service.getPlaylistsForChannelId(BAD_TEST_CHANNEL_ID);
             assertThat("playlists found", playlists, empty());
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 

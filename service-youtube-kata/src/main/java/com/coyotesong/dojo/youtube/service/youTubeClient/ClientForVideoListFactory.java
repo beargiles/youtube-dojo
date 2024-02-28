@@ -49,6 +49,7 @@ public class ClientForVideoListFactory {
     private static final YTUtils utils = new YTUtils();
 
     private final YouTube.Builder ytBuilder;
+    @SuppressWarnings("unused")
     private final LogSanitizer sanitize;
 
     public ClientForVideoListFactory(@NotNull YouTube.Builder ytBuilder, @NotNull LogSanitizer sanitize) {

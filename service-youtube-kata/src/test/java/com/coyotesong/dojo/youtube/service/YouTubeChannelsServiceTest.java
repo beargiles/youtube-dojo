@@ -38,7 +38,7 @@ import static com.coyotesong.dojo.youtube.service.TestConstants.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.junit.jupiter.api.Assumptions.abort;
 
 /**
  * Test YouTubeChannelsService
@@ -73,7 +73,7 @@ public class YouTubeChannelsServiceTest {
                 assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
             }
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -87,7 +87,7 @@ public class YouTubeChannelsServiceTest {
                 assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
             }
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -104,7 +104,7 @@ public class YouTubeChannelsServiceTest {
             assertThat("channel not found", channel, notNullValue());
             assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -115,7 +115,7 @@ public class YouTubeChannelsServiceTest {
             assertThat("channel not found", channel, notNullValue());
             assertThat("channel custom URL does not match", channel.getCustomUrl(), equalTo("@" + TEST_CHANNEL_USERNAME));
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -125,7 +125,7 @@ public class YouTubeChannelsServiceTest {
             final Channel channel = service.getChannel(BAD_TEST_CHANNEL_ID);
             assertThat("channel should be null", channel, nullValue());
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -135,7 +135,7 @@ public class YouTubeChannelsServiceTest {
             final Channel channel = service.getChannelForHandle(BAD_TEST_CHANNEL_HANDLE);
             assertThat("channel should be null", channel, nullValue());
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -145,7 +145,7 @@ public class YouTubeChannelsServiceTest {
             final Channel channel = service.getChannelForUsername(BAD_TEST_CHANNEL_USERNAME);
             assertThat("channel should be null", channel, nullValue());
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 

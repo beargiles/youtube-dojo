@@ -56,8 +56,8 @@ public class YouTubePlaylistItemsServiceImpl implements YouTubePlaylistItemsServ
 
     /**
      * @param id playlistItem to load
-     * @return
-     * @throws IOException
+     * @return request playlist item, if available
+     * @throws IOException error during REST call
      */
     @Override
     @Nullable
@@ -88,7 +88,7 @@ public class YouTubePlaylistItemsServiceImpl implements YouTubePlaylistItemsServ
     @NotNull
     public List<PlaylistItem> getPlaylistItems(@NotNull @Unmodifiable List<String> ids) throws IOException {
         if (ids == null) {
-            throw new IllegalArgumentException("'ids' must not be null");
+            throw new IllegalArgumentException("'ids' must be non-null");
         } else if (ids.isEmpty()) {
             return Collections.emptyList();
         }

@@ -41,7 +41,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.empty;
 import static org.hamcrest.Matchers.not;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.junit.jupiter.api.Assumptions.abort;
 
 /**
  * Test YouTubeVideoCategoriesService
@@ -74,7 +74,7 @@ public class YouTubeVideoCategoriesServiceTest {
             assertThat("video categories does not exist", categories, not(empty()));
             LOG.debug("\ncategories:" + String.join("\n  ", categories.stream().map(VideoCategory::toString).toList()));
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -86,7 +86,7 @@ public class YouTubeVideoCategoriesServiceTest {
                     () -> service.getVideoCategories(BAD_TEST_HL),
                     "Excpected getVideoCategories('bad' to throw exception");
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 

@@ -41,7 +41,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.empty;
 import static org.hamcrest.Matchers.not;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.junit.jupiter.api.Assumptions.abort;
 
 /**
  * Test YouTubeI18nLanguagesService
@@ -74,7 +74,7 @@ public class YouTubeI18nLanguagesServiceTest {
             assertThat("languages do not exist", languages, not(empty()));
             LOG.debug("\nlanguages:" + String.join("\n  ", languages.stream().map(I18nLanguage::toString).toList()));
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 
@@ -86,7 +86,7 @@ public class YouTubeI18nLanguagesServiceTest {
                     () -> service.getI18nLanguages(BAD_TEST_HL),
                     "Expected getI18nLanguages('bad') tho throw exception");
         } catch (YouTubeAccountException e) {
-            assumeTrue(false, "quota exceeded");
+            abort("quota exceeded");
         }
     }
 

@@ -139,7 +139,7 @@ public class YouTubeChannelsServiceImpl implements YouTubeChannelsService {
     @NotNull
     public List<Channel> getChannels(@NotNull @Unmodifiable List<String> ids) throws IOException {
         if (ids == null) {
-            throw new IllegalArgumentException("'ids' must not be null");
+            throw new IllegalArgumentException("'ids' must be non-null");
         } else if (ids.isEmpty()) {
             return Collections.emptyList();
         }

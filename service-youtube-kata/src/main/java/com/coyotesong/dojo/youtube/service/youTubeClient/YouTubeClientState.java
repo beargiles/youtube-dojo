@@ -17,7 +17,6 @@
 
 package com.coyotesong.dojo.youtube.service.youTubeClient;
 
-import com.coyotesong.dojo.youtube.service.YouTubeClientException;
 import com.google.api.client.json.GenericJson;
 import com.google.api.services.youtube.YouTube;
 import com.google.api.services.youtube.YouTubeRequest;

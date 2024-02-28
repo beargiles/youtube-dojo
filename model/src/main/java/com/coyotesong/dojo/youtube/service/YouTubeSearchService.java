@@ -38,5 +38,5 @@ public interface YouTubeSearchService {
      * @throws IOException a REST client issue problem occurred
      */
     @NotNull
-    List<SearchResult> search(@NotNull YouTubeSearchForm form) throws IOException;
+    <T extends YouTubeSearchForm> List<SearchResult> search(@NotNull T form) throws IOException;
 }

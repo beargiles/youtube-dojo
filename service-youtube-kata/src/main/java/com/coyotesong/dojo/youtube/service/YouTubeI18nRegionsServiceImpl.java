@@ -39,6 +39,7 @@ import static org.apache.commons.lang3.StringUtils.isBlank;
 public class YouTubeI18nRegionsServiceImpl implements YouTubeI18nRegionsService {
 
     private final ClientForI18nRegionListFactory clientForI18nRegionListFactory;
+    @SuppressWarnings("unused")
     private final LogSanitizer sanitize;
 
     @Autowired

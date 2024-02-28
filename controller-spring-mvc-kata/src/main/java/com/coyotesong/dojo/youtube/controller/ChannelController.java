@@ -18,18 +18,17 @@
 package com.coyotesong.dojo.youtube.controller;
 
 import com.coyotesong.dojo.youtube.form.ChannelSearchForm;
+import com.coyotesong.dojo.youtube.form.SelectOption;
 import com.coyotesong.dojo.youtube.form.UserSearchForm;
 import com.coyotesong.dojo.youtube.model.Channel;
 import com.coyotesong.dojo.youtube.model.SearchResult;
 import com.coyotesong.dojo.youtube.security.LogSanitizer;
 import com.coyotesong.dojo.youtube.service.YouTubeChannelsService;
-import com.coyotesong.dojo.youtube.service.YouTubePlaylistsService;
 import com.coyotesong.dojo.youtube.service.YouTubeSearchService;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
@@ -43,50 +42,49 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 
+import static com.coyotesong.dojo.youtube.controller.Constants.*;
+import static org.springframework.http.HttpStatus.NOT_FOUND;
+import static org.springframework.http.HttpStatus.OK;
+
 @Controller
-@RequestMapping("/channel")
 public class ChannelController {
     private static final Logger LOG = LoggerFactory.getLogger(ChannelController.class);
 
     private final YouTubeChannelsService channelsService;
-    private final YouTubePlaylistsService playlistsService;
     private final YouTubeSearchService searchService;
-    // private final ChannelRepository channelDao;
-    // private final PlaylistRepository playlistDao;
     private final LogSanitizer sanitize;
 
     @Autowired
     public ChannelController(@NotNull YouTubeChannelsService channelsService,
-                             @NotNull YouTubePlaylistsService playlistsService,
                              @NotNull YouTubeSearchService searchService,
                              @NotNull LogSanitizer sanitize) {
         this.channelsService = channelsService;
-        this.playlistsService = playlistsService;
         this.searchService = searchService;
-        // this.channelDao = channelDao;
-        // this.playlistDao = playlistDao;
         this.sanitize = sanitize;
     }
-
 
     /**
      * Landing page
      */
-    @RequestMapping({"/"})
+    @RequestMapping({CHANNEL_HOME_PATH, CHANNEL_HOME_INDEX_PATH })
     public ModelAndView home() {
         LOG.info("channels page");
-
-        final ModelAndView mv = new ModelAndView();
 
         // final GandalfAuthenticationToken token = authenticationProvider.cheat();
         // session.setAttribute(SPRING_SECURITY_CONTEXT_KEY, SecurityContextHolder.getContext());
 
+        final ModelAndView mv = new ModelAndView();
+        mv.getModelMap().addAttribute(LANG_SELECT_OPTIONS, SelectOption.LANGUAGE_SELECT_LIST);
+        mv.getModelMap().addAttribute(ORDER_SELECT_OPTIONS, SelectOption.SORT_ORDER_SELECT_LIST);
+        mv.getModelMap().addAttribute(SAFE_SEARCH_SELECT_OPTIONS, SelectOption.SAFE_SEARCH_SELECT_LIST);
+
+        // no cache or persistence yet...
         // final List<Channel> channels = channelDao.findAll();
         final List<Channel> channels = Collections.emptyList();
-        mv.getModelMap().addAttribute("channels", channels);
+        mv.getModelMap().addAttribute(LIST_OF_CHANNELS, channels);
 
-        mv.setViewName("views/channel/index");
-        mv.setStatus(HttpStatusCode.valueOf(200));
+        mv.setViewName(CHANNEL_HOME_VIEW_NAME);
+        mv.setStatus(OK);
 
         return mv;
     }
@@ -94,23 +92,28 @@ public class ChannelController {
     /**
      * Show channel details
      */
-    @RequestMapping({"/id/{id}"})
-    public ModelAndView showChannel(@PathVariable("id") String id) throws IOException {
-        LOG.info("page: /channel/id/{}", sanitize.forChannelId(id));
-
-        final ModelAndView mv = new ModelAndView();
+    @RequestMapping(CHANNEL_FIND_BY_CHANNEL_ID_PATH)
+    public ModelAndView findChannelById(@PathVariable(ID_PATH_VARIABLE) String id) throws IOException {
+        LOG.info("findChannelById('{}') page", sanitize.forChannelId(id));
 
         // final GandalfAuthenticationToken token = authenticationProvider.cheat();
         // session.setAttribute(SPRING_SECURITY_CONTEXT_KEY, SecurityContextHolder.getContext());
 
-        final Channel channel = channelsService.getChannel(id);
-        if (channel == null) {
-            LOG.info("could not find channel: {}", sanitize.forChannelId(id));
-        }
+        final ModelAndView mv = new ModelAndView(CHANNEL_FIND_BY_CHANNEL_ID_VIEW_NAME);
+        mv.getModelMap().addAttribute(LANG_SELECT_OPTIONS, SelectOption.LANGUAGE_SELECT_LIST);
+        mv.getModelMap().addAttribute(ORDER_SELECT_OPTIONS, SelectOption.SORT_ORDER_SELECT_LIST);
+        mv.getModelMap().addAttribute(SAFE_SEARCH_SELECT_OPTIONS, SelectOption.SAFE_SEARCH_SELECT_LIST);
 
-        mv.setViewName("views/channel/channel");
-        mv.getModelMap().addAttribute("channel", channel);
-        mv.setStatus(HttpStatusCode.valueOf(200));
+        final Channel channel = channelsService.getChannel(id);
+        if (channel != null) {
+            mv.getModelMap().addAttribute(SINGLE_CHANNEL, channel);
+            mv.setStatus(OK);
+        } else {
+            LOG.info("could not find channel: {}", sanitize.forChannelId(id));
+            mv.setViewName(CHANNEL_HOME_PATH);
+            // this will probably trigger 404 handler instead of expected page :-(
+            mv.setStatus(NOT_FOUND);
+        }
 
         return mv;
     }
@@ -124,35 +127,36 @@ public class ChannelController {
      * @return
      * @throws IOException
      */
-    @RequestMapping(value = "/search", method = RequestMethod.POST)
+    @RequestMapping(value = CHANNEL_SEARCH_PATH, method = RequestMethod.POST)
     public ModelAndView search(
             // @Valid
-            @ModelAttribute(Constants.CHANNEL_SEARCH_FORM_NAME) ChannelSearchForm searchForm,
+            @ModelAttribute(CHANNEL_SEARCH_FORM_NAME) ChannelSearchForm searchForm,
             BindingResult result,
             ModelMap model) throws IOException {
-
         LOG.info("Channel search results page");
-
-        final ModelAndView mv = new ModelAndView();
-        mv.getModelMap().addAttribute(Constants.USER_SEARCH_FORM_NAME, new UserSearchForm());
-        mv.getModelMap().addAttribute(Constants.CHANNEL_SEARCH_FORM_NAME, searchForm);
-        //. mv.getModelMap().addAttribute(Constants.LANG_SELECT_OPTIONS, SelectOption.LANGUAGE_SELECT_OPTIONS);
-        // mv.getModelMap().addAttribute(Constants.ORDER_SELECT_OPTIONS, SelectOption.ORDER_SELECT_OPTIONS);
-        // mv.getModelMap().addAttribute(Constants.SAFE_SEARCH_SELECT_OPTIONS, SelectOption.SAFE_SEARCH_SELECT_OPTIONS);
-
-        if (result.hasErrors()) {
-            // return to original page for corrections?
-            mv.setViewName("views/index");
-            return mv;
-        }
 
         // final GandalfAuthenticationToken token = authenticationProvider.cheat();
         // session.setAttribute(SPRING_SECURITY_CONTEXT_KEY, SecurityContextHolder.getContext());
 
-        mv.setViewName("views/channel/search");
-        final List<SearchResult> results = searchService.search(searchForm);
+        final ModelAndView mv = new ModelAndView();
+        mv.getModelMap().addAttribute(LANG_SELECT_OPTIONS, SelectOption.LANGUAGE_SELECT_LIST);
+        mv.getModelMap().addAttribute(ORDER_SELECT_OPTIONS, SelectOption.SORT_ORDER_SELECT_LIST);
+        mv.getModelMap().addAttribute(SAFE_SEARCH_SELECT_OPTIONS, SelectOption.SAFE_SEARCH_SELECT_LIST);
 
-        mv.setStatus(HttpStatusCode.valueOf(200));
+        mv.getModelMap().addAttribute(USER_SEARCH_FORM_NAME, new UserSearchForm());
+        mv.getModelMap().addAttribute(CHANNEL_SEARCH_FORM_NAME, searchForm);
+
+        if (result.hasErrors()) {
+            // return to original page for corrections?
+            mv.setViewName(HOME_VIEW_NAME);
+            return mv;
+        }
+
+        mv.setViewName(CHANNEL_SEARCH_VIEW_NAME);
+        final List<SearchResult> results = searchService.search(searchForm);
+        mv.getModelMap().addAttribute(CHANNEL_SEARCH_RESULTS, results);
+
+        mv.setStatus(OK);
 
         return mv;
     }

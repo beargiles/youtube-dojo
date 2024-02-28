@@ -14,7 +14,7 @@ A test should not be marked as failing if that external resource is unavailable.
 
 This is typically handled writing our test methods in three blocks:
 
-- preconditions (using `assumeThat`)
+- preconditions (using `assumeTrue`)
 - the test
 - postconditions (using `assertThat`)
 
@@ -36,5 +36,5 @@ it. This should be considered a soft failure.
 
 AFAIK there's no way to determine that we've hit our quota prior to making
 one of the currently supported REST calls, and any test call would burn into
-our daily quota. That's why the tests use a try/catch block and `assumeThat(false)`
+our daily quota. That's why the tests use a try/catch block and `abort`
 instead of the traditional approach. 

@@ -17,62 +17,67 @@
 
 package com.coyotesong.dojo.youtube.form;
 
+import org.jetbrains.annotations.NotNull;
 import org.springframework.context.MessageSource;
 import org.springframework.context.MessageSourceAware;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.ResourceBundle;
+import java.util.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Available options for 'select' properties.
  */
+@SuppressWarnings("unused")
 public class SelectOption implements MessageSourceAware {
-    public static final List<SelectOption> CHANNEL_TYPE_SELECT_OPTIONS = loadSelectOptions("channelTypeOptions");
-    public static final List<SelectOption> EVENT_TYPE_SELECT_OPTIONS = loadSelectOptions("eventTypeOptions");
-    public static final List<SelectOption> LANGUAGE_SELECT_OPTIONS = loadSelectOptions("langOptions");
-    public static final List<SelectOption> ORDER_SELECT_OPTIONS = loadSelectOptions("orderOptions");
-    public static final List<SelectOption> SAFE_SEARCH_SELECT_OPTIONS = loadSelectOptions("safeSearchOptions");
+    private static final Logger LOG = LoggerFactory.getLogger(SelectOption.class);
+
+    /**
+     * Known uses... but I'm not sure if they should be defined here or in the controller.
+     *
+     * TODO: I don't think this approach will work with more than a single locale - but that's
+     * not a problem since it will be replaced by a database-based one that will cache the information
+     * for all locales.
+     */
+    public static final List<SelectOption> CHANNEL_TYPE_SELECT_LIST = loadSelectList("ChannelTypeSelectOptions");
+    public static final List<SelectOption> EVENT_TYPE_SELECT_LIST = loadSelectList("EventTypeSelectOptions");
+    public static final List<SelectOption> LANGUAGE_SELECT_LIST = loadSelectList("LangSelectOptions");
+    public static final List<SelectOption> SORT_ORDER_SELECT_LIST = loadSelectList("OrderSelectOptions");
+    public static final List<SelectOption> SAFE_SEARCH_SELECT_LIST = loadSelectList("SafeSearchSelectOptions");
 
     private MessageSource messageSource;
 
+    @NotNull
     private String value;
+    @NotNull
     private String label;
     private boolean defaultValue;
 
-    public SelectOption() {
-
-    }
-
-    public SelectOption(String value) {
-        this(value, value, false);
-    }
-
-    public SelectOption(String value, String label) {
+    public SelectOption(@NotNull String value, @NotNull String label) {
         this(value, label, false);
     }
 
-    public SelectOption(String value, String label, boolean defaultValue) {
+    public SelectOption(@NotNull String value, @NotNull String label, boolean defaultValue) {
         this.value = value;
         this.label = label;
         this.defaultValue = defaultValue;
     }
 
-
+    @NotNull
     public String getValue() {
         return value;
     }
 
-    public void setValue(String value) {
+    public void setValue(@NotNull String value) {
         this.value = value;
     }
 
+    @NotNull
     public String getLabel() {
         return label;
     }
 
-    public void setLabel(String label) {
+    public void setLabel(@NotNull String label) {
         this.label = label;
     }
 
@@ -84,7 +89,7 @@ public class SelectOption implements MessageSourceAware {
         this.defaultValue = defaultValue;
     }
 
-    public void setMessageSource(MessageSource messageSource) {
+    public void setMessageSource(@NotNull MessageSource messageSource) {
         this.messageSource = messageSource;
     }
 
@@ -94,7 +99,8 @@ public class SelectOption implements MessageSourceAware {
      * @param name
      * @return
      */
-    private static List<SelectOption> loadSelectOptions(String name) {
+    @NotNull
+    private static List<SelectOption> loadSelectList(@NotNull String name) {
         final ResourceBundle bundle = ResourceBundle.getBundle(SelectOption.class.getPackageName() + "." + name);
 
         // TODO: add check for 'defaultValue'
@@ -104,7 +110,14 @@ public class SelectOption implements MessageSourceAware {
             // alternative: options.add(messageSource.getMessage("msg.txt", lang, null));
             options.add(new SelectOption(key, bundle.getString(key)));
         }
+        LOG.debug("loadSelectOptions('{}') -> {} item(s)", name, options.size());
 
         return options;
+    }
+
+    @Override
+    public String toString() {
+        // TODO: should this be sanitized in some way?
+        return value + ": '" + label + "'";
     }
 }
