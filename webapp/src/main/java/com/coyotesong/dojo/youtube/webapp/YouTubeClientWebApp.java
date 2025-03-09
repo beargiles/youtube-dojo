@@ -25,8 +25,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 /**
  * Spring Boot web application
  */
-@SpringBootApplication(scanBasePackages =  { "com.coyotesong.dojo.youtube" })
-@EntityScan({ "com.coyotesong.tabs.model" })
+@SpringBootApplication(scanBasePackages = {"com.coyotesong.dojo.youtube"})
+@EntityScan({"com.coyotesong.dojo.youtube.model"})
 //@EnableAutoConfiguration(exclude = {ErrorMvcAutoConfiguration.class})
 public class YouTubeClientWebApp extends SpringBootServletInitializer {
 

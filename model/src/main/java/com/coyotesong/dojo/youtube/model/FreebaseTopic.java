@@ -35,9 +35,17 @@ public class FreebaseTopic implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
+    private Integer key;
     private String id;
     private String description;
-    private boolean custom = false;
+
+    public Integer getKey() {
+        return key;
+    }
+
+    public void setKey(Integer key) {
+        this.key = key;
+    }
 
     public String getId() {
         return id;
@@ -55,14 +63,6 @@ public class FreebaseTopic implements Serializable {
         this.description = description;
     }
 
-    public boolean isCustom() {
-        return custom;
-    }
-
-    public void setCustom(boolean custom) {
-        this.custom = custom;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -72,9 +72,9 @@ public class FreebaseTopic implements Serializable {
         FreebaseTopic that = (FreebaseTopic) o;
 
         return new EqualsBuilder()
+                // DO NOT INCLUDE KEY!
                 .append(id, that.id)
                 .append(description, that.description)
-                .append(custom, that.custom)
                 .isEquals();
     }
 
@@ -86,9 +86,9 @@ public class FreebaseTopic implements Serializable {
     @Override
     public String toString() {
         return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+                .append("key", key)
                 .append("id", id)
                 .append("description", description)
-                .append("custom", custom)
                 .toString();
     }
 }

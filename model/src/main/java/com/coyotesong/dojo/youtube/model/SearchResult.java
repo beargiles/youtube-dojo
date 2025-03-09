@@ -17,18 +17,31 @@
 
 package com.coyotesong.dojo.youtube.model;
 
+import com.coyotesong.dojo.youtube.lang3.MyToStringStyle;
 import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.time.Instant;
+import java.util.Collections;
+import java.util.Optional;
+import java.util.UUID;
+
+import static org.apache.commons.lang3.StringUtils.isBlank;
 
 /**
  * Search results
  */
 @SuppressWarnings("unused")
-public class SearchResult {
+public class SearchResult implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
+
+    private Integer id;
+    private String requestId = UUID.randomUUID().toString(); // artificial primary key
+    private Integer position;
+
     private String channelId;
     private String playlistId;
     private String videoId;
@@ -46,12 +59,36 @@ public class SearchResult {
     }
 
     public SearchResult(Channel channel) {
-        this.channelId = channel.getId();
+        this.channelId = channel.getChannelId();
         this.title = channel.getTitle();
         this.description = channel.getDescription();
         this.publishedAt = channel.getPublishedAt();
         this.tnUrl = channel.getTnUrl();
         this.channelTitle = channel.getTitle();
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getRequestId() {
+        return requestId;
+    }
+
+    public void setRequestId(String requestId) {
+        this.requestId = requestId;
+    }
+
+    public Integer getPosition() {
+        return position;
+    }
+
+    public void setPosition(Integer position) {
+        this.position = position;
     }
 
     public String getChannelId() {
@@ -150,6 +187,56 @@ public class SearchResult {
         this.lastChecked = lastChecked;
     }
 
+    public Optional<Channel> asChannel() {
+        if (isBlank(channelId)) {
+            return Optional.empty();
+        }
+
+        final Channel channel = new Channel();
+        channel.setSummary(true);
+        channel.setChannelId(channelId);
+        channel.setTitle(channelTitle);
+        channel.setDescription(description);
+        channel.setPublishedAt(publishedAt);
+
+        channel.setTnUrl(tnUrl);
+
+        channel.setEtag(etag);
+        channel.setLastChecked(lastChecked);
+
+        return Optional.of(channel);
+    }
+
+    public Optional<Video> asVideo() {
+        if (isBlank(videoId)) {
+            return Optional.empty();
+        }
+
+        final Video video = new Video();
+        video.setSummary(true);
+        video.setId(videoId);
+        video.setChannelId(channelId);
+        video.setChannelTitle(channelTitle);
+        video.setTitle(title);
+        video.setDescription(description);
+        video.setPublishedAt(publishedAt);
+
+        // FIXME: verify dimensions - these may be slightly different
+        final Thumbnail tn = new Thumbnail();
+        tn.setVideoId(videoId);
+        tn.setUrl(tnUrl);
+        tn.setHeight(ThumbnailSize.DEFAULT.getHeight());
+        tn.setWidth(ThumbnailSize.DEFAULT.getWidth());
+        tn.setName(ThumbnailSize.DEFAULT.name());
+        video.setThumbnails(Collections.singletonMap(tn.getName(), tn));
+
+        video.setEtag(etag);
+        video.setLastChecked(lastChecked);
+        // video.setRequestId(requestId); --?
+
+        return Optional.of(video);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -159,6 +246,9 @@ public class SearchResult {
         final SearchResult that = (SearchResult) o;
 
         return new EqualsBuilder()
+                .append(id, that.id)
+                .append(requestId, that.requestId)
+                .append(position, that.position)
                 .append(etag, that.etag)
                 .append(channelId, that.channelId)
                 .append(playlistId, that.playlistId)
@@ -176,30 +266,26 @@ public class SearchResult {
 
     @Override
     public int hashCode() {
-        return new HashCodeBuilder(17, 37)
-                .append(etag)
-                .append(channelId)
-                .append(playlistId)
-                .append(videoId)
-                .append(description)
-                .append(title)
-                .toHashCode();
+        return id.hashCode();
     }
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
-                .append("etag", etag)
+        return new ToStringBuilder(this, MyToStringStyle.DEFAULT_STYLE)
+                .append("id", id)
+                .append("requestId", requestId)
+                .append("position", position)
                 .append("channelId", channelId)
                 .append("playlistId", playlistId)
                 .append("videoId", videoId)
-                .append("description", description)
                 .append("title", title)
+                .append("description", description)
                 .append("liveBroadcastContent", liveBroadcastContent)
                 .append("publishedAt", publishedAt)
                 .append("tnUrl", tnUrl)
                 .append("channelTitle", channelTitle)
                 .append("lastChecked", lastChecked)
+                // .append("etag", etag)
                 .toString();
     }
 }

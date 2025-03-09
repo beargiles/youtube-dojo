@@ -40,32 +40,9 @@ public class Thumbnail implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
-    public enum Size {
-        DEFAULT(90, 120),
-        MEDIUM(180, 320),
-        HIGH(360, 480),
-        STANDARD(480, 640),
-        MAX_RES(720, 1280);
-
-        private final int height;
-        private final int width;
-
-        Size(int height, int width) {
-            this.height = height;
-            this.width = width;
-        }
-
-        public int getHeight() {
-            return height;
-        }
-
-        public int getWidth() {
-            return width;
-        }
-    }
-
+    private Integer key;
     private String videoId;
-    private Size size;
+    private ThumbnailSize size;
     private String name; // = default, medium, high, standard, maxres
     private Integer height;
     private String url;
@@ -77,7 +54,7 @@ public class Thumbnail implements Serializable {
     public Thumbnail() {
     }
 
-    public Thumbnail(String videoId, Size size, String url) {
+    public Thumbnail(String videoId, ThumbnailSize size, String url) {
         this.videoId = videoId;
         this.size = size;
         this.url = url;
@@ -87,6 +64,14 @@ public class Thumbnail implements Serializable {
             this.height = size.getHeight();
             this.width = size.getWidth();
         }
+    }
+
+    public Integer getKey() {
+        return key;
+    }
+
+    public void setKey(Integer key) {
+        this.key = key;
     }
 
     public String getVideoId() {
@@ -137,6 +122,7 @@ public class Thumbnail implements Serializable {
 
         final Thumbnail thumbnail = (Thumbnail) o;
 
+        // DO NOT INCLUDE 'KEY'!
         return new EqualsBuilder().append(videoId, thumbnail.videoId).append(name, thumbnail.name).append(height, thumbnail.height).append(url, thumbnail.url).append(width, thumbnail.width).isEquals();
     }
 

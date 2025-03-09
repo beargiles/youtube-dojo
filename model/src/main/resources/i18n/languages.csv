@@ -1,0 +1,6890 @@
+code,hl,name
+af,af,Afrikaans
+am,af,Amharies
+ar,af,Arabies
+as,af,Assamees
+az,af,Azerbeidjans
+be,af,Belarussies
+bg,af,Bulgaars
+bn,af,Bengaals
+bs,af,Bosnies
+ca,af,Katalaans
+cs,af,Tsjeggies
+da,af,Deens
+de,af,Duits
+el,af,Grieks
+en-GB,af,Engels (Verenigde Koninkryk)
+en-IN,af,Engels (Indië)
+en,af,Engels
+es,af,Spaans
+es-419,af,Spaans (Latyns-Amerika)
+es-US,af,Spaans (Verenigde State van Amerika)
+et,af,Estnies
+eu,af,Baskies
+fa,af,Persies
+fi,af,Fins
+fil,af,Filippyns
+fr-CA,af,Frans (Kanada)
+fr,af,Frans
+gl,af,Galisies
+gu,af,Goedjarati
+hi,af,Hindi
+hr,af,Kroaties
+hu,af,Hongaars
+hy,af,Armeens
+id,af,Indonesies
+is,af,Yslands
+it,af,Italiaans
+iw,af,Hebreeus
+ja,af,Japannees
+ka,af,Georgies
+kk,af,Kazaks
+km,af,Khmer
+kn,af,Kannada
+ko,af,Koreaans
+ky,af,Kirgisies
+lo,af,Lao
+lt,af,Litaus
+lv,af,Letties
+mk,af,Masedonies
+ml,af,Malabaars
+mn,af,Mongools
+mr,af,Marathi
+ms,af,Maleis
+my,af,Birmaans
+no,af,Noors
+ne,af,Nepalees
+nl,af,Nederlands
+or,af,Oriya
+pa,af,Pandjabi
+pl,af,Pools
+pt,af,Portugees
+pt-PT,af,Portugees (Portugal)
+ro,af,Roemeens
+ru,af,Russies
+si,af,Sinhala
+sk,af,Slowaaks
+sl,af,Sloweens
+sq,af,Albanees
+sr-Latn,af,Serwies (Latyn)
+sr,af,Serwies
+sv,af,Sweeds
+sw,af,Swahili
+ta,af,Tamil
+te,af,Teloegoe
+th,af,Thai
+tr,af,Turks
+uk,af,Oekraïens
+ur,af,Oerdoe
+uz,af,Oezbeeks
+vi,af,Viëtnamees
+zh-CN,af,Chinees (China)
+zh-HK,af,Chinees (Hongkong)
+zh-TW,af,Chinees (Taiwan)
+zu,af,Zoeloe
+af,am,አፍሪካንኛ
+am,am,አማርኛ
+ar,am,ዓረብኛ
+as,am,አሳሜዛዊ
+az,am,አዘርባጃንኛ
+be,am,ቤላራሻኛ
+bg,am,ቡልጋሪኛ
+bn,am,ቤንጋሊኛ
+bs,am,ቦስኒያንኛ
+ca,am,ካታላንኛ
+cs,am,ቼክኛ
+da,am,ዴኒሽ
+de,am,ጀርመንኛ
+el,am,ግሪክኛ
+en-GB,am,እንግሊዝኛ (ዩናይትድ ኪንግደም)
+en-IN,am,እንግሊዝኛ (ህንድ)
+en,am,እንግሊዝኛ
+es,am,ስፓኒሽ
+es-419,am,ስፓኒሽ (ላቲን አሜሪካ)
+es-US,am,ስፓኒሽ (ዩናይትድ ስቴትስ)
+et,am,ኢስቶኒያንኛ
+eu,am,ባስክኛ
+fa,am,ፐርሺያኛ
+fi,am,ፊኒሽ
+fil,am,ፊሊፒንኛ
+fr-CA,am,ፈረንሳይኛ (ካናዳ)
+fr,am,ፈረንሳይኛ
+gl,am,ጋሊሽያዊ
+gu,am,ጉጃርቲኛ
+hi,am,ሒንዱኛ
+hr,am,ክሮሽያንኛ
+hu,am,ሀንጋሪኛ
+hy,am,አርመናዊ
+id,am,ኢንዶኔዥያኛ
+is,am,አይስላንድኛ
+it,am,ጣሊያንኛ
+iw,am,ዕብራይስጥ
+ja,am,ጃፓንኛ
+ka,am,ጆርጂያዊ
+kk,am,ካዛክኛ
+km,am,ክመር
+kn,am,ካናዳ
+ko,am,ኮሪያኛ
+ky,am,ክይርግይዝ
+lo,am,ላኦኛ
+lt,am,ሉቴንያንኛ
+lv,am,ላትቪያን
+mk,am,ሜቄዶንኛ
+ml,am,ማላያላም
+mn,am,ሞንጎሊያኛ
+mr,am,ማራቲ
+ms,am,ማላይ
+my,am,ቡርማኛ
+no,am,ኖርዌጂያን
+ne,am,ኔፓሊኛ
+nl,am,ደች
+or,am,ኦዲያ
+pa,am,ፑንጃብኛ
+pl,am,ፖሊሽ
+pt,am,ፖርቹጋልኛ
+pt-PT,am,ፖርቹጋልኛ (ፖርቱጋል)
+ro,am,ሮማኒያኛ
+ru,am,ራሽያኛ
+si,am,ሲንሃላ
+sk,am,ስሎቫክኛ
+sl,am,ስሎቬንኛ
+sq,am,አልባንያንኛ
+sr-Latn,am,ሰርብያኛ (ላቲን)
+sr,am,ሰርብያኛ
+sv,am,ስዊድንኛ
+sw,am,ስዋሂሊኛ
+ta,am,ታሚል
+te,am,ተሉጉ
+th,am,ታይ
+tr,am,ቱርክኛ
+uk,am,ዩክሬንኛ
+ur,am,ኡርዱኛ
+uz,am,ኡዝቤክኛ
+vi,am,ቪየትናምኛ
+zh-CN,am,ቻይንኛ (ቻይና)
+zh-HK,am,ቻይንኛ (ሆንግ ኮንግ)
+zh-TW,am,ቻይንኛ (ታይዋን)
+zu,am,ዙሉኛ
+af,ar,الأفريقانية
+am,ar,الأمهرية
+ar,ar,العربية
+as,ar,الأسامية
+az,ar,الأذربيجانية
+be,ar,البيلاروسية
+bg,ar,البلغارية
+bn,ar,البنغالية
+bs,ar,البوسنية
+ca,ar,الكتالانية
+cs,ar,التشيكية
+da,ar,الدانمركية
+de,ar,الألمانية
+el,ar,اليونانية
+en-GB,ar,الإنجليزية (المملكة المتحدة)
+en-IN,ar,الإنجليزية (الهند)
+en,ar,الإنجليزية
+es,ar,الإسبانية
+es-419,ar,الإسبانية (أمريكا اللاتينية)
+es-US,ar,الإسبانية (الولايات المتحدة)
+et,ar,الإستونية
+eu,ar,الباسكية
+fa,ar,الفارسية
+fi,ar,الفنلندية
+fil,ar,الفلبينية
+fr-CA,ar,الفرنسية (كندا)
+fr,ar,الفرنسية
+gl,ar,الجاليكية
+gu,ar,الغوجاراتية
+hi,ar,الهندية
+hr,ar,الكرواتية
+hu,ar,الهنغارية
+hy,ar,الأرمنية
+id,ar,الإندونيسية
+is,ar,الأيسلندية
+it,ar,الإيطالية
+iw,ar,العبرية
+ja,ar,اليابانية
+ka,ar,الجورجية
+kk,ar,الكازاخستانية
+km,ar,الخميرية
+kn,ar,الكانادا
+ko,ar,الكورية
+ky,ar,القيرغيزية
+lo,ar,اللاوية
+lt,ar,الليتوانية
+lv,ar,اللاتفية
+mk,ar,المقدونية
+ml,ar,المالايالامية
+mn,ar,المنغولية
+mr,ar,الماراثية
+ms,ar,الماليزية
+my,ar,البورمية
+no,ar,النرويجية
+ne,ar,النيبالية
+nl,ar,الهولندية
+or,ar,الأورية
+pa,ar,البنجابية
+pl,ar,البولندية
+pt,ar,البرتغالية
+pt-PT,ar,البرتغالية (البرتغال)
+ro,ar,الرومانية
+ru,ar,الروسية
+si,ar,السنهالية
+sk,ar,السلوفاكية
+sl,ar,السلوفانية
+sq,ar,الألبانية
+sr-Latn,ar,الصربية (اللاتينية)
+sr,ar,الصربية
+sv,ar,السويدية
+sw,ar,السواحلية
+ta,ar,التاميلية
+te,ar,التيلوغوية
+th,ar,التايلاندية
+tr,ar,التركية
+uk,ar,الأوكرانية
+ur,ar,الأوردية
+uz,ar,الأوزبكية
+vi,ar,الفيتنامية
+zh-CN,ar,الصينية (الصين)
+zh-HK,ar,الصينية (هونغ كونغ)
+zh-TW,ar,الصينية (تايوان)
+zu,ar,الزولو
+af,as,আফ্ৰিকানছ্
+am,as,আমহাৰিক
+ar,as,আৰবী
+as,as,অসমীয়া
+az,as,আজেৰবাইজানী
+be,as,বেলাৰুছীয়
+bg,as,বুলগেৰীয়
+bn,as,বাংলা
+bs,as,বছনীয়
+ca,as,কাতালান
+cs,as,চেক
+da,as,ডেনিচ
+de,as,জাৰ্মান
+el,as,গ্ৰীক
+en-GB,as,ইংৰাজী (সংযুক্ত ৰাজ্য)
+en-IN,as,ইংৰাজী (ভাৰত)
+en,as,ইংৰাজী
+es,as,স্পেনিচ
+es-419,as,স্পেনিচ (লেটিন আমেৰিকা)
+es-US,as,স্পেনিচ (মাৰ্কিন যুক্তৰাষ্ট্ৰ)
+et,as,এষ্টোনিয়
+eu,as,বাস্ক
+fa,as,ফাৰ্ছী
+fi,as,ফিনিচ
+fil,as,ফিলিপিনো
+fr-CA,as,ফ্ৰেন্স (কানাডা)
+fr,as,ফ্ৰেন্স
+gl,as,গেলিচিয়ান
+gu,as,গুজৰাটী
+hi,as,হিন্দী
+hr,as,ক্ৰোৱেচিয়ান
+hu,as,হাঙ্গেৰিয়ান
+hy,as,আৰ্মেনীয়
+id,as,ইণ্ডোনেচিয়
+is,as,আইচলেণ্ডিক
+it,as,ইটালিয়ান
+iw,as,হিব্ৰু
+ja,as,জাপানী
+ka,as,জৰ্জিয়ান
+kk,as,কাজাখ
+km,as,খমেৰ
+kn,as,কানাড়া
+ko,as,কোৰিয়ান
+ky,as,কিৰ্গিজ
+lo,as,লাও
+lt,as,লিথুৱানিয়ান
+lv,as,লাটভিয়ান
+mk,as,মেচিডোনীয়
+ml,as,মালায়ালম
+mn,as,মংগোলীয়
+mr,as,মাৰাঠী
+ms,as,মালয়
+my,as,বাৰ্মীজ
+no,as,নৰৱেজিয়ান
+ne,as,নেপালী
+nl,as,ডাচ
+or,as,ওড়িয়া
+pa,as,পাঞ্জাবী
+pl,as,প’লিচ
+pt,as,পৰ্তুগীজ
+pt-PT,as,পৰ্তুগীজ (পৰ্তুগাল)
+ro,as,ৰোমানীয়
+ru,as,ৰাছিয়ান
+si,as,সিংহলা
+sk,as,শ্লোভাক
+sl,as,শ্লোভেনিয়ান
+sq,as,আলবেনীয়
+sr-Latn,as,ছাৰ্বিয়ান (লেটিন)
+sr,as,ছাৰ্বিয়ান
+sv,as,ছুইডিচ
+sw,as,স্বাহিলি
+ta,as,তামিল
+te,as,তেলুগু
+th,as,থাই
+tr,as,তুৰ্কী
+uk,as,ইউক্ৰেইনীয়
+ur,as,উৰ্দু
+uz,as,উজবেক
+vi,as,ভিয়েটনামী
+zh-CN,as,চীনা (চীন)
+zh-HK,as,চীনা (হং কং)
+zh-TW,as,চীনা (টাইৱান)
+zu,as,ঝুলু
+af,az,afrikaans
+am,az,amhar
+ar,az,ərəb
+as,az,assam
+az,az,azərbaycan
+be,az,belarus
+bg,az,bolqar
+bn,az,benqal
+bs,az,bosniya
+ca,az,katalan
+cs,az,çex
+da,az,danimarka
+de,az,alman
+el,az,yunan
+en-GB,az,ingilis (Birləşmiş Krallıq)
+en-IN,az,ingilis (Hindistan)
+en,az,ingilis
+es,az,ispan
+es-419,az,ispan (Latın Amerikası)
+es-US,az,ispan (Amerika Birləşmiş Ştatları)
+et,az,eston
+eu,az,bask
+fa,az,fars
+fi,az,fin
+fil,az,filippin
+fr-CA,az,fransız (Kanada)
+fr,az,fransız
+gl,az,qalisiya
+gu,az,qucarat
+hi,az,hind
+hr,az,xorvat
+hu,az,macar
+hy,az,erməni
+id,az,indoneziya
+is,az,island
+it,az,italyan
+iw,az,ivrit
+ja,az,yapon
+ka,az,gürcü
+kk,az,qazax
+km,az,kxmer
+kn,az,kannada
+ko,az,koreya
+ky,az,qırğız
+lo,az,laos
+lt,az,litva
+lv,az,latış
+mk,az,makedon
+ml,az,malayalam
+mn,az,monqol
+mr,az,marathi
+ms,az,malay
+my,az,birman
+no,az,norveç
+ne,az,nepal
+nl,az,holland
+or,az,odiya
+pa,az,pəncab
+pl,az,polyak
+pt,az,portuqal
+pt-PT,az,portuqal (Portuqaliya)
+ro,az,rumın
+ru,az,rus
+si,az,sinhala
+sk,az,slovak
+sl,az,sloven
+sq,az,alban
+sr-Latn,az,serb (latın)
+sr,az,serb
+sv,az,isveç
+sw,az,suahili
+ta,az,tamil
+te,az,teluqu
+th,az,tay
+tr,az,türk
+uk,az,ukrayna
+ur,az,urdu
+uz,az,özbək
+vi,az,vyetnam
+zh-CN,az,çin (Çin)
+zh-HK,az,çin (Honq Konq)
+zh-TW,az,çin (Tayvan)
+zu,az,zulu
+af,be,афрыкаанс
+am,be,амхарская
+ar,be,арабская
+as,be,асамская
+az,be,азербайджанская
+be,be,беларуская
+bg,be,балгарская
+bn,be,бенгальская
+bs,be,баснійская
+ca,be,каталанская
+cs,be,чэшская
+da,be,дацкая
+de,be,нямецкая
+el,be,грэчаская
+en-GB,be,англійская (Вялікабрытанія)
+en-IN,be,англійская (Індыя)
+en,be,англійская
+es,be,іспанская
+es-419,be,іспанская (Лацінская Амерыка)
+es-US,be,іспанская (Злучаныя Штаты Амерыкі)
+et,be,эстонская
+eu,be,баскская
+fa,be,фарсі
+fi,be,фінская
+fil,be,філіпінская
+fr-CA,be,французская (Канада)
+fr,be,французская
+gl,be,галісійская
+gu,be,гуджараці
+hi,be,хіндзі
+hr,be,харвацкая
+hu,be,венгерская
+hy,be,армянская
+id,be,інданезійская
+is,be,ісландская
+it,be,італьянская
+iw,be,іўрыт
+ja,be,японская
+ka,be,грузінская
+kk,be,казахская
+km,be,кхмерская
+kn,be,канада
+ko,be,карэйская
+ky,be,кіргізская
+lo,be,лаоская
+lt,be,літоўская
+lv,be,латышская
+mk,be,македонская
+ml,be,малаялам
+mn,be,мангольская
+mr,be,маратхі
+ms,be,малайская
+my,be,бірманская
+no,be,нарвежская
+ne,be,непальская
+nl,be,нідэрландская
+or,be,орыя
+pa,be,панджабі
+pl,be,польская
+pt,be,партугальская
+pt-PT,be,партугальская (Партугалія)
+ro,be,румынская
+ru,be,руская
+si,be,сінгальская
+sk,be,славацкая
+sl,be,славенская
+sq,be,албанская
+sr-Latn,be,сербская (лацініца)
+sr,be,сербская
+sv,be,шведская
+sw,be,суахілі
+ta,be,тамільская
+te,be,тэлугу
+th,be,тайская
+tr,be,турэцкая
+uk,be,украінская
+ur,be,урду
+uz,be,узбекская
+vi,be,в’етнамская
+zh-CN,be,кітайская (Кітай)
+zh-HK,be,кітайская (Ганконг)
+zh-TW,be,кітайская (Тайвань)
+zu,be,зулу
+af,bg,африканс
+am,bg,амхарски
+ar,bg,арабски
+as,bg,асамски
+az,bg,азербайджански
+be,bg,беларуски
+bg,bg,български
+bn,bg,бенгалски
+bs,bg,босненски
+ca,bg,каталонски
+cs,bg,чешки
+da,bg,датски
+de,bg,немски
+el,bg,гръцки
+en-GB,bg,английски (Обединеното кралство)
+en-IN,bg,английски (Индия)
+en,bg,английски
+es,bg,испански
+es-419,bg,испански (Латинска Америка)
+es-US,bg,испански (Съединени щати)
+et,bg,естонски
+eu,bg,баски
+fa,bg,персийски
+fi,bg,фински
+fil,bg,филипински
+fr-CA,bg,френски (Канада)
+fr,bg,френски
+gl,bg,галисийски
+gu,bg,гуджарати
+hi,bg,хинди
+hr,bg,хърватски
+hu,bg,унгарски
+hy,bg,арменски
+id,bg,индонезийски
+is,bg,исландски
+it,bg,италиански
+iw,bg,иврит
+ja,bg,японски
+ka,bg,грузински
+kk,bg,казахски
+km,bg,кхмерски
+kn,bg,каннада
+ko,bg,корейски
+ky,bg,киргизки
+lo,bg,лаоски
+lt,bg,литовски
+lv,bg,латвийски
+mk,bg,македонски
+ml,bg,малаялам
+mn,bg,монголски
+mr,bg,марати
+ms,bg,малайски
+my,bg,бирмански
+no,bg,норвежки
+ne,bg,непалски
+nl,bg,нидерландски
+or,bg,ория
+pa,bg,пенджабски
+pl,bg,полски
+pt,bg,португалски
+pt-PT,bg,португалски (Португалия)
+ro,bg,румънски
+ru,bg,руски
+si,bg,синхалски
+sk,bg,словашки
+sl,bg,словенски
+sq,bg,албански
+sr-Latn,bg,сръбски (латиница)
+sr,bg,сръбски
+sv,bg,шведски
+sw,bg,суахили
+ta,bg,тамилски
+te,bg,телугу
+th,bg,тайски
+tr,bg,турски
+uk,bg,украински
+ur,bg,урду
+uz,bg,узбекски
+vi,bg,виетнамски
+zh-CN,bg,китайски (Китай)
+zh-HK,bg,китайски (Хонконг)
+zh-TW,bg,китайски (Тайван)
+zu,bg,зулуски
+af,bn,আফ্রিকান
+am,bn,আমহারিক
+ar,bn,আরবি
+as,bn,অসমীয়া
+az,bn,আজারবাইজানী
+be,bn,বেলারুশিয়
+bg,bn,বুলগেরিয়
+bn,bn,বাংলা
+bs,bn,বসনীয়
+ca,bn,কাতালান
+cs,bn,চেক
+da,bn,ডেনিশ
+de,bn,জার্মান
+el,bn,গ্রিক
+en-GB,bn,ইংরেজি (যুক্তরাজ্য)
+en-IN,bn,ইংরেজি (ভারত)
+en,bn,ইংরেজি
+es,bn,স্প্যানিশ
+es-419,bn,স্প্যানিশ (লাতিন আমেরিকা)
+es-US,bn,স্প্যানিশ (মার্কিন যুক্তরাষ্ট্র)
+et,bn,এস্তোনীয়
+eu,bn,বাস্ক
+fa,bn,ফার্সি
+fi,bn,ফিনিশ
+fil,bn,ফিলিপিনো
+fr-CA,bn,ফরাসি (কানাডা)
+fr,bn,ফরাসি
+gl,bn,গ্যালিশিয়
+gu,bn,গুজরাটি
+hi,bn,হিন্দি
+hr,bn,ক্রোয়েশীয়
+hu,bn,হাঙ্গেরীয়
+hy,bn,আর্মেনিয়
+id,bn,ইন্দোনেশীয়
+is,bn,আইসল্যান্ডীয়
+it,bn,ইতালিয়
+iw,bn,হিব্রু
+ja,bn,জাপানি
+ka,bn,জর্জিয়ান
+kk,bn,কাজাখ
+km,bn,খমের
+kn,bn,কন্নড়
+ko,bn,কোরিয়ান
+ky,bn,কির্গিজ
+lo,bn,লাও
+lt,bn,লিথুয়েনীয়
+lv,bn,লাত্‌ভীয়
+mk,bn,ম্যাসিডোনীয়
+ml,bn,মালায়ালাম
+mn,bn,মঙ্গোলিয়
+mr,bn,মারাঠি
+ms,bn,মালয়
+my,bn,বর্মি
+no,bn,নরওয়েজীয়
+ne,bn,নেপালী
+nl,bn,ওলন্দাজ
+or,bn,ওড়িয়া
+pa,bn,পাঞ্জাবী
+pl,bn,পোলিশ
+pt,bn,পর্তুগীজ
+pt-PT,bn,পর্তুগীজ (পর্তুগাল)
+ro,bn,রোমানীয়
+ru,bn,রুশ
+si,bn,সিংহলী
+sk,bn,স্লোভাক
+sl,bn,স্লোভেনীয়
+sq,bn,আলবেনীয়
+sr-Latn,bn,সার্বীয় (ল্যাটিন)
+sr,bn,সার্বীয়
+sv,bn,সুইডিশ
+sw,bn,সোয়াহিলি
+ta,bn,তামিল
+te,bn,তেলুগু
+th,bn,থাই
+tr,bn,তুর্কী
+uk,bn,ইউক্রেনীয়
+ur,bn,উর্দু
+uz,bn,উজবেক
+vi,bn,ভিয়েতনামী
+zh-CN,bn,চীনা (চীন)
+zh-HK,bn,চীনা (হংকং)
+zh-TW,bn,চীনা (তাইওয়ান)
+zu,bn,জুলু
+af,bs,afrikans
+am,bs,amharski
+ar,bs,arapski
+as,bs,asamski
+az,bs,azerbejdžanski
+be,bs,bjeloruski
+bg,bs,bugarski
+bn,bs,bengalski
+bs,bs,bosanski
+ca,bs,katalonski
+cs,bs,češki
+da,bs,danski
+de,bs,njemački
+el,bs,grčki
+en-GB,bs,engleski (Ujedinjeno Kraljevstvo)
+en-IN,bs,engleski (Indija)
+en,bs,engleski
+es,bs,španski
+es-419,bs,španski (Latinska Amerika)
+es-US,bs,španski (Sjedinjene Države)
+et,bs,estonski
+eu,bs,baskijski
+fa,bs,perzijski
+fi,bs,finski
+fil,bs,filipino
+fr-CA,bs,francuski (Kanada)
+fr,bs,francuski
+gl,bs,galicijski
+gu,bs,gudžarati
+hi,bs,hindi
+hr,bs,hrvatski
+hu,bs,mađarski
+hy,bs,armenski
+id,bs,indonezijski
+is,bs,islandski
+it,bs,italijanski
+iw,bs,hebrejski
+ja,bs,japanski
+ka,bs,gruzijski
+kk,bs,kazaški
+km,bs,kmerski
+kn,bs,kanada
+ko,bs,korejski
+ky,bs,kirgiški
+lo,bs,laoski
+lt,bs,litvanski
+lv,bs,latvijski
+mk,bs,makedonski
+ml,bs,malajalam
+mn,bs,mongolski
+mr,bs,marati
+ms,bs,malajski
+my,bs,burmanski
+no,bs,norveški
+ne,bs,nepalski
+nl,bs,nizozemski
+or,bs,odija
+pa,bs,pandžapski
+pl,bs,poljski
+pt,bs,portugalski
+pt-PT,bs,portugalski (Portugal)
+ro,bs,rumunski
+ru,bs,ruski
+si,bs,sinhaleški
+sk,bs,slovački
+sl,bs,slovenski
+sq,bs,albanski
+sr-Latn,bs,srpski (latinica)
+sr,bs,srpski
+sv,bs,švedski
+sw,bs,svahili
+ta,bs,tamilski
+te,bs,telugu
+th,bs,tajlandski
+tr,bs,turski
+uk,bs,ukrajinski
+ur,bs,urdu
+uz,bs,uzbečki
+vi,bs,vijetnamski
+zh-CN,bs,kineski (Kina)
+zh-HK,bs,kineski (Hong Kong)
+zh-TW,bs,kineski (Tajvan)
+zu,bs,zulu
+af,ca,afrikaans
+am,ca,amhàric
+ar,ca,àrab
+as,ca,assamès
+az,ca,azerbaidjanès
+be,ca,belarús
+bg,ca,búlgar
+bn,ca,bengalí
+bs,ca,bosnià
+ca,ca,català
+cs,ca,txec
+da,ca,danès
+de,ca,alemany
+el,ca,grec
+en-GB,ca,anglès (Regne Unit)
+en-IN,ca,anglès (Índia)
+en,ca,anglès
+es,ca,espanyol
+es-419,ca,espanyol (Amèrica Llatina)
+es-US,ca,espanyol (Estats Units)
+et,ca,estonià
+eu,ca,basc
+fa,ca,persa
+fi,ca,finès
+fil,ca,filipí
+fr-CA,ca,francès (Canadà)
+fr,ca,francès
+gl,ca,gallec
+gu,ca,gujarati
+hi,ca,hindi
+hr,ca,croat
+hu,ca,hongarès
+hy,ca,armeni
+id,ca,indonesi
+is,ca,islandès
+it,ca,italià
+iw,ca,hebreu
+ja,ca,japonès
+ka,ca,georgià
+kk,ca,kazakh
+km,ca,khmer
+kn,ca,kannada
+ko,ca,coreà
+ky,ca,kirguís
+lo,ca,laosià
+lt,ca,lituà
+lv,ca,letó
+mk,ca,macedoni
+ml,ca,malaiàlam
+mn,ca,mongol
+mr,ca,marathi
+ms,ca,malai
+my,ca,birmà
+no,ca,noruec
+ne,ca,nepalès
+nl,ca,neerlandès
+or,ca,oriya
+pa,ca,panjabi
+pl,ca,polonès
+pt,ca,portuguès
+pt-PT,ca,portuguès (Portugal)
+ro,ca,romanès
+ru,ca,rus
+si,ca,singalès
+sk,ca,eslovac
+sl,ca,eslovè
+sq,ca,albanès
+sr-Latn,ca,serbi (llatí)
+sr,ca,serbi
+sv,ca,suec
+sw,ca,suahili
+ta,ca,tàmil
+te,ca,telugu
+th,ca,tai
+tr,ca,turc
+uk,ca,ucraïnès
+ur,ca,urdú
+uz,ca,uzbek
+vi,ca,vietnamita
+zh-CN,ca,xinès (Xina)
+zh-HK,ca,xinès (Hong Kong)
+zh-TW,ca,xinès (Taiwan)
+zu,ca,zulu
+af,cs,Afrikánština
+am,cs,Amharština
+ar,cs,Arabština
+as,cs,Ásámština
+az,cs,Ázerbájdžánština
+be,cs,Běloruština
+bg,cs,Bulharština
+bn,cs,Bengálština
+bs,cs,Bosenština
+ca,cs,Katalánština
+cs,cs,Čeština
+da,cs,Dánština
+de,cs,Němčina
+el,cs,Řečtina
+en-GB,cs,Angličtina (Spojené království)
+en-IN,cs,Angličtina (Indie)
+en,cs,Angličtina
+es,cs,Španělština
+es-419,cs,Španělština (Latinská Amerika)
+es-US,cs,Španělština (Spojené státy)
+et,cs,Estonština
+eu,cs,Baskičtina
+fa,cs,Perština
+fi,cs,Finština
+fil,cs,Filipínština
+fr-CA,cs,Francouzština (Kanada)
+fr,cs,Francouzština
+gl,cs,Galicijština
+gu,cs,Gudžarátština
+hi,cs,Hindština
+hr,cs,Chorvatština
+hu,cs,Maďarština
+hy,cs,Arménština
+id,cs,Indonéština
+is,cs,Islandština
+it,cs,Italština
+iw,cs,Hebrejština
+ja,cs,Japonština
+ka,cs,Gruzínština
+kk,cs,Kazaština
+km,cs,Khmérština
+kn,cs,Kannadština
+ko,cs,Korejština
+ky,cs,Kyrgyzština
+lo,cs,Laoština
+lt,cs,Litevština
+lv,cs,Lotyština
+mk,cs,Makedonština
+ml,cs,Malajálamština
+mn,cs,Mongolština
+mr,cs,Maráthština
+ms,cs,Malajština
+my,cs,Barmština
+no,cs,Norština
+ne,cs,Nepálština
+nl,cs,Nizozemština
+or,cs,Urijština
+pa,cs,Paňdžábština
+pl,cs,Polština
+pt,cs,Portugalština
+pt-PT,cs,Portugalština (Portugalsko)
+ro,cs,Rumunština
+ru,cs,Ruština
+si,cs,Sinhálština
+sk,cs,Slovenština
+sl,cs,Slovinština
+sq,cs,Albánština
+sr-Latn,cs,Srbština (latinka)
+sr,cs,Srbština
+sv,cs,Švédština
+sw,cs,Svahilština
+ta,cs,Tamilština
+te,cs,Telugština
+th,cs,Thajština
+tr,cs,Turečtina
+uk,cs,Ukrajinština
+ur,cs,Urdština
+uz,cs,Uzbečtina
+vi,cs,Vietnamština
+zh-CN,cs,Čínština (Čína)
+zh-HK,cs,Čínština (Hongkong)
+zh-TW,cs,Čínština (Tchaj-wan)
+zu,cs,Zuluština
+af,da,Afrikaans
+am,da,Amharisk
+ar,da,Arabisk
+as,da,Assamesisk
+az,da,Aserbajdsjansk
+be,da,Belarusisk
+bg,da,Bulgarsk
+bn,da,Bengali
+bs,da,Bosnisk
+ca,da,Catalansk
+cs,da,Tjekkisk
+da,da,Dansk
+de,da,Tysk
+el,da,Græsk
+en-GB,da,Engelsk (Storbritannien)
+en-IN,da,Engelsk (Indien)
+en,da,Engelsk
+es,da,Spansk
+es-419,da,Spansk (Latinamerika)
+es-US,da,Spansk (USA)
+et,da,Estisk
+eu,da,Baskisk
+fa,da,Persisk
+fi,da,Finsk
+fil,da,Filippinsk
+fr-CA,da,Fransk (Canada)
+fr,da,Fransk
+gl,da,Galicisk
+gu,da,Gujarati
+hi,da,Hindi
+hr,da,Kroatisk
+hu,da,Ungarsk
+hy,da,Armensk
+id,da,Indonesisk
+is,da,Islandsk
+it,da,Italiensk
+iw,da,Hebraisk
+ja,da,Japansk
+ka,da,Georgisk
+kk,da,Kasakhisk
+km,da,Khmer
+kn,da,Kannada
+ko,da,Koreansk
+ky,da,Kirgisisk
+lo,da,Lao
+lt,da,Litauisk
+lv,da,Lettisk
+mk,da,Makedonsk
+ml,da,Malayalam
+mn,da,Mongolsk
+mr,da,Marathisk
+ms,da,Malajisk
+my,da,Burmesisk
+no,da,Norsk
+ne,da,Nepalesisk
+nl,da,Nederlandsk
+or,da,Oriya
+pa,da,Punjabisk
+pl,da,Polsk
+pt,da,Portugisisk
+pt-PT,da,Portugisisk (Portugal)
+ro,da,Rumænsk
+ru,da,Russisk
+si,da,Singalesisk
+sk,da,Slovakisk
+sl,da,Slovensk
+sq,da,Albansk
+sr-Latn,da,Serbisk (latinsk)
+sr,da,Serbisk
+sv,da,Svensk
+sw,da,Swahili
+ta,da,Tamil
+te,da,Telugu
+th,da,Thai
+tr,da,Tyrkisk
+uk,da,Ukrainsk
+ur,da,Urdu
+uz,da,Usbekisk
+vi,da,Vietnamesisk
+zh-CN,da,Kinesisk (Kina)
+zh-HK,da,Kinesisk (Hongkong)
+zh-TW,da,Kinesisk (Taiwan)
+zu,da,Zulu
+af,de,Afrikaans
+am,de,Amharisch
+ar,de,Arabisch
+as,de,Assamesisch
+az,de,Aserbaidschanisch
+be,de,Belarussisch
+bg,de,Bulgarisch
+bn,de,Bengalisch
+bs,de,Bosnisch
+ca,de,Katalanisch
+cs,de,Tschechisch
+da,de,Dänisch
+de,de,Deutsch
+el,de,Griechisch
+en-GB,de,Englisch (Vereinigtes Königreich)
+en-IN,de,Englisch (Indien)
+en,de,Englisch
+es,de,Spanisch
+es-419,de,Spanisch (Lateinamerika)
+es-US,de,Spanisch (Vereinigte Staaten)
+et,de,Estnisch
+eu,de,Baskisch
+fa,de,Persisch
+fi,de,Finnisch
+fil,de,Filipino
+fr-CA,de,Französisch (Kanada)
+fr,de,Französisch
+gl,de,Galicisch
+gu,de,Gujarati
+hi,de,Hindi
+hr,de,Kroatisch
+hu,de,Ungarisch
+hy,de,Armenisch
+id,de,Indonesisch
+is,de,Isländisch
+it,de,Italienisch
+iw,de,Hebräisch
+ja,de,Japanisch
+ka,de,Georgisch
+kk,de,Kasachisch
+km,de,Khmer
+kn,de,Kannada
+ko,de,Koreanisch
+ky,de,Kirgisisch
+lo,de,Laotisch
+lt,de,Litauisch
+lv,de,Lettisch
+mk,de,Mazedonisch
+ml,de,Malayalam
+mn,de,Mongolisch
+mr,de,Marathi
+ms,de,Malaiisch
+my,de,Birmanisch
+no,de,Norwegisch
+ne,de,Nepalesisch
+nl,de,Niederländisch
+or,de,Oriya
+pa,de,Punjabi
+pl,de,Polnisch
+pt,de,Portugiesisch
+pt-PT,de,Portugiesisch (Portugal)
+ro,de,Rumänisch
+ru,de,Russisch
+si,de,Singhalesisch
+sk,de,Slowakisch
+sl,de,Slowenisch
+sq,de,Albanisch
+sr-Latn,de,Serbisch (Lateinisch)
+sr,de,Serbisch
+sv,de,Schwedisch
+sw,de,Suaheli
+ta,de,Tamil
+te,de,Telugu
+th,de,Thailändisch
+tr,de,Türkisch
+uk,de,Ukrainisch
+ur,de,Urdu
+uz,de,Usbekisch
+vi,de,Vietnamesisch
+zh-CN,de,Chinesisch (China)
+zh-HK,de,Chinesisch (Hongkong)
+zh-TW,de,Chinesisch (Taiwan)
+zu,de,Zulu
+af,el,Αφρικάανς
+am,el,Αμχαρικά
+ar,el,Αραβικά
+as,el,Ασαμικά
+az,el,Αζερμπαϊτζανικά
+be,el,Λευκορωσικά
+bg,el,Βουλγαρικά
+bn,el,Βεγγαλικά
+bs,el,Βοσνιακά
+ca,el,Καταλανικά
+cs,el,Τσεχικά
+da,el,Δανικά
+de,el,Γερμανικά
+el,el,Ελληνικά
+en-GB,el,Αγγλικά (Ηνωμένο Βασίλειο)
+en-IN,el,Αγγλικά (Ινδία)
+en,el,Αγγλικά
+es,el,Ισπανικά
+es-419,el,Ισπανικά (Λατινική Αμερική)
+es-US,el,Ισπανικά (Ηνωμένες Πολιτείες)
+et,el,Εσθονικά
+eu,el,Βασκικά
+fa,el,Περσικά
+fi,el,Φινλανδικά
+fil,el,Φιλιππινικά
+fr-CA,el,Γαλλικά (Καναδάς)
+fr,el,Γαλλικά
+gl,el,Γαλικιανά
+gu,el,Γκουτζαρατικά
+hi,el,Χίντι
+hr,el,Κροατικά
+hu,el,Ουγγρικά
+hy,el,Αρμενικά
+id,el,Ινδονησιακά
+is,el,Ισλανδικά
+it,el,Ιταλικά
+iw,el,Εβραϊκά
+ja,el,Ιαπωνικά
+ka,el,Γεωργιανά
+kk,el,Καζακικά
+km,el,Χμερ
+kn,el,Κανάντα
+ko,el,Κορεατικά
+ky,el,Κιργιζικά
+lo,el,Λαοτινά
+lt,el,Λιθουανικά
+lv,el,Λετονικά
+mk,el,Σλαβομακεδονικά
+ml,el,Μαλαγιαλαμικά
+mn,el,Μογγολικά
+mr,el,Μαραθικά
+ms,el,Μαλαισιανά
+my,el,Βιρμανικά
+no,el,Νορβηγικά
+ne,el,Νεπαλικά
+nl,el,Ολλανδικά
+or,el,Όντια
+pa,el,Παντζαπικά
+pl,el,Πολωνικά
+pt,el,Πορτογαλικά
+pt-PT,el,Πορτογαλικά (Πορτογαλία)
+ro,el,Ρουμανικά
+ru,el,Ρωσικά
+si,el,Σινχαλεζικά
+sk,el,Σλοβακικά
+sl,el,Σλοβενικά
+sq,el,Αλβανικά
+sr-Latn,el,Σερβικά (Λατινικό)
+sr,el,Σερβικά
+sv,el,Σουηδικά
+sw,el,Σουαχίλι
+ta,el,Ταμιλικά
+te,el,Τελούγκου
+th,el,Ταϊλανδικά
+tr,el,Τουρκικά
+uk,el,Ουκρανικά
+ur,el,Ούρντου
+uz,el,Ουζμπεκικά
+vi,el,Βιετναμικά
+zh-CN,el,Κινεζικά (Κίνα)
+zh-HK,el,Κινεζικά (Χονγκ Κονγκ)
+zh-TW,el,Κινεζικά (Ταϊβάν)
+zu,el,Ζουλού
+af,en,Afrikaans
+am,en,Amharic
+ar,en,Arabic
+as,en,Assamese
+az,en,Azerbaijani
+be,en,Belarusian
+bg,en,Bulgarian
+bn,en,Bangla
+bs,en,Bosnian
+ca,en,Catalan
+cs,en,Czech
+da,en,Danish
+de,en,German
+el,en,Greek
+en-GB,en,English (United Kingdom)
+en-IN,en,English (India)
+en,en,English
+es,en,Spanish
+es-419,en,Spanish (Latin America)
+es-US,en,Spanish (United States)
+et,en,Estonian
+eu,en,Basque
+fa,en,Persian
+fi,en,Finnish
+fil,en,Filipino
+fr-CA,en,French (Canada)
+fr,en,French
+gl,en,Galician
+gu,en,Gujarati
+hi,en,Hindi
+hr,en,Croatian
+hu,en,Hungarian
+hy,en,Armenian
+id,en,Indonesian
+is,en,Icelandic
+it,en,Italian
+iw,en,Hebrew
+ja,en,Japanese
+ka,en,Georgian
+kk,en,Kazakh
+km,en,Khmer
+kn,en,Kannada
+ko,en,Korean
+ky,en,Kyrgyz
+lo,en,Lao
+lt,en,Lithuanian
+lv,en,Latvian
+mk,en,Macedonian
+ml,en,Malayalam
+mn,en,Mongolian
+mr,en,Marathi
+ms,en,Malay
+my,en,Burmese
+no,en,Norwegian
+ne,en,Nepali
+nl,en,Dutch
+or,en,Odia
+pa,en,Punjabi
+pl,en,Polish
+pt,en,Portuguese
+pt-PT,en,Portuguese (Portugal)
+ro,en,Romanian
+ru,en,Russian
+si,en,Sinhala
+sk,en,Slovak
+sl,en,Slovenian
+sq,en,Albanian
+sr-Latn,en,Serbian (Latin)
+sr,en,Serbian
+sv,en,Swedish
+sw,en,Swahili
+ta,en,Tamil
+te,en,Telugu
+th,en,Thai
+tr,en,Turkish
+uk,en,Ukrainian
+ur,en,Urdu
+uz,en,Uzbek
+vi,en,Vietnamese
+zh-CN,en,Chinese (China)
+zh-HK,en,Chinese (Hong Kong)
+zh-TW,en,Chinese (Taiwan)
+zu,en,Zulu
+af,en-GB,Afrikaans
+am,en-GB,Amharic
+ar,en-GB,Arabic
+as,en-GB,Assamese
+az,en-GB,Azerbaijani
+be,en-GB,Belarusian
+bg,en-GB,Bulgarian
+bn,en-GB,Bangla
+bs,en-GB,Bosnian
+ca,en-GB,Catalan
+cs,en-GB,Czech
+da,en-GB,Danish
+de,en-GB,German
+el,en-GB,Greek
+en-GB,en-GB,English (United Kingdom)
+en-IN,en-GB,English (India)
+en,en-GB,English
+es,en-GB,Spanish
+es-419,en-GB,Spanish (Latin America)
+es-US,en-GB,Spanish (United States)
+et,en-GB,Estonian
+eu,en-GB,Basque
+fa,en-GB,Persian
+fi,en-GB,Finnish
+fil,en-GB,Filipino
+fr-CA,en-GB,French (Canada)
+fr,en-GB,French
+gl,en-GB,Galician
+gu,en-GB,Gujarati
+hi,en-GB,Hindi
+hr,en-GB,Croatian
+hu,en-GB,Hungarian
+hy,en-GB,Armenian
+id,en-GB,Indonesian
+is,en-GB,Icelandic
+it,en-GB,Italian
+iw,en-GB,Hebrew
+ja,en-GB,Japanese
+ka,en-GB,Georgian
+kk,en-GB,Kazakh
+km,en-GB,Khmer
+kn,en-GB,Kannada
+ko,en-GB,Korean
+ky,en-GB,Kyrgyz
+lo,en-GB,Lao
+lt,en-GB,Lithuanian
+lv,en-GB,Latvian
+mk,en-GB,Macedonian
+ml,en-GB,Malayalam
+mn,en-GB,Mongolian
+mr,en-GB,Marathi
+ms,en-GB,Malay
+my,en-GB,Burmese
+no,en-GB,Norwegian
+ne,en-GB,Nepali
+nl,en-GB,Dutch
+or,en-GB,Odia
+pa,en-GB,Punjabi
+pl,en-GB,Polish
+pt,en-GB,Portuguese
+pt-PT,en-GB,Portuguese (Portugal)
+ro,en-GB,Romanian
+ru,en-GB,Russian
+si,en-GB,Sinhala
+sk,en-GB,Slovak
+sl,en-GB,Slovenian
+sq,en-GB,Albanian
+sr-Latn,en-GB,Serbian (Latin)
+sr,en-GB,Serbian
+sv,en-GB,Swedish
+sw,en-GB,Swahili
+ta,en-GB,Tamil
+te,en-GB,Telugu
+th,en-GB,Thai
+tr,en-GB,Turkish
+uk,en-GB,Ukrainian
+ur,en-GB,Urdu
+uz,en-GB,Uzbek
+vi,en-GB,Vietnamese
+zh-CN,en-GB,Chinese (China)
+zh-HK,en-GB,Chinese (Hong Kong)
+zh-TW,en-GB,Chinese (Taiwan)
+zu,en-GB,Zulu
+af,en-IN,Afrikaans
+am,en-IN,Amharic
+ar,en-IN,Arabic
+as,en-IN,Assamese
+az,en-IN,Azerbaijani
+be,en-IN,Belarusian
+bg,en-IN,Bulgarian
+bn,en-IN,Bengali
+bs,en-IN,Bosnian
+ca,en-IN,Catalan
+cs,en-IN,Czech
+da,en-IN,Danish
+de,en-IN,German
+el,en-IN,Greek
+en-GB,en-IN,English (United Kingdom)
+en-IN,en-IN,English (India)
+en,en-IN,English
+es,en-IN,Spanish
+es-419,en-IN,Spanish (Latin America)
+es-US,en-IN,Spanish (United States)
+et,en-IN,Estonian
+eu,en-IN,Basque
+fa,en-IN,Persian
+fi,en-IN,Finnish
+fil,en-IN,Filipino
+fr-CA,en-IN,French (Canada)
+fr,en-IN,French
+gl,en-IN,Galician
+gu,en-IN,Gujarati
+hi,en-IN,Hindi
+hr,en-IN,Croatian
+hu,en-IN,Hungarian
+hy,en-IN,Armenian
+id,en-IN,Indonesian
+is,en-IN,Icelandic
+it,en-IN,Italian
+iw,en-IN,Hebrew
+ja,en-IN,Japanese
+ka,en-IN,Georgian
+kk,en-IN,Kazakh
+km,en-IN,Khmer
+kn,en-IN,Kannada
+ko,en-IN,Korean
+ky,en-IN,Kyrgyz
+lo,en-IN,Lao
+lt,en-IN,Lithuanian
+lv,en-IN,Latvian
+mk,en-IN,Macedonian
+ml,en-IN,Malayalam
+mn,en-IN,Mongolian
+mr,en-IN,Marathi
+ms,en-IN,Malay
+my,en-IN,Burmese
+no,en-IN,Norwegian
+ne,en-IN,Nepali
+nl,en-IN,Dutch
+or,en-IN,Odia
+pa,en-IN,Punjabi
+pl,en-IN,Polish
+pt,en-IN,Portuguese
+pt-PT,en-IN,Portuguese (Portugal)
+ro,en-IN,Romanian
+ru,en-IN,Russian
+si,en-IN,Sinhala
+sk,en-IN,Slovak
+sl,en-IN,Slovenian
+sq,en-IN,Albanian
+sr-Latn,en-IN,Serbian (Latin)
+sr,en-IN,Serbian
+sv,en-IN,Swedish
+sw,en-IN,Swahili
+ta,en-IN,Tamil
+te,en-IN,Telugu
+th,en-IN,Thai
+tr,en-IN,Turkish
+uk,en-IN,Ukrainian
+ur,en-IN,Urdu
+uz,en-IN,Uzbek
+vi,en-IN,Vietnamese
+zh-CN,en-IN,Chinese (China)
+zh-HK,en-IN,Chinese (Hong Kong)
+zh-TW,en-IN,Chinese (Taiwan)
+zu,en-IN,Zulu
+af,es,Afrikáans
+am,es,Amárico
+ar,es,Árabe
+as,es,Asamés
+az,es,Azerbaiyano
+be,es,Bielorruso
+bg,es,Búlgaro
+bn,es,Bengalí
+bs,es,Bosnio
+ca,es,Catalán
+cs,es,Checo
+da,es,Danés
+de,es,Alemán
+el,es,Griego
+en-GB,es,Inglés (Reino Unido)
+en-IN,es,Inglés (India)
+en,es,Inglés
+es,es,Español
+es-419,es,Español (Latinoamérica)
+es-US,es,Español (Estados Unidos)
+et,es,Estonio
+eu,es,Euskera
+fa,es,Persa
+fi,es,Finés
+fil,es,Filipino
+fr-CA,es,Francés (Canadá)
+fr,es,Francés
+gl,es,Gallego
+gu,es,Guyaratí
+hi,es,Hindi
+hr,es,Croata
+hu,es,Húngaro
+hy,es,Armenio
+id,es,Indonesio
+is,es,Islandés
+it,es,Italiano
+iw,es,Hebreo
+ja,es,Japonés
+ka,es,Georgiano
+kk,es,Kazajo
+km,es,Jemer
+kn,es,Canarés
+ko,es,Coreano
+ky,es,Kirguís
+lo,es,Lao
+lt,es,Lituano
+lv,es,Letón
+mk,es,Macedonio
+ml,es,Malayálam
+mn,es,Mongol
+mr,es,Maratí
+ms,es,Malayo
+my,es,Birmano
+no,es,Noruego
+ne,es,Nepalí
+nl,es,Neerlandés
+or,es,Oriya
+pa,es,Punyabí
+pl,es,Polaco
+pt,es,Portugués
+pt-PT,es,Portugués (Portugal)
+ro,es,Rumano
+ru,es,Ruso
+si,es,Cingalés
+sk,es,Eslovaco
+sl,es,Esloveno
+sq,es,Albanés
+sr-Latn,es,Serbio (latino)
+sr,es,Serbio
+sv,es,Sueco
+sw,es,Suajili
+ta,es,Tamil
+te,es,Telugu
+th,es,Tailandés
+tr,es,Turco
+uk,es,Ucraniano
+ur,es,Urdu
+uz,es,Uzbeko
+vi,es,Vietnamita
+zh-CN,es,Chino (China)
+zh-HK,es,Chino (Hong Kong)
+zh-TW,es,Chino (Taiwán)
+zu,es,Zulú
+af,es-419,Afrikáans
+am,es-419,Amárico
+ar,es-419,Árabe
+as,es-419,Asamés
+az,es-419,Azerbaiyano
+be,es-419,Bielorruso
+bg,es-419,Búlgaro
+bn,es-419,Bengalí
+bs,es-419,Bosnio
+ca,es-419,Catalán
+cs,es-419,Checo
+da,es-419,Danés
+de,es-419,Alemán
+el,es-419,Griego
+en-GB,es-419,Inglés (Reino Unido)
+en-IN,es-419,Inglés (India)
+en,es-419,Inglés
+es,es-419,Español
+es-419,es-419,Español (Latinoamérica)
+es-US,es-419,Español (Estados Unidos)
+et,es-419,Estonio
+eu,es-419,Vasco
+fa,es-419,Persa
+fi,es-419,Finés
+fil,es-419,Filipino
+fr-CA,es-419,Francés (Canadá)
+fr,es-419,Francés
+gl,es-419,Gallego
+gu,es-419,Gujarati
+hi,es-419,Hindi
+hr,es-419,Croata
+hu,es-419,Húngaro
+hy,es-419,Armenio
+id,es-419,Indonesio
+is,es-419,Islandés
+it,es-419,Italiano
+iw,es-419,Hebreo
+ja,es-419,Japonés
+ka,es-419,Georgiano
+kk,es-419,Kazajo
+km,es-419,Jemer
+kn,es-419,Canarés
+ko,es-419,Coreano
+ky,es-419,Kirguís
+lo,es-419,Laosiano
+lt,es-419,Lituano
+lv,es-419,Letón
+mk,es-419,Macedonio
+ml,es-419,Malabar
+mn,es-419,Mongol
+mr,es-419,Maratí
+ms,es-419,Malayo
+my,es-419,Birmano
+no,es-419,Noruego
+ne,es-419,Nepalí
+nl,es-419,Neerlandés
+or,es-419,Oriya
+pa,es-419,Panyabí
+pl,es-419,Polaco
+pt,es-419,Portugués
+pt-PT,es-419,Portugués (Portugal)
+ro,es-419,Rumano
+ru,es-419,Ruso
+si,es-419,Cingalés
+sk,es-419,Eslovaco
+sl,es-419,Esloveno
+sq,es-419,Albanés
+sr-Latn,es-419,Serbio (latín)
+sr,es-419,Serbio
+sv,es-419,Sueco
+sw,es-419,Swahili
+ta,es-419,Tamil
+te,es-419,Telugu
+th,es-419,Tailandés
+tr,es-419,Turco
+uk,es-419,Ucraniano
+ur,es-419,Urdu
+uz,es-419,Uzbeko
+vi,es-419,Vietnamita
+zh-CN,es-419,Chino (China)
+zh-HK,es-419,Chino (Hong Kong)
+zh-TW,es-419,Chino (Taiwán)
+zu,es-419,Zulú
+af,es-US,Afrikáans
+am,es-US,Amárico
+ar,es-US,Árabe
+as,es-US,Asamés
+az,es-US,Azerbaiyano
+be,es-US,Bielorruso
+bg,es-US,Búlgaro
+bn,es-US,Bengalí
+bs,es-US,Bosnio
+ca,es-US,Catalán
+cs,es-US,Checo
+da,es-US,Danés
+de,es-US,Alemán
+el,es-US,Griego
+en-GB,es-US,Inglés (Reino Unido)
+en-IN,es-US,Inglés (India)
+en,es-US,Inglés
+es,es-US,Español
+es-419,es-US,Español (Latinoamérica)
+es-US,es-US,Español (Estados Unidos)
+et,es-US,Estonio
+eu,es-US,Euskera
+fa,es-US,Persa
+fi,es-US,Finés
+fil,es-US,Filipino
+fr-CA,es-US,Francés (Canadá)
+fr,es-US,Francés
+gl,es-US,Gallego
+gu,es-US,Gurayatí
+hi,es-US,Hindi
+hr,es-US,Croata
+hu,es-US,Húngaro
+hy,es-US,Armenio
+id,es-US,Indonesio
+is,es-US,Islandés
+it,es-US,Italiano
+iw,es-US,Hebreo
+ja,es-US,Japonés
+ka,es-US,Georgiano
+kk,es-US,Kazajo
+km,es-US,Jemer
+kn,es-US,Canarés
+ko,es-US,Coreano
+ky,es-US,Kirguís
+lo,es-US,Lao
+lt,es-US,Lituano
+lv,es-US,Letón
+mk,es-US,Macedonio
+ml,es-US,Malabar
+mn,es-US,Mongol
+mr,es-US,Maratí
+ms,es-US,Malayo
+my,es-US,Birmano
+no,es-US,Noruego
+ne,es-US,Nepalí
+nl,es-US,Neerlandés
+or,es-US,Oriya
+pa,es-US,Panyabí
+pl,es-US,Polaco
+pt,es-US,Portugués
+pt-PT,es-US,Portugués (Portugal)
+ro,es-US,Rumano
+ru,es-US,Ruso
+si,es-US,Cingalés
+sk,es-US,Eslovaco
+sl,es-US,Esloveno
+sq,es-US,Albanés
+sr-Latn,es-US,Serbio (latín)
+sr,es-US,Serbio
+sv,es-US,Sueco
+sw,es-US,Swahili
+ta,es-US,Tamil
+te,es-US,Telugu
+th,es-US,Tailandés
+tr,es-US,Turco
+uk,es-US,Ucraniano
+ur,es-US,Urdu
+uz,es-US,Uzbeko
+vi,es-US,Vietnamita
+zh-CN,es-US,Chino (China)
+zh-HK,es-US,Chino (Hong Kong)
+zh-TW,es-US,Chino (Taiwán)
+zu,es-US,Zulú
+af,et,afrikaani
+am,et,amhara
+ar,et,araabia
+as,et,assami
+az,et,aserbaidžaani
+be,et,valgevene
+bg,et,bulgaaria
+bn,et,bengali
+bs,et,bosnia
+ca,et,katalaani
+cs,et,tšehhi
+da,et,taani
+de,et,saksa
+el,et,kreeka
+en-GB,et,inglise (Ühendkuningriik)
+en-IN,et,inglise (India)
+en,et,inglise
+es,et,hispaania
+es-419,et,hispaania (Ladina-Ameerika)
+es-US,et,hispaania (Ameerika Ühendriigid)
+et,et,eesti
+eu,et,baski
+fa,et,pärsia
+fi,et,soome
+fil,et,filipiini
+fr-CA,et,prantsuse (Kanada)
+fr,et,prantsuse
+gl,et,galeegi
+gu,et,gudžarati
+hi,et,hindi
+hr,et,horvaadi
+hu,et,ungari
+hy,et,armeenia
+id,et,indoneesia
+is,et,islandi
+it,et,itaalia
+iw,et,heebrea
+ja,et,jaapani
+ka,et,gruusia
+kk,et,kasahhi
+km,et,khmeeri
+kn,et,kannada
+ko,et,korea
+ky,et,kirgiisi
+lo,et,lao
+lt,et,leedu
+lv,et,läti
+mk,et,makedoonia
+ml,et,malajalami
+mn,et,mongoli
+mr,et,marathi
+ms,et,malai
+my,et,birma
+no,et,norra
+ne,et,nepali
+nl,et,hollandi
+or,et,oria
+pa,et,pandžabi
+pl,et,poola
+pt,et,portugali
+pt-PT,et,portugali (Portugal)
+ro,et,rumeenia
+ru,et,vene
+si,et,singali
+sk,et,slovaki
+sl,et,sloveeni
+sq,et,albaania
+sr-Latn,et,serbia (ladina)
+sr,et,serbia
+sv,et,rootsi
+sw,et,suahiili
+ta,et,tamili
+te,et,telugu
+th,et,tai
+tr,et,türgi
+uk,et,ukraina
+ur,et,urdu
+uz,et,usbeki
+vi,et,vietnami
+zh-CN,et,hiina (Hiina)
+zh-HK,et,hiina (Hongkong)
+zh-TW,et,hiina (Taiwan)
+zu,et,suulu
+af,eu,afrikaansa
+am,eu,amharera
+ar,eu,arabiera
+as,eu,assamera
+az,eu,azerbaijanera
+be,eu,bielorrusiera
+bg,eu,bulgariera
+bn,eu,bengalera
+bs,eu,bosniera
+ca,eu,katalana
+cs,eu,txekiera
+da,eu,daniera
+de,eu,alemana
+el,eu,greziera
+en-GB,eu,ingelesa (Erresuma Batua)
+en-IN,eu,ingelesa (India)
+en,eu,ingelesa
+es,eu,gaztelania
+es-419,eu,gaztelania (Latinoamerika)
+es-US,eu,gaztelania (Ameriketako Estatu Batuak)
+et,eu,estoniera
+eu,eu,euskara
+fa,eu,persiera
+fi,eu,finlandiera
+fil,eu,filipinera
+fr-CA,eu,frantsesa (Kanada)
+fr,eu,frantsesa
+gl,eu,galiziera
+gu,eu,gujaratera
+hi,eu,hindia
+hr,eu,kroaziera
+hu,eu,hungariera
+hy,eu,armeniera
+id,eu,indonesiera
+is,eu,islandiera
+it,eu,italiera
+iw,eu,hebreera
+ja,eu,japoniera
+ka,eu,georgiera
+kk,eu,kazakhera
+km,eu,khemerera
+kn,eu,kannada
+ko,eu,koreera
+ky,eu,kirgizera
+lo,eu,laosera
+lt,eu,lituaniera
+lv,eu,letoniera
+mk,eu,mazedoniera
+ml,eu,malabarera
+mn,eu,mongoliera
+mr,eu,marathera
+ms,eu,malaysiera
+my,eu,birmaniera
+no,eu,norvegiera
+ne,eu,nepalera
+nl,eu,nederlandera
+or,eu,oriya
+pa,eu,punjabera
+pl,eu,poloniera
+pt,eu,portugesa
+pt-PT,eu,portugesa (Portugal)
+ro,eu,errumaniera
+ru,eu,errusiera
+si,eu,sinhala
+sk,eu,eslovakiera
+sl,eu,esloveniera
+sq,eu,albaniera
+sr-Latn,eu,serbiera (latinoa)
+sr,eu,serbiera
+sv,eu,suediera
+sw,eu,swahilia
+ta,eu,tamilera
+te,eu,telugua
+th,eu,thailandiera
+tr,eu,turkiera
+uk,eu,ukrainera
+ur,eu,urdua
+uz,eu,uzbekera
+vi,eu,vietnamera
+zh-CN,eu,txinera (Txina)
+zh-HK,eu,txinera (Hong Kong)
+zh-TW,eu,txinera (Taiwan)
+zu,eu,zuluera
+af,fa,آفریکانس
+am,fa,امهری
+ar,fa,عربی
+as,fa,آسامی
+az,fa,ترکی آذربایجانی
+be,fa,بلاروسی
+bg,fa,بلغاری
+bn,fa,بنگالی
+bs,fa,بوسنیایی
+ca,fa,کاتالان
+cs,fa,چکی
+da,fa,دانمارکی
+de,fa,آلمانی
+el,fa,یونانی
+en-GB,fa,انگلیسی (بریتانیا)
+en-IN,fa,انگلیسی (هند)
+en,fa,انگلیسی
+es,fa,اسپانیایی
+es-419,fa,اسپانیایی (امریکای لاتین)
+es-US,fa,اسپانیایی (ایالات متحده)
+et,fa,استونیایی
+eu,fa,باسکی
+fa,fa,فارسی
+fi,fa,فنلاندی
+fil,fa,فیلیپینی
+fr-CA,fa,فرانسوی (کانادا)
+fr,fa,فرانسوی
+gl,fa,گالیسیایی
+gu,fa,گجراتی
+hi,fa,هندی
+hr,fa,کروات
+hu,fa,مجاری
+hy,fa,ارمنی
+id,fa,اندونزیایی
+is,fa,ایسلندی
+it,fa,ایتالیایی
+iw,fa,عبری
+ja,fa,ژاپنی
+ka,fa,گرجی
+kk,fa,قزاقی
+km,fa,خمری
+kn,fa,کانارا
+ko,fa,کره‌ای
+ky,fa,قرقیزی
+lo,fa,لائوسی
+lt,fa,لیتوانیایی
+lv,fa,لتونیایی
+mk,fa,مقدونی
+ml,fa,مالایالامی
+mn,fa,مغولی
+mr,fa,مراتی
+ms,fa,مالایی
+my,fa,برمه‌ای
+no,fa,نروژی
+ne,fa,نپالی
+nl,fa,هلندی
+or,fa,اوریه‌ای
+pa,fa,پنجابی
+pl,fa,لهستانی
+pt,fa,پرتغالی
+pt-PT,fa,پرتغالی (پرتغال)
+ro,fa,رومانیایی
+ru,fa,روسی
+si,fa,سینهالی
+sk,fa,اسلواکی
+sl,fa,اسلوونیایی
+sq,fa,آلبانیایی
+sr-Latn,fa,صربی (لاتین)
+sr,fa,صربی
+sv,fa,سوئدی
+sw,fa,سواحیلی
+ta,fa,تامیلی
+te,fa,تلوگویی
+th,fa,تایلندی
+tr,fa,ترکی استانبولی
+uk,fa,اوکراینی
+ur,fa,اردو
+uz,fa,ازبکی
+vi,fa,ویتنامی
+zh-CN,fa,چینی (چین)
+zh-HK,fa,چینی (هنگ‌کنگ)
+zh-TW,fa,چینی (تایوان)
+zu,fa,زولویی
+af,fi,Afrikaans
+am,fi,Amhara
+ar,fi,Arabia
+as,fi,Assami
+az,fi,Azeri
+be,fi,Valkovenäjä
+bg,fi,Bulgaria
+bn,fi,Bengali
+bs,fi,Bosnia
+ca,fi,Katalaani
+cs,fi,Tšekki
+da,fi,Tanska
+de,fi,Saksa
+el,fi,Kreikka
+en-GB,fi,Englanti (Iso-Britannia)
+en-IN,fi,Englanti (Intia)
+en,fi,Englanti
+es,fi,Espanja
+es-419,fi,Espanja (Latinalainen Amerikka)
+es-US,fi,Espanja (Yhdysvallat)
+et,fi,Viro
+eu,fi,Baski
+fa,fi,Persia
+fi,fi,Suomi
+fil,fi,Filipino
+fr-CA,fi,Ranska (Kanada)
+fr,fi,Ranska
+gl,fi,Galicia
+gu,fi,Gudžarati
+hi,fi,Hindi
+hr,fi,Kroatia
+hu,fi,Unkari
+hy,fi,Armenia
+id,fi,Indonesia
+is,fi,Islanti
+it,fi,Italia
+iw,fi,Heprea
+ja,fi,Japani
+ka,fi,Georgia
+kk,fi,Kazakki
+km,fi,Khmer
+kn,fi,Kannada
+ko,fi,Korea
+ky,fi,Kirgiisi
+lo,fi,Lao
+lt,fi,Liettua
+lv,fi,Latvia
+mk,fi,Makedonia
+ml,fi,Malajalam
+mn,fi,Mongoli
+mr,fi,Marathi
+ms,fi,Malaiji
+my,fi,Burma
+no,fi,Norja
+ne,fi,Nepali
+nl,fi,Hollanti
+or,fi,Orija
+pa,fi,Pandžabi
+pl,fi,Puola
+pt,fi,Portugali
+pt-PT,fi,Portugali (Portugali)
+ro,fi,Romania
+ru,fi,Venäjä
+si,fi,Sinhala
+sk,fi,Slovakki
+sl,fi,Sloveeni
+sq,fi,Albania
+sr-Latn,fi,Serbia (latinalainen)
+sr,fi,Serbia
+sv,fi,Ruotsi
+sw,fi,Swahili
+ta,fi,Tamili
+te,fi,Telugu
+th,fi,Thai
+tr,fi,Turkki
+uk,fi,Ukraina
+ur,fi,Urdu
+uz,fi,Uzbekki
+vi,fi,Vietnam
+zh-CN,fi,Kiina (Kiina)
+zh-HK,fi,Kiina (Hongkong)
+zh-TW,fi,Kiina (Taiwan)
+zu,fi,Zulu
+af,fil,Afrikaans
+am,fil,Amharic
+ar,fil,Arabic
+as,fil,Assamese
+az,fil,Azerbaijani
+be,fil,Belarusian
+bg,fil,Bulgarian
+bn,fil,Bangla
+bs,fil,Bosnian
+ca,fil,Catalan
+cs,fil,Czech
+da,fil,Danish
+de,fil,German
+el,fil,Greek
+en-GB,fil,Ingles (United Kingdom)
+en-IN,fil,Ingles (India)
+en,fil,Ingles
+es,fil,Spanish
+es-419,fil,Spanish (Latin America)
+es-US,fil,Spanish (Estados Unidos)
+et,fil,Estonian
+eu,fil,Basque
+fa,fil,Persian
+fi,fil,Finnish
+fil,fil,Filipino
+fr-CA,fil,French (Canada)
+fr,fil,French
+gl,fil,Galician
+gu,fil,Gujarati
+hi,fil,Hindi
+hr,fil,Croatian
+hu,fil,Hungarian
+hy,fil,Armenian
+id,fil,Indonesian
+is,fil,Icelandic
+it,fil,Italian
+iw,fil,Hebrew
+ja,fil,Japanese
+ka,fil,Georgian
+kk,fil,Kazakh
+km,fil,Khmer
+kn,fil,Kannada
+ko,fil,Korean
+ky,fil,Kirghiz
+lo,fil,Lao
+lt,fil,Lithuanian
+lv,fil,Latvian
+mk,fil,Macedonian
+ml,fil,Malayalam
+mn,fil,Mongolian
+mr,fil,Marathi
+ms,fil,Malay
+my,fil,Burmese
+no,fil,Norwegian
+ne,fil,Nepali
+nl,fil,Dutch
+or,fil,Odia
+pa,fil,Punjabi
+pl,fil,Polish
+pt,fil,Portuguese
+pt-PT,fil,Portuguese (Portugal)
+ro,fil,Romanian
+ru,fil,Russian
+si,fil,Sinhala
+sk,fil,Slovak
+sl,fil,Slovenian
+sq,fil,Albanian
+sr-Latn,fil,Serbian (Latin)
+sr,fil,Serbian
+sv,fil,Swedish
+sw,fil,Swahili
+ta,fil,Tamil
+te,fil,Telugu
+th,fil,Thai
+tr,fil,Turkish
+uk,fil,Ukranian
+ur,fil,Urdu
+uz,fil,Uzbek
+vi,fil,Vietnamese
+zh-CN,fil,Chinese (China)
+zh-HK,fil,Chinese (Hong Kong)
+zh-TW,fil,Chinese (Taiwan)
+zu,fil,Zulu
+af,fr,Afrikaans
+am,fr,Amharique
+ar,fr,Arabe
+as,fr,Assamais
+az,fr,Azerbaïdjanais
+be,fr,Biélorusse
+bg,fr,Bulgare
+bn,fr,Bengali
+bs,fr,Bosniaque
+ca,fr,Catalan
+cs,fr,Tchèque
+da,fr,Danois
+de,fr,Allemand
+el,fr,Grec
+en-GB,fr,Anglais (Royaume-Uni)
+en-IN,fr,Anglais (Inde)
+en,fr,Anglais
+es,fr,Espagnol
+es-419,fr,Espagnol (Amérique latine)
+es-US,fr,Espagnol (États-Unis)
+et,fr,Estonien
+eu,fr,Basque
+fa,fr,Persan
+fi,fr,Finnois
+fil,fr,Filipino
+fr-CA,fr,Français (Canada)
+fr,fr,Français
+gl,fr,Galicien
+gu,fr,Goudjarati
+hi,fr,Hindi
+hr,fr,Croate
+hu,fr,Hongrois
+hy,fr,Arménien
+id,fr,Indonésien
+is,fr,Islandais
+it,fr,Italien
+iw,fr,Hébreu
+ja,fr,Japonais
+ka,fr,Géorgien
+kk,fr,Kazakh
+km,fr,Khmer
+kn,fr,Kannada
+ko,fr,Coréen
+ky,fr,Kirghize
+lo,fr,Lao
+lt,fr,Lituanien
+lv,fr,Letton
+mk,fr,Macédonien
+ml,fr,Malayalam
+mn,fr,Mongol
+mr,fr,Marathi
+ms,fr,Malais
+my,fr,Birman
+no,fr,Norvégien
+ne,fr,Népalais
+nl,fr,Néerlandais
+or,fr,Odia
+pa,fr,Pendjabi
+pl,fr,Polonais
+pt,fr,Portugais
+pt-PT,fr,Portugais (Portugal)
+ro,fr,Roumain
+ru,fr,Russe
+si,fr,Cingalais
+sk,fr,Slovaque
+sl,fr,Slovène
+sq,fr,Albanais
+sr-Latn,fr,Serbe (latin)
+sr,fr,Serbe
+sv,fr,Suédois
+sw,fr,Swahili
+ta,fr,Tamoul
+te,fr,Télougou
+th,fr,Thaï
+tr,fr,Turc
+uk,fr,Ukrainien
+ur,fr,Ourdou
+uz,fr,Ouzbek
+vi,fr,Vietnamien
+zh-CN,fr,Chinois (Chine)
+zh-HK,fr,Chinois (Hong Kong)
+zh-TW,fr,Chinois (Taïwan)
+zu,fr,Zoulou
+af,fr-CA,Afrikaans
+am,fr-CA,Amharique
+ar,fr-CA,Arabe
+as,fr-CA,Assamais
+az,fr-CA,Azerbaïdjanais
+be,fr-CA,Biélorusse
+bg,fr-CA,Bulgare
+bn,fr-CA,Bengali
+bs,fr-CA,Bosniaque
+ca,fr-CA,Catalan
+cs,fr-CA,Tchèque
+da,fr-CA,Danois
+de,fr-CA,Allemand
+el,fr-CA,Grec
+en-GB,fr-CA,Anglais (Royaume-Uni)
+en-IN,fr-CA,Anglais (Inde)
+en,fr-CA,Anglais
+es,fr-CA,Espagnol
+es-419,fr-CA,Espagnol (Amérique latine)
+es-US,fr-CA,Espagnol (États-Unis)
+et,fr-CA,Estonien
+eu,fr-CA,Basque
+fa,fr-CA,Persan
+fi,fr-CA,Finnois
+fil,fr-CA,Filipino
+fr-CA,fr-CA,Français (Canada)
+fr,fr-CA,Français
+gl,fr-CA,Galicien
+gu,fr-CA,Gujarati
+hi,fr-CA,Hindi
+hr,fr-CA,Croate
+hu,fr-CA,Hongrois
+hy,fr-CA,Arménien
+id,fr-CA,Indonésien
+is,fr-CA,Islandais
+it,fr-CA,Italien
+iw,fr-CA,Hébreu
+ja,fr-CA,Japonais
+ka,fr-CA,Géorgien
+kk,fr-CA,Kazakh
+km,fr-CA,Khmer
+kn,fr-CA,Kannada
+ko,fr-CA,Coréen
+ky,fr-CA,Kirghize
+lo,fr-CA,Lao
+lt,fr-CA,Lituanien
+lv,fr-CA,Letton
+mk,fr-CA,Macédonien
+ml,fr-CA,Malayalam
+mn,fr-CA,Mongol
+mr,fr-CA,Marathe
+ms,fr-CA,Malais
+my,fr-CA,Birman
+no,fr-CA,Norvégien
+ne,fr-CA,Népalais
+nl,fr-CA,Néerlandais
+or,fr-CA,Odia
+pa,fr-CA,Pendjabi
+pl,fr-CA,Polonais
+pt,fr-CA,Portugais
+pt-PT,fr-CA,Portugais (Portugal)
+ro,fr-CA,Roumain
+ru,fr-CA,Russe
+si,fr-CA,Cingalais
+sk,fr-CA,Slovaque
+sl,fr-CA,Slovène
+sq,fr-CA,Albanais
+sr-Latn,fr-CA,Serbe (latin)
+sr,fr-CA,Serbe
+sv,fr-CA,Suédois
+sw,fr-CA,Swahili
+ta,fr-CA,Tamoul
+te,fr-CA,Télougou
+th,fr-CA,Thaï
+tr,fr-CA,Turc
+uk,fr-CA,Ukrainien
+ur,fr-CA,Ourdou
+uz,fr-CA,Ouzbek
+vi,fr-CA,Vietnamien
+zh-CN,fr-CA,Chinois (Chine)
+zh-HK,fr-CA,Chinois (Hong Kong)
+zh-TW,fr-CA,Chinois (Taïwan)
+zu,fr-CA,Zoulou
+af,gl,afrikaans
+am,gl,amhárico
+ar,gl,árabe
+as,gl,assamés
+az,gl,acerbaixano
+be,gl,belaruso
+bg,gl,búlgaro
+bn,gl,bengalí
+bs,gl,bosníaco
+ca,gl,catalán
+cs,gl,checo
+da,gl,dinamarqués
+de,gl,alemán
+el,gl,grego
+en-GB,gl,inglés (O Reino Unido)
+en-IN,gl,inglés (A India)
+en,gl,inglés
+es,gl,español
+es-419,gl,español (América Latina)
+es-US,gl,español (Os Estados Unidos)
+et,gl,estoniano
+eu,gl,éuscaro
+fa,gl,persa
+fi,gl,finés
+fil,gl,filipino
+fr-CA,gl,francés (O Canadá)
+fr,gl,francés
+gl,gl,galego
+gu,gl,guxarati
+hi,gl,hindi
+hr,gl,croata
+hu,gl,húngaro
+hy,gl,armenio
+id,gl,indonesio
+is,gl,islandés
+it,gl,italiano
+iw,gl,hebreo
+ja,gl,xaponés
+ka,gl,xeorxiano
+kk,gl,kazako
+km,gl,khmer
+kn,gl,kannará
+ko,gl,coreano
+ky,gl,kirguiz
+lo,gl,laosiano
+lt,gl,lituano
+lv,gl,letón
+mk,gl,macedonio
+ml,gl,malabar
+mn,gl,mongol
+mr,gl,marathi
+ms,gl,malaio
+my,gl,birmano
+no,gl,noruegués
+ne,gl,nepalí
+nl,gl,neerlandés
+or,gl,odiá
+pa,gl,panxabí
+pl,gl,polaco
+pt,gl,portugués
+pt-PT,gl,portugués (Portugal)
+ro,gl,romanés
+ru,gl,ruso
+si,gl,cingalés
+sk,gl,eslovaco
+sl,gl,esloveno
+sq,gl,albanés
+sr-Latn,gl,serbio (latino)
+sr,gl,serbio
+sv,gl,sueco
+sw,gl,suahili
+ta,gl,támil
+te,gl,telugu
+th,gl,tailandés
+tr,gl,turco
+uk,gl,ucraíno
+ur,gl,urdú
+uz,gl,uzbeko
+vi,gl,vietnamita
+zh-CN,gl,chinés (A China)
+zh-HK,gl,chinés (Hong Kong)
+zh-TW,gl,chinés (Taiwán)
+zu,gl,zulú
+af,gu,આફ્રિકન્સ
+am,gu,એમ્હારિક
+ar,gu,અરબી
+as,gu,આસામી
+az,gu,અઝરબૈજાની
+be,gu,બેલારુશિયન
+bg,gu,બલ્ગેરિયન
+bn,gu,બાંગ્લા
+bs,gu,બોસ્નિયન
+ca,gu,કતલાન
+cs,gu,ચેક
+da,gu,ડેનિશ
+de,gu,જર્મન
+el,gu,ગ્રીક
+en-GB,gu,અંગ્રેજી (યુનાઇટેડ કિંગડમ)
+en-IN,gu,અંગ્રેજી (ભારત)
+en,gu,અંગ્રેજી
+es,gu,સ્પેનિશ
+es-419,gu,સ્પેનિશ (લેટિન અમેરિકા)
+es-US,gu,સ્પેનિશ (યુનાઇટેડ સ્ટેટ્સ)
+et,gu,એસ્ટોનિયન
+eu,gu,બાસ્ક
+fa,gu,ફારસી
+fi,gu,ફિનિશ
+fil,gu,ફિલિપિનો
+fr-CA,gu,ફ્રેન્ચ (કેનેડા)
+fr,gu,ફ્રેન્ચ
+gl,gu,ગેલિશિયન
+gu,gu,ગુજરાતી
+hi,gu,હિન્દી
+hr,gu,ક્રોએશિયન
+hu,gu,હંગેરિયન
+hy,gu,આર્મેનિયન
+id,gu,ઇન્ડોનેશિયન
+is,gu,આઇસલેન્ડિક
+it,gu,ઇટાલિયન
+iw,gu,હીબ્રુ
+ja,gu,જાપાનીઝ
+ka,gu,જ્યોર્જિયન
+kk,gu,કઝાખ
+km,gu,ખ્મેર
+kn,gu,કન્નડ
+ko,gu,કોરિયન
+ky,gu,કિર્ગીઝ
+lo,gu,લાઓ
+lt,gu,લિથુઆનિયન
+lv,gu,લાતવિયન
+mk,gu,મેસેડોનિયન
+ml,gu,મલયાલમ
+mn,gu,મોંગોલિયન
+mr,gu,મરાઠી
+ms,gu,મલય
+my,gu,બર્મીઝ
+no,gu,નૉર્વેજીયન
+ne,gu,નેપાળી
+nl,gu,ડચ
+or,gu,ઉડિયા
+pa,gu,પંજાબી
+pl,gu,પોલીશ
+pt,gu,પોર્ટુગીઝ
+pt-PT,gu,પોર્ટુગીઝ (પોર્ટુગલ)
+ro,gu,રોમાનિયન
+ru,gu,રશિયન
+si,gu,સિંહાલી
+sk,gu,સ્લોવૅક
+sl,gu,સ્લોવેનિયન
+sq,gu,અલ્બેનિયન
+sr-Latn,gu,સર્બિયન (લેટિન)
+sr,gu,સર્બિયન
+sv,gu,સ્વીડિશ
+sw,gu,સ્વાહિલી
+ta,gu,તમિલ
+te,gu,તેલુગુ
+th,gu,થાઈ
+tr,gu,ટર્કિશ
+uk,gu,યુક્રેનિયન
+ur,gu,ઉર્દૂ
+uz,gu,ઉઝ્બેક
+vi,gu,વિયેતનામીસ
+zh-CN,gu,ચાઇનીઝ (ચીન)
+zh-HK,gu,ચાઇનીઝ (હોંગકોંગ)
+zh-TW,gu,ચાઇનીઝ (તાઇવાન)
+zu,gu,ઝુલુ
+af,hi,अफ़्रीकी
+am,hi,अम्हेरी
+ar,hi,अरबी
+as,hi,असमिया
+az,hi,अज़रबैजानी
+be,hi,बेलारूसी
+bg,hi,बुल्गारियाई
+bn,hi,बंगाली
+bs,hi,बोस्नियाई
+ca,hi,कातालान
+cs,hi,चेक
+da,hi,डेनिश
+de,hi,जर्मन
+el,hi,यूनानी
+en-GB,hi,अंग्रेज़ी (यूनाइटेड किंगडम)
+en-IN,hi,अंग्रेज़ी (भारत)
+en,hi,अंग्रेज़ी
+es,hi,स्पेनिश
+es-419,hi,स्पेनिश (लैटिन अमेरिका)
+es-US,hi,स्पेनिश (संयुक्त राज्य)
+et,hi,एस्टोनियाई
+eu,hi,बास्क
+fa,hi,फ़ारसी
+fi,hi,फ़िनिश
+fil,hi,फ़िलिपीनो
+fr-CA,hi,फ़्रेंच (कनाडा)
+fr,hi,फ़्रेंच
+gl,hi,गैलिशियन
+gu,hi,गुजराती
+hi,hi,हिन्दी
+hr,hi,क्रोएशियाई
+hu,hi,हंगेरियाई
+hy,hi,आर्मेनियाई
+id,hi,इंडोनेशियाई
+is,hi,आइसलैंडिक
+it,hi,इतालवी
+iw,hi,हिब्रू
+ja,hi,जापानी
+ka,hi,जॉर्जियाई
+kk,hi,कज़ाख़
+km,hi,खमेर
+kn,hi,कन्नड़
+ko,hi,कोरियाई
+ky,hi,किर्गीज़
+lo,hi,लाओ
+lt,hi,लिथुआनियाई
+lv,hi,लातवियाई
+mk,hi,मकदूनियाई
+ml,hi,मलयालम
+mn,hi,मंगोलियाई
+mr,hi,मराठी
+ms,hi,मलय
+my,hi,बर्मीज़
+no,hi,नॉर्वेजियाई
+ne,hi,नेपाली
+nl,hi,डच
+or,hi,ओड़िया
+pa,hi,पंजाबी
+pl,hi,पोलिश
+pt,hi,पुर्तगाली
+pt-PT,hi,पुर्तगाली (पुर्तगाल)
+ro,hi,रोमानियाई
+ru,hi,रूसी
+si,hi,सिंहली
+sk,hi,स्लोवाक
+sl,hi,स्लोवेनियाई
+sq,hi,अल्बानियाई
+sr-Latn,hi,सर्बियाई (लैटिन)
+sr,hi,सर्बियाई
+sv,hi,स्वीडिश
+sw,hi,स्वाहिली
+ta,hi,तमिल
+te,hi,तेलुगू
+th,hi,थाई
+tr,hi,तुर्की
+uk,hi,यूक्रेनियाई
+ur,hi,उर्दू
+uz,hi,उज़्बेक
+vi,hi,वियतनामी
+zh-CN,hi,चीनी (चीन)
+zh-HK,hi,चीनी (हाँग काँग)
+zh-TW,hi,चीनी (ताइवान)
+zu,hi,ज़ुलू
+af,hr,Afrikaans
+am,hr,Amharski
+ar,hr,Arapski
+as,hr,Asamski
+az,hr,Azerbajdžanski
+be,hr,Bjeloruski
+bg,hr,Bugarski
+bn,hr,Bangla
+bs,hr,Bosanski
+ca,hr,Katalonski
+cs,hr,Češki
+da,hr,Danski
+de,hr,Njemački
+el,hr,Grčki
+en-GB,hr,Engleski (Ujedinjeno Kraljevstvo)
+en-IN,hr,Engleski (Indija)
+en,hr,Engleski
+es,hr,Španjolski
+es-419,hr,Španjolski (Latinska Amerika)
+es-US,hr,Španjolski (Sjedinjene Američke Države)
+et,hr,Estonski
+eu,hr,Baskijski
+fa,hr,Perzijski
+fi,hr,Finski
+fil,hr,Filipinski
+fr-CA,hr,Francuski (Kanada)
+fr,hr,Francuski
+gl,hr,Galicijski
+gu,hr,Gudžaratski
+hi,hr,Hindski
+hr,hr,Hrvatski
+hu,hr,Mađarski
+hy,hr,Armenski
+id,hr,Indonezijski
+is,hr,Islandski
+it,hr,Talijanski
+iw,hr,Hebrejski
+ja,hr,Japanski
+ka,hr,Gruzijski
+kk,hr,Kazaški
+km,hr,Kmerski
+kn,hr,Karnatački
+ko,hr,Korejski
+ky,hr,Kirgiski
+lo,hr,Laoski
+lt,hr,Litavski
+lv,hr,Latvijski
+mk,hr,Makedonski
+ml,hr,Malajalamski
+mn,hr,Mongolski
+mr,hr,Marathski
+ms,hr,Malajski
+my,hr,Burmanski
+no,hr,Norveški
+ne,hr,Nepalski
+nl,hr,Nizozemski
+or,hr,Orijski
+pa,hr,Pandžapski
+pl,hr,Poljski
+pt,hr,Portugalski
+pt-PT,hr,Portugalski (Portugal)
+ro,hr,Rumunjski
+ru,hr,Ruski
+si,hr,Sinhaleški
+sk,hr,Slovački
+sl,hr,Slovenski
+sq,hr,Albanski
+sr-Latn,hr,Srpski (latinica)
+sr,hr,Srpski
+sv,hr,Švedski
+sw,hr,Svahili
+ta,hr,Tamilski
+te,hr,Teluški
+th,hr,Tajlandski
+tr,hr,Turski
+uk,hr,Ukrajinski
+ur,hr,Urdski
+uz,hr,Uzbečki
+vi,hr,Vijetnamski
+zh-CN,hr,Kineski (Kina)
+zh-HK,hr,Kineski (Hong Kong)
+zh-TW,hr,Kineski (Tajvan)
+zu,hr,Zulu
+af,hu,afrikaans
+am,hu,amhara
+ar,hu,arab
+as,hu,asszámi
+az,hu,azerbajdzsáni
+be,hu,belarusz
+bg,hu,bolgár
+bn,hu,bangla
+bs,hu,bosnyák
+ca,hu,katalán
+cs,hu,cseh
+da,hu,dán
+de,hu,német
+el,hu,görög
+en-GB,hu,angol (Egyesült Királyság)
+en-IN,hu,angol (India)
+en,hu,angol
+es,hu,spanyol
+es-419,hu,spanyol (Latin-Amerika)
+es-US,hu,spanyol (Egyesült Államok)
+et,hu,észt
+eu,hu,baszk
+fa,hu,perzsa
+fi,hu,finn
+fil,hu,filippínó
+fr-CA,hu,francia (Kanada)
+fr,hu,francia
+gl,hu,gallego
+gu,hu,gudzsaráti
+hi,hu,hindi
+hr,hu,horvát
+hu,hu,magyar
+hy,hu,örmény
+id,hu,indonéz
+is,hu,izlandi
+it,hu,olasz
+iw,hu,héber
+ja,hu,japán
+ka,hu,grúz
+kk,hu,kazah
+km,hu,khmer
+kn,hu,kannada
+ko,hu,koreai
+ky,hu,kirgiz
+lo,hu,lao
+lt,hu,litván
+lv,hu,lett
+mk,hu,macedón
+ml,hu,malajálam
+mn,hu,mongol
+mr,hu,maráthi
+ms,hu,maláj
+my,hu,burmai
+no,hu,norvég
+ne,hu,nepáli
+nl,hu,holland
+or,hu,odia
+pa,hu,pandzsábi
+pl,hu,lengyel
+pt,hu,portugál
+pt-PT,hu,portugál (Portugália)
+ro,hu,román
+ru,hu,orosz
+si,hu,szingaléz
+sk,hu,szlovák
+sl,hu,szlovén
+sq,hu,albán
+sr-Latn,hu,szerb (Latin)
+sr,hu,szerb
+sv,hu,svéd
+sw,hu,szuahéli
+ta,hu,tamil
+te,hu,telugu
+th,hu,thai
+tr,hu,török
+uk,hu,ukrán
+ur,hu,urdu
+uz,hu,üzbég
+vi,hu,vietnámi
+zh-CN,hu,kínai (Kína)
+zh-HK,hu,kínai (Hongkong)
+zh-TW,hu,kínai (Tajvan)
+zu,hu,zulu
+af,hy,աֆրիկաանս
+am,hy,ամհարերեն
+ar,hy,արաբերեն
+as,hy,ասամերեն
+az,hy,ադրբեջաներեն
+be,hy,բելառուսերեն
+bg,hy,բուլղարերեն
+bn,hy,բենգալերեն
+bs,hy,բոսնիերեն
+ca,hy,կատալաներեն
+cs,hy,չեխերեն
+da,hy,դանիերեն
+de,hy,գերմաներեն
+el,hy,հունարեն
+en-GB,hy,անգլերեն (Միացյալ Թագավորություն)
+en-IN,hy,անգլերեն (Հնդկաստան)
+en,hy,անգլերեն
+es,hy,իսպաներեն
+es-419,hy,իսպաներեն (Լատինական Ամերիկա)
+es-US,hy,իսպաներեն (Միացյալ Նահանգներ)
+et,hy,էստոներեն
+eu,hy,բասկերեն
+fa,hy,պարսկերեն
+fi,hy,ֆիններեն
+fil,hy,ֆիլիպիներեն
+fr-CA,hy,ֆրանսերեն (Կանադա)
+fr,hy,ֆրանսերեն
+gl,hy,գալիսերեն
+gu,hy,գուջարաթի
+hi,hy,հինդի
+hr,hy,խորվաթերեն
+hu,hy,հունգարերեն
+hy,hy,հայերեն
+id,hy,ինդոնեզերեն
+is,hy,իսլանդերեն
+it,hy,իտալերեն
+iw,hy,եբրայերեն
+ja,hy,ճապոներեն
+ka,hy,վրացերեն
+kk,hy,ղազախերեն
+km,hy,քմերերեն
+kn,hy,կաննադա
+ko,hy,կորեերեն
+ky,hy,ղրղզերեն
+lo,hy,լաոսերեն
+lt,hy,լիտվերեն
+lv,hy,լատվիերեն
+mk,hy,մակեդոներեն
+ml,hy,մալայալամ
+mn,hy,մոնղոլերեն
+mr,hy,մարաթի
+ms,hy,մալայերեն
+my,hy,բիրմայերեն
+no,hy,նորվեգերեն
+ne,hy,նեպալերեն
+nl,hy,հոլանդերեն
+or,hy,օրիյա
+pa,hy,փենջաբերեն
+pl,hy,լեհերեն
+pt,hy,պորտուգալերեն
+pt-PT,hy,պորտուգալերեն (Պորտուգալիա)
+ro,hy,ռումիներեն
+ru,hy,ռուսերեն
+si,hy,սինհալերեն
+sk,hy,սլովակերեն
+sl,hy,սլովեներեն
+sq,hy,ալբաներեն
+sr-Latn,hy,սերբերեն (լատինական)
+sr,hy,սերբերեն
+sv,hy,շվեդերեն
+sw,hy,սուահիլի
+ta,hy,թամիլերեն
+te,hy,թելուգու
+th,hy,թայերեն
+tr,hy,թուրքերեն
+uk,hy,ուկրաիներեն
+ur,hy,ուրդու
+uz,hy,ուզբեկերեն
+vi,hy,վիետնամերեն
+zh-CN,hy,չինարեն (Չինաստան)
+zh-HK,hy,չինարեն (Հոնկոնգ)
+zh-TW,hy,չինարեն (Թայվան)
+zu,hy,զուլուերեն
+af,id,Afrikaans
+am,id,Amharik
+ar,id,Arab
+as,id,Assam
+az,id,Azerbaijani
+be,id,Belarusia
+bg,id,Bulgaria
+bn,id,Bengali
+bs,id,Bosnia
+ca,id,Katalan
+cs,id,Cheska
+da,id,Dansk
+de,id,Jerman
+el,id,Yunani
+en-GB,id,Inggris (Inggris Raya)
+en-IN,id,Inggris (India)
+en,id,Inggris
+es,id,Spanyol
+es-419,id,Spanyol (Amerika Latin)
+es-US,id,Spanyol (Amerika Serikat)
+et,id,Esti
+eu,id,Basque
+fa,id,Persia
+fi,id,Suomi
+fil,id,Filipino
+fr-CA,id,Prancis (Kanada)
+fr,id,Prancis
+gl,id,Galisia
+gu,id,Gujarat
+hi,id,Hindi
+hr,id,Kroasia
+hu,id,Hungaria
+hy,id,Armenia
+id,id,Indonesia
+is,id,Islandia
+it,id,Italia
+iw,id,Ibrani
+ja,id,Jepang
+ka,id,Georgia
+kk,id,Kazakh
+km,id,Khmer
+kn,id,Kannada
+ko,id,Korea
+ky,id,Kirgiz
+lo,id,Lao
+lt,id,Lituavi
+lv,id,Latvi
+mk,id,Makedonia
+ml,id,Malayalam
+mn,id,Mongolia
+mr,id,Marathi
+ms,id,Melayu
+my,id,Burma
+no,id,Norwegia
+ne,id,Nepali
+nl,id,Belanda
+or,id,Oriya
+pa,id,Punjabi
+pl,id,Polski
+pt,id,Portugis
+pt-PT,id,Portugis (Portugal)
+ro,id,Rumania
+ru,id,Rusia
+si,id,Sinhala
+sk,id,Slovak
+sl,id,Sloven
+sq,id,Albania
+sr-Latn,id,Serbia (Latin)
+sr,id,Serbia
+sv,id,Swedia
+sw,id,Swahili
+ta,id,Tamil
+te,id,Telugu
+th,id,Thai
+tr,id,Turki
+uk,id,Ukraina
+ur,id,Urdu
+uz,id,Uzbek
+vi,id,Vietnam
+zh-CN,id,Tionghoa (Tiongkok)
+zh-HK,id,Tionghoa (Hong Kong)
+zh-TW,id,Tionghoa (Taiwan)
+zu,id,Zulu
+af,is,afríkanska
+am,is,amharíska
+ar,is,arabíska
+as,is,assamska
+az,is,aserska
+be,is,hvítrússneska
+bg,is,búlgarska
+bn,is,bengalska
+bs,is,bosníska
+ca,is,katalónska
+cs,is,tékkneska
+da,is,danska
+de,is,þýska
+el,is,gríska
+en-GB,is,enska (Bretland)
+en-IN,is,enska (Indland)
+en,is,enska
+es,is,spænska
+es-419,is,spænska (Rómanska Ameríka)
+es-US,is,spænska (Bandaríkin)
+et,is,eistneska
+eu,is,baskneska
+fa,is,persneska
+fi,is,finnska
+fil,is,filippseyska
+fr-CA,is,franska (Kanada)
+fr,is,franska
+gl,is,galisíska
+gu,is,gújaratí
+hi,is,hindí
+hr,is,króatíska
+hu,is,ungverska
+hy,is,armenska
+id,is,indónesíska
+is,is,íslenska
+it,is,ítalska
+iw,is,hebreska
+ja,is,japanska
+ka,is,georgíska
+kk,is,kasakska
+km,is,kmer
+kn,is,kannada
+ko,is,kóreska
+ky,is,kirgiska
+lo,is,laó
+lt,is,litháíska
+lv,is,lettneska
+mk,is,makedónska
+ml,is,malajalam
+mn,is,mongólska
+mr,is,maratí
+ms,is,malaíska
+my,is,búrmneska
+no,is,norska
+ne,is,nepalska
+nl,is,hollenska
+or,is,óría
+pa,is,púnjabí
+pl,is,pólska
+pt,is,portúgalska
+pt-PT,is,portúgalska (Portúgal)
+ro,is,rúmenska
+ru,is,rússneska
+si,is,singalíska
+sk,is,slóvakíska
+sl,is,slóvenska
+sq,is,albanska
+sr-Latn,is,serbneska (latneskt)
+sr,is,serbneska
+sv,is,sænska
+sw,is,svahílí
+ta,is,tamílska
+te,is,telúgú
+th,is,taílenska
+tr,is,tyrkneska
+uk,is,úkraínska
+ur,is,úrdú
+uz,is,úsbekska
+vi,is,víetnamska
+zh-CN,is,kínverska (Kína)
+zh-HK,is,kínverska (Hong Kong)
+zh-TW,is,kínverska (Taívan)
+zu,is,súlú
+af,it,Afrikaans
+am,it,Amarico
+ar,it,Arabo
+as,it,Assamese
+az,it,Azerbaigiano
+be,it,Bielorusso
+bg,it,Bulgaro
+bn,it,Bengalese
+bs,it,Bosniaco
+ca,it,Catalano
+cs,it,Ceco
+da,it,Danese
+de,it,Tedesco
+el,it,Greco
+en-GB,it,Inglese (Regno Unito)
+en-IN,it,Inglese (India)
+en,it,Inglese
+es,it,Spagnolo
+es-419,it,Spagnolo (America Latina)
+es-US,it,Spagnolo (Stati Uniti)
+et,it,Estone
+eu,it,Basco
+fa,it,Persiano
+fi,it,Finlandese
+fil,it,Filippino
+fr-CA,it,Francese (Canada)
+fr,it,Francese
+gl,it,Galiziano
+gu,it,Gujarati
+hi,it,Hindi
+hr,it,Croato
+hu,it,Ungherese
+hy,it,Armeno
+id,it,Indonesiano
+is,it,Islandese
+it,it,Italiano
+iw,it,Ebraico
+ja,it,Giapponese
+ka,it,Georgiano
+kk,it,Kazako
+km,it,Khmer
+kn,it,Kannada
+ko,it,Coreano
+ky,it,Kirghiso
+lo,it,Lao
+lt,it,Lituano
+lv,it,Lettone
+mk,it,Macedone
+ml,it,Malayalam
+mn,it,Mongolo
+mr,it,Marathi
+ms,it,Malese
+my,it,Birmano
+no,it,Norvegese
+ne,it,Nepalese
+nl,it,Olandese
+or,it,Odia
+pa,it,Punjabi
+pl,it,Polacco
+pt,it,Portoghese
+pt-PT,it,Portoghese (Portogallo)
+ro,it,Rumeno
+ru,it,Russo
+si,it,Singalese
+sk,it,Slovacco
+sl,it,Sloveno
+sq,it,Albanese
+sr-Latn,it,Serbo (latino)
+sr,it,Serbo
+sv,it,Svedese
+sw,it,Swahili
+ta,it,Tamil
+te,it,Telugu
+th,it,Thailandese
+tr,it,Turco
+uk,it,Ucraino
+ur,it,Urdu
+uz,it,Uzbeco
+vi,it,Vietnamita
+zh-CN,it,Cinese (Cina)
+zh-HK,it,Cinese (Hong Kong)
+zh-TW,it,Cinese (Taiwan)
+zu,it,Zulu
+af,iw,אפריקאנס
+am,iw,אמהרית
+ar,iw,ערבית
+as,iw,אסאמית
+az,iw,אזרית
+be,iw,בלארוסית
+bg,iw,בולגרית
+bn,iw,בנגלית
+bs,iw,בוסנית
+ca,iw,קטלאנית
+cs,iw,צ׳כית
+da,iw,דנית
+de,iw,גרמנית
+el,iw,יוונית
+en-GB,iw,אנגלית (בריטניה)
+en-IN,iw,אנגלית (הודו)
+en,iw,אנגלית
+es,iw,ספרדית
+es-419,iw,ספרדית (אמריקה הלטינית)
+es-US,iw,ספרדית (ארצות הברית)
+et,iw,אסטונית
+eu,iw,בסקית
+fa,iw,פרסית
+fi,iw,פינית
+fil,iw,פיליפינית
+fr-CA,iw,צרפתית (קנדה)
+fr,iw,צרפתית
+gl,iw,גליציאנית
+gu,iw,גוג׳ארטי
+hi,iw,הינדי
+hr,iw,קרואטית
+hu,iw,הונגרית
+hy,iw,ארמנית
+id,iw,אינדונזית
+is,iw,איסלנדית
+it,iw,איטלקית
+iw,iw,עברית
+ja,iw,יפנית
+ka,iw,גאורגית
+kk,iw,קזחית
+km,iw,חמרית
+kn,iw,קנאדה
+ko,iw,קוריאנית
+ky,iw,קירגיזית
+lo,iw,לאו
+lt,iw,ליטאית
+lv,iw,לטבית
+mk,iw,מקדונית
+ml,iw,מליאלאם
+mn,iw,מונגולית
+mr,iw,מראטהית
+ms,iw,מלאית
+my,iw,בורמזית
+no,iw,נורווגית
+ne,iw,נפאלית
+nl,iw,הולנדית
+or,iw,אורייה
+pa,iw,פנג׳אבי
+pl,iw,פולנית
+pt,iw,פורטוגזית
+pt-PT,iw,פורטוגזית (פורטוגל)
+ro,iw,רומנית
+ru,iw,רוסית
+si,iw,סינהלה
+sk,iw,סלובקית
+sl,iw,סלובנית
+sq,iw,אלבנית
+sr-Latn,iw,סרבית (לטיני)
+sr,iw,סרבית
+sv,iw,שוודית
+sw,iw,סווהילי
+ta,iw,טמילית
+te,iw,טלוגו
+th,iw,תאית
+tr,iw,טורקית
+uk,iw,אוקראינית
+ur,iw,אורדו
+uz,iw,אוזבקית
+vi,iw,וייטנאמית
+zh-CN,iw,סינית (סין)
+zh-HK,iw,סינית (הונג קונג)
+zh-TW,iw,סינית (טייוואן)
+zu,iw,זולו
+af,ja,アフリカーンス語
+am,ja,アムハラ語
+ar,ja,アラビア語
+as,ja,アッサム語
+az,ja,アゼルバイジャン語
+be,ja,ベラルーシ語
+bg,ja,ブルガリア語
+bn,ja,ベンガル語
+bs,ja,ボスニア語
+ca,ja,カタロニア語
+cs,ja,チェコ語
+da,ja,デンマーク語
+de,ja,ドイツ語
+el,ja,ギリシャ語
+en-GB,ja,英語 (イギリス)
+en-IN,ja,英語 (インド)
+en,ja,英語
+es,ja,スペイン語
+es-419,ja,スペイン語 (ラテンアメリカ)
+es-US,ja,スペイン語 (アメリカ合衆国)
+et,ja,エストニア語
+eu,ja,バスク語
+fa,ja,ペルシア語
+fi,ja,フィンランド語
+fil,ja,フィリピノ語
+fr-CA,ja,フランス語 (カナダ)
+fr,ja,フランス語
+gl,ja,ガリシア語
+gu,ja,グジャラート語
+hi,ja,ヒンディー語
+hr,ja,クロアチア語
+hu,ja,ハンガリー語
+hy,ja,アルメニア語
+id,ja,インドネシア語
+is,ja,アイスランド語
+it,ja,イタリア語
+iw,ja,ヘブライ語
+ja,ja,日本語
+ka,ja,ジョージア語
+kk,ja,カザフ語
+km,ja,クメール語
+kn,ja,カンナダ語
+ko,ja,韓国語
+ky,ja,キルギス語
+lo,ja,ラオ語
+lt,ja,リトアニア語
+lv,ja,ラトビア語
+mk,ja,マケドニア語
+ml,ja,マラヤーラム語
+mn,ja,モンゴル語
+mr,ja,マラーティー語
+ms,ja,マレー語
+my,ja,ミャンマー語
+no,ja,ノルウェー語
+ne,ja,ネパール語
+nl,ja,オランダ語
+or,ja,オディア語
+pa,ja,パンジャブ語
+pl,ja,ポーランド語
+pt,ja,ポルトガル語
+pt-PT,ja,ポルトガル語 (ポルトガル)
+ro,ja,ルーマニア語
+ru,ja,ロシア語
+si,ja,シンハラ語
+sk,ja,スロバキア語
+sl,ja,スロベニア語
+sq,ja,アルバニア語
+sr-Latn,ja,セルビア語 (ラテン文字)
+sr,ja,セルビア語
+sv,ja,スウェーデン語
+sw,ja,スワヒリ語
+ta,ja,タミル語
+te,ja,テルグ語
+th,ja,タイ語
+tr,ja,トルコ語
+uk,ja,ウクライナ語
+ur,ja,ウルドゥー語
+uz,ja,ウズベク語
+vi,ja,ベトナム語
+zh-CN,ja,中国語 (中国)
+zh-HK,ja,中国語 (香港)
+zh-TW,ja,中国語 (台湾)
+zu,ja,ズールー語
+af,ka,აფრიკაანსი
+am,ka,ამჰარული
+ar,ka,არაბული
+as,ka,ასამური
+az,ka,აზერბაიჯანული
+be,ka,ბელარუსული
+bg,ka,ბულგარული
+bn,ka,ბენგალური
+bs,ka,ბოსნიური
+ca,ka,კატალანური
+cs,ka,ჩეხური
+da,ka,დანიური
+de,ka,გერმანული
+el,ka,ბერძნული
+en-GB,ka,ინგლისური (გაერთიანებული სამეფო)
+en-IN,ka,ინგლისური (ინდოეთი)
+en,ka,ინგლისური
+es,ka,ესპანური
+es-419,ka,ესპანური (ლათინური ამერიკა)
+es-US,ka,ესპანური (ამერიკის შეერთებული შტატები)
+et,ka,ესტონური
+eu,ka,ბასკური
+fa,ka,სპარსული
+fi,ka,ფინური
+fil,ka,ფილიპინური
+fr-CA,ka,ფრანგული (კანადა)
+fr,ka,ფრანგული
+gl,ka,გალისიური
+gu,ka,გუჯარათი
+hi,ka,ჰინდი
+hr,ka,ხორვატული
+hu,ka,უნგრული
+hy,ka,სომხური
+id,ka,ინდონეზიური
+is,ka,ისლანდიური
+it,ka,იტალიური
+iw,ka,ებრაული
+ja,ka,იაპონური
+ka,ka,ქართული
+kk,ka,ყაზახური
+km,ka,ქმერული
+kn,ka,კანადა
+ko,ka,კორეული
+ky,ka,ყირგიზული
+lo,ka,ლაოსური
+lt,ka,ლიეტუვური
+lv,ka,ლატვიური
+mk,ka,მაკედონური
+ml,ka,მალაიალამური
+mn,ka,მონღოლური
+mr,ka,მარათჰი
+ms,ka,მალაიური
+my,ka,ბირმული
+no,ka,ნორვეგიული
+ne,ka,ნეპალური
+nl,ka,ნიდერლანდური
+or,ka,ორია
+pa,ka,პენჯაბური
+pl,ka,პოლონური
+pt,ka,პორტუგალიური
+pt-PT,ka,პორტუგალიური (პორტუგალია)
+ro,ka,რუმინული
+ru,ka,რუსული
+si,ka,სინჰალური
+sk,ka,სლოვაკური
+sl,ka,სლოვენური
+sq,ka,ალბანური
+sr-Latn,ka,სერბული (ლათინური)
+sr,ka,სერბული
+sv,ka,შვედური
+sw,ka,სუაჰილი
+ta,ka,ტამილური
+te,ka,ტელუგუ
+th,ka,ტაილანდური
+tr,ka,თურქული
+uk,ka,უკრაინული
+ur,ka,ურდუ
+uz,ka,უზბეკური
+vi,ka,ვიეტნამური
+zh-CN,ka,ჩინური (ჩინეთი)
+zh-HK,ka,ჩინური (ჰონკონგი)
+zh-TW,ka,ჩინური (ტაივანი)
+zu,ka,ზულუ
+af,kk,африкаанс тілі
+am,kk,амхар тілі
+ar,kk,араб тілі
+as,kk,ассам тілі
+az,kk,әзірбайжан тілі
+be,kk,беларусь тілі
+bg,kk,болгар тілі
+bn,kk,бенгал тілі
+bs,kk,босния тілі
+ca,kk,каталан тілі
+cs,kk,чех тілі
+da,kk,дат тілі
+de,kk,неміс тілі
+el,kk,грек тілі
+en-GB,kk,ағылшын тілі (Ұлыбритания)
+en-IN,kk,ағылшын тілі (Үндістан)
+en,kk,ағылшын тілі
+es,kk,испан тілі
+es-419,kk,испан тілі (Латын Америкасы)
+es-US,kk,испан тілі (Америка Құрама Штаттары)
+et,kk,эстон тілі
+eu,kk,баск тілі
+fa,kk,парсы тілі
+fi,kk,фин тілі
+fil,kk,филиппин тілі
+fr-CA,kk,француз тілі (Канада)
+fr,kk,француз тілі
+gl,kk,галисия тілі
+gu,kk,гуджарати тілі
+hi,kk,хинди тілі
+hr,kk,хорват тілі
+hu,kk,венгр тілі
+hy,kk,армян тілі
+id,kk,индонезия тілі
+is,kk,исланд тілі
+it,kk,итальян тілі
+iw,kk,иврит тілі
+ja,kk,жапон тілі
+ka,kk,грузин тілі
+kk,kk,қазақ тілі
+km,kk,кхмер тілі
+kn,kk,каннада тілі
+ko,kk,корей тілі
+ky,kk,қырғыз тілі
+lo,kk,лаос тілі
+lt,kk,литва тілі
+lv,kk,латыш тілі
+mk,kk,македон тілі
+ml,kk,малаялам тілі
+mn,kk,моңғол тілі
+mr,kk,маратхи тілі
+ms,kk,малай тілі
+my,kk,бирма тілі
+no,kk,норвег тілі
+ne,kk,непал тілі
+nl,kk,нидерланд тілі
+or,kk,ория тілі
+pa,kk,пенджаб тілі
+pl,kk,поляк тілі
+pt,kk,португал тілі
+pt-PT,kk,португал тілі (Португалия)
+ro,kk,румын тілі
+ru,kk,орыс тілі
+si,kk,сингал тілі
+sk,kk,словак тілі
+sl,kk,словен тілі
+sq,kk,албан тілі
+sr-Latn,kk,серб тілі (латын жазуы)
+sr,kk,серб тілі
+sv,kk,швед тілі
+sw,kk,суахили тілі
+ta,kk,тамил тілі
+te,kk,телугу тілі
+th,kk,тай тілі
+tr,kk,түрік тілі
+uk,kk,украин тілі
+ur,kk,урду тілі
+uz,kk,өзбек тілі
+vi,kk,вьетнам тілі
+zh-CN,kk,қытай тілі (Қытай)
+zh-HK,kk,қытай тілі (Сянган)
+zh-TW,kk,қытай тілі (Тайвань)
+zu,kk,зулу тілі
+af,km,អាហ្វ្រិកាន
+am,km,អាំហារិក
+ar,km,អារ៉ាប់
+as,km,អាសាមីស
+az,km,អាស៊ែបៃហ្សង់
+be,km,បេឡារុស
+bg,km,ប៊ុលហ្ការី
+bn,km,បង់ក្លាដែស
+bs,km,បូស្នី
+ca,km,កាតាឡាន
+cs,km,ឆែក
+da,km,ដាណឺម៉ាក
+de,km,អាល្លឺម៉ង់
+el,km,ក្រិក
+en-GB,km,អង់គ្លេស (ចក្រភព​អង់គ្លេស)
+en-IN,km,អង់គ្លេស (ឥណ្ឌា)
+en,km,អង់គ្លេស
+es,km,អេស្ប៉ាញ
+es-419,km,អេស្ប៉ាញ (អាមេរិក​ឡាទីន)
+es-US,km,អេស្ប៉ាញ (សហរដ្ឋអាមេរិក)
+et,km,អេស្តូនី
+eu,km,បាសខ៍
+fa,km,ភឺសៀន
+fi,km,ហ្វាំងឡង់
+fil,km,ហ្វ៊ីលីពីន
+fr-CA,km,បារាំង (កាណាដា)
+fr,km,បារាំង
+gl,km,ហ្កាលីស្យាន
+gu,km,ហ្គុយ៉ារ៉ាទី
+hi,km,ហិណ្ឌី
+hr,km,ក្រូអាត
+hu,km,ហុងគ្រី
+hy,km,អាមេនី
+id,km,ឥណ្ឌូណេស៊ី
+is,km,អ៊ីស្លង់
+it,km,អ៊ីតាលី
+iw,km,ហេប្រឺ
+ja,km,ជប៉ុន
+ka,km,ហ្សក​ហ្ស៊ី
+kk,km,កាហ្សាក់
+km,km,ខ្មែរ
+kn,km,ខាណាដា
+ko,km,កូរ៉េ
+ky,km,​កៀហ្ស៊ីស
+lo,km,ឡាវ
+lt,km,លីទុយអានី
+lv,km,ឡាតវី
+mk,km,ម៉ាសេដូនី
+ml,km,ម៉ាឡាយ៉ាឡាម
+mn,km,ម៉ុងហ្គោលី
+mr,km,ម៉ារ៉ាធី
+ms,km,ម៉ាឡេ
+my,km,ភូមា
+no,km,ន័រវែស
+ne,km,នេប៉ាល់
+nl,km,ហូឡង់
+or,km,អូឌៀ
+pa,km,បឹនជាពិ
+pl,km,ប៉ូឡូញ
+pt,km,ព័រទុយហ្គាល់
+pt-PT,km,ព័រទុយហ្គាល់ (ព័រទុយហ្កាល់)
+ro,km,រូម៉ានី
+ru,km,រុស្ស៊ី
+si,km,ស្រីលង្កា
+sk,km,ស្លូវ៉ាគី
+sl,km,ស្លូវ៉ានី
+sq,km,អាល់បានី
+sr-Latn,km,ស៊ែប (ឡាតាំង)
+sr,km,ស៊ែប
+sv,km,ស៊ុយអែត
+sw,km,ស្វាហ៊ីលី
+ta,km,តាមីល
+te,km,តេលុគុ
+th,km,ថៃ
+tr,km,ទួរគី
+uk,km,អ៊ុយក្រែន
+ur,km,អ៊ូរឌូ
+uz,km,អ៊ូសបេគ
+vi,km,វៀតណាម
+zh-CN,km,ចិន (ចិន)
+zh-HK,km,ចិន (ហុងកុង)
+zh-TW,km,ចិន (តៃវ៉ាន់)
+zu,km,ហ្សូលូ
+af,kn,ಆಫ್ರಿಕಾನ್ಸ್
+am,kn,ಅಂಹರಿಕ್
+ar,kn,ಅರೇಬಿಕ್
+as,kn,ಅಸ್ಸಾಮೀಸ್
+az,kn,ಅಜೆರ್ಬೈಜಾನಿ
+be,kn,ಬೆಲರೂಸಿಯನ್
+bg,kn,ಬಲ್ಗೇರಿಯನ್
+bn,kn,ಬಾಂಗ್ಲಾ
+bs,kn,ಬೋಸ್ನಿಯನ್
+ca,kn,ಕೆಟಲಾನ್
+cs,kn,ಜೆಕ್
+da,kn,ಡ್ಯಾನಿಶ್
+de,kn,ಜರ್ಮನ್
+el,kn,ಗ್ರೀಕ್
+en-GB,kn,ಇಂಗ್ಲಿಷ್ (ಯುನೈಟೆಡ್ ಕಿಂಗ್‌ಡಮ್)
+en-IN,kn,ಇಂಗ್ಲಿಷ್ (ಭಾರತ)
+en,kn,ಇಂಗ್ಲಿಷ್
+es,kn,ಸ್ಪ್ಯಾನಿಷ್
+es-419,kn,ಸ್ಪ್ಯಾನಿಷ್ (ಲ್ಯಾಟಿನ್ ಅಮೇರಿಕಾ)
+es-US,kn,ಸ್ಪ್ಯಾನಿಷ್ (ಯುನೈಟೆಡ್ ಸ್ಟೇಟ್ಸ್)
+et,kn,ಎಸ್ಟೊನಿಯನ್
+eu,kn,ಬಾಸ್ಕ್
+fa,kn,ಪರ್ಶಿಯನ್
+fi,kn,ಫಿನ್ನಿಶ್
+fil,kn,ಫಿಲಿಪಿನೊ
+fr-CA,kn,ಫ್ರೆಂಚ್ (ಕೆನಡಾ)
+fr,kn,ಫ್ರೆಂಚ್
+gl,kn,ಗ್ಯಾಲಿಶಿಯನ್
+gu,kn,ಗುಜರಾತಿ
+hi,kn,ಹಿಂದಿ
+hr,kn,ಕ್ರೊಯೇಶಿಯನ್
+hu,kn,ಹಂಗೇರಿಯನ್
+hy,kn,ಅರ್ಮೇನಿಯನ್
+id,kn,ಇಂಡೋನೇಶಿಯನ್
+is,kn,ಐಸ್‌ಲ್ಯಾಂಡಿಕ್
+it,kn,ಇಟಾಲಿಯನ್
+iw,kn,ಹೀಬ್ರೂ
+ja,kn,ಜಾಪನೀಸ್
+ka,kn,ಜಾರ್ಜಿಯನ್
+kk,kn,ಕಝಕ್
+km,kn,ಖಮೇರ್
+kn,kn,ಕನ್ನಡ
+ko,kn,ಕೊರಿಯನ್
+ky,kn,ಕಿರ್ಗಿಜ್
+lo,kn,ಲಾವೋ
+lt,kn,ಲಿಥುವೇನಿಯನ್
+lv,kn,ಲಾಟ್ವಿಯನ್
+mk,kn,ಮೆಸಿಡೋನಿಯನ್
+ml,kn,ಮಲಯಾಳಂ
+mn,kn,ಮಂಗೋಲಿಯನ್
+mr,kn,ಮರಾಠಿ
+ms,kn,ಮಲಯ್
+my,kn,ಬರ್ಮೀಸ್
+no,kn,ನಾರ್ವೇಜಿಯನ್
+ne,kn,ನೇಪಾಳಿ
+nl,kn,ಡಚ್
+or,kn,ಒಡಿಯ
+pa,kn,ಪಂಜಾಬಿ
+pl,kn,ಪೊಲಿಶ್
+pt,kn,ಪೋರ್ಚುಗೀಸ್
+pt-PT,kn,ಪೋರ್ಚುಗೀಸ್ (ಪೋರ್ಚುಗಲ್)
+ro,kn,ರೊಮೇನಿಯನ್
+ru,kn,ರಷ್ಯನ್
+si,kn,ಸಿಂಹಳ
+sk,kn,ಸ್ಲೋವಾಕ್
+sl,kn,ಸ್ಲೋವೇನಿಯನ್
+sq,kn,ಅಲ್ಬೇನಿಯನ್
+sr-Latn,kn,ಸೆರ್ಬಿಯನ್ (ಲ್ಯಾಟಿನ್)
+sr,kn,ಸೆರ್ಬಿಯನ್
+sv,kn,ಸ್ವೀಡಿಷ್
+sw,kn,ಸ್ವಹಿಲಿ
+ta,kn,ತಮಿಳು
+te,kn,ತೆಲುಗು
+th,kn,ಥಾಯ್
+tr,kn,ಟರ್ಕಿಶ್
+uk,kn,ಉಕ್ರೇನಿಯನ್
+ur,kn,ಉರ್ದು
+uz,kn,ಉಜ್ಬೇಕ್
+vi,kn,ವಿಯೆಟ್ನಾಮೀಸ್
+zh-CN,kn,ಚೈನೀಸ್ (ಚೀನಾ)
+zh-HK,kn,ಚೈನೀಸ್ (ಹಾಂಗ್ ಕಾಂಗ್)
+zh-TW,kn,ಚೈನೀಸ್ (ತೈವಾನ್)
+zu,kn,ಜುಲು
+af,ko,아프리칸스어
+am,ko,암하라어
+ar,ko,아랍어
+as,ko,아삼어
+az,ko,아제르바이잔어
+be,ko,벨라루스어
+bg,ko,불가리아어
+bn,ko,벵골어
+bs,ko,보스니아어
+ca,ko,카탈로니아어
+cs,ko,체코어
+da,ko,덴마크어
+de,ko,독일어
+el,ko,그리스어
+en-GB,ko,영어(영국)
+en-IN,ko,영어(인도)
+en,ko,영어
+es,ko,스페인어
+es-419,ko,스페인어(라틴 아메리카)
+es-US,ko,스페인어(미국)
+et,ko,에스토니아어
+eu,ko,바스크어
+fa,ko,페르시아어
+fi,ko,핀란드어
+fil,ko,필리핀어
+fr-CA,ko,프랑스어(캐나다)
+fr,ko,프랑스어
+gl,ko,갈리시아어
+gu,ko,구자라트어
+hi,ko,힌디어
+hr,ko,크로아티아어
+hu,ko,헝가리어
+hy,ko,아르메니아어
+id,ko,인도네시아어
+is,ko,아이슬란드어
+it,ko,이탈리아어
+iw,ko,히브리어
+ja,ko,일본어
+ka,ko,조지아어
+kk,ko,카자흐어
+km,ko,크메르어
+kn,ko,칸나다어
+ko,ko,한국어
+ky,ko,키르기스어
+lo,ko,라오어
+lt,ko,리투아니아어
+lv,ko,라트비아어
+mk,ko,마케도니아어
+ml,ko,말라얄람어
+mn,ko,몽골어
+mr,ko,마라티어
+ms,ko,말레이어
+my,ko,버마어
+no,ko,노르웨이어
+ne,ko,네팔어
+nl,ko,네덜란드어
+or,ko,오리야어
+pa,ko,펀잡어
+pl,ko,폴란드어
+pt,ko,포르투갈어
+pt-PT,ko,포르투갈어(포르투갈)
+ro,ko,루마니아어
+ru,ko,러시아어
+si,ko,싱할라어
+sk,ko,슬로바키아어
+sl,ko,슬로베니아어
+sq,ko,알바니아어
+sr-Latn,ko,세르비아어(로마자)
+sr,ko,세르비아어
+sv,ko,스웨덴어
+sw,ko,스와힐리어
+ta,ko,타밀어
+te,ko,텔루구어
+th,ko,태국어
+tr,ko,터키어
+uk,ko,우크라이나어
+ur,ko,우르두어
+uz,ko,우즈베크어
+vi,ko,베트남어
+zh-CN,ko,중국어(중국)
+zh-HK,ko,중국어(홍콩)
+zh-TW,ko,중국어(대만)
+zu,ko,줄루어
+af,ky,африкаанча
+am,ky,амхарча
+ar,ky,арабча
+as,ky,ассамча
+az,ky,азербайжанча
+be,ky,беларусча
+bg,ky,болгарча
+bn,ky,бангладешче
+bs,ky,боснийче
+ca,ky,каталончо
+cs,ky,чехче
+da,ky,датча
+de,ky,немисче
+el,ky,грекче
+en-GB,ky,англисче (Улуу Британия)
+en-IN,ky,англисче (Индия)
+en,ky,англисче
+es,ky,испанча
+es-419,ky,испанча (Латын Америкасы)
+es-US,ky,испанча (Кошмо Штаттар)
+et,ky,эстончо
+eu,ky,баскча
+fa,ky,фарсча
+fi,ky,финче
+fil,ky,филипинче
+fr-CA,ky,французча (Канада)
+fr,ky,французча
+gl,ky,галисияча
+gu,ky,гужаратча
+hi,ky,хиндиче
+hr,ky,хорватча
+hu,ky,венгерче
+hy,ky,армянча
+id,ky,индонезияча
+is,ky,исландча
+it,ky,италиянча
+iw,ky,ивритче
+ja,ky,жапончо
+ka,ky,грузинче
+kk,ky,казакча
+km,ky,кмерче
+kn,ky,каннадача
+ko,ky,корейче
+ky,ky,кыргызча
+lo,ky,лаочо
+lt,ky,литовчо
+lv,ky,латышча
+mk,ky,македончо
+ml,ky,малайаламча
+mn,ky,монголчо
+mr,ky,маратиче
+ms,ky,малайча
+my,ky,бурмача
+no,ky,норвежче
+ne,ky,непалча
+nl,ky,голландча
+or,ky,орияча
+pa,ky,пунжабиче
+pl,ky,полякча
+pt,ky,португалча
+pt-PT,ky,португалча (Португалия)
+ro,ky,румынча
+ru,ky,орусча
+si,ky,сингалача
+sk,ky,словакча
+sl,ky,словенче
+sq,ky,албанча
+sr-Latn,ky,сербче (Латын)
+sr,ky,сербче
+sv,ky,шведче
+sw,ky,суахиличе
+ta,ky,тамилче
+te,ky,телугуча
+th,ky,тайча
+tr,ky,түркчө
+uk,ky,украинче
+ur,ky,урдуча
+uz,ky,өзбекче
+vi,ky,вьетнамча
+zh-CN,ky,кытайча (Кытай)
+zh-HK,ky,кытайча (Гонконг)
+zh-TW,ky,кытайча (Тайвань)
+zu,ky,зулуча
+af,lo,ອາຟຣິການ
+am,lo,ອຳຮາຣິກ
+ar,lo,ອາຣັບ
+as,lo,ອັສຊາມີສ
+az,lo,ອາເຊີໄບຈານິ
+be,lo,ເບລາຣັສຊຽນ
+bg,lo,ບັງກາຣຽນ
+bn,lo,ເບັງກາລີ
+bs,lo,ບອສນຽນ
+ca,lo,ຄາຕາລານ
+cs,lo,ເຊກ
+da,lo,ແດນິຊ
+de,lo,ເຢຍລະມັນ
+el,lo,ກຣີກ
+en-GB,lo,ອັງກິດ (ສະຫະລາດຊະອະນາຈັກ)
+en-IN,lo,ອັງກິດ (ອິນເດຍ)
+en,lo,ອັງກິດ
+es,lo,ສະແປນນິຊ
+es-419,lo,ສະແປນນິຊ (ລາຕິນ ອາເມລິກາ)
+es-US,lo,ສະແປນນິຊ (ສະຫະລັດ)
+et,lo,ເອສໂຕນຽນ
+eu,lo,ບັສກີ
+fa,lo,ເປີຊຽນ
+fi,lo,ຟິນນິຊ
+fil,lo,ຟີລິປີໂນ
+fr-CA,lo,ຝຣັ່ງ (ແຄນາດາ)
+fr,lo,ຝຣັ່ງ
+gl,lo,ກາລິຊຽນ
+gu,lo,ກູຈາຣາຕິ
+hi,lo,ຮິນດິ
+hr,lo,ໂຄຣເອທຽນ
+hu,lo,ຮັງກາຣຽນ
+hy,lo,ອາເມນຽນ
+id,lo,ອິນໂດເນຊຽນ
+is,lo,ໄອສແລນດິກ
+it,lo,ອິຕາລຽນ
+iw,lo,ຮີບຣິວ
+ja,lo,ຍີ່ປຸ່ນ
+ka,lo,ຈໍຈຽນ
+kk,lo,ຄາຊັກ
+km,lo,ຂະເໝນ
+kn,lo,ຄັນນາດາ
+ko,lo,ເກົາຫລີ
+ky,lo,ເກຍກີສ
+lo,lo,ລາວ
+lt,lo,ລິທົວນຽນ
+lv,lo,ລັດວຽນ
+mk,lo,ແມຊິໂດນຽນ
+ml,lo,ມາເລອາລຳ
+mn,lo,ມອງໂກເລຍ
+mr,lo,ມາຣາທີ
+ms,lo,ມາເລ
+my,lo,ມຽນມາ
+no,lo,ນໍເວຈຽນ
+ne,lo,ເນປາລີ
+nl,lo,ດັຊ
+or,lo,ໂອເດຍ
+pa,lo,ປັນຈາບີ
+pl,lo,ໂປລິຊ
+pt,lo,ປອກຕຸຍກິສ
+pt-PT,lo,ປອກຕຸຍກິສ (ພອລທູໂກ)
+ro,lo,ໂຣແມນຽນ
+ru,lo,ລັດເຊຍ
+si,lo,ສິນຫາລາ
+sk,lo,ສະໂລແວັກ
+sl,lo,ສະໂລເວນຽນ
+sq,lo,ອານບານຽນ
+sr-Latn,lo,ເຊີບຽນ (ລາຕິນ)
+sr,lo,ເຊີບຽນ
+sv,lo,ສະວີດິຊ
+sw,lo,ຊວາຮີລິ
+ta,lo,ທາມິລ
+te,lo,ເຕລູກູ
+th,lo,ໄທ
+tr,lo,ເທີຄິຊ
+uk,lo,ຢູເຄຣນຽນ
+ur,lo,ອູຣດູ
+uz,lo,ອຸສເບກ
+vi,lo,ຫວຽດນາມ
+zh-CN,lo,ຈີນ (ຈີນ)
+zh-HK,lo,ຈີນ (ຮົງກົງ)
+zh-TW,lo,ຈີນ (ໄຕ້ຫວັນ)
+zu,lo,ຊູລູ
+af,lt,afrikanų
+am,lt,amharų
+ar,lt,arabų
+as,lt,asamų
+az,lt,azerbaidžaniečių
+be,lt,baltarusių
+bg,lt,bulgarų
+bn,lt,bengalų
+bs,lt,bosnių
+ca,lt,katalonų
+cs,lt,čekų
+da,lt,danų
+de,lt,vokiečių
+el,lt,graikų
+en-GB,lt,anglų (Jungtinė Karalystė)
+en-IN,lt,anglų (Indija)
+en,lt,anglų
+es,lt,ispanų
+es-419,lt,ispanų (Lotynų Amerika)
+es-US,lt,ispanų (Jungtinės Valstijos)
+et,lt,estų
+eu,lt,baskų
+fa,lt,persų
+fi,lt,suomių
+fil,lt,filipiniečių
+fr-CA,lt,prancūzų (Kanada)
+fr,lt,prancūzų
+gl,lt,galisų
+gu,lt,gudžaratų
+hi,lt,hindi
+hr,lt,kroatų
+hu,lt,vengrų
+hy,lt,armėnų
+id,lt,indoneziečių
+is,lt,islandų
+it,lt,italų
+iw,lt,hebrajų
+ja,lt,japonų
+ka,lt,gruzinų
+kk,lt,kazachų
+km,lt,khmerų
+kn,lt,kanadų
+ko,lt,korėjiečių
+ky,lt,kirgizų
+lo,lt,laosiečių
+lt,lt,lietuvių
+lv,lt,latvių
+mk,lt,makedonų
+ml,lt,malajalių
+mn,lt,mongolų
+mr,lt,maratų
+ms,lt,malajiečių
+my,lt,birmiečių
+no,lt,norvegų
+ne,lt,nepaliečių
+nl,lt,olandų
+or,lt,odijų
+pa,lt,pendžabų
+pl,lt,lenkų
+pt,lt,portugalų
+pt-PT,lt,portugalų (Portugalija)
+ro,lt,rumunų
+ru,lt,rusų
+si,lt,sinhalų
+sk,lt,slovakų
+sl,lt,slovėnų
+sq,lt,albanų
+sr-Latn,lt,serbų (lotynų)
+sr,lt,serbų
+sv,lt,švedų
+sw,lt,suahilių
+ta,lt,tamilų
+te,lt,telugų
+th,lt,tajų
+tr,lt,turkų
+uk,lt,ukrainiečių
+ur,lt,urdų
+uz,lt,uzbekų
+vi,lt,vietnamiečių
+zh-CN,lt,kinų (Kinija)
+zh-HK,lt,kinų (Honkongas)
+zh-TW,lt,kinų (Taivanas)
+zu,lt,zulų
+af,lv,afrikandu
+am,lv,amharu
+ar,lv,arābu
+as,lv,asamiešu
+az,lv,azerbaidžāņu
+be,lv,baltkrievu
+bg,lv,bulgāru
+bn,lv,bengāļu
+bs,lv,bosniešu
+ca,lv,katalāņu
+cs,lv,čehu
+da,lv,dāņu
+de,lv,vācu
+el,lv,grieķu
+en-GB,lv,angļu (Apvienotā Karaliste)
+en-IN,lv,angļu (Indija)
+en,lv,angļu
+es,lv,spāņu
+es-419,lv,spāņu (Latīņamerika)
+es-US,lv,spāņu (Amerikas Savienotās Valstis)
+et,lv,igauņu
+eu,lv,basku
+fa,lv,persiešu
+fi,lv,somu
+fil,lv,filipīniešu
+fr-CA,lv,franču (Kanāda)
+fr,lv,franču
+gl,lv,galisiešu
+gu,lv,gudžaratu
+hi,lv,hindi
+hr,lv,horvātu
+hu,lv,ungāru
+hy,lv,armēņu
+id,lv,indonēziešu
+is,lv,islandiešu
+it,lv,itāļu
+iw,lv,ivrits
+ja,lv,japāņu
+ka,lv,gruzīnu
+kk,lv,kazahu
+km,lv,khmeru
+kn,lv,kannadu
+ko,lv,korejiešu
+ky,lv,kirgīzu
+lo,lv,laosiešu
+lt,lv,lietuviešu
+lv,lv,latviešu
+mk,lv,maķedoniešu
+ml,lv,malajalu
+mn,lv,mongoļu
+mr,lv,marathu
+ms,lv,malajiešu
+my,lv,birmiešu
+no,lv,norvēģu
+ne,lv,nepāliešu
+nl,lv,holandiešu
+or,lv,oriju
+pa,lv,pandžabu
+pl,lv,poļu
+pt,lv,portugāļu
+pt-PT,lv,portugāļu (Portugāle)
+ro,lv,rumāņu
+ru,lv,krievu
+si,lv,singāļu
+sk,lv,slovāku
+sl,lv,slovēņu
+sq,lv,albāņu
+sr-Latn,lv,serbu (latīņu)
+sr,lv,serbu
+sv,lv,zviedru
+sw,lv,svahili
+ta,lv,tamilu
+te,lv,telugu
+th,lv,taju
+tr,lv,turku
+uk,lv,ukraiņu
+ur,lv,urdu
+uz,lv,uzbeku
+vi,lv,vjetnamiešu
+zh-CN,lv,ķīniešu (Ķīna)
+zh-HK,lv,ķīniešu (Honkonga)
+zh-TW,lv,ķīniešu (Taivāna)
+zu,lv,zulu
+af,mk,африканс
+am,mk,амхарски
+ar,mk,арапски
+as,mk,асамски
+az,mk,азербејџански
+be,mk,белоруски
+bg,mk,бугарски
+bn,mk,бенгалски
+bs,mk,босански
+ca,mk,каталонски
+cs,mk,чешки
+da,mk,дански
+de,mk,германски
+el,mk,грчки
+en-GB,mk,англиски (Обединето Кралство)
+en-IN,mk,англиски (Индија)
+en,mk,англиски
+es,mk,шпански
+es-419,mk,шпански (Латинска Америка)
+es-US,mk,шпански (Соединети Американски Држави)
+et,mk,естонски
+eu,mk,баскиски
+fa,mk,персиски
+fi,mk,фински
+fil,mk,филипински
+fr-CA,mk,француски (Канада)
+fr,mk,француски
+gl,mk,галициски
+gu,mk,гуџарати
+hi,mk,хинди
+hr,mk,хрватски
+hu,mk,унгарски
+hy,mk,ерменски
+id,mk,индонезиски
+is,mk,исландски
+it,mk,италијански
+iw,mk,хебрејски
+ja,mk,јапонски
+ka,mk,грузиски
+kk,mk,казашки
+km,mk,кмерски
+kn,mk,каннада
+ko,mk,корејски
+ky,mk,киргиски
+lo,mk,лаошки
+lt,mk,литвански
+lv,mk,латвиски
+mk,mk,македонски
+ml,mk,малајалски
+mn,mk,монголски
+mr,mk,марати
+ms,mk,малајски
+my,mk,бурмански
+no,mk,норвешки
+ne,mk,непалски
+nl,mk,холандски
+or,mk,одија
+pa,mk,пенџапски
+pl,mk,полски
+pt,mk,португалски
+pt-PT,mk,португалски (Португалија)
+ro,mk,романски
+ru,mk,руски
+si,mk,синхалски
+sk,mk,словачки
+sl,mk,словенечки
+sq,mk,албански
+sr-Latn,mk,српски (латинично писмо)
+sr,mk,српски
+sv,mk,шведски
+sw,mk,свахили
+ta,mk,тамилски
+te,mk,телугу
+th,mk,тајландски
+tr,mk,турски
+uk,mk,украински
+ur,mk,урду
+uz,mk,узбечки
+vi,mk,виетнамски
+zh-CN,mk,кинески (Кина)
+zh-HK,mk,кинески (Хонгконг)
+zh-TW,mk,кинески (Тајван)
+zu,mk,зулу
+af,ml,ആഫ്രിക്കാൻസ്
+am,ml,അംഹാരിക്
+ar,ml,അറബിക്
+as,ml,ആസ്സാമീസ്
+az,ml,അസർബൈജാനി
+be,ml,ബെലാറുഷ്യൻ
+bg,ml,ബൾഗേറിയൻ
+bn,ml,ബംഗ്ലാ
+bs,ml,ബോസ്നിയൻ
+ca,ml,കറ്റാലാൻ
+cs,ml,ചെക്ക്
+da,ml,ഡാനിഷ്
+de,ml,ജർമ്മൻ
+el,ml,ഗ്രീക്ക്
+en-GB,ml,ഇംഗ്ലീഷ് (യുണൈറ്റഡ് കിംഗ്ഡം)
+en-IN,ml,ഇംഗ്ലീഷ് (ഇന്ത്യ)
+en,ml,ഇംഗ്ലീഷ്
+es,ml,സ്‌പാനിഷ്
+es-419,ml,സ്‌പാനിഷ് (ലാറ്റിനമേരിക്ക)
+es-US,ml,സ്‌പാനിഷ് (അമേരിക്കൻ ഐക്യനാടുകൾ)
+et,ml,എസ്റ്റോണിയൻ
+eu,ml,ബാസ്‌ക്
+fa,ml,പേർഷ്യൻ
+fi,ml,ഫിന്നിഷ്
+fil,ml,ഫിലിപ്പിനോ
+fr-CA,ml,ഫ്രഞ്ച് (കാനഡ)
+fr,ml,ഫ്രഞ്ച്
+gl,ml,ഗലീഷ്യൻ
+gu,ml,ഗുജറാത്തി
+hi,ml,ഹിന്ദി
+hr,ml,ക്രൊയേഷ്യൻ
+hu,ml,ഹംഗേറിയൻ
+hy,ml,അർമേനിയൻ
+id,ml,ഇന്തോനേഷ്യൻ
+is,ml,ഐസ്‌ലാൻഡിക്
+it,ml,ഇറ്റാലിയൻ
+iw,ml,ഹീബ്രു
+ja,ml,ജാപ്പനീസ്
+ka,ml,ജോർജിയൻ
+kk,ml,കസാഖ്
+km,ml,ഖമെർ
+kn,ml,കന്നഡ
+ko,ml,കൊറിയൻ
+ky,ml,കിർഗിസ്
+lo,ml,ലാവോ
+lt,ml,ലിത്വാനിയൻ
+lv,ml,ലാറ്റ്വിയൻ
+mk,ml,മാസിഡോണിയൻ
+ml,ml,മലയാളം
+mn,ml,മംഗോളിയൻ
+mr,ml,മറാത്തി
+ms,ml,മലെയ്
+my,ml,ബർമീസ്
+no,ml,നോർവീജിയൻ
+ne,ml,നേപ്പാളി
+nl,ml,ഡച്ച്
+or,ml,ഒഡിയ
+pa,ml,പഞ്ചാബി
+pl,ml,പോളിഷ്
+pt,ml,പോർച്ചുഗീസ്
+pt-PT,ml,പോർച്ചുഗീസ് (പോർച്ചുഗൽ)
+ro,ml,റൊമാനിയൻ
+ru,ml,റഷ്യൻ
+si,ml,സിംഹള
+sk,ml,സ്ലോവാക്
+sl,ml,സ്ലോവേനിയൻ
+sq,ml,അൽബേനിയൻ
+sr-Latn,ml,സെർബിയൻ (ലാറ്റിൻ)
+sr,ml,സെർബിയൻ
+sv,ml,സ്വീഡിഷ്
+sw,ml,സ്വാഹിലി
+ta,ml,തമിഴ്
+te,ml,തെലുങ്ക്
+th,ml,തായ്
+tr,ml,ടർക്കിഷ്
+uk,ml,ഉക്രേനിയൻ
+ur,ml,ഉറുദു
+uz,ml,ഉസ്‌ബെക്ക്
+vi,ml,വിയറ്റ്നാമീസ്
+zh-CN,ml,ചൈനീസ് (ചൈന)
+zh-HK,ml,ചൈനീസ് (ഹോങ്കോങ്)
+zh-TW,ml,ചൈനീസ് (തായ്‌വാൻ)
+zu,ml,സുലു
+af,mn,африкаанс
+am,mn,амхар
+ar,mn,араб
+as,mn,ассам
+az,mn,азербайжан
+be,mn,беларусь
+bg,mn,болгар
+bn,mn,бенгал
+bs,mn,босни
+ca,mn,каталан
+cs,mn,чех
+da,mn,дани
+de,mn,герман
+el,mn,грек
+en-GB,mn,англи (Их Британи)
+en-IN,mn,англи (Энэтхэг)
+en,mn,англи
+es,mn,испани
+es-419,mn,испани (Латин Америк)
+es-US,mn,испани (Америкийн Нэгдсэн Улс)
+et,mn,эстони
+eu,mn,баск
+fa,mn,перс
+fi,mn,фин
+fil,mn,филипино
+fr-CA,mn,франц (Канад)
+fr,mn,франц
+gl,mn,галего
+gu,mn,гужарати
+hi,mn,хинди
+hr,mn,хорват
+hu,mn,мажар
+hy,mn,армен
+id,mn,индонези
+is,mn,исланд
+it,mn,итали
+iw,mn,еврей
+ja,mn,япон
+ka,mn,гүрж
+kk,mn,казах
+km,mn,кхмер
+kn,mn,каннада
+ko,mn,солонгос
+ky,mn,киргиз
+lo,mn,лаос
+lt,mn,литва
+lv,mn,латви
+mk,mn,македон
+ml,mn,малаялам
+mn,mn,монгол
+mr,mn,марати
+ms,mn,малай
+my,mn,бирм
+no,mn,норвег
+ne,mn,балба
+nl,mn,нидерланд
+or,mn,ория
+pa,mn,панжаби
+pl,mn,польш
+pt,mn,португал
+pt-PT,mn,португал (Португал)
+ro,mn,румын
+ru,mn,орос
+si,mn,синхала
+sk,mn,словак
+sl,mn,словени
+sq,mn,албани
+sr-Latn,mn,серб (латин)
+sr,mn,серб
+sv,mn,швед
+sw,mn,свахили
+ta,mn,тамил
+te,mn,тэлүгү
+th,mn,тай
+tr,mn,турк
+uk,mn,украин
+ur,mn,урду
+uz,mn,узбек
+vi,mn,вьетнам
+zh-CN,mn,хятад (Хятад)
+zh-HK,mn,хятад (Хонг Конг)
+zh-TW,mn,хятад (Тайвань)
+zu,mn,зулу
+af,mr,अफ्रिकान्स
+am,mr,अम्हारिक
+ar,mr,अरबी
+as,mr,आसामी
+az,mr,अझरबैजानी
+be,mr,बेलारुशियन
+bg,mr,बल्गेरियन
+bn,mr,बंगाली
+bs,mr,बोस्नियन
+ca,mr,कातालान
+cs,mr,झेक
+da,mr,डॅनिश
+de,mr,जर्मन
+el,mr,ग्रीक
+en-GB,mr,इंग्रजी (युनायटेड किंगडम)
+en-IN,mr,इंग्रजी (भारत)
+en,mr,इंग्रजी
+es,mr,स्पॅनिश
+es-419,mr,स्पॅनिश (लॅटिन अमेरिका)
+es-US,mr,स्पॅनिश (युनायटेड स्टेट्स)
+et,mr,इस्टोनियन
+eu,mr,बास्क
+fa,mr,फारसी
+fi,mr,फिनिश
+fil,mr,फिलिपिनो
+fr-CA,mr,फ्रेंच (कॅनडा)
+fr,mr,फ्रेंच
+gl,mr,गॅलिशियन
+gu,mr,गुजराती
+hi,mr,हिंदी
+hr,mr,क्रोएशियन
+hu,mr,हंगेरियन
+hy,mr,आर्मेनियन
+id,mr,इंडोनेशियन
+is,mr,आईसलँडिक
+it,mr,इटालियन
+iw,mr,हिब्रू
+ja,mr,जपानी
+ka,mr,जॉर्जियन
+kk,mr,कझाक
+km,mr,ख्मेर
+kn,mr,कन्नड
+ko,mr,कोरियन
+ky,mr,किरगीझ
+lo,mr,लाओ
+lt,mr,लिथुआनियन
+lv,mr,लात्व्हियन
+mk,mr,मॅसेडोनियन
+ml,mr,मल्याळम
+mn,mr,मंगोलियन
+mr,mr,मराठी
+ms,mr,मलय
+my,mr,बर्मी
+no,mr,नोर्वेजियन
+ne,mr,नेपाळी
+nl,mr,डच
+or,mr,उडिया
+pa,mr,पंजाबी
+pl,mr,पोलिश
+pt,mr,पोर्तुगीज
+pt-PT,mr,पोर्तुगीज (पोर्तुगाल)
+ro,mr,रोमानियन
+ru,mr,रशियन
+si,mr,सिंहला
+sk,mr,स्लोव्हाक
+sl,mr,स्लोव्हेनियन
+sq,mr,अल्बानियन
+sr-Latn,mr,सर्बियन (लॅटिन)
+sr,mr,सर्बियन
+sv,mr,स्वीडिश
+sw,mr,स्वाहिली
+ta,mr,तामिळ
+te,mr,तेलगू
+th,mr,थाई
+tr,mr,तुर्की
+uk,mr,युक्रेनियन
+ur,mr,उर्दू
+uz,mr,उझ्बेक
+vi,mr,व्हिएतनामी
+zh-CN,mr,चीनी (चीन)
+zh-HK,mr,चीनी (हाँगकाँग)
+zh-TW,mr,चीनी (तैवान)
+zu,mr,झुलू
+af,ms,Afrikaans
+am,ms,Amharic
+ar,ms,Arab
+as,ms,Assam
+az,ms,Azerbaijan
+be,ms,Belarus
+bg,ms,Bulgaria
+bn,ms,Benggali
+bs,ms,Bosnia
+ca,ms,Catalonia
+cs,ms,Czech
+da,ms,Denmark
+de,ms,Jerman
+el,ms,Greek
+en-GB,ms,Inggeris (United Kingdom)
+en-IN,ms,Inggeris (India)
+en,ms,Inggeris
+es,ms,Sepanyol
+es-419,ms,Sepanyol (Amerika Latin)
+es-US,ms,Sepanyol (Amerika Syarikat)
+et,ms,Estonia
+eu,ms,Basque
+fa,ms,Parsi
+fi,ms,Finland
+fil,ms,Filipina
+fr-CA,ms,Perancis (Kanada)
+fr,ms,Perancis
+gl,ms,Galicia
+gu,ms,Gujarat
+hi,ms,Hindi
+hr,ms,Croatia
+hu,ms,Hungary
+hy,ms,Armenia
+id,ms,Indonesia
+is,ms,Iceland
+it,ms,Itali
+iw,ms,Ibrani
+ja,ms,Jepun
+ka,ms,Georgia
+kk,ms,Kazakhstan
+km,ms,Khmer
+kn,ms,Kannada
+ko,ms,Korea
+ky,ms,Kirghiz
+lo,ms,Laos
+lt,ms,Lithuania
+lv,ms,Latvia
+mk,ms,Macedonia
+ml,ms,Malayalam
+mn,ms,Mongolia
+mr,ms,Marathi
+ms,ms,Melayu
+my,ms,Burma
+no,ms,Norway
+ne,ms,Nepal
+nl,ms,Belanda
+or,ms,Odia
+pa,ms,Punjabi
+pl,ms,Poland
+pt,ms,Portugis
+pt-PT,ms,Portugis (Portugal)
+ro,ms,Romania
+ru,ms,Rusia
+si,ms,Sinhala
+sk,ms,Slovak
+sl,ms,Slovenia
+sq,ms,Albania
+sr-Latn,ms,Serbia (Latin)
+sr,ms,Serbia
+sv,ms,Sweden
+sw,ms,Swahili
+ta,ms,Tamil
+te,ms,Telugu
+th,ms,Thai
+tr,ms,Turki
+uk,ms,Ukraine
+ur,ms,Urdu
+uz,ms,Uzbekistan
+vi,ms,Vietnam
+zh-CN,ms,Cina (China)
+zh-HK,ms,Cina (Hong Kong)
+zh-TW,ms,Cina (Taiwan)
+zu,ms,Zulu
+af,my,အာဖရိကန်
+am,my,အမ်ဟာရစ်ခ်
+ar,my,အာရဗီ
+as,my,အာသံ
+az,my,အဇာဘိုင်ဂျန်
+be,my,ဘီလာရုစ်
+bg,my,ဘူလ်ဂေးရီးယား
+bn,my,ဘင်္ဂါလီ
+bs,my,ဘော့စ်နီးယား
+ca,my,ကတ်တလန်
+cs,my,ချက်
+da,my,ဒိန်းမတ်
+de,my,ဂျာမန်
+el,my,ဂရိ
+en-GB,my,အင်္ဂလိပ် (ယူနိုက်တက်ကင်းဒမ်း)
+en-IN,my,အင်္ဂလိပ် (အိန္ဒိယ)
+en,my,အင်္ဂလိပ်
+es,my,စပိန်
+es-419,my,စပိန် (လက်တင်အမေရိက)
+es-US,my,စပိန် (အမေရိကန် ပြည်ထောင်စု)
+et,my,အက်စ်တိုးနီးယား
+eu,my,ဘာစ်ခ်
+fa,my,ပါရှန်
+fi,my,ဖင်လန်
+fil,my,ဖိလစ်ပိုင်
+fr-CA,my,ပြင်သစ် (ကနေဒါ)
+fr,my,ပြင်သစ်
+gl,my,ဂါလီစီယာ
+gu,my,ဂူဂျာရသီ
+hi,my,ဟိန်ဒူ
+hr,my,ခရိုအေးရှား
+hu,my,ဟန်ဂေရီ
+hy,my,အာမေးနီးယား
+id,my,အင်ဒိုနီးရှား
+is,my,အိုက်စ်လန်
+it,my,အီတလီ
+iw,my,ဟီဘရူး
+ja,my,ဂျပန်
+ka,my,ဂျော်ဂျီယာ
+kk,my,ကာဇာချ
+km,my,ခမာ
+kn,my,ကန်နာဒါ
+ko,my,ကိုရီးယား
+ky,my,ကာဂျစ်
+lo,my,လာအို
+lt,my,လစ်သူဝေးနီးယား
+lv,my,လတ်ဗီးယား
+mk,my,မက်ဆီဒိုးနီးယား
+ml,my,မလေယာလမ်
+mn,my,မွန်ဂိုလီးယား
+mr,my,မာရသီ
+ms,my,မလေး
+my,my,မြန်မာ
+no,my,နော်ဝေ
+ne,my,နီပေါ
+nl,my,ဒတ်ခ်ျ
+or,my,အိုရီရာ
+pa,my,ပန်ချာပီ
+pl,my,ပိုလန်
+pt,my,ပေါ်တူဂီ
+pt-PT,my,ပေါ်တူဂီ (ပေါ်တူဂီ)
+ro,my,ရိုမေနီယား
+ru,my,ရုရှ
+si,my,စင်ဟာလာ
+sk,my,ဆလိုဗက်
+sl,my,ဆလိုဗေးနီးယား
+sq,my,အယ်လ်ဘေးနီးယား
+sr-Latn,my,ဆားဘီးယား (လက်တင်)
+sr,my,ဆားဘီးယား
+sv,my,ဆွီဒင်
+sw,my,ဆွာဟီလီ
+ta,my,တမီးလ်
+te,my,တီလီဂူ
+th,my,ထိုင်း
+tr,my,တူရကီ
+uk,my,ယူကရိန်း
+ur,my,အူရ်ဒူ
+uz,my,ဥဇဘတ်
+vi,my,ဗီယက်နမ်
+zh-CN,my,တရုတ် (တရုတ်)
+zh-HK,my,တရုတ် (ဟောင်ကောင်)
+zh-TW,my,တရုတ် (ထိုင်ဝမ်)
+zu,my,ဇူးလူး
+af,ne,अफ्रिकान्स
+am,ne,अम्हारिक
+ar,ne,अरबी
+as,ne,आसामी
+az,ne,अजरबैजानी
+be,ne,बेलारुसी
+bg,ne,बुल्गेरियाली
+bn,ne,बंगाली
+bs,ne,बोस्नियाली
+ca,ne,क्याटालन
+cs,ne,चेक
+da,ne,डेनिस
+de,ne,जर्मन
+el,ne,ग्रीक
+en-GB,ne,अङ्ग्रेजी (संयुक्त अधिराज्य)
+en-IN,ne,अङ्ग्रेजी (भारत)
+en,ne,अङ्ग्रेजी
+es,ne,स्पेनी
+es-419,ne,स्पेनी (ल्याटिन अमेरिका)
+es-US,ne,स्पेनी (संयुक्त राज्य)
+et,ne,इस्टोनियन
+eu,ne,बास्क
+fa,ne,फारसी
+fi,ne,फिनिस
+fil,ne,फिलिपिनी
+fr-CA,ne,फ्रान्सेली (क्यानाडा)
+fr,ne,फ्रान्सेली
+gl,ne,गलिसियाली
+gu,ne,गुजराती
+hi,ne,हिन्दी
+hr,ne,क्रोयसियाली
+hu,ne,हङ्गेरियाली
+hy,ne,आर्मेनियाली
+id,ne,इन्डोनेसियाली
+is,ne,आइसल्यान्डियाली
+it,ne,इटालेली
+iw,ne,हिब्रु
+ja,ne,जापानी
+ka,ne,जर्जियाली
+kk,ne,काजाख
+km,ne,खमेर
+kn,ne,कन्नाडा
+ko,ne,कोरियाली
+ky,ne,किर्गिज
+lo,ne,लाओ
+lt,ne,लिथुआनियाली
+lv,ne,लात्भियाली
+mk,ne,म्यासेडोनियन
+ml,ne,मलयालम
+mn,ne,मङ्गोलियाली
+mr,ne,मराठी
+ms,ne,मलाय
+my,ne,बर्मेली
+no,ne,नर्वेली
+ne,ne,नेपाली
+nl,ne,डच
+or,ne,उडिया
+pa,ne,पंजाबी
+pl,ne,पोलिस
+pt,ne,पोर्तुगी
+pt-PT,ne,पोर्तुगी (पोर्चुगल)
+ro,ne,रोमानियाली
+ru,ne,रसियाली
+si,ne,सिन्हाली
+sk,ne,स्लोभाकियाली
+sl,ne,स्लोभेनियाली
+sq,ne,अल्बानियाली
+sr-Latn,ne,सर्बियाली (ल्याटिन)
+sr,ne,सर्बियाली
+sv,ne,स्विडिस
+sw,ne,स्वाहिली
+ta,ne,तामिल
+te,ne,तेलुगु
+th,ne,थाई
+tr,ne,टर्किश
+uk,ne,युक्रेनी
+ur,ne,उर्दु
+uz,ne,उज्बेकी
+vi,ne,भियतनामी
+zh-CN,ne,चिनियाँ (चीन)
+zh-HK,ne,चिनियाँ (हङकङ)
+zh-TW,ne,चिनियाँ (ताइवान)
+zu,ne,जुलु
+af,nl,Afrikaans
+am,nl,Amhaars
+ar,nl,Arabisch
+as,nl,Assamees
+az,nl,Azerbeidzjaans
+be,nl,Belarussisch
+bg,nl,Bulgaars
+bn,nl,Bengaals
+bs,nl,Bosnisch
+ca,nl,Catalaans
+cs,nl,Tsjechisch
+da,nl,Deens
+de,nl,Duits
+el,nl,Grieks
+en-GB,nl,Engels (Verenigd Koninkrijk)
+en-IN,nl,Engels (India)
+en,nl,Engels
+es,nl,Spaans
+es-419,nl,Spaans (Latijns-Amerika)
+es-US,nl,Spaans (Verenigde Staten)
+et,nl,Estisch
+eu,nl,Baskisch
+fa,nl,Perzisch
+fi,nl,Fins
+fil,nl,Filipijns
+fr-CA,nl,Frans (Canada)
+fr,nl,Frans
+gl,nl,Galicisch
+gu,nl,Gujarati
+hi,nl,Hindi
+hr,nl,Kroatisch
+hu,nl,Hongaars
+hy,nl,Armeens
+id,nl,Indonesisch
+is,nl,IJslands
+it,nl,Italiaans
+iw,nl,Hebreeuws
+ja,nl,Japans
+ka,nl,Georgisch
+kk,nl,Kazachs
+km,nl,Khmer
+kn,nl,Kannada
+ko,nl,Koreaans
+ky,nl,Kirgizisch
+lo,nl,Laotiaans
+lt,nl,Litouws
+lv,nl,Lets
+mk,nl,Macedonisch
+ml,nl,Malayalam
+mn,nl,Mongools
+mr,nl,Marathi
+ms,nl,Maleis
+my,nl,Birmaans
+no,nl,Noors
+ne,nl,Nepalees
+nl,nl,Nederlands
+or,nl,Odia
+pa,nl,Punjabi
+pl,nl,Pools
+pt,nl,Portugees
+pt-PT,nl,Portugees (Portugal)
+ro,nl,Roemeens
+ru,nl,Russisch
+si,nl,Singalees
+sk,nl,Slowaaks
+sl,nl,Sloveens
+sq,nl,Albanees
+sr-Latn,nl,Servisch (Latijns)
+sr,nl,Servisch
+sv,nl,Zweeds
+sw,nl,Swahili
+ta,nl,Tamil
+te,nl,Telugu
+th,nl,Thai
+tr,nl,Turks
+uk,nl,Oekraïens
+ur,nl,Urdu
+uz,nl,Oezbeeks
+vi,nl,Vietnamees
+zh-CN,nl,Chinees (China)
+zh-HK,nl,Chinees (Hongkong)
+zh-TW,nl,Chinees (Taiwan)
+zu,nl,Zoeloe
+af,no,afrikaans
+am,no,amharisk
+ar,no,arabisk
+as,no,assamesisk
+az,no,aserbajdsjansk
+be,no,belarusisk
+bg,no,bulgarsk
+bn,no,bengali
+bs,no,bosnisk
+ca,no,katalansk
+cs,no,tsjekkisk
+da,no,dansk
+de,no,tysk
+el,no,gresk
+en-GB,no,engelsk (Storbritannia)
+en-IN,no,engelsk (India)
+en,no,engelsk
+es,no,spansk
+es-419,no,spansk (Latin-Amerika)
+es-US,no,spansk (USA)
+et,no,estisk
+eu,no,baskisk
+fa,no,persisk
+fi,no,finsk
+fil,no,filipino
+fr-CA,no,fransk (Canada)
+fr,no,fransk
+gl,no,galisisk
+gu,no,gujarati
+hi,no,hindi
+hr,no,kroatisk
+hu,no,ungarsk
+hy,no,armensk
+id,no,indonesisk
+is,no,islandsk
+it,no,italiensk
+iw,no,hebraisk
+ja,no,japansk
+ka,no,georgisk
+kk,no,kasakhisk
+km,no,khmer
+kn,no,kannada
+ko,no,koreansk
+ky,no,kirgisisk
+lo,no,laotisk
+lt,no,litauisk
+lv,no,latvisk
+mk,no,makedonsk
+ml,no,malayalam
+mn,no,mongolsk
+mr,no,marathi
+ms,no,malayisk
+my,no,burmesisk
+no,no,norsk
+ne,no,nepali
+nl,no,nederlandsk
+or,no,odia
+pa,no,panjabi
+pl,no,polsk
+pt,no,portugisisk
+pt-PT,no,portugisisk (Portugal)
+ro,no,rumensk
+ru,no,russisk
+si,no,singalesisk
+sk,no,slovakisk
+sl,no,slovensk
+sq,no,albansk
+sr-Latn,no,serbisk (latinsk)
+sr,no,serbisk
+sv,no,svensk
+sw,no,swahili
+ta,no,tamil
+te,no,telugu
+th,no,thai
+tr,no,tyrkisk
+uk,no,ukrainsk
+ur,no,urdu
+uz,no,usbekisk
+vi,no,vietnamesisk
+zh-CN,no,kinesisk (Kina)
+zh-HK,no,kinesisk (Hongkong)
+zh-TW,no,kinesisk (Taiwan)
+zu,no,zulu
+af,or,ଆଫ୍ରିକୀୟ
+am,or,ଆମହାରକି
+ar,or,ଆରବିକ୍
+as,or,ଆସାମୀୟ
+az,or,ଆଜେରବାଇଜାନି
+be,or,ବେଲାରୁଷିଆନ୍
+bg,or,ବୁଲଗେରିଆନ୍
+bn,or,ବଙ୍ଗଳା
+bs,or,ବୋସନିଆନ୍
+ca,or,କାଟାଲାନ୍
+cs,or,ଚେକ୍
+da,or,ଡାନ୍ନିସ୍
+de,or,ଜର୍ମାନ
+el,or,ଗ୍ରୀକ୍
+en-GB,or,ଇଂରାଜୀ (ଯୁକ୍ତରାଜ୍ୟ)
+en-IN,or,ଇଂରାଜୀ (ଭାରତ)
+en,or,ଇଂରାଜୀ
+es,or,ସ୍ପେନିୟ
+es-419,or,ସ୍ପେନିୟ (ଲାଟିନ୍‌ ଆମେରିକା)
+es-US,or,ସ୍ପେନିୟ (ଯୁକ୍ତ ରାଷ୍ଟ୍ର)
+et,or,ଏସ୍ତୋନିଆନ୍
+eu,or,ବାସ୍କ୍ୱି
+fa,or,ପର୍ସିଆନ୍
+fi,or,ଫିନ୍ନିସ୍
+fil,or,ଫିଲିପିନୋ
+fr-CA,or,ଫରାସୀ (କାନାଡା)
+fr,or,ଫରାସୀ
+gl,or,ଗାଲସିଆନ୍
+gu,or,ଗୁଜୁରାଟୀ
+hi,or,ହିନ୍ଦୀ
+hr,or,କ୍ରୋଆଟିଆନ୍
+hu,or,ହଙ୍ଗେରୀୟ
+hy,or,ଆର୍ମେନିଆନ୍
+id,or,ଇଣ୍ଡୋନେସୀୟ
+is,or,ଆଇସଲାଣ୍ଡିକ୍
+it,or,ଇଟାଲୀୟ
+iw,or,ହେବ୍ର୍ୟୁ
+ja,or,ଜାପାନୀ
+ka,or,ଜର୍ଜିୟ
+kk,or,କାଜାକ୍
+km,or,ଖାମେର୍
+kn,or,କନ୍ନଡ
+ko,or,କୋରିଆନ୍
+ky,or,କୀରଗୀଜ୍
+lo,or,ଲାଓ
+lt,or,ଲିଥୁଆନିଆନ୍
+lv,or,ଲାଟଭିଆନ୍
+mk,or,ମାସେଡୋନିଆନ୍
+ml,or,ମାଲାୟଲମ୍
+mn,or,ମଙ୍ଗୋଳିୟ
+mr,or,ମରାଠୀ
+ms,or,ମାଲୟ
+my,or,ବର୍ମୀଜ୍
+no,or,ନରୱେଜିଆନ୍
+ne,or,ନେପାଳୀ
+nl,or,ଡଚ୍
+or,or,ଓଡ଼ିଆ
+pa,or,ପଞ୍ଜାବୀ
+pl,or,ପୋଲିଶ୍
+pt,or,ପର୍ତ୍ତୁଗୀଜ୍‌
+pt-PT,or,ପର୍ତ୍ତୁଗୀଜ୍‌ (ପର୍ତ୍ତୁଗାଲ୍)
+ro,or,ରୋମାନିଆନ୍
+ru,or,ରୁଷିୟ
+si,or,ସିଂହଳ
+sk,or,ସ୍ଲୋଭାକ୍
+sl,or,ସ୍ଲୋଭେନିଆନ୍
+sq,or,ଆଲବାନିଆନ୍
+sr-Latn,or,ସର୍ବିୟ (ଲାଟିନ୍)
+sr,or,ସର୍ବିୟ
+sv,or,ସ୍ୱେଡିସ୍
+sw,or,ସ୍ୱାହିଲ୍
+ta,or,ତାମିଲ୍
+te,or,ତେଲୁଗୁ
+th,or,ଥାଇ
+tr,or,ତୁର୍କିସ୍
+uk,or,ୟୁକ୍ରାନିଆନ୍
+ur,or,ଉର୍ଦ୍ଦୁ
+uz,or,ଉଜବେକ୍
+vi,or,ଭିଏତନାମିଜ୍
+zh-CN,or,ଚାଇନିଜ୍‌ (ଚିନ୍)
+zh-HK,or,ଚାଇନିଜ୍‌ (ହଂ କଂ)
+zh-TW,or,ଚାଇନିଜ୍‌ (ତାଇୱାନ)
+zu,or,ଜୁଲୁ
+af,pa,ਅਫ਼ਰੀਕੀ
+am,pa,ਅਮਹਾਰਿਕ
+ar,pa,ਅਰਬੀ
+as,pa,ਅਸਾਮੀ
+az,pa,ਅਜ਼ਰਬਾਈਜਾਨੀ
+be,pa,ਬੇਲਾਰੂਸੀ
+bg,pa,ਬੁਲਗਾਰੀਆਈ
+bn,pa,ਬੰਗਾਲੀ
+bs,pa,ਬੋਸਨੀਆਈ
+ca,pa,ਕੈਟਾਲਾਨ
+cs,pa,ਚੈੱਕ
+da,pa,ਡੈਨਿਸ਼
+de,pa,ਜਰਮਨ
+el,pa,ਯੂਨਾਨੀ
+en-GB,pa,ਅੰਗਰੇਜ਼ੀ (ਯੂਨਾਈਟਡ ਕਿੰਗਡਮ)
+en-IN,pa,ਅੰਗਰੇਜ਼ੀ (ਭਾਰਤ)
+en,pa,ਅੰਗਰੇਜ਼ੀ
+es,pa,ਸਪੇਨੀ
+es-419,pa,ਸਪੇਨੀ (ਲਾਤੀਨੀ ਅਮਰੀਕਾ)
+es-US,pa,ਸਪੇਨੀ (ਸੰਯੁਕਤ ਰਾਜ)
+et,pa,ਇਸਟੋਨੀਆਈ
+eu,pa,ਬਾਸਕ
+fa,pa,ਫ਼ਾਰਸੀ
+fi,pa,ਫਿਨਿਸ਼
+fil,pa,ਫਿਲੀਪਿਨੋ
+fr-CA,pa,ਫਰਾਂਸੀਸੀ (ਕੈਨੇਡਾ)
+fr,pa,ਫਰਾਂਸੀਸੀ
+gl,pa,ਗੈਲਿਸ਼ਿਅਨ
+gu,pa,ਗੁਜਰਾਤੀ
+hi,pa,ਹਿੰਦੀ
+hr,pa,ਕ੍ਰੋਏਸ਼ਿਆਈ
+hu,pa,ਹੰਗਰੀਆਈ
+hy,pa,ਅਰਮੀਨੀਆਈ
+id,pa,ਇੰਡੋਨੇਸ਼ੀਆਈ
+is,pa,ਆਈਸਲੈਂਡਿਕ
+it,pa,ਇਤਾਲਵੀ
+iw,pa,ਹਿਬਰੂ
+ja,pa,ਜਪਾਨੀ
+ka,pa,ਜਾਰਜੀਆਈ
+kk,pa,ਕਜ਼ਾਖ਼
+km,pa,ਖਮੇਰ
+kn,pa,ਕੰਨੜ
+ko,pa,ਕੋਰੀਆਈ
+ky,pa,ਕਿਰਗੀਜ਼
+lo,pa,ਲਾਓ
+lt,pa,ਲਿਥੁਆਨੀਅਨ
+lv,pa,ਲਾਤੀਵੀ
+mk,pa,ਮੈਕਡੋਨੀਆਈ
+ml,pa,ਮਲਿਆਲਮ
+mn,pa,ਮੰਗੋਲੀ
+mr,pa,ਮਰਾਠੀ
+ms,pa,ਮਲਯ
+my,pa,ਬਰਮੀ
+no,pa,ਨਾਰਵੇਜਿਆਈ
+ne,pa,ਨੇਪਾਲੀ
+nl,pa,ਡੱਚ
+or,pa,ਉੜੀਆ
+pa,pa,ਪੰਜਾਬੀ
+pl,pa,ਪੋਲੈਂਡੀ
+pt,pa,ਪੁਰਤਗਾਲੀ
+pt-PT,pa,ਪੁਰਤਗਾਲੀ (ਪੁਰਤਗਾਲ)
+ro,pa,ਰੋਮਾਨੀਆਈ
+ru,pa,ਰੂਸੀ
+si,pa,ਸਿੰਹਾਲਾ
+sk,pa,ਸਲੋਵਾਕ
+sl,pa,ਸਲੋਵੇਨੀਆਈ
+sq,pa,ਅਲਬਾਨੀਆਈ
+sr-Latn,pa,ਸਰਬੀਆਈ (ਲਾਤੀਨੀ)
+sr,pa,ਸਰਬੀਆਈ
+sv,pa,ਸਵੀਡਿਸ਼
+sw,pa,ਸਵਾਹਿਲੀ
+ta,pa,ਤਮਿਲ
+te,pa,ਤੇਲਗੂ
+th,pa,ਥਾਈ
+tr,pa,ਤੁਰਕੀ
+uk,pa,ਯੂਕਰੇਨੀਆਈ
+ur,pa,ਉਰਦੂ
+uz,pa,ਉਜ਼ਬੇਕ
+vi,pa,ਵੀਅਤਨਾਮੀ
+zh-CN,pa,ਚੀਨੀ (ਚੀਨ)
+zh-HK,pa,ਚੀਨੀ (ਹਾਂਗ ਕਾਂਗ)
+zh-TW,pa,ਚੀਨੀ (ਤਾਇਵਾਨ)
+zu,pa,ਜ਼ੁਲੂ
+af,pl,afrikaans
+am,pl,amharski
+ar,pl,arabski
+as,pl,asamski
+az,pl,azerbejdżański
+be,pl,białoruski
+bg,pl,bułgarski
+bn,pl,bengalski
+bs,pl,bośniacki
+ca,pl,kataloński
+cs,pl,czeski
+da,pl,duński
+de,pl,niemiecki
+el,pl,grecki
+en-GB,pl,angielski (Wielka Brytania)
+en-IN,pl,angielski (Indie)
+en,pl,angielski
+es,pl,hiszpański
+es-419,pl,hiszpański (Ameryka Łacińska)
+es-US,pl,hiszpański (Stany Zjednoczone)
+et,pl,estoński
+eu,pl,baskijski
+fa,pl,perski
+fi,pl,fiński
+fil,pl,filipiński
+fr-CA,pl,francuski (Kanada)
+fr,pl,francuski
+gl,pl,galicyjski
+gu,pl,gudżarati
+hi,pl,hindi
+hr,pl,chorwacki
+hu,pl,węgierski
+hy,pl,ormiański
+id,pl,indonezyjski
+is,pl,islandzki
+it,pl,włoski
+iw,pl,hebrajski
+ja,pl,japoński
+ka,pl,gruziński
+kk,pl,kazachski
+km,pl,khmerski
+kn,pl,kannada
+ko,pl,koreański
+ky,pl,kirgiski
+lo,pl,laotański
+lt,pl,litewski
+lv,pl,łotewski
+mk,pl,macedoński
+ml,pl,malajalam
+mn,pl,mongolski
+mr,pl,marathi
+ms,pl,malajski
+my,pl,birmański
+no,pl,norweski
+ne,pl,nepalski
+nl,pl,niderlandzki
+or,pl,orija
+pa,pl,pendżabski
+pl,pl,polski
+pt,pl,portugalski
+pt-PT,pl,portugalski (Portugalia)
+ro,pl,rumuński
+ru,pl,rosyjski
+si,pl,syngaleski
+sk,pl,słowacki
+sl,pl,słoweński
+sq,pl,albański
+sr-Latn,pl,serbski (łacińskie)
+sr,pl,serbski
+sv,pl,szwedzki
+sw,pl,suahili
+ta,pl,tamilski
+te,pl,telugu
+th,pl,tajski
+tr,pl,turecki
+uk,pl,ukraiński
+ur,pl,urdu
+uz,pl,uzbecki
+vi,pl,wietnamski
+zh-CN,pl,chiński (Chiny)
+zh-HK,pl,chiński (Hongkong)
+zh-TW,pl,chiński (Tajwan)
+zu,pl,zulu
+af,pt,Africâner
+am,pt,Amárico
+ar,pt,Árabe
+as,pt,Assamês
+az,pt,Azerbaijano
+be,pt,Bielorrusso
+bg,pt,Búlgaro
+bn,pt,Bengali
+bs,pt,Bósnio
+ca,pt,Catalão
+cs,pt,Tcheco
+da,pt,Dinamarquês
+de,pt,Alemão
+el,pt,Grego
+en-GB,pt,Inglês (Reino Unido)
+en-IN,pt,Inglês (Índia)
+en,pt,Inglês
+es,pt,Espanhol
+es-419,pt,Espanhol (América Latina)
+es-US,pt,Espanhol (Estados Unidos)
+et,pt,Estoniano
+eu,pt,Basco
+fa,pt,Persa
+fi,pt,Finlandês
+fil,pt,Filipino
+fr-CA,pt,Francês (Canadá)
+fr,pt,Francês
+gl,pt,Galego
+gu,pt,Guzerate
+hi,pt,Híndi
+hr,pt,Croata
+hu,pt,Húngaro
+hy,pt,Armênio
+id,pt,Indonésio
+is,pt,Islandês
+it,pt,Italiano
+iw,pt,Hebraico
+ja,pt,Japonês
+ka,pt,Georgiano
+kk,pt,Cazaque
+km,pt,Khmer
+kn,pt,Canarim
+ko,pt,Coreano
+ky,pt,Quirguiz
+lo,pt,Laosiano
+lt,pt,Lituano
+lv,pt,Letão
+mk,pt,Macedônio
+ml,pt,Malaiala
+mn,pt,Mongol
+mr,pt,Marati
+ms,pt,Malaio
+my,pt,Birmanês
+no,pt,Norueguês
+ne,pt,Nepalês
+nl,pt,Holandês
+or,pt,Oriá
+pa,pt,Panjabi
+pl,pt,Polonês
+pt,pt,Português
+pt-PT,pt,Português (Portugal)
+ro,pt,Romeno
+ru,pt,Russo
+si,pt,Cingalês
+sk,pt,Eslovaco
+sl,pt,Esloveno
+sq,pt,Albanês
+sr-Latn,pt,Sérvio (latim)
+sr,pt,Sérvio
+sv,pt,Sueco
+sw,pt,Suaíli
+ta,pt,Tâmil
+te,pt,Télugo
+th,pt,Tailandês
+tr,pt,Turco
+uk,pt,Ucraniano
+ur,pt,Urdu
+uz,pt,Uzbeque
+vi,pt,Vietnamita
+zh-CN,pt,Chinês (China)
+zh-HK,pt,Chinês (Hong Kong)
+zh-TW,pt,Chinês (Taiwan)
+zu,pt,Zulu
+af,pt-PT,Africanês
+am,pt-PT,Amárico
+ar,pt-PT,Árabe
+as,pt-PT,Assamês
+az,pt-PT,Azerbaijano
+be,pt-PT,Bielorrusso
+bg,pt-PT,Búlgaro
+bn,pt-PT,Bengalês
+bs,pt-PT,Bósnio
+ca,pt-PT,Catalão
+cs,pt-PT,Checo
+da,pt-PT,Dinamarquês
+de,pt-PT,Alemão
+el,pt-PT,Grego
+en-GB,pt-PT,Inglês (Reino Unido)
+en-IN,pt-PT,Inglês (Índia)
+en,pt-PT,Inglês
+es,pt-PT,Espanhol
+es-419,pt-PT,Espanhol (América Latina)
+es-US,pt-PT,Espanhol (Estados Unidos)
+et,pt-PT,Estónio
+eu,pt-PT,Basco
+fa,pt-PT,Persa
+fi,pt-PT,Finlandês
+fil,pt-PT,Filipino
+fr-CA,pt-PT,Francês (Canadá)
+fr,pt-PT,Francês
+gl,pt-PT,Galego
+gu,pt-PT,Guzerate
+hi,pt-PT,Hindi
+hr,pt-PT,Croata
+hu,pt-PT,Húngaro
+hy,pt-PT,Arménio
+id,pt-PT,Indonésio
+is,pt-PT,Islandês
+it,pt-PT,Italiano
+iw,pt-PT,Hebraico
+ja,pt-PT,Japonês
+ka,pt-PT,Georgiano
+kk,pt-PT,Cazaque
+km,pt-PT,Khmer
+kn,pt-PT,Canarim
+ko,pt-PT,Coreano
+ky,pt-PT,Quirguiz
+lo,pt-PT,Laosiano
+lt,pt-PT,Lituano
+lv,pt-PT,Letão
+mk,pt-PT,Macedónio
+ml,pt-PT,Malaiala
+mn,pt-PT,Mongol
+mr,pt-PT,Marata
+ms,pt-PT,Malaio
+my,pt-PT,Birmanês
+no,pt-PT,Norueguês
+ne,pt-PT,Nepalês
+nl,pt-PT,Neerlandês
+or,pt-PT,Oriá
+pa,pt-PT,Panjabi
+pl,pt-PT,Polaco
+pt,pt-PT,Português
+pt-PT,pt-PT,Português (Portugal)
+ro,pt-PT,Romeno
+ru,pt-PT,Russo
+si,pt-PT,Cingalês
+sk,pt-PT,Eslovaco
+sl,pt-PT,Esloveno
+sq,pt-PT,Albanês
+sr-Latn,pt-PT,Sérvio (latim)
+sr,pt-PT,Sérvio
+sv,pt-PT,Sueco
+sw,pt-PT,Suaíli
+ta,pt-PT,Tâmil
+te,pt-PT,Telugu
+th,pt-PT,Tailandês
+tr,pt-PT,Turco
+uk,pt-PT,Ucraniano
+ur,pt-PT,Urdu
+uz,pt-PT,Usbeque
+vi,pt-PT,Vietnamita
+zh-CN,pt-PT,Chinês (China)
+zh-HK,pt-PT,Chinês (Hong Kong)
+zh-TW,pt-PT,Chinês (Taiwan)
+zu,pt-PT,Zulu
+af,ro,afrikaans
+am,ro,amharică
+ar,ro,arabă
+as,ro,asameză
+az,ro,azeră
+be,ro,belarusă
+bg,ro,bulgară
+bn,ro,bengaleză
+bs,ro,bosniacă
+ca,ro,catalană
+cs,ro,cehă
+da,ro,daneză
+de,ro,germană
+el,ro,greacă
+en-GB,ro,engleză (Regatul Unit)
+en-IN,ro,engleză (India)
+en,ro,engleză
+es,ro,spaniolă
+es-419,ro,spaniolă (America Latină)
+es-US,ro,spaniolă (Statele Unite ale Americii)
+et,ro,estonă
+eu,ro,bască
+fa,ro,persană
+fi,ro,finlandeză
+fil,ro,filipineză
+fr-CA,ro,franceză (Canada)
+fr,ro,franceză
+gl,ro,galiciană
+gu,ro,gujarati
+hi,ro,hindi
+hr,ro,croată
+hu,ro,maghiară
+hy,ro,armeană
+id,ro,indoneziană
+is,ro,islandeză
+it,ro,italiană
+iw,ro,ebraică
+ja,ro,japoneză
+ka,ro,georgiană
+kk,ro,kazahă
+km,ro,khmeră
+kn,ro,kannada
+ko,ro,coreeană
+ky,ro,kârgâză
+lo,ro,laoțiană
+lt,ro,lituaniană
+lv,ro,letonă
+mk,ro,macedoneană
+ml,ro,malayalam
+mn,ro,mongolă
+mr,ro,marathi
+ms,ro,malaeză
+my,ro,birmană
+no,ro,norvegiană
+ne,ro,nepaleză
+nl,ro,neerlandeză
+or,ro,odia
+pa,ro,punjabi
+pl,ro,poloneză
+pt,ro,portugheză
+pt-PT,ro,portugheză (Portugalia)
+ro,ro,română
+ru,ro,rusă
+si,ro,singhaleză
+sk,ro,slovacă
+sl,ro,slovenă
+sq,ro,albaneză
+sr-Latn,ro,sârbă (latină)
+sr,ro,sârbă
+sv,ro,suedeză
+sw,ro,swahili
+ta,ro,tamilă
+te,ro,telugu
+th,ro,thailandeză
+tr,ro,turcă
+uk,ro,ucraineană
+ur,ro,urdu
+uz,ro,uzbecă
+vi,ro,vietnameză
+zh-CN,ro,chineză (China)
+zh-HK,ro,chineză (Hong Kong)
+zh-TW,ro,chineză (Taiwan)
+zu,ro,zulu
+af,ru,Африкаанс
+am,ru,Амхарский
+ar,ru,Арабский
+as,ru,Ассамский
+az,ru,Азербайджанский
+be,ru,Белорусский
+bg,ru,Болгарский
+bn,ru,Бенгальский
+bs,ru,Боснийский
+ca,ru,Каталанский
+cs,ru,Чешский
+da,ru,Датский
+de,ru,Немецкий
+el,ru,Греческий
+en-GB,ru,Английский (Великобритания)
+en-IN,ru,Английский (Индия)
+en,ru,Английский
+es,ru,Испанский
+es-419,ru,Испанский (Латинская Америка)
+es-US,ru,Испанский (Соединенные Штаты)
+et,ru,Эстонский
+eu,ru,Баскский
+fa,ru,Персидский
+fi,ru,Финский
+fil,ru,Филиппинский
+fr-CA,ru,Французский (Канада)
+fr,ru,Французский
+gl,ru,Галисийский
+gu,ru,Гуджарати
+hi,ru,Хинди
+hr,ru,Хорватский
+hu,ru,Венгерский
+hy,ru,Армянский
+id,ru,Индонезийский
+is,ru,Исландский
+it,ru,Итальянский
+iw,ru,Иврит
+ja,ru,Японский
+ka,ru,Грузинский
+kk,ru,Казахский
+km,ru,Кхмерский
+kn,ru,Каннада
+ko,ru,Корейский
+ky,ru,Киргизский
+lo,ru,Лаосский
+lt,ru,Литовский
+lv,ru,Латышский
+mk,ru,Македонский
+ml,ru,Малаялам
+mn,ru,Монгольский
+mr,ru,Маратхи
+ms,ru,Малайский
+my,ru,Бирманский
+no,ru,Норвежский
+ne,ru,Непальский
+nl,ru,Нидерландский
+or,ru,Ория
+pa,ru,Панджаби
+pl,ru,Польский
+pt,ru,Португальский
+pt-PT,ru,Португальский (Португалия)
+ro,ru,Румынский
+ru,ru,Русский
+si,ru,Сингальский
+sk,ru,Словацкий
+sl,ru,Словенский
+sq,ru,Албанский
+sr-Latn,ru,Сербский (латиница)
+sr,ru,Сербский
+sv,ru,Шведский
+sw,ru,Суахили
+ta,ru,Тамильский
+te,ru,Телугу
+th,ru,Тайский
+tr,ru,Турецкий
+uk,ru,Украинский
+ur,ru,Урду
+uz,ru,Узбекский
+vi,ru,Вьетнамский
+zh-CN,ru,Китайский (Китай)
+zh-HK,ru,Китайский (Гонконг)
+zh-TW,ru,Китайский (Тайвань)
+zu,ru,Зулу
+af,si,අෆ්‍රිකාන්ස්
+am,si,ඇම්හාරික්
+ar,si,අරාබි
+as,si,ඇසෑම්
+az,si,අසර්බයිජාන්
+be,si,බෙලරුසියානු
+bg,si,බල්ගේරියානු
+bn,si,බෙංගාලි
+bs,si,බොස්නියානු
+ca,si,කැටලන්
+cs,si,චෙක්
+da,si,ඩැනිශ්
+de,si,ජර්මන්
+el,si,ග්‍රීක
+en-GB,si,ඉංග්‍රීසි (එක්සත් රාජධානිය)
+en-IN,si,ඉංග්‍රීසි (ඉන්දියාව)
+en,si,ඉංග්‍රීසි
+es,si,ස්පාඤ්ඤ
+es-419,si,ස්පාඤ්ඤ (ලතින් ඇමෙරිකාව)
+es-US,si,ස්පාඤ්ඤ (එක්සත් ජනපදය)
+et,si,එස්තෝනියානු
+eu,si,බාස්ක්
+fa,si,පර්සියානු
+fi,si,ෆින්ලන්ත
+fil,si,පිලිපීන
+fr-CA,si,ප්‍රංශ (කැනඩාව)
+fr,si,ප්‍රංශ
+gl,si,ගැලීසියානු
+gu,si,ගුජරාටි
+hi,si,හින්දි
+hr,si,කෝඒෂියානු
+hu,si,හන්ගේරියානු
+hy,si,ආර්මේනියානු
+id,si,ඉන්දුනීසියානු
+is,si,අයිස්ලන්ත
+it,si,ඉතාලි
+iw,si,හීබෲ
+ja,si,ජපන්
+ka,si,ජෝර්ජියානු
+kk,si,කසාඛ්
+km,si,කමර්
+kn,si,කණ්ණඩ
+ko,si,කොරියානු
+ky,si,කිර්ගිස්
+lo,si,ලාඕ
+lt,si,ලිතුවේනියානු
+lv,si,ලැට්වියානු
+mk,si,මැසිඩෝනියානු
+ml,si,මලයාලම්
+mn,si,මොංගෝලියානු
+mr,si,මරාති
+ms,si,මැලේ
+my,si,බුරුම
+no,si,නෝර්වීජියානු
+ne,si,නේපාල
+nl,si,ලන්දේසි
+or,si,ඔඩියා
+pa,si,පන්ජාබි
+pl,si,පෝලන්ත
+pt,si,පෘතුගීසි
+pt-PT,si,පෘතුගීසි (පෘතුගාලය)
+ro,si,රොමේනියානු
+ru,si,රුසියානු
+si,si,සිංහල
+sk,si,ස්ලෝවැක්
+sl,si,ස්ලෝවේනියානු
+sq,si,ඇල්බේනියානු
+sr-Latn,si,සර්බියානු (ලතින්)
+sr,si,සර්බියානු
+sv,si,ස්වීඩන්
+sw,si,ස්වාහිලි
+ta,si,දෙමළ
+te,si,තෙළිඟු
+th,si,තායි
+tr,si,තුර්කි
+uk,si,යුක්රේනියානු
+ur,si,උර්දු
+uz,si,උස්බෙක්
+vi,si,වියට්නාම්
+zh-CN,si,චීන (චීනය)
+zh-HK,si,චීන (හොංකොං)
+zh-TW,si,චීන (තායිවානය)
+zu,si,සුලු
+af,sk,Afrikánčina
+am,sk,Amharčina
+ar,sk,Arabčina
+as,sk,Ásamčina
+az,sk,Azerbajdžančina
+be,sk,Bieloruština
+bg,sk,Bulharčina
+bn,sk,Bengálčina
+bs,sk,Bosniačtina
+ca,sk,Katalánčina
+cs,sk,Čeština
+da,sk,Dánčina
+de,sk,Nemčina
+el,sk,Gréčtina
+en-GB,sk,Angličtina (Spojené kráľovstvo)
+en-IN,sk,Angličtina (India)
+en,sk,Angličtina
+es,sk,Španielčina
+es-419,sk,Španielčina (Latinská Amerika)
+es-US,sk,Španielčina (Spojené štáty)
+et,sk,Estónčina
+eu,sk,Baskičtina
+fa,sk,Perzština
+fi,sk,Fínčina
+fil,sk,Filipínčina
+fr-CA,sk,Francúzština (Kanada)
+fr,sk,Francúzština
+gl,sk,Galícijčina
+gu,sk,Gudžarátčina
+hi,sk,Hindčina
+hr,sk,Chorvátčina
+hu,sk,Maďarčina
+hy,sk,Arménčina
+id,sk,Indonézština
+is,sk,Islandčina
+it,sk,Taliančina
+iw,sk,Hebrejčina
+ja,sk,Japončina
+ka,sk,Gruzínčina
+kk,sk,Kazaština
+km,sk,Khmérčina
+kn,sk,Kannadčina
+ko,sk,Kórejčina
+ky,sk,Kirgizština
+lo,sk,Laoština
+lt,sk,Litovčina
+lv,sk,Lotyština
+mk,sk,Macedónčina
+ml,sk,Malajálamčina
+mn,sk,Mongolčina
+mr,sk,Maráthčina
+ms,sk,Malajčina
+my,sk,Barmčina
+no,sk,Nórčina
+ne,sk,Nepálčina
+nl,sk,Holandčina
+or,sk,Uríjčina
+pa,sk,Pandžábčina
+pl,sk,Poľština
+pt,sk,Portugalčina
+pt-PT,sk,Portugalčina (Portugalsko)
+ro,sk,Rumunčina
+ru,sk,Ruština
+si,sk,Sinhalčina
+sk,sk,Slovenčina
+sl,sk,Slovinčina
+sq,sk,Albánčina
+sr-Latn,sk,Srbčina (latinka)
+sr,sk,Srbčina
+sv,sk,Švédčina
+sw,sk,Swahilčina
+ta,sk,Tamilčina
+te,sk,Telugčina
+th,sk,Thajčina
+tr,sk,Turečtina
+uk,sk,Ukrajinčina
+ur,sk,Urdčina
+uz,sk,Uzbečtina
+vi,sk,Vietnamčina
+zh-CN,sk,Čínština (Čína)
+zh-HK,sk,Čínština (Hongkong)
+zh-TW,sk,Čínština (Taiwan)
+zu,sk,Zuluština
+af,sl,afrikanščina
+am,sl,amharščina
+ar,sl,arabščina
+as,sl,asamščina
+az,sl,azerbajdžanščina
+be,sl,beloruščina
+bg,sl,bolgarščina
+bn,sl,bengalščina
+bs,sl,bosanščina
+ca,sl,katalonščina
+cs,sl,češčina
+da,sl,danščina
+de,sl,nemščina
+el,sl,grščina
+en-GB,sl,angleščina (Združeno kraljestvo)
+en-IN,sl,angleščina (Indija)
+en,sl,angleščina
+es,sl,španščina
+es-419,sl,španščina (Latinska Amerika)
+es-US,sl,španščina (Združene države Amerike)
+et,sl,estonščina
+eu,sl,baskovščina
+fa,sl,perzijščina
+fi,sl,finščina
+fil,sl,filipinščina
+fr-CA,sl,francoščina (Kanada)
+fr,sl,francoščina
+gl,sl,galicijščina
+gu,sl,gudžaratščina
+hi,sl,hindijščina
+hr,sl,hrvaščina
+hu,sl,madžarščina
+hy,sl,armenščina
+id,sl,indonezijščina
+is,sl,islandščina
+it,sl,italijanščina
+iw,sl,hebrejščina
+ja,sl,japonščina
+ka,sl,gruzijščina
+kk,sl,kazaščina
+km,sl,kmerščina
+kn,sl,kanareščina
+ko,sl,korejščina
+ky,sl,kirgiščina
+lo,sl,laoščina
+lt,sl,litovščina
+lv,sl,latvijščina
+mk,sl,makedonščina
+ml,sl,malajalamščina
+mn,sl,mongolščina
+mr,sl,maratščina
+ms,sl,malajščina
+my,sl,burmanščina
+no,sl,norveščina
+ne,sl,nepalščina
+nl,sl,nizozemščina
+or,sl,odijščina
+pa,sl,pandžabščina
+pl,sl,poljščina
+pt,sl,portugalščina
+pt-PT,sl,portugalščina (Portugalska)
+ro,sl,romunščina
+ru,sl,ruščina
+si,sl,sinhalščina
+sk,sl,slovaščina
+sl,sl,slovenščina
+sq,sl,albanščina
+sr-Latn,sl,srbščina (latinica)
+sr,sl,srbščina
+sv,sl,švedščina
+sw,sl,svahili
+ta,sl,tamilščina
+te,sl,telugijščina
+th,sl,tajščina
+tr,sl,turščina
+uk,sl,ukrajinščina
+ur,sl,urdujščina
+uz,sl,uzbeščina
+vi,sl,vietnamščina
+zh-CN,sl,kitajščina (Kitajska)
+zh-HK,sl,kitajščina (Hongkong)
+zh-TW,sl,kitajščina (Tajvan)
+zu,sl,zulujščina
+af,sq,afrikanisht
+am,sq,amarisht
+ar,sq,arabisht
+as,sq,asamezisht
+az,sq,azerbajxhanisht
+be,sq,bjellorusisht
+bg,sq,bullgarisht
+bn,sq,bengalisht
+bs,sq,boshnjakisht
+ca,sq,katalonisht
+cs,sq,çekisht
+da,sq,danisht
+de,sq,gjermanisht
+el,sq,greqisht
+en-GB,sq,anglisht (Mbretëria e Bashkuar)
+en-IN,sq,anglisht (Indi)
+en,sq,anglisht
+es,sq,spanjisht
+es-419,sq,spanjisht (Amerika Latine)
+es-US,sq,spanjisht (SHBA)
+et,sq,estonisht
+eu,sq,baskisht
+fa,sq,persisht
+fi,sq,finlandisht
+fil,sq,filipinisht
+fr-CA,sq,frëngjisht (Kanada)
+fr,sq,frëngjisht
+gl,sq,galicisht
+gu,sq,guxharatisht
+hi,sq,indisht
+hr,sq,kroatisht
+hu,sq,hungarisht
+hy,sq,armenisht
+id,sq,indonezisht
+is,sq,islandisht
+it,sq,italisht
+iw,sq,hebraisht
+ja,sq,japonisht
+ka,sq,gjeorgjisht
+kk,sq,kazakisht
+km,sq,kmerisht
+kn,sq,kanadisht
+ko,sq,koreanisht
+ky,sq,kirgizisht
+lo,sq,laosisht
+lt,sq,lituanisht
+lv,sq,letonisht
+mk,sq,maqedonisht
+ml,sq,malajalamisht
+mn,sq,mongolisht
+mr,sq,maratisht
+ms,sq,malajisht
+my,sq,birmanisht
+no,sq,norvegjisht
+ne,sq,nepalisht
+nl,sq,holandisht
+or,sq,odisht
+pa,sq,punxhabisht
+pl,sq,polonisht
+pt,sq,portugalisht
+pt-PT,sq,portugalisht (Portugali)
+ro,sq,rumanisht
+ru,sq,rusisht
+si,sq,sinhalisht
+sk,sq,sllovakisht
+sl,sq,sllovenisht
+sq,sq,shqip
+sr-Latn,sq,serbisht (latin)
+sr,sq,serbisht
+sv,sq,suedisht
+sw,sq,suahilisht
+ta,sq,tamilisht
+te,sq,teluguisht
+th,sq,tajlandisht
+tr,sq,turqisht
+uk,sq,ukrainisht
+ur,sq,urduisht
+uz,sq,uzbekisht
+vi,sq,vietnamisht
+zh-CN,sq,kinezisht (Kinë)
+zh-HK,sq,kinezisht (Hong-Kong)
+zh-TW,sq,kinezisht (Tajvan)
+zu,sq,zuluisht
+af,sr,африканс
+am,sr,амхарски
+ar,sr,арапски
+as,sr,асамски
+az,sr,азербејџански
+be,sr,белоруски
+bg,sr,бугарски
+bn,sr,бенгалски
+bs,sr,босански
+ca,sr,каталонски
+cs,sr,чешки
+da,sr,дански
+de,sr,немачки
+el,sr,грчки
+en-GB,sr,енглески (Уједињено Краљевство)
+en-IN,sr,енглески (Индија)
+en,sr,енглески
+es,sr,шпански
+es-419,sr,шпански (Латинска Америка)
+es-US,sr,шпански (Сједињене Државе)
+et,sr,естонски
+eu,sr,баскијски
+fa,sr,персијски
+fi,sr,фински
+fil,sr,филипински
+fr-CA,sr,француски (Канада)
+fr,sr,француски
+gl,sr,галицијски
+gu,sr,гуџарати
+hi,sr,хинди
+hr,sr,хрватски
+hu,sr,мађарски
+hy,sr,јерменски
+id,sr,индонежански
+is,sr,исландски
+it,sr,италијански
+iw,sr,хебрејски
+ja,sr,јапански
+ka,sr,грузијски
+kk,sr,казашки
+km,sr,кмерски
+kn,sr,канада
+ko,sr,корејски
+ky,sr,киргиски
+lo,sr,лаоски
+lt,sr,литвански
+lv,sr,летонски
+mk,sr,македонски
+ml,sr,малајалам
+mn,sr,монголски
+mr,sr,марати
+ms,sr,малајски
+my,sr,бурмански
+no,sr,норвешки
+ne,sr,непалски
+nl,sr,холандски
+or,sr,одија
+pa,sr,пенџапски
+pl,sr,пољски
+pt,sr,португалски
+pt-PT,sr,португалски (Португалија)
+ro,sr,румунски
+ru,sr,руски
+si,sr,синхалешки
+sk,sr,словачки
+sl,sr,словеначки
+sq,sr,албански
+sr-Latn,sr,српски (латиница)
+sr,sr,српски
+sv,sr,шведски
+sw,sr,свахили
+ta,sr,тамилски
+te,sr,телугу
+th,sr,тајски
+tr,sr,турски
+uk,sr,украјински
+ur,sr,урду
+uz,sr,узбечки
+vi,sr,вијетнамски
+zh-CN,sr,кинески (Кина)
+zh-HK,sr,кинески (Хонгконг)
+zh-TW,sr,кинески (Тајван)
+zu,sr,зулу
+af,sr-Latn,afrikans
+am,sr-Latn,amharski
+ar,sr-Latn,arapski
+as,sr-Latn,asamski
+az,sr-Latn,azerbejdžanski
+be,sr-Latn,beloruski
+bg,sr-Latn,bugarski
+bn,sr-Latn,bengalski
+bs,sr-Latn,bosanski
+ca,sr-Latn,katalonski
+cs,sr-Latn,češki
+da,sr-Latn,danski
+de,sr-Latn,nemački
+el,sr-Latn,grčki
+en-GB,sr-Latn,engleski (Ujedinjeno Kraljevstvo)
+en-IN,sr-Latn,engleski (Indija)
+en,sr-Latn,engleski
+es,sr-Latn,španski
+es-419,sr-Latn,španski (Latinska Amerika)
+es-US,sr-Latn,španski (Sjedinjene Države)
+et,sr-Latn,estonski
+eu,sr-Latn,baskijski
+fa,sr-Latn,persijski
+fi,sr-Latn,finski
+fil,sr-Latn,filipinski
+fr-CA,sr-Latn,francuski (Kanada)
+fr,sr-Latn,francuski
+gl,sr-Latn,galicijski
+gu,sr-Latn,gudžarati
+hi,sr-Latn,hindi
+hr,sr-Latn,hrvatski
+hu,sr-Latn,mađarski
+hy,sr-Latn,jermenski
+id,sr-Latn,indonežanski
+is,sr-Latn,islandski
+it,sr-Latn,italijanski
+iw,sr-Latn,hebrejski
+ja,sr-Latn,japanski
+ka,sr-Latn,gruzijski
+kk,sr-Latn,kazaški
+km,sr-Latn,kmerski
+kn,sr-Latn,kanada
+ko,sr-Latn,korejski
+ky,sr-Latn,kirgiski
+lo,sr-Latn,laoski
+lt,sr-Latn,litvanski
+lv,sr-Latn,letonski
+mk,sr-Latn,makedonski
+ml,sr-Latn,malajalam
+mn,sr-Latn,mongolski
+mr,sr-Latn,marati
+ms,sr-Latn,malajski
+my,sr-Latn,burmanski
+no,sr-Latn,norveški
+ne,sr-Latn,nepalski
+nl,sr-Latn,holandski
+or,sr-Latn,odija
+pa,sr-Latn,pendžapski
+pl,sr-Latn,poljski
+pt,sr-Latn,portugalski
+pt-PT,sr-Latn,portugalski (Portugalija)
+ro,sr-Latn,rumunski
+ru,sr-Latn,ruski
+si,sr-Latn,sinhaleški
+sk,sr-Latn,slovački
+sl,sr-Latn,slovenački
+sq,sr-Latn,albanski
+sr-Latn,sr-Latn,srpski (latinica)
+sr,sr-Latn,srpski
+sv,sr-Latn,švedski
+sw,sr-Latn,svahili
+ta,sr-Latn,tamilski
+te,sr-Latn,telugu
+th,sr-Latn,tajski
+tr,sr-Latn,turski
+uk,sr-Latn,ukrajinski
+ur,sr-Latn,urdu
+uz,sr-Latn,uzbečki
+vi,sr-Latn,vijetnamski
+zh-CN,sr-Latn,kineski (Kina)
+zh-HK,sr-Latn,kineski (Hongkong)
+zh-TW,sr-Latn,kineski (Tajvan)
+zu,sr-Latn,zulu
+af,sv,Afrikaans
+am,sv,Amhariska
+ar,sv,Arabiska
+as,sv,Assamesiska
+az,sv,Azerbajdzjanska
+be,sv,Belarusiska
+bg,sv,Bulgariska
+bn,sv,Bengali
+bs,sv,Bosniska
+ca,sv,Katalanska
+cs,sv,Tjeckiska
+da,sv,Danska
+de,sv,Tyska
+el,sv,Grekiska
+en-GB,sv,Engelska (Storbritannien)
+en-IN,sv,Engelska (Indien)
+en,sv,Engelska
+es,sv,Spanska
+es-419,sv,Spanska (Latinamerika)
+es-US,sv,Spanska (USA)
+et,sv,Estniska
+eu,sv,Baskiska
+fa,sv,Persiska
+fi,sv,Finska
+fil,sv,Filippinska
+fr-CA,sv,Franska (Kanada)
+fr,sv,Franska
+gl,sv,Galiciska
+gu,sv,Gujarati
+hi,sv,Hindi
+hr,sv,Kroatiska
+hu,sv,Ungerska
+hy,sv,Armeniska
+id,sv,Indonesiska
+is,sv,Isländska
+it,sv,Italienska
+iw,sv,Hebreiska
+ja,sv,Japanska
+ka,sv,Georgiska
+kk,sv,Kazakiska
+km,sv,Kambodjanska
+kn,sv,Kannada
+ko,sv,Koreanska
+ky,sv,Kirgiziska
+lo,sv,Laotiska
+lt,sv,Litauiska
+lv,sv,Lettiska
+mk,sv,Makedonska
+ml,sv,Malayalam
+mn,sv,Mongoliska
+mr,sv,Marathi
+ms,sv,Malajiska
+my,sv,Burmesiska
+no,sv,Norska
+ne,sv,Nepalesiska
+nl,sv,Nederländska
+or,sv,Oriya
+pa,sv,Punjabi
+pl,sv,Polska
+pt,sv,Portugisiska
+pt-PT,sv,Portugisiska (Portugal)
+ro,sv,Rumänska
+ru,sv,Ryska
+si,sv,Singalesiska
+sk,sv,Slovakiska
+sl,sv,Slovenska
+sq,sv,Albanska
+sr-Latn,sv,Serbiska (latinska)
+sr,sv,Serbiska
+sv,sv,Svenska
+sw,sv,Swahili
+ta,sv,Tamil
+te,sv,Telugu
+th,sv,Thailändska
+tr,sv,Turkiska
+uk,sv,Ukrainska
+ur,sv,Urdu
+uz,sv,Uzbekiska
+vi,sv,Vietnamesiska
+zh-CN,sv,Kinesiska (Kina)
+zh-HK,sv,Kinesiska (Hongkong)
+zh-TW,sv,Kinesiska (Taiwan)
+zu,sv,Zulu
+af,sw,Kiafrikana
+am,sw,Kiamhari
+ar,sw,Kiarabu
+as,sw,Kiassam
+az,sw,Kiazerbaijani
+be,sw,Kibelarusi
+bg,sw,Kibulgaria
+bn,sw,Kibengali
+bs,sw,Kibosnia
+ca,sw,Kikatalani
+cs,sw,Kicheki
+da,sw,Kidenmaki
+de,sw,Kijerumani
+el,sw,Kigiriki
+en-GB,sw,Kiingereza (Ufalme wa Muungano)
+en-IN,sw,Kiingereza (India)
+en,sw,Kiingereza
+es,sw,Kihispania
+es-419,sw,Kihispania (Amerika ya Kilatini)
+es-US,sw,Kihispania (Marekani)
+et,sw,Kiestonia
+eu,sw,Kibaski
+fa,sw,Kiajemi
+fi,sw,Kifini
+fil,sw,Kifilipino
+fr-CA,sw,Kifaransa (Kanada)
+fr,sw,Kifaransa
+gl,sw,Kigalisi
+gu,sw,Kigujarati
+hi,sw,Kihindi
+hr,sw,Kikorasia
+hu,sw,Kihungaria
+hy,sw,Kiarmenia
+id,sw,Kiindonesia
+is,sw,Kiisilandi
+it,sw,Kiitaliano
+iw,sw,Kiebrania
+ja,sw,Kijapani
+ka,sw,Kijojia
+kk,sw,Kikazakh
+km,sw,Kikambodia
+kn,sw,Kikannada
+ko,sw,Kikorea
+ky,sw,Kikyrgyz
+lo,sw,Kilaosi
+lt,sw,Kilithuania
+lv,sw,Kilatvia
+mk,sw,Kimacedonia
+ml,sw,Kimalayalamu
+mn,sw,Kimongolia
+mr,sw,Kimarathi
+ms,sw,Kimalei
+my,sw,Kiburma
+no,sw,Kinorwe
+ne,sw,Kinepali
+nl,sw,Kiholanzi
+or,sw,Kioriya
+pa,sw,Kipunjabi
+pl,sw,Kipolandi
+pt,sw,Kireno
+pt-PT,sw,Kireno (Ureno)
+ro,sw,Kiromania
+ru,sw,Kirusi
+si,sw,Kisinhala
+sk,sw,Kislovakia
+sl,sw,Kislovenia
+sq,sw,Kialbania
+sr-Latn,sw,Kiserbia (Kilatini)
+sr,sw,Kiserbia
+sv,sw,Kiswidi
+sw,sw,Kiswahili
+ta,sw,Kitamili
+te,sw,Kitelugu
+th,sw,Kithai
+tr,sw,Kituruki
+uk,sw,Kiukraini
+ur,sw,Kiurdu
+uz,sw,Kiuzbeki
+vi,sw,Kivietinamu
+zh-CN,sw,Kichina (Uchina)
+zh-HK,sw,Kichina (Hong Kong)
+zh-TW,sw,Kichina (Taiwan)
+zu,sw,Kizulu
+af,ta,ஆஃப்ரிகான்ஸ்
+am,ta,அம்ஹாரிக்
+ar,ta,அரபிக்
+as,ta,அஸ்ஸாமீஸ்
+az,ta,அசர்பைஜானி
+be,ta,பெலாருஷியன்
+bg,ta,பல்கேரியன்
+bn,ta,வங்காளம்
+bs,ta,போஸ்னியன்
+ca,ta,கேட்டலான்
+cs,ta,செக்
+da,ta,டேனிஷ்
+de,ta,ஜெர்மன்
+el,ta,கிரேக்கம்
+en-GB,ta,ஆங்கிலம் (யுனைடெட் கிங்டம்)
+en-IN,ta,ஆங்கிலம் (இந்தியா)
+en,ta,ஆங்கிலம்
+es,ta,ஸ்பானிஷ்
+es-419,ta,ஸ்பானிஷ் (லத்தீன் அமெரிக்கா)
+es-US,ta,ஸ்பானிஷ் (அமெரிக்கா)
+et,ta,எஸ்டோனியன்
+eu,ta,பாஸ்க்
+fa,ta,பெர்ஷியன்
+fi,ta,ஃபின்னிஷ்
+fil,ta,ஃபிலிபினோ
+fr-CA,ta,பிரெஞ்சு (கனடா)
+fr,ta,பிரெஞ்சு
+gl,ta,காலிஸியன்
+gu,ta,குஜராத்தி
+hi,ta,இந்தி
+hr,ta,குரோஷியன்
+hu,ta,ஹங்கேரியன்
+hy,ta,ஆர்மேனியன்
+id,ta,இந்தோனேஷியன்
+is,ta,ஐஸ்லேண்டிக்
+it,ta,இத்தாலியன்
+iw,ta,ஹீப்ரூ
+ja,ta,ஜப்பானியம்
+ka,ta,ஜார்ஜியன்
+kk,ta,கசாக்
+km,ta,கெமெர்
+kn,ta,கன்னடம்
+ko,ta,கொரியன்
+ky,ta,கிர்கிஸ்
+lo,ta,லாவோ
+lt,ta,லிதுவேனியன்
+lv,ta,லாட்வியன்
+mk,ta,மாஸிடோனியன்
+ml,ta,மலையாளம்
+mn,ta,மங்கோலியன்
+mr,ta,மராத்தி
+ms,ta,மலாய்
+my,ta,பர்மீஸ்
+no,ta,நார்வேஜியன்
+ne,ta,நேபாளி
+nl,ta,டச்சு
+or,ta,ஒடியா
+pa,ta,பஞ்சாபி
+pl,ta,போலிஷ்
+pt,ta,போர்ச்சுகீஸ்
+pt-PT,ta,போர்ச்சுகீஸ் (போர்ச்சுக்கல்)
+ro,ta,ரோமேனியன்
+ru,ta,ரஷியன்
+si,ta,சிங்களம்
+sk,ta,ஸ்லோவாக்
+sl,ta,ஸ்லோவேனியன்
+sq,ta,அல்பேனியன்
+sr-Latn,ta,செர்பியன் (லத்தின்)
+sr,ta,செர்பியன்
+sv,ta,ஸ்வீடிஷ்
+sw,ta,ஸ்வாஹிலி
+ta,ta,தமிழ்
+te,ta,தெலுங்கு
+th,ta,தாய்
+tr,ta,துருக்கிஷ்
+uk,ta,உக்ரைனியன்
+ur,ta,உருது
+uz,ta,உஸ்பெக்
+vi,ta,வியட்நாமீஸ்
+zh-CN,ta,சீனம் (சீனா)
+zh-HK,ta,சீனம் (ஹாங்காங்)
+zh-TW,ta,சீனம் (தைவான்)
+zu,ta,ஜுலு
+af,te,ఆఫ్రికాన్స్
+am,te,అమ్హారిక్
+ar,te,అరబిక్
+as,te,అస్సామీస్
+az,te,అజర్బైజాని
+be,te,బెలారుషియన్
+bg,te,బల్గేరియన్
+bn,te,బంగ్లా
+bs,te,బోస్నియన్
+ca,te,కాటలాన్
+cs,te,చెక్
+da,te,డానిష్
+de,te,జర్మన్
+el,te,గ్రీక్
+en-GB,te,ఇంగ్లీష్ (యునైటెడ్ కింగ్‌డమ్)
+en-IN,te,ఇంగ్లీష్ (భారతదేశం)
+en,te,ఇంగ్లీష్
+es,te,స్పానిష్
+es-419,te,స్పానిష్ (లాటిన్ అమెరికా)
+es-US,te,స్పానిష్ (యునైటెడ్ స్టేట్స్)
+et,te,ఎస్టోనియన్
+eu,te,బాస్క్యూ
+fa,te,పర్షియన్
+fi,te,ఫిన్నిష్
+fil,te,ఫిలిపినో
+fr-CA,te,ఫ్రెంచ్ (కెనడా)
+fr,te,ఫ్రెంచ్
+gl,te,గాలిషియన్
+gu,te,గుజరాతి
+hi,te,హిందీ
+hr,te,క్రొయేషియన్
+hu,te,హంగేరియన్
+hy,te,ఆర్మేనియన్
+id,te,ఇండోనేషియన్
+is,te,ఐస్లాండిక్
+it,te,ఇటాలియన్
+iw,te,హిబ్రూ
+ja,te,జపనీస్
+ka,te,జార్జియన్
+kk,te,కజఖ్
+km,te,ఖ్మేర్
+kn,te,కన్నడ
+ko,te,కొరియన్
+ky,te,కిర్గిజ్
+lo,te,లావో
+lt,te,లిథువేనియన్
+lv,te,లాట్వియన్
+mk,te,మాసిడోనియన్
+ml,te,మలయాళం
+mn,te,మంగోలియన్
+mr,te,మరాఠీ
+ms,te,మలయ్
+my,te,బర్మీస్
+no,te,నార్వేజియన్
+ne,te,నేపాలి
+nl,te,డచ్
+or,te,ఒడియా
+pa,te,పంజాబీ
+pl,te,పోలిష్
+pt,te,పోర్చుగీస్
+pt-PT,te,పోర్చుగీస్ (పోర్చుగల్)
+ro,te,రోమేనియన్
+ru,te,రష్యన్
+si,te,సింహళం
+sk,te,స్లోవక్
+sl,te,స్లోవేనియన్
+sq,te,అల్బేనియన్
+sr-Latn,te,సెర్బియన్ (లాటిన్)
+sr,te,సెర్బియన్
+sv,te,స్వీడిష్
+sw,te,స్వాహిలి
+ta,te,తమిళము
+te,te,తెలుగు
+th,te,థాయ్
+tr,te,టర్కిష్
+uk,te,ఉక్రెయినియన్
+ur,te,ఉర్దూ
+uz,te,ఉజ్బెక్
+vi,te,వియత్నామీస్
+zh-CN,te,చైనీస్ (చైనా)
+zh-HK,te,చైనీస్ (హాంకాంగ్)
+zh-TW,te,చైనీస్ (తైవాన్)
+zu,te,జూలూ
+af,th,แอฟริกานส์
+am,th,อัมฮารา
+ar,th,อาหรับ
+as,th,อัสสัม
+az,th,อาเซอร์ไบจาน
+be,th,เบลารุส
+bg,th,บัลแกเรีย
+bn,th,บังกลา
+bs,th,บอสเนีย
+ca,th,คาตาลัน
+cs,th,เช็ก
+da,th,เดนมาร์ก
+de,th,เยอรมัน
+el,th,กรีก
+en-GB,th,อังกฤษ (สหราชอาณาจักร)
+en-IN,th,อังกฤษ (อินเดีย)
+en,th,อังกฤษ
+es,th,สเปน
+es-419,th,สเปน (ละตินอเมริกา)
+es-US,th,สเปน (สหรัฐอเมริกา)
+et,th,เอสโตเนีย
+eu,th,บาสก์
+fa,th,เปอร์เซีย
+fi,th,ฟินแลนด์
+fil,th,ฟิลิปปินส์
+fr-CA,th,ฝรั่งเศส (แคนาดา)
+fr,th,ฝรั่งเศส
+gl,th,กาลิเซีย
+gu,th,คุชราต
+hi,th,ฮินดี
+hr,th,โครเอเชีย
+hu,th,ฮังการี
+hy,th,อาร์เมเนีย
+id,th,อินโดนีเซีย
+is,th,ไอซ์แลนด์
+it,th,อิตาลี
+iw,th,ฮิบรู
+ja,th,ญี่ปุ่น
+ka,th,จอร์เจีย
+kk,th,คาซัค
+km,th,เขมร
+kn,th,กันนาดา
+ko,th,เกาหลี
+ky,th,คีร์กีซ
+lo,th,ลาว
+lt,th,ลิทัวเนีย
+lv,th,ลัตเวีย
+mk,th,มาซิโดเนีย
+ml,th,มาลายาลัม
+mn,th,มองโกเลีย
+mr,th,มราฐี
+ms,th,มาเลย์
+my,th,พม่า
+no,th,นอร์เวย์
+ne,th,เนปาล
+nl,th,ดัตช์
+or,th,โอดิยา
+pa,th,ปัญจาบ
+pl,th,โปแลนด์
+pt,th,โปรตุเกส
+pt-PT,th,โปรตุเกส (โปรตุเกส)
+ro,th,โรมาเนีย
+ru,th,รัสเซีย
+si,th,สิงหล
+sk,th,สโลวัก
+sl,th,สโลวีเนีย
+sq,th,แอลเบเนีย
+sr-Latn,th,เซอร์เบีย (ละติน)
+sr,th,เซอร์เบีย
+sv,th,สวีเดน
+sw,th,สวาฮีลี
+ta,th,ทมิฬ
+te,th,เตลูกู
+th,th,ไทย
+tr,th,ตุรกี
+uk,th,ยูเครน
+ur,th,อูรดู
+uz,th,อุซเบก
+vi,th,เวียดนาม
+zh-CN,th,จีน (จีน)
+zh-HK,th,จีน (ฮ่องกง)
+zh-TW,th,จีน (ไต้หวัน)
+zu,th,ซูลู
+af,tr,Afrikaanca
+am,tr,Amharca
+ar,tr,Arapça
+as,tr,Assamca
+az,tr,Azerbaycan dili
+be,tr,Belarusça
+bg,tr,Bulgarca
+bn,tr,Bengalce
+bs,tr,Boşnakça
+ca,tr,Katalanca
+cs,tr,Çekçe
+da,tr,Danca
+de,tr,Almanca
+el,tr,Yunanca
+en-GB,tr,İngilizce (Birleşik Krallık)
+en-IN,tr,İngilizce (Hindistan)
+en,tr,İngilizce
+es,tr,İspanyolca
+es-419,tr,İspanyolca (Latin Amerika)
+es-US,tr,İspanyolca (Amerika Birleşik Devletleri)
+et,tr,Estonca
+eu,tr,Baskça
+fa,tr,Farsça
+fi,tr,Fince
+fil,tr,Filipince
+fr-CA,tr,Fransızca (Kanada)
+fr,tr,Fransızca
+gl,tr,Galiçyaca
+gu,tr,Güceratça
+hi,tr,Hintçe
+hr,tr,Hırvatça
+hu,tr,Macarca
+hy,tr,Ermenice
+id,tr,Endonezce
+is,tr,İzlandaca
+it,tr,İtalyanca
+iw,tr,İbranice
+ja,tr,Japonca
+ka,tr,Gürcüce
+kk,tr,Kazakça
+km,tr,Khmer dili
+kn,tr,Kannada dili
+ko,tr,Korece
+ky,tr,Kırgızca
+lo,tr,Lao dili
+lt,tr,Litvanca
+lv,tr,Letonca
+mk,tr,Makedonca
+ml,tr,Malayalam dili
+mn,tr,Moğolca
+mr,tr,Marathi dili
+ms,tr,Malayca
+my,tr,Birman dili
+no,tr,Norveççe
+ne,tr,Nepalce
+nl,tr,Felemenkçe
+or,tr,Oriya dili
+pa,tr,Pencapça
+pl,tr,Lehçe
+pt,tr,Portekizce
+pt-PT,tr,Portekizce (Portekiz)
+ro,tr,Rumence
+ru,tr,Rusça
+si,tr,Sinhali dili
+sk,tr,Slovakça
+sl,tr,Slovence
+sq,tr,Arnavutça
+sr-Latn,tr,Sırpça (Latin)
+sr,tr,Sırpça
+sv,tr,İsveççe
+sw,tr,Svahili dili
+ta,tr,Tamilce
+te,tr,Telugu dili
+th,tr,Tayca
+tr,tr,Türkçe
+uk,tr,Ukraynaca
+ur,tr,Urduca
+uz,tr,Özbekçe
+vi,tr,Vietnamca
+zh-CN,tr,Çince (Çin)
+zh-HK,tr,Çince (Hong Kong)
+zh-TW,tr,Çince (Tayvan)
+zu,tr,Zuluca
+af,uk,Африкаанс
+am,uk,Амхарська
+ar,uk,Арабська
+as,uk,Асамська
+az,uk,Азербайджанська
+be,uk,Білоруська
+bg,uk,Болгарська
+bn,uk,Бенгальська
+bs,uk,Боснійська
+ca,uk,Каталонська
+cs,uk,Чеська
+da,uk,Данська
+de,uk,Німецька
+el,uk,Грецька
+en-GB,uk,Англійська (Велика Британія)
+en-IN,uk,Англійська (Індія)
+en,uk,Англійська
+es,uk,Іспанська
+es-419,uk,Іспанська (Латинська Америка)
+es-US,uk,Іспанська (Сполучені Штати)
+et,uk,Естонська
+eu,uk,Баскська
+fa,uk,Перська
+fi,uk,Фінська
+fil,uk,Філіппінська
+fr-CA,uk,Французька (Канада)
+fr,uk,Французька
+gl,uk,Галісійська
+gu,uk,Гуджараті
+hi,uk,Гінді
+hr,uk,Хорватська
+hu,uk,Угорська
+hy,uk,Вірменська
+id,uk,Індонезійська
+is,uk,Ісландська
+it,uk,Італійська
+iw,uk,Іврит
+ja,uk,Японська
+ka,uk,Грузинська
+kk,uk,Казахська
+km,uk,Кхмерська
+kn,uk,Каннада
+ko,uk,Корейська
+ky,uk,Киргизька
+lo,uk,Лаоська
+lt,uk,Литовська
+lv,uk,Латиська
+mk,uk,Македонська
+ml,uk,Малаялам
+mn,uk,Монгольська
+mr,uk,Маратхі
+ms,uk,Малайська
+my,uk,Бірманська
+no,uk,Норвезька
+ne,uk,Непальська
+nl,uk,Нідерландська
+or,uk,Одія
+pa,uk,Панджабі
+pl,uk,Польська
+pt,uk,Португальська
+pt-PT,uk,Португальська (Португалія)
+ro,uk,Румунська
+ru,uk,Російська
+si,uk,Сингальська
+sk,uk,Словацька
+sl,uk,Словенська
+sq,uk,Албанська
+sr-Latn,uk,Сербська (латиниця)
+sr,uk,Сербська
+sv,uk,Шведська
+sw,uk,Суахілі
+ta,uk,Тамільська
+te,uk,Телугу
+th,uk,Тайська
+tr,uk,Турецька
+uk,uk,Українська
+ur,uk,Урду
+uz,uk,Узбецька
+vi,uk,Вʼєтнамська
+zh-CN,uk,Китайська (Китай)
+zh-HK,uk,Китайська (Гонконг)
+zh-TW,uk,Китайська (Тайвань)
+zu,uk,Зулуська
+af,ur,افریقی
+am,ur,امہاری
+ar,ur,عربی
+as,ur,آسامی
+az,ur,آذربائیجانی
+be,ur,بیلاروسی
+bg,ur,بلغاری
+bn,ur,بنگلہ
+bs,ur,بوسنیائی
+ca,ur,کیٹالان
+cs,ur,چیک
+da,ur,ڈینش
+de,ur,جرمن
+el,ur,یونانی
+en-GB,ur,انگریزی (سلطنت متحدہ)
+en-IN,ur,انگریزی (بھارت)
+en,ur,انگریزی
+es,ur,ہسپانوی
+es-419,ur,ہسپانوی (لاطینی امریکہ)
+es-US,ur,ہسپانوی (ریاست ہائے متحدہ امریکہ)
+et,ur,اسٹونین
+eu,ur,باسکی
+fa,ur,فارسی
+fi,ur,فینیش
+fil,ur,فلیپینو
+fr-CA,ur,فرانسیسی (کینیڈا)
+fr,ur,فرانسیسی
+gl,ur,گالیشیائی
+gu,ur,گجراتی
+hi,ur,ہندی
+hr,ur,کراتی
+hu,ur,ہنگیرین
+hy,ur,آرمینیائی
+id,ur,انڈونیثیائی
+is,ur,آئس لینڈک
+it,ur,اطالوی
+iw,ur,عبرانی
+ja,ur,جاپانی
+ka,ur,جارجیائی
+kk,ur,قزاخ
+km,ur,خمیر
+kn,ur,کنّاڈا
+ko,ur,کوریائی
+ky,ur,کرغیزی
+lo,ur,لاؤ
+lt,ur,لیتھوینین
+lv,ur,لیٹوین
+mk,ur,مقدونیائی
+ml,ur,مالایالم
+mn,ur,منگولین
+mr,ur,مراٹهی
+ms,ur,مالے
+my,ur,برمی
+no,ur,نارویجین
+ne,ur,نیپالی
+nl,ur,ڈچ
+or,ur,اڑیہ
+pa,ur,پنجابی
+pl,ur,پولش
+pt,ur,پُرتگالی
+pt-PT,ur,پُرتگالی (پرتگال)
+ro,ur,رومینین
+ru,ur,روسی
+si,ur,سنہالا
+sk,ur,سلوواک
+sl,ur,سلووینیائی
+sq,ur,البانی
+sr-Latn,ur,سربین (لاطینی)
+sr,ur,سربین
+sv,ur,سویڈش
+sw,ur,سواحلی
+ta,ur,تمل
+te,ur,تیلگو
+th,ur,تھائی
+tr,ur,ترکی
+uk,ur,یوکرینیائی
+ur,ur,اردو
+uz,ur,ازبیک
+vi,ur,ویتنامی
+zh-CN,ur,چینی (چین)
+zh-HK,ur,چینی (ہانگ کانگ)
+zh-TW,ur,چینی (تائیوان)
+zu,ur,زولو
+af,uz,afrikaans
+am,uz,amxar
+ar,uz,arab
+as,uz,assam
+az,uz,ozarbayjon
+be,uz,belarus
+bg,uz,bolgar
+bn,uz,bengal
+bs,uz,bosniy
+ca,uz,katalan
+cs,uz,chex
+da,uz,dan
+de,uz,nemischa
+el,uz,grek
+en-GB,uz,inglizcha (Buyuk Britaniya)
+en-IN,uz,inglizcha (Hindiston)
+en,uz,inglizcha
+es,uz,ispancha
+es-419,uz,ispancha (Lotin Amerikasi)
+es-US,uz,ispancha (Amerika Qo‘shma Shtatlari)
+et,uz,estoncha
+eu,uz,bask
+fa,uz,fors
+fi,uz,fincha
+fil,uz,filipincha
+fr-CA,uz,fransuzcha (Kanada)
+fr,uz,fransuzcha
+gl,uz,galisiy
+gu,uz,gujarot
+hi,uz,hind
+hr,uz,xorvat
+hu,uz,venger
+hy,uz,arman
+id,uz,indonez
+is,uz,island
+it,uz,italyan
+iw,uz,ivrit
+ja,uz,yapon
+ka,uz,gruzincha
+kk,uz,qozoqcha
+km,uz,xmer
+kn,uz,kannada
+ko,uz,koreyscha
+ky,uz,qirgʻizcha
+lo,uz,laos
+lt,uz,litva
+lv,uz,latishcha
+mk,uz,makedon
+ml,uz,malayalam
+mn,uz,mongol
+mr,uz,maratxi
+ms,uz,malay
+my,uz,birman
+no,uz,norveg
+ne,uz,nepal
+nl,uz,niderland
+or,uz,oriya
+pa,uz,panjobcha
+pl,uz,polyakcha
+pt,uz,portugalcha
+pt-PT,uz,portugalcha (Portugaliya)
+ro,uz,rumincha
+ru,uz,ruscha
+si,uz,singal
+sk,uz,slovakcha
+sl,uz,slovencha
+sq,uz,alban
+sr-Latn,uz,serbcha (lotin)
+sr,uz,serbcha
+sv,uz,shved
+sw,uz,suaxili
+ta,uz,tamil
+te,uz,telugu
+th,uz,tay
+tr,uz,turk
+uk,uz,ukrain
+ur,uz,urdu
+uz,uz,o‘zbek
+vi,uz,vyetnam
+zh-CN,uz,xitoy (Xitoy)
+zh-HK,uz,xitoy (Gonkong)
+zh-TW,uz,xitoy (Tayvan)
+zu,uz,zulu
+af,vi,Tiếng Afrikaans
+am,vi,Tiếng Amharic
+ar,vi,Tiếng Ả Rập
+as,vi,Tiếng Assam
+az,vi,Tiếng Azerbaijan
+be,vi,Tiếng Belarus
+bg,vi,Tiếng Bulgaria
+bn,vi,Tiếng Bangla
+bs,vi,Tiếng Bosnia
+ca,vi,Tiếng Catalan
+cs,vi,Tiếng Séc
+da,vi,Tiếng Đan Mạch
+de,vi,Tiếng Đức
+el,vi,Tiếng Hy Lạp
+en-GB,vi,Tiếng Anh (Vương quốc Anh)
+en-IN,vi,Tiếng Anh (Ấn Độ)
+en,vi,Tiếng Anh
+es,vi,Tiếng Tây Ban Nha
+es-419,vi,Tiếng Tây Ban Nha (Châu Mỹ La-tinh)
+es-US,vi,Tiếng Tây Ban Nha (Hoa Kỳ)
+et,vi,Tiếng Estonia
+eu,vi,Tiếng Basque
+fa,vi,Tiếng Ba Tư
+fi,vi,Tiếng Phần Lan
+fil,vi,Tiếng Philippines
+fr-CA,vi,Tiếng Pháp (Canada)
+fr,vi,Tiếng Pháp
+gl,vi,Tiếng Galician
+gu,vi,Tiếng Gujarati
+hi,vi,Tiếng Hindi
+hr,vi,Tiếng Croatia
+hu,vi,Tiếng Hungary
+hy,vi,Tiếng Armenia
+id,vi,Tiếng Indonesia
+is,vi,Tiếng Iceland
+it,vi,Tiếng Italy
+iw,vi,Tiếng Do Thái
+ja,vi,Tiếng Nhật
+ka,vi,Tiếng Georgia
+kk,vi,Tiếng Kazakh
+km,vi,Tiếng Khmer
+kn,vi,Tiếng Kannada
+ko,vi,Tiếng Hàn
+ky,vi,Tiếng Kyrgyz
+lo,vi,Tiếng Lào
+lt,vi,Tiếng Litva
+lv,vi,Tiếng Latvia
+mk,vi,Tiếng Macedonia
+ml,vi,Tiếng Malayalam
+mn,vi,Tiếng Mông Cổ
+mr,vi,Tiếng Marathi
+ms,vi,Tiếng Mã Lai
+my,vi,Tiếng Miến Điện
+no,vi,Tiếng Na Uy
+ne,vi,Tiếng Nepal
+nl,vi,Tiếng Hà Lan
+or,vi,Tiếng Odia
+pa,vi,Tiếng Punjab
+pl,vi,Tiếng Ba Lan
+pt,vi,Tiếng Bồ Đào Nha
+pt-PT,vi,Tiếng Bồ Đào Nha (Bồ Đào Nha)
+ro,vi,Tiếng Romania
+ru,vi,Tiếng Nga
+si,vi,Tiếng Sinhala
+sk,vi,Tiếng Slovak
+sl,vi,Tiếng Slovenia
+sq,vi,Tiếng Albania
+sr-Latn,vi,Tiếng Serbia (Chữ La tinh)
+sr,vi,Tiếng Serbia
+sv,vi,Tiếng Thụy Điển
+sw,vi,Tiếng Swahili
+ta,vi,Tiếng Tamil
+te,vi,Tiếng Telugu
+th,vi,Tiếng Thái
+tr,vi,Tiếng Thổ Nhĩ Kỳ
+uk,vi,Tiếng Ukraina
+ur,vi,Tiếng Urdu
+uz,vi,Tiếng Uzbek
+vi,vi,Tiếng Việt
+zh-CN,vi,Tiếng Trung (Trung Quốc)
+zh-HK,vi,Tiếng Trung (Hồng Kông)
+zh-TW,vi,Tiếng Trung (Đài Loan)
+zu,vi,Tiếng Zulu
+af,zh-CN,南非荷兰语
+am,zh-CN,阿姆哈拉语
+ar,zh-CN,阿拉伯语
+as,zh-CN,阿萨姆语
+az,zh-CN,阿塞拜疆语
+be,zh-CN,白俄罗斯语
+bg,zh-CN,保加利亚语
+bn,zh-CN,孟加拉语
+bs,zh-CN,波斯尼亚语
+ca,zh-CN,加泰罗尼亚语
+cs,zh-CN,捷克语
+da,zh-CN,丹麦语
+de,zh-CN,德语
+el,zh-CN,希腊语
+en-GB,zh-CN,英语（英国）
+en-IN,zh-CN,英语（印度）
+en,zh-CN,英语
+es,zh-CN,西班牙语
+es-419,zh-CN,西班牙语（拉丁美洲）
+es-US,zh-CN,西班牙语（美国）
+et,zh-CN,爱沙尼亚语
+eu,zh-CN,巴斯克语
+fa,zh-CN,波斯语
+fi,zh-CN,芬兰语
+fil,zh-CN,菲律宾语
+fr-CA,zh-CN,法语（加拿大）
+fr,zh-CN,法语
+gl,zh-CN,加利西亚语
+gu,zh-CN,古吉拉特语
+hi,zh-CN,印地语
+hr,zh-CN,克罗地亚语
+hu,zh-CN,匈牙利语
+hy,zh-CN,亚美尼亚语
+id,zh-CN,印度尼西亚语
+is,zh-CN,冰岛语
+it,zh-CN,意大利语
+iw,zh-CN,希伯来语
+ja,zh-CN,日语
+ka,zh-CN,格鲁吉亚语
+kk,zh-CN,哈萨克语
+km,zh-CN,高棉语
+kn,zh-CN,卡纳达语
+ko,zh-CN,韩语
+ky,zh-CN,柯尔克孜语
+lo,zh-CN,老挝语
+lt,zh-CN,立陶宛语
+lv,zh-CN,拉脱维亚语
+mk,zh-CN,马其顿语
+ml,zh-CN,马拉雅拉姆语
+mn,zh-CN,蒙古语
+mr,zh-CN,马拉地语
+ms,zh-CN,马来语
+my,zh-CN,缅甸语
+no,zh-CN,挪威语
+ne,zh-CN,尼泊尔语
+nl,zh-CN,荷兰语
+or,zh-CN,奥里亚语
+pa,zh-CN,旁遮普语
+pl,zh-CN,波兰语
+pt,zh-CN,葡萄牙语
+pt-PT,zh-CN,葡萄牙语（葡萄牙）
+ro,zh-CN,罗马尼亚语
+ru,zh-CN,俄语
+si,zh-CN,僧伽罗语
+sk,zh-CN,斯洛伐克语
+sl,zh-CN,斯洛文尼亚语
+sq,zh-CN,阿尔巴尼亚语
+sr-Latn,zh-CN,塞尔维亚语（拉丁文）
+sr,zh-CN,塞尔维亚语
+sv,zh-CN,瑞典语
+sw,zh-CN,斯瓦希里语
+ta,zh-CN,泰米尔语
+te,zh-CN,泰卢固语
+th,zh-CN,泰语
+tr,zh-CN,土耳其语
+uk,zh-CN,乌克兰语
+ur,zh-CN,乌尔都语
+uz,zh-CN,乌兹别克语
+vi,zh-CN,越南语
+zh-CN,zh-CN,中文（中国）
+zh-HK,zh-CN,中文（香港）
+zh-TW,zh-CN,中文（台湾）
+zu,zh-CN,祖鲁语
+af,zh-HK,南非荷蘭文
+am,zh-HK,岩哈拉語
+ar,zh-HK,阿拉伯文
+as,zh-HK,阿薩姆文
+az,zh-HK,阿塞拜疆文
+be,zh-HK,白俄羅斯文
+bg,zh-HK,保加利亞文
+bn,zh-HK,孟加拉文
+bs,zh-HK,波斯尼亞文
+ca,zh-HK,加泰隆尼亞文
+cs,zh-HK,捷克文
+da,zh-HK,丹麥文
+de,zh-HK,德文
+el,zh-HK,希臘文
+en-GB,zh-HK,英文（英國）
+en-IN,zh-HK,英文（印度）
+en,zh-HK,英文
+es,zh-HK,西班牙文
+es-419,zh-HK,西班牙文（拉丁美洲）
+es-US,zh-HK,西班牙文（美國）
+et,zh-HK,愛沙尼亞文
+eu,zh-HK,巴斯克文
+fa,zh-HK,波斯文
+fi,zh-HK,芬蘭文
+fil,zh-HK,菲律賓文
+fr-CA,zh-HK,法文（加拿大）
+fr,zh-HK,法文
+gl,zh-HK,加里西亞文
+gu,zh-HK,古吉拉特文
+hi,zh-HK,印地文
+hr,zh-HK,克羅地亞文
+hu,zh-HK,匈牙利文
+hy,zh-HK,亞美尼亞文
+id,zh-HK,印尼文
+is,zh-HK,冰島文
+it,zh-HK,意大利文
+iw,zh-HK,希伯來文
+ja,zh-HK,日文
+ka,zh-HK,格魯吉亞文
+kk,zh-HK,哈薩克文
+km,zh-HK,高棉文
+kn,zh-HK,坎納達文
+ko,zh-HK,韓文
+ky,zh-HK,吉爾吉斯文
+lo,zh-HK,老撾文
+lt,zh-HK,立陶宛文
+lv,zh-HK,拉脫維亞文
+mk,zh-HK,馬其頓文
+ml,zh-HK,馬拉雅拉姆文
+mn,zh-HK,蒙古文
+mr,zh-HK,馬拉地文
+ms,zh-HK,馬來文
+my,zh-HK,緬甸文
+no,zh-HK,挪威文
+ne,zh-HK,尼泊爾文
+nl,zh-HK,荷蘭文
+or,zh-HK,奧里雅文
+pa,zh-HK,旁遮普文
+pl,zh-HK,波蘭文
+pt,zh-HK,葡萄牙文
+pt-PT,zh-HK,葡萄牙文（葡萄牙）
+ro,zh-HK,羅馬尼亞文
+ru,zh-HK,俄文
+si,zh-HK,僧伽羅文
+sk,zh-HK,斯洛伐克文
+sl,zh-HK,斯洛文尼亞文
+sq,zh-HK,阿爾巴尼亞文
+sr-Latn,zh-HK,塞爾維亞文（拉丁字母）
+sr,zh-HK,塞爾維亞文
+sv,zh-HK,瑞典文
+sw,zh-HK,史瓦希里文
+ta,zh-HK,泰米爾文
+te,zh-HK,泰盧固文
+th,zh-HK,泰文
+tr,zh-HK,土耳其文
+uk,zh-HK,烏克蘭文
+ur,zh-HK,烏爾都文
+uz,zh-HK,烏茲別克文
+vi,zh-HK,越南文
+zh-CN,zh-HK,中文（中國）
+zh-HK,zh-HK,中文（香港）
+zh-TW,zh-HK,中文（台灣）
+zu,zh-HK,祖魯文
+af,zh-TW,南非荷蘭文
+am,zh-TW,阿姆哈拉文
+ar,zh-TW,阿拉伯文
+as,zh-TW,阿薩姆文
+az,zh-TW,亞塞拜然文
+be,zh-TW,白俄羅斯文
+bg,zh-TW,保加利亞文
+bn,zh-TW,孟加拉文
+bs,zh-TW,波士尼亞文
+ca,zh-TW,加泰蘭文
+cs,zh-TW,捷克文
+da,zh-TW,丹麥文
+de,zh-TW,德文
+el,zh-TW,希臘文
+en-GB,zh-TW,英文（英國）
+en-IN,zh-TW,英文（印度）
+en,zh-TW,英文
+es,zh-TW,西班牙文
+es-419,zh-TW,西班牙文（拉丁美洲）
+es-US,zh-TW,西班牙文（美國）
+et,zh-TW,愛沙尼亞文
+eu,zh-TW,巴斯克文
+fa,zh-TW,波斯文
+fi,zh-TW,芬蘭文
+fil,zh-TW,菲律賓文
+fr-CA,zh-TW,法文（加拿大）
+fr,zh-TW,法文
+gl,zh-TW,加利西亞文
+gu,zh-TW,古吉拉特文
+hi,zh-TW,印地文
+hr,zh-TW,克羅埃西亞文
+hu,zh-TW,匈牙利文
+hy,zh-TW,亞美尼亞文
+id,zh-TW,印尼文
+is,zh-TW,冰島文
+it,zh-TW,義大利文
+iw,zh-TW,希伯來文
+ja,zh-TW,日文
+ka,zh-TW,喬治亞文
+kk,zh-TW,哈薩克文
+km,zh-TW,高棉文
+kn,zh-TW,坎那達文
+ko,zh-TW,韓文
+ky,zh-TW,吉爾吉斯文
+lo,zh-TW,寮文
+lt,zh-TW,立陶宛文
+lv,zh-TW,拉脫維亞文
+mk,zh-TW,馬其頓文
+ml,zh-TW,馬來亞拉姆文
+mn,zh-TW,蒙古文
+mr,zh-TW,馬拉地文
+ms,zh-TW,馬來文
+my,zh-TW,緬甸文
+no,zh-TW,挪威文
+ne,zh-TW,尼泊爾文
+nl,zh-TW,荷蘭文
+or,zh-TW,歐迪亞文
+pa,zh-TW,旁遮普文
+pl,zh-TW,波蘭文
+pt,zh-TW,葡萄牙文
+pt-PT,zh-TW,葡萄牙文（葡萄牙）
+ro,zh-TW,羅馬尼亞文
+ru,zh-TW,俄文
+si,zh-TW,僧伽羅文
+sk,zh-TW,斯洛伐克文
+sl,zh-TW,斯洛維尼亞文
+sq,zh-TW,阿爾巴尼亞文
+sr-Latn,zh-TW,塞爾維亞文（拉丁文）
+sr,zh-TW,塞爾維亞文
+sv,zh-TW,瑞典文
+sw,zh-TW,史瓦希里文
+ta,zh-TW,坦米爾文
+te,zh-TW,泰盧固文
+th,zh-TW,泰文
+tr,zh-TW,土耳其文
+uk,zh-TW,烏克蘭文
+ur,zh-TW,烏都文
+uz,zh-TW,烏茲別克文
+vi,zh-TW,越南文
+zh-CN,zh-TW,中文（中國）
+zh-HK,zh-TW,中文（香港）
+zh-TW,zh-TW,中文（台灣）
+zu,zh-TW,祖魯文
+af,zu,i-Afrikaans
+am,zu,isi-Amharic
+ar,zu,isi-Arabic
+as,zu,isi-Assamese
+az,zu,isi-Azerbaijani
+be,zu,isi-Belarusian
+bg,zu,isi-Bulgari
+bn,zu,isi-Bengali
+bs,zu,isi-Bosnian
+ca,zu,isi-Catalan
+cs,zu,isi-Czech
+da,zu,isi-Danish
+de,zu,isi-German
+el,zu,isi-Greek
+en-GB,zu,i-English (i-United Kingdom)
+en-IN,zu,i-English (i-India)
+en,zu,i-English
+es,zu,isi-Spanish
+es-419,zu,isi-Spanish (i-Latin America)
+es-US,zu,isi-Spanish (i-United States)
+et,zu,isi-Estonia
+eu,zu,isi-Basque
+fa,zu,isi-Persian
+fi,zu,isi-Finnish
+fil,zu,isi-Filipino
+fr-CA,zu,isi-French (i-Canada)
+fr,zu,isi-French
+gl,zu,isi-Galicia
+gu,zu,isi-Gujarati
+hi,zu,isi-Hindi
+hr,zu,isi-Croatian
+hu,zu,isi-Hungarian
+hy,zu,isi-Armenia
+id,zu,isi-Indonesian
+is,zu,isi-Icelandic
+it,zu,isi-Italian
+iw,zu,isi-Hebrew
+ja,zu,isi-Japanese
+ka,zu,isi-Georgian
+kk,zu,isi-Kazakh
+km,zu,isi-Khmer
+kn,zu,isi-Kannada
+ko,zu,isi-Korean
+ky,zu,isi-Kyrgyz
+lo,zu,isi-Lao
+lt,zu,isi-Lithuanian
+lv,zu,isi-Latvian
+mk,zu,isi-Macedonian
+ml,zu,isi-Malayalam
+mn,zu,isi-Mongolian
+mr,zu,isi-Marathi
+ms,zu,isi-Malay
+my,zu,isi-Burmese
+no,zu,isi-Norwegian
+ne,zu,isi-Nepali
+nl,zu,isi-Dutch
+or,zu,isi-Odia
+pa,zu,isi-Punjabi
+pl,zu,isi-Polish
+pt,zu,isi-Portuguese
+pt-PT,zu,isi-Portuguese (i-Portugal)
+ro,zu,isi-Romanian
+ru,zu,isi-Russian
+si,zu,isi-Sinhala
+sk,zu,isi-Slovak
+sl,zu,isi-Slovenian
+sq,zu,isi-Albania
+sr-Latn,zu,isi-Serbian (isi-Latin)
+sr,zu,isi-Serbian
+sv,zu,isi-Swedish
+sw,zu,isiSwahili
+ta,zu,isi-Tamil
+te,zu,isi-Telugu
+th,zu,isi-Thai
+tr,zu,isi-Turkish
+uk,zu,isi-Ukrainian
+ur,zu,isi-Urdu
+uz,zu,isi-Uzbek
+vi,zu,isi-Vietnamese
+zh-CN,zu,isi-Chinese (i-China)
+zh-HK,zu,isi-Chinese (i-Hong Kong)
+zh-TW,zu,isi-Chinese (i-Taiwan)
+zu,zu,isiZulu

@@ -1,0 +1,41 @@
+id,url,label,custom
+1,https://en.wikipedia.org/wiki/Action-adventure_game,Action-adventure game,t
+2,https://en.wikipedia.org/wiki/Action_game,Action game,t
+3,https://en.wikipedia.org/wiki/Boxing,Boxing,t
+4,https://en.wikipedia.org/wiki/Christian_music,Christian music,t
+5,https://en.wikipedia.org/wiki/Classical_music,Classical music,t
+6,https://en.wikipedia.org/wiki/Country_music,Country music,t
+7,https://en.wikipedia.org/wiki/Electronic_music,Electronic music,t
+8,https://en.wikipedia.org/wiki/Entertainment,Entertainment,t
+9,https://en.wikipedia.org/wiki/Fashion,Fashion,t
+10,https://en.wikipedia.org/wiki/Film,Film,t
+11,https://en.wikipedia.org/wiki/Food,Food,t
+12,https://en.wikipedia.org/wiki/Health,Health,t
+13,https://en.wikipedia.org/wiki/Hobby,Hobby,t
+14,https://en.wikipedia.org/wiki/Humour,Humour,t
+15,https://en.wikipedia.org/wiki/Independent_music,Independent music,t
+16,https://en.wikipedia.org/wiki/Knowledge,Knowledge,t
+17,https://en.wikipedia.org/wiki/Lifestyle_(sociology),Lifestyle (sociology),t
+18,https://en.wikipedia.org/wiki/Military,Military,t
+19,https://en.wikipedia.org/wiki/Motorsport,Motorsport,t
+20,https://en.wikipedia.org/wiki/Music,Music,t
+21,https://en.wikipedia.org/wiki/Performing_arts,Performing arts,t
+22,https://en.wikipedia.org/wiki/Pet,Pet,t
+23,https://en.wikipedia.org/wiki/Physical_fitness,Physical fitness,t
+24,https://en.wikipedia.org/wiki/Politics,Politics,t
+25,https://en.wikipedia.org/wiki/Pop_music,Pop music,t
+26,https://en.wikipedia.org/wiki/Professional_wrestling,Professional wrestling,t
+27,https://en.wikipedia.org/wiki/Religion,Religion,t
+28,https://en.wikipedia.org/wiki/Rhythm_and_blues,Rhythm and blues,t
+29,https://en.wikipedia.org/wiki/Rock_music,Rock music,t
+30,https://en.wikipedia.org/wiki/Role-playing_video_game,Role-playing video game,t
+31,https://en.wikipedia.org/wiki/Simulation_video_game,Simulation video game,t
+32,https://en.wikipedia.org/wiki/Society,Society,t
+33,https://en.wikipedia.org/wiki/Soul_music,Soul music,t
+34,https://en.wikipedia.org/wiki/Sport,Sport,t
+35,https://en.wikipedia.org/wiki/Strategy_video_game,Strategy video game,t
+36,https://en.wikipedia.org/wiki/Technology,Technology,t
+37,https://en.wikipedia.org/wiki/Television_program,Television program,t
+38,https://en.wikipedia.org/wiki/Tourism,Tourism,t
+39,https://en.wikipedia.org/wiki/Vehicle,Vehicle,t
+40,https://en.wikipedia.org/wiki/Video_game_culture,Video game culture,t

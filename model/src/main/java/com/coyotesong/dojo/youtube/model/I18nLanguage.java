@@ -27,26 +27,55 @@ import java.io.Serializable;
 
 /**
  * YouTube I18nLanguage
+ *
+ * Youtube provides information in 83 locales (82 unique - 'en' and 'en-GB' share parent etag)
+ *
  * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/I18nLanguage.html">I18nLanguage</a>
+ * see https://en.wikipedia.org/wiki/Codes_for_constructed_languages
+ * see https://en.wikipedia.org/wiki/IETF_language_tag
  */
 @SuppressWarnings("unused")
 public class I18nLanguage implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
-    private String id;
+    private Integer key;
+    private String code;
+    private String name;
+    private String hl;  // ISO 639 / BCP-47 code
     private String etag;
     private String parentEtag;
-    private String hl;
-    private String name;
 
-
-    public String getId() {
-        return id;
+    public Integer getKey() {
+        return key;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setKey(Integer key) {
+        this.key = key;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getHl() {
+        return hl;
+    }
+
+    public void setHl(String hl) {
+        this.hl = hl;
     }
 
     public String getEtag() {
@@ -65,22 +94,6 @@ public class I18nLanguage implements Serializable {
         this.parentEtag = parentEtag;
     }
 
-    public String getHl() {
-        return hl;
-    }
-
-    public void setHl(String hl) {
-        this.hl = hl;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -90,9 +103,11 @@ public class I18nLanguage implements Serializable {
         final I18nLanguage that = (I18nLanguage) o;
 
         return new EqualsBuilder()
-                .append(etag, that.etag)
-                .append(hl, that.hl)
+                // DO NOT INCLUDE KEY!
+                .append(code, that.code)
                 .append(name, that.name)
+                .append(hl, that.hl)
+                .append(etag, that.etag)
                 .append(parentEtag, that.parentEtag)
                 .isEquals();
     }
@@ -100,20 +115,19 @@ public class I18nLanguage implements Serializable {
     @Override
     public int hashCode() {
         return new HashCodeBuilder(17, 37)
-                .append(etag)
-                .append(hl)
+                .append(code)
                 .append(name)
+                .append(hl)
                 .toHashCode();
     }
 
     @Override
     public String toString() {
         return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
-                .append("id", id)
-                .append("etag", etag)
+                .append("key", key)
+                .append("code", code)
                 .append("hl", hl)
                 .append("name", name)
-                .append("parentEtag", parentEtag)
                 .toString();
     }
 }

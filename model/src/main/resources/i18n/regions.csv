@@ -1,0 +1,9131 @@
+code,hl,name,gl
+AE,af,Verenigde Arabiese Emirate,AE
+BH,af,Bahrein,BH
+DZ,af,Algerië,DZ
+EG,af,Egipte,EG
+IQ,af,Irak,IQ
+JO,af,Jordanië,JO
+KW,af,Koeweit,KW
+LB,af,Libanon,LB
+LY,af,Libië,LY
+MA,af,Marokko,MA
+OM,af,Oman,OM
+QA,af,Katar,QA
+SA,af,Saoedi-Arabië,SA
+TN,af,Tunisië,TN
+YE,af,Jemen,YE
+AZ,af,Azerbeidjan,AZ
+BY,af,Wit-Rusland (Belo-Rusland),BY
+BG,af,Bulgarye,BG
+BD,af,Bangladesj,BD
+BA,af,Bosnië en Herzegowina,BA
+CZ,af,Tsjeggië,CZ
+DK,af,Denemarke,DK
+AT,af,Oostenryk,AT
+CH,af,Switserland,CH
+DE,af,Duitsland,DE
+GR,af,Griekeland,GR
+AU,af,Australië,AU
+BE,af,België,BE
+CA,af,Kanada,CA
+GB,af,Verenigde Koninkryk,GB
+GH,af,Ghana,GH
+IE,af,Ierland,IE
+IL,af,Israel,IL
+IN,af,Indië,IN
+JM,af,Jamaika,JM
+KE,af,Kenia,KE
+MT,af,Malta,MT
+NG,af,Nigerië,NG
+NZ,af,Nieu-Seeland,NZ
+SG,af,Singapoer,SG
+UG,af,Uganda,UG
+US,af,Verenigde State,US
+ZA,af,Suid-Afrika,ZA
+ZW,af,Zimbabwe,ZW
+AR,af,Argentinië,AR
+BO,af,Bolivië,BO
+CL,af,Chili,CL
+CO,af,Colombia,CO
+CR,af,Costa Rica,CR
+DO,af,Dominikaanse Republiek,DO
+EC,af,Ecuador,EC
+ES,af,Spanje,ES
+GT,af,Guatemala,GT
+HN,af,Honduras,HN
+MX,af,Meksiko,MX
+NI,af,Nicaragua,NI
+PA,af,Panama,PA
+PE,af,Peru,PE
+PR,af,Puerto Rico,PR
+PY,af,Paraguay,PY
+SV,af,El Salvador,SV
+UY,af,Uruguay,UY
+VE,af,Venezuela,VE
+EE,af,Estland,EE
+FI,af,Finland,FI
+PH,af,Filippyne,PH
+FR,af,Frankryk,FR
+SN,af,Senegal,SN
+HR,af,Kroasië,HR
+HU,af,Hongarye,HU
+ID,af,Indonesië,ID
+IS,af,Ysland,IS
+IT,af,Italië,IT
+JP,af,Japan,JP
+GE,af,Georgië,GE
+KZ,af,Kazakstan,KZ
+KR,af,Suid-Korea,KR
+LU,af,Luxemburg,LU
+LA,af,Laos,LA
+LT,af,Litaue,LT
+LV,af,Letland,LV
+MK,af,Noord-Masedonië,MK
+MY,af,Maleisië,MY
+NO,af,Noorweë,NO
+NP,af,Nepal,NP
+NL,af,Nederland,NL
+PL,af,Pole,PL
+BR,af,Brasilië,BR
+PT,af,Portugal,PT
+MD,af,Moldowa,MD
+RO,af,Roemenië,RO
+RU,af,Rusland,RU
+LK,af,Sri Lanka,LK
+SK,af,Slowakye,SK
+SI,af,Slowenië,SI
+ME,af,Montenegro,ME
+RS,af,Serwië,RS
+SE,af,Swede,SE
+TZ,af,Tanzanië,TZ
+TH,af,Thailand,TH
+TR,af,Turkye,TR
+UA,af,Oekraïne,UA
+PK,af,Pakistan,PK
+VN,af,Viëtnam,VN
+HK,af,Hongkong,HK
+TW,af,Taiwan,TW
+CY,af,Siprus,CY
+KH,af,Kambodja,KH
+LI,af,Liechtenstein,LI
+PG,af,Papoea-Nieu-Guinee,PG
+AE,am,የተባበሩት የዓረብ ኢሚሬቶች,AE
+BH,am,ባህሬን,BH
+DZ,am,አልጄሪያ,DZ
+EG,am,ግብጽ,EG
+IQ,am,ኢራቅ,IQ
+JO,am,ዮርዳኖስ,JO
+KW,am,ኩዌት,KW
+LB,am,ሌባኖስ,LB
+LY,am,ሊብያ,LY
+MA,am,ሞሮኮ,MA
+OM,am,ኦማን,OM
+QA,am,ኳታር,QA
+SA,am,ሳውዲ አረቢያ,SA
+TN,am,ቱኒዚያ,TN
+YE,am,የመን,YE
+AZ,am,አዘርባጃን,AZ
+BY,am,ቤላሩስ,BY
+BG,am,ቡልጋርያ,BG
+BD,am,ባንግላድሽ,BD
+BA,am,ቦዝንያና ሄርዘጎቪና,BA
+CZ,am,ቼቺያ,CZ
+DK,am,ዴንማርክ,DK
+AT,am,ኦስትሪያ,AT
+CH,am,ስዊዘርላንድ,CH
+DE,am,ጀርመን,DE
+GR,am,ግሪክ,GR
+AU,am,አውስትራሊያ,AU
+BE,am,ቤልጂየም,BE
+CA,am,ካናዳ,CA
+GB,am,ዩናይትድ ኪንግደም,GB
+GH,am,ጋና,GH
+IE,am,አየርላንድ,IE
+IL,am,እስራኤል,IL
+IN,am,ህንድ,IN
+JM,am,ጃማይካ,JM
+KE,am,ኬንያ,KE
+MT,am,ማልታ,MT
+NG,am,ናይጀሪያ,NG
+NZ,am,ኒው ዚላንድ,NZ
+SG,am,ሲንጋፖር,SG
+UG,am,ኡጋንዳ,UG
+US,am,አሜሪካ,US
+ZA,am,ደቡብ አፍሪቃ,ZA
+ZW,am,ዚምባብዌ,ZW
+AR,am,አርጀንቲና,AR
+BO,am,ቦሊቪያ,BO
+CL,am,ቺሊ,CL
+CO,am,ኮሎምቢያ,CO
+CR,am,ኮስታሪካ,CR
+DO,am,ዶሚኒካን ሪፓብሊክ,DO
+EC,am,ኤኳዶር,EC
+ES,am,ስፔን,ES
+GT,am,ጓቲማላ,GT
+HN,am,ሆንዱራስ,HN
+MX,am,ሜክሲኮ,MX
+NI,am,ኒኳራጓ,NI
+PA,am,ፓናማ,PA
+PE,am,ፔሩ,PE
+PR,am,ፖርቶሪኮ,PR
+PY,am,ፓራጓይ,PY
+SV,am,ኤልሳልቫዶር,SV
+UY,am,ኡራጓይ,UY
+VE,am,ቬንዙዌላ,VE
+EE,am,ኢስቶንያ,EE
+FI,am,ፊንላንድ,FI
+PH,am,ፊሊፒንስ,PH
+FR,am,ፈረንሳይ,FR
+SN,am,ሴኔጋል,SN
+HR,am,ከሮሽያ,HR
+HU,am,ሃንጋሪ,HU
+ID,am,ኢንዶኔዥያ,ID
+IS,am,አይስላንድ,IS
+IT,am,ኢጣልያ,IT
+JP,am,ጃፓን,JP
+GE,am,ጆርጂያ,GE
+KZ,am,ካዛኪስታን,KZ
+KR,am,ደቡብ ኮርያ,KR
+LU,am,ሉክሰምበርግ,LU
+LA,am,ላኦስ,LA
+LT,am,ሊቱዌንያ,LT
+LV,am,ላቲቭያ,LV
+MK,am,ሰሜን መቄዶንያ,MK
+MY,am,ማሌይዥያ,MY
+NO,am,ኖርዌይ,NO
+NP,am,ኔፓል,NP
+NL,am,ኔዘርላንድስ,NL
+PL,am,ፖላንድ,PL
+BR,am,ብራዚል,BR
+PT,am,ፖርቱጋል,PT
+MD,am,ሞልዶቫ,MD
+RO,am,ሮማንያ,RO
+RU,am,ሩስያ,RU
+LK,am,ስሪ ላንካ,LK
+SK,am,ስሎቫክያ,SK
+SI,am,ስሎቨንያ,SI
+ME,am,ሞንተኔግሮ,ME
+RS,am,ሰርብያ,RS
+SE,am,ስዊድን,SE
+TZ,am,ታንዛንያ,TZ
+TH,am,ታይላንድ,TH
+TR,am,ቱርክ,TR
+UA,am,ዩክሬን,UA
+PK,am,ፓኪስታን,PK
+VN,am,ቬትናም,VN
+HK,am,ሆንግ ኮንግ,HK
+TW,am,ታይዋን,TW
+CY,am,ቆፕሮስ,CY
+KH,am,ካመቦዲያ,KH
+LI,am,ለክተንስተይን,LI
+PG,am,ፓፑዋ ኒው ጒንያ,PG
+AE,ar,الإمارات العربية المتحدة,AE
+BH,ar,البحرين,BH
+DZ,ar,الجزائر,DZ
+EG,ar,مصر,EG
+IQ,ar,العراق,IQ
+JO,ar,الأردن,JO
+KW,ar,الكويت,KW
+LB,ar,لبنان,LB
+LY,ar,ليبيا,LY
+MA,ar,المغرب,MA
+OM,ar,عُمان,OM
+QA,ar,قطر,QA
+SA,ar,المملكة العربية السعودية,SA
+TN,ar,تونس,TN
+YE,ar,اليمن,YE
+AZ,ar,أذربيجان,AZ
+BY,ar,بيلاروسيا,BY
+BG,ar,بلغاريا,BG
+BD,ar,بنغلاديش,BD
+BA,ar,البوسنة والهرسك,BA
+CZ,ar,تشيكيا,CZ
+DK,ar,الدنمارك,DK
+AT,ar,النمسا,AT
+CH,ar,سويسرا,CH
+DE,ar,ألمانيا,DE
+GR,ar,اليونان,GR
+AU,ar,أستراليا,AU
+BE,ar,بلجيكا,BE
+CA,ar,كندا,CA
+GB,ar,المملكة المتحدة,GB
+GH,ar,غانا,GH
+IE,ar,أيرلندا,IE
+IL,ar,إسرائيل,IL
+IN,ar,الهند,IN
+JM,ar,جامايكا,JM
+KE,ar,كينيا,KE
+MT,ar,مالطة,MT
+NG,ar,نيجيريا,NG
+NZ,ar,نيوزيلندا,NZ
+SG,ar,سنغافورة,SG
+UG,ar,أوغندا,UG
+US,ar,الولايات المتحدة,US
+ZA,ar,جنوب إفريقيا,ZA
+ZW,ar,زيمبابوي,ZW
+AR,ar,الأرجنتين,AR
+BO,ar,بوليفيا,BO
+CL,ar,تشيلي,CL
+CO,ar,كولومبيا,CO
+CR,ar,كوستاريكا,CR
+DO,ar,جمهورية الدومينكان,DO
+EC,ar,الإكوادور,EC
+ES,ar,أسبانيا,ES
+GT,ar,غواتيمالا,GT
+HN,ar,هندوراس,HN
+MX,ar,المكسيك,MX
+NI,ar,نيكاراغوا,NI
+PA,ar,بنما,PA
+PE,ar,بيرو,PE
+PR,ar,بورتوريكو,PR
+PY,ar,باراغواي,PY
+SV,ar,السلفادور,SV
+UY,ar,أورغواي,UY
+VE,ar,فنزويلا,VE
+EE,ar,إستونيا,EE
+FI,ar,فنلندا,FI
+PH,ar,الفيليبين,PH
+FR,ar,فرنسا,FR
+SN,ar,السنغال,SN
+HR,ar,كرواتيا,HR
+HU,ar,المجر,HU
+ID,ar,إندونيسيا,ID
+IS,ar,أيسلندا,IS
+IT,ar,إيطاليا,IT
+JP,ar,اليابان,JP
+GE,ar,جورجيا,GE
+KZ,ar,كازاخستان,KZ
+KR,ar,كوريا الجنوبية,KR
+LU,ar,لوكسمبورغ,LU
+LA,ar,لاوس,LA
+LT,ar,ليتوانيا,LT
+LV,ar,لاتفيا,LV
+MK,ar,شمال مقدونيا,MK
+MY,ar,ماليزيا,MY
+NO,ar,النرويج,NO
+NP,ar,نيبال,NP
+NL,ar,هولندا,NL
+PL,ar,بولندا,PL
+BR,ar,البرازيل,BR
+PT,ar,البرتغال,PT
+MD,ar,مولدوفا,MD
+RO,ar,رومانيا,RO
+RU,ar,روسيا,RU
+LK,ar,سريلانكا,LK
+SK,ar,سلوفاكيا,SK
+SI,ar,سلوفينيا,SI
+ME,ar,الجبل الأسود,ME
+RS,ar,صربيا,RS
+SE,ar,السويد,SE
+TZ,ar,تنزانيا,TZ
+TH,ar,تايلاند,TH
+TR,ar,تركيا,TR
+UA,ar,أوكرانيا,UA
+PK,ar,باكستان,PK
+VN,ar,فيتنام,VN
+HK,ar,هونغ كونغ,HK
+TW,ar,تايوان,TW
+CY,ar,قبرص,CY
+KH,ar,كمبوديا,KH
+LI,ar,ليشتنشتاين,LI
+PG,ar,بابوا غينيا الجديدة,PG
+AE,as,সংযুক্ত আৰব এমিৰে’ট,AE
+BH,as,বাহৰেইন,BH
+DZ,as,আলজেৰিয়া,DZ
+EG,as,ইজিপ্ত,EG
+IQ,as,ইৰাক,IQ
+JO,as,জর্ডান,JO
+KW,as,কুৱেইট,KW
+LB,as,লেবানন,LB
+LY,as,লিবিয়া,LY
+MA,as,মৰক্কো,MA
+OM,as,ওমান,OM
+QA,as,কাটাৰ,QA
+SA,as,ছৌদি আৰৱ,SA
+TN,as,টিউনিছিয়া,TN
+YE,as,য়েমেন,YE
+AZ,as,এজ’ৰবাইজান,AZ
+BY,as,বেলাৰুছ,BY
+BG,as,বুলগেৰিয়া,BG
+BD,as,বাংলাদেশ,BD
+BA,as,বছনিয়া আৰু হাৰ্জেগভিনা,BA
+CZ,as,চেকীয়া,CZ
+DK,as,ডেনমার্ক,DK
+AT,as,অষ্ট্ৰিয়া,AT
+CH,as,ছুইজাৰলেণ্ড,CH
+DE,as,জাৰ্মানী,DE
+GR,as,গ্ৰীচ,GR
+AU,as,অষ্ট্ৰেলিয়া,AU
+BE,as,বেলজিয়াম,BE
+CA,as,কানাডা,CA
+GB,as,যুক্তৰাজ্য,GB
+GH,as,ঘানা,GH
+IE,as,আয়াৰলেণ্ড,IE
+IL,as,ইজৰাইল,IL
+IN,as,ভাৰতবৰ্ষ,IN
+JM,as,জামাইকা,JM
+KE,as,কেনিয়া,KE
+MT,as,মাল্টা,MT
+NG,as,নাইজেৰিয়া,NG
+NZ,as,নিউজিলেণ্ড,NZ
+SG,as,ছিংগাপুৰ,SG
+UG,as,উগাণ্ডা,UG
+US,as,আমেৰিকা যুক্তৰাষ্ট্ৰ,US
+ZA,as,দক্ষিণ আফ্ৰিকা,ZA
+ZW,as,জিম্বাবৱে’,ZW
+AR,as,আৰ্জেণ্টিনা,AR
+BO,as,বলিভিয়া,BO
+CL,as,চিলি,CL
+CO,as,কলম্বিয়া,CO
+CR,as,কষ্টা ৰিকা,CR
+DO,as,ডমিনিকান ৰিপাব্লিক,DO
+EC,as,ইকুৱেডৰ,EC
+ES,as,স্পেইন,ES
+GT,as,গুৱাটেমালা,GT
+HN,as,হণ্ডুৰাছ,HN
+MX,as,মেক্সিক’,MX
+NI,as,নিকাৰাগোৱা,NI
+PA,as,পানামা,PA
+PE,as,পেৰু,PE
+PR,as,পুৱেৰ্ট’ ৰিকো,PR
+PY,as,পাৰাগুৱে’,PY
+SV,as,এল চেলভাডোৰ,SV
+UY,as,উৰুগুৱে,UY
+VE,as,ভেনিজুৱেলা,VE
+EE,as,এষ্টনিয়া,EE
+FI,as,ফিনলেণ্ড,FI
+PH,as,ফিলিপাইন,PH
+FR,as,ফ্ৰান্স,FR
+SN,as,ছেনেগাল,SN
+HR,as,ক্ৰ’ৱেশ্বিয়া,HR
+HU,as,হাংগেৰী,HU
+ID,as,ইণ্ডোনেছিয়া,ID
+IS,as,আইচলেণ্ড,IS
+IT,as,ইটালী,IT
+JP,as,জাপান,JP
+GE,as,জৰ্জিয়া,GE
+KZ,as,কাজাখস্তান,KZ
+KR,as,দক্ষিণ কোৰিয়া,KR
+LU,as,লাক্সেমবার্গ,LU
+LA,as,লাওছ,LA
+LT,as,লিথুৱানিয়া,LT
+LV,as,লাটভিয়া,LV
+MK,as,উত্তৰ মেচিড’নিয়া,MK
+MY,as,মালয়েছিয়া,MY
+NO,as,ন’ৰৱে,NO
+NP,as,নেপাল,NP
+NL,as,নেডাৰলেণ্ড,NL
+PL,as,প’লেণ্ড,PL
+BR,as,ব্ৰাজিল,BR
+PT,as,পৰ্তুগাল,PT
+MD,as,মলডোৱা,MD
+RO,as,ৰোমানিয়া,RO
+RU,as,ৰাছিয়া,RU
+LK,as,শ্ৰীলংকা,LK
+SK,as,শ্ল’ভাকিয়া,SK
+SI,as,শ্লভেনিয়া,SI
+ME,as,মণ্টেনিগ্ৰ’,ME
+RS,as,ছার্বিয়া,RS
+SE,as,ছুইডেন,SE
+TZ,as,টেন্‌জ’নিয়া,TZ
+TH,as,থাইলেণ্ড,TH
+TR,as,তুৰ্কী,TR
+UA,as,ইউক্ৰেইন,UA
+PK,as,পাকিস্তান,PK
+VN,as,ভিয়েটনাম,VN
+HK,as,হংকং,HK
+TW,as,টাইৱান,TW
+CY,as,ছাইপ্ৰাছ,CY
+KH,as,কেম্ব’ডিয়া,KH
+LI,as,লিকট’নষ্টাইন,LI
+PG,as,পেপুৱা নিউ গিনি,PG
+AE,az,Birləşmiş Ərəb Əmirlikləri,AE
+BH,az,Bəhreyn,BH
+DZ,az,Əlcəzair,DZ
+EG,az,Misir,EG
+IQ,az,İraq,IQ
+JO,az,İordaniya,JO
+KW,az,Küveyt,KW
+LB,az,Livan,LB
+LY,az,Liviya,LY
+MA,az,Mərakeş,MA
+OM,az,Oman,OM
+QA,az,Qətər,QA
+SA,az,Səudiyyə Ərəbistanı,SA
+TN,az,Tunis,TN
+YE,az,Yəmən,YE
+AZ,az,Azərbaycan,AZ
+BY,az,Belarusiya,BY
+BG,az,Bolqarıstan,BG
+BD,az,Banqladeş,BD
+BA,az,Bosniya və Herseqovina,BA
+CZ,az,Çexiya,CZ
+DK,az,Danimarka,DK
+AT,az,Avstriya,AT
+CH,az,İsveçrə,CH
+DE,az,Almaniya,DE
+GR,az,Yunanıstan,GR
+AU,az,Avstraliya,AU
+BE,az,Belçika,BE
+CA,az,Kanada,CA
+GB,az,Birləşmiş Krallıq,GB
+GH,az,Qana,GH
+IE,az,İrlandiya,IE
+IL,az,İsrail,IL
+IN,az,Hindistan,IN
+JM,az,Yamayka,JM
+KE,az,Kenya,KE
+MT,az,Malta,MT
+NG,az,Nigeriya,NG
+NZ,az,Yeni Zelandiya,NZ
+SG,az,Sinqapur,SG
+UG,az,Uqanda,UG
+US,az,Amerika Birləşmiş Ştatları,US
+ZA,az,Cənubi Afrika,ZA
+ZW,az,Zimbabve,ZW
+AR,az,Argentina,AR
+BO,az,Boliviya,BO
+CL,az,Çili,CL
+CO,az,Kolumbiya,CO
+CR,az,Kosta Rika,CR
+DO,az,Dominikan Respublikası,DO
+EC,az,Ekvador,EC
+ES,az,İspaniya,ES
+GT,az,Qvatemala,GT
+HN,az,Honduras,HN
+MX,az,Meksika,MX
+NI,az,Nikaraqua,NI
+PA,az,Panama,PA
+PE,az,Peru,PE
+PR,az,Puerto Riko,PR
+PY,az,Paraqvay,PY
+SV,az,Salvador,SV
+UY,az,Uruqvay,UY
+VE,az,Venesuela,VE
+EE,az,Estoniya,EE
+FI,az,Finlandiya,FI
+PH,az,Filippin,PH
+FR,az,Fransa,FR
+SN,az,Seneqal,SN
+HR,az,Xorvatiya,HR
+HU,az,Macarıstan,HU
+ID,az,İndoneziya,ID
+IS,az,İslandiya,IS
+IT,az,İtaliya,IT
+JP,az,Yaponiya,JP
+GE,az,Gürcüstan,GE
+KZ,az,Qazaxıstan,KZ
+KR,az,Cənubi Koreya,KR
+LU,az,Lüksemburq,LU
+LA,az,Laos,LA
+LT,az,Litva,LT
+LV,az,Latviya,LV
+MK,az,Şimali Makedoniya,MK
+MY,az,Malayziya,MY
+NO,az,Norveç,NO
+NP,az,Nepal,NP
+NL,az,Hollandiya,NL
+PL,az,Polşa,PL
+BR,az,Braziliya,BR
+PT,az,Portuqaliya,PT
+MD,az,Moldaviya,MD
+RO,az,Rumıniya,RO
+RU,az,Rusiya,RU
+LK,az,Şri Lanka,LK
+SK,az,Slovakiya,SK
+SI,az,Sloveniya,SI
+ME,az,Çernoqoriya,ME
+RS,az,Serbiya,RS
+SE,az,İsveç,SE
+TZ,az,Tanzaniya,TZ
+TH,az,Tayland,TH
+TR,az,Türkiyə,TR
+UA,az,Ukrayna,UA
+PK,az,Pakistan,PK
+VN,az,Vyetnam,VN
+HK,az,Honq Konq,HK
+TW,az,Tayvan,TW
+CY,az,Kipr,CY
+KH,az,Kamboca,KH
+LI,az,Lixtenşteyn,LI
+PG,az,Papua Yeni Qvineya,PG
+AE,be,Аб'ядн. Арабскія Эміраты,AE
+BH,be,Бахрэйн,BH
+DZ,be,Алжыр,DZ
+EG,be,Егіпет,EG
+IQ,be,Ірак,IQ
+JO,be,Іарданія,JO
+KW,be,Кувейт,KW
+LB,be,Ліван,LB
+LY,be,Лівія,LY
+MA,be,Марока,MA
+OM,be,Аман,OM
+QA,be,Катар,QA
+SA,be,Саудаўская Аравія,SA
+TN,be,Туніс,TN
+YE,be,Емен,YE
+AZ,be,Азербайджан,AZ
+BY,be,Беларусь,BY
+BG,be,Балгарыя,BG
+BD,be,Бангладэш,BD
+BA,be,Боснія і Герцагавіна,BA
+CZ,be,Чэхія,CZ
+DK,be,Данія,DK
+AT,be,Аўстрыя,AT
+CH,be,Швейцарыя,CH
+DE,be,Германія,DE
+GR,be,Грэцыя,GR
+AU,be,Аўстралія,AU
+BE,be,Бельгія,BE
+CA,be,Канада,CA
+GB,be,Вялікабрытанія,GB
+GH,be,Гана,GH
+IE,be,Ірландыя,IE
+IL,be,Ізраіль,IL
+IN,be,Індыя,IN
+JM,be,Ямайка,JM
+KE,be,Кенія,KE
+MT,be,Мальта,MT
+NG,be,Нігерыя,NG
+NZ,be,Новая Зеландыя,NZ
+SG,be,Сінгапур,SG
+UG,be,Уганда,UG
+US,be,Злучаныя Штаты Амерыкі,US
+ZA,be,Паўднёвая Афрыка,ZA
+ZW,be,Зімбабвэ,ZW
+AR,be,Аргенціна,AR
+BO,be,Балівія,BO
+CL,be,Чылі,CL
+CO,be,Калумбія,CO
+CR,be,Коста-Рыка,CR
+DO,be,Дамініканская Рэспубліка,DO
+EC,be,Эквадор,EC
+ES,be,Іспанія,ES
+GT,be,Гватэмала,GT
+HN,be,Гандурас,HN
+MX,be,Мексіка,MX
+NI,be,Нікарагуа,NI
+PA,be,Панама,PA
+PE,be,Перу,PE
+PR,be,Пуэрта-Рыка,PR
+PY,be,Парагвай,PY
+SV,be,Эль-Сальвадор,SV
+UY,be,Уругвай,UY
+VE,be,Венесуэла,VE
+EE,be,Эстонія,EE
+FI,be,Фінляндыя,FI
+PH,be,Філіпіны,PH
+FR,be,Францыя,FR
+SN,be,Сенегал,SN
+HR,be,Харватыя,HR
+HU,be,Венгрыя,HU
+ID,be,Інданезія,ID
+IS,be,Ісландыя,IS
+IT,be,Італія,IT
+JP,be,Японія,JP
+GE,be,Грузія,GE
+KZ,be,Казахстан,KZ
+KR,be,Паўднёвая Карэя,KR
+LU,be,Люксембург,LU
+LA,be,Лаос,LA
+LT,be,Літва,LT
+LV,be,Латвія,LV
+MK,be,Паўночная Македонія,MK
+MY,be,Малайзія,MY
+NO,be,Нарвегія,NO
+NP,be,Непал,NP
+NL,be,Нідэрланды,NL
+PL,be,Польшча,PL
+BR,be,Бразілія,BR
+PT,be,Партугалія,PT
+MD,be,Малдова,MD
+RO,be,Румынія,RO
+RU,be,Расія,RU
+LK,be,Шры-Ланка,LK
+SK,be,Славакія,SK
+SI,be,Славенія,SI
+ME,be,Чарнагорыя,ME
+RS,be,Сербія,RS
+SE,be,Швецыя,SE
+TZ,be,Танзанія,TZ
+TH,be,Тайланд,TH
+TR,be,Турцыя,TR
+UA,be,Украіна,UA
+PK,be,Пакістан,PK
+VN,be,В'етнам,VN
+HK,be,Ганконг,HK
+TW,be,Тайвань,TW
+CY,be,Кіпр,CY
+KH,be,Камбоджа,KH
+LI,be,Ліхтэнштэйн,LI
+PG,be,Папуа – Новая Гвінея,PG
+AE,bg,Обединени арабски емирства,AE
+BH,bg,Бахрейн,BH
+DZ,bg,Алжир,DZ
+EG,bg,Египет,EG
+IQ,bg,Ирак,IQ
+JO,bg,Йордания,JO
+KW,bg,Кувейт,KW
+LB,bg,Ливан,LB
+LY,bg,Либия,LY
+MA,bg,Мароко,MA
+OM,bg,Оман,OM
+QA,bg,Катар,QA
+SA,bg,Саудитска Арабия,SA
+TN,bg,Тунис,TN
+YE,bg,Йемен,YE
+AZ,bg,Азербайджан,AZ
+BY,bg,Беларус,BY
+BG,bg,България,BG
+BD,bg,Бангладеш,BD
+BA,bg,Босна и Херцеговина,BA
+CZ,bg,Чехия,CZ
+DK,bg,Дания,DK
+AT,bg,Австрия,AT
+CH,bg,Швейцария,CH
+DE,bg,Германия,DE
+GR,bg,Гърция,GR
+AU,bg,Австралия,AU
+BE,bg,Белгия,BE
+CA,bg,Канада,CA
+GB,bg,Великобритания,GB
+GH,bg,Гана,GH
+IE,bg,Ирландия,IE
+IL,bg,Израел,IL
+IN,bg,Индия,IN
+JM,bg,Ямайка,JM
+KE,bg,Кения,KE
+MT,bg,Малта,MT
+NG,bg,Нигерия,NG
+NZ,bg,Нова Зеландия,NZ
+SG,bg,Сингапур,SG
+UG,bg,Уганда,UG
+US,bg,Съединени щати,US
+ZA,bg,Южна Африка,ZA
+ZW,bg,Зимбабве,ZW
+AR,bg,Аржентина,AR
+BO,bg,Боливия,BO
+CL,bg,Чили,CL
+CO,bg,Колумбия,CO
+CR,bg,Коста Рика,CR
+DO,bg,Доминиканска република,DO
+EC,bg,Еквадор,EC
+ES,bg,Испания,ES
+GT,bg,Гватемала,GT
+HN,bg,Хондурас,HN
+MX,bg,Мексико,MX
+NI,bg,Никарагуа,NI
+PA,bg,Панама,PA
+PE,bg,Перу,PE
+PR,bg,Пуерто Рико,PR
+PY,bg,Парагвай,PY
+SV,bg,Салвадор,SV
+UY,bg,Уругвай,UY
+VE,bg,Венесуела,VE
+EE,bg,Естония,EE
+FI,bg,Финландия,FI
+PH,bg,Филипини,PH
+FR,bg,Франция,FR
+SN,bg,Сенегал,SN
+HR,bg,Хърватска,HR
+HU,bg,Унгария,HU
+ID,bg,Индонезия,ID
+IS,bg,Исландия,IS
+IT,bg,Италия,IT
+JP,bg,Япония,JP
+GE,bg,Грузия,GE
+KZ,bg,Казахстан,KZ
+KR,bg,Южна Корея,KR
+LU,bg,Люксембург,LU
+LA,bg,Лаос,LA
+LT,bg,Литва,LT
+LV,bg,Латвия,LV
+MK,bg,Северна Македония,MK
+MY,bg,Малайзия,MY
+NO,bg,Норвегия,NO
+NP,bg,Непал,NP
+NL,bg,Нидерландия,NL
+PL,bg,Полша,PL
+BR,bg,Бразилия,BR
+PT,bg,Португалия,PT
+MD,bg,Молдова,MD
+RO,bg,Румъния,RO
+RU,bg,Русия,RU
+LK,bg,Шри Ланка,LK
+SK,bg,Словакия,SK
+SI,bg,Словения,SI
+ME,bg,Черна гора,ME
+RS,bg,Сърбия,RS
+SE,bg,Швеция,SE
+TZ,bg,Танзания,TZ
+TH,bg,Тайланд,TH
+TR,bg,Турция,TR
+UA,bg,Украйна,UA
+PK,bg,Пакистан,PK
+VN,bg,Виетнам,VN
+HK,bg,Хонконг,HK
+TW,bg,Тайван,TW
+CY,bg,Кипър,CY
+KH,bg,Камбоджа,KH
+LI,bg,Лихтенщайн,LI
+PG,bg,Папуа Нова Гвинея,PG
+AE,bn,সংযুক্ত আরব আমিরশাহী,AE
+BH,bn,বাহরিন,BH
+DZ,bn,আলজেরিয়া,DZ
+EG,bn,মিশর,EG
+IQ,bn,ইরাক,IQ
+JO,bn,জর্ডন,JO
+KW,bn,কুয়েত,KW
+LB,bn,লেবানন,LB
+LY,bn,লিবিয়া,LY
+MA,bn,মরোক্কো,MA
+OM,bn,ওমান,OM
+QA,bn,কাতার,QA
+SA,bn,সৌদি আরব,SA
+TN,bn,তিউনিশিয়া,TN
+YE,bn,ইয়েমেন,YE
+AZ,bn,আজারবাইজান,AZ
+BY,bn,বেলারুশ,BY
+BG,bn,বুলগেরিয়া,BG
+BD,bn,বাংলাদেশ,BD
+BA,bn,বসনিয়া ও হারজেগোভিনা,BA
+CZ,bn,চেকিয়া,CZ
+DK,bn,ডেনমার্ক,DK
+AT,bn,অস্ট্রিয়া,AT
+CH,bn,সুইজারল্যান্ড,CH
+DE,bn,জার্মানি,DE
+GR,bn,গ্রীস,GR
+AU,bn,অস্ট্রেলিয়া,AU
+BE,bn,বেলজিয়াম,BE
+CA,bn,কানাডা,CA
+GB,bn,সংযুক্ত যুক্তরাজ্য,GB
+GH,bn,ঘানা,GH
+IE,bn,আয়ারল্যান্ড,IE
+IL,bn,ইজরায়েল,IL
+IN,bn,ভারত,IN
+JM,bn,জামাইকা,JM
+KE,bn,কেনিয়া,KE
+MT,bn,মল্টা,MT
+NG,bn,নাইজেরিয়া,NG
+NZ,bn,নিউজিল্যান্ড,NZ
+SG,bn,সিঙ্গাপুর,SG
+UG,bn,উগান্ডা,UG
+US,bn,মার্কিন যুক্তরাষ্ট্র,US
+ZA,bn,দক্ষিণ আফ্রিকা,ZA
+ZW,bn,জিম্বাবোয়ে,ZW
+AR,bn,আর্জেন্টিনা,AR
+BO,bn,বলিভিয়া,BO
+CL,bn,চিলি,CL
+CO,bn,কলম্বিয়া,CO
+CR,bn,কোস্টারিকা,CR
+DO,bn,ডোমিনিকান রিপাবলিক,DO
+EC,bn,ইকুয়েডর,EC
+ES,bn,স্পেন,ES
+GT,bn,গুয়াতেমালা,GT
+HN,bn,হন্ডুরাস,HN
+MX,bn,মেক্সিকো,MX
+NI,bn,নিকারাগুয়া,NI
+PA,bn,পানামা,PA
+PE,bn,পেরু,PE
+PR,bn,পুয়েরতো রিকো,PR
+PY,bn,প্যারাগুয়ে,PY
+SV,bn,এল সালভাদোর,SV
+UY,bn,উরুগুয়ে,UY
+VE,bn,ভেনেজুয়েলা,VE
+EE,bn,এস্তোনিয়া,EE
+FI,bn,ফিনল্যান্ড,FI
+PH,bn,ফিলিপিন্স,PH
+FR,bn,ফ্রান্স,FR
+SN,bn,সেনেগাল,SN
+HR,bn,ক্রোয়েশিয়া,HR
+HU,bn,হাঙ্গেরি,HU
+ID,bn,ইন্দোনেশিয়া,ID
+IS,bn,আইসল্যান্ড,IS
+IT,bn,ইতালি,IT
+JP,bn,জাপান,JP
+GE,bn,জর্জিয়া,GE
+KZ,bn,কাজাখাস্তান,KZ
+KR,bn,দক্ষিণ কোরিয়া,KR
+LU,bn,লুক্সেমবার্গ,LU
+LA,bn,লাওস,LA
+LT,bn,লিথুয়ানিয়া,LT
+LV,bn,লাটভিয়া,LV
+MK,bn,উত্তর ম্যাসিডোনিয়া,MK
+MY,bn,মালয়েশিয়া,MY
+NO,bn,নরওয়ে,NO
+NP,bn,নেপাল,NP
+NL,bn,নেদারল্যান্ডস,NL
+PL,bn,পোল্যান্ড,PL
+BR,bn,ব্রাজিল,BR
+PT,bn,পর্তুগাল,PT
+MD,bn,মলদোভা,MD
+RO,bn,রোমানিয়া,RO
+RU,bn,রাশিয়া,RU
+LK,bn,শ্রীলঙ্কা,LK
+SK,bn,স্লোভাকিয়া,SK
+SI,bn,স্লোভেনিয়া,SI
+ME,bn,মন্টেনেগ্রো,ME
+RS,bn,সার্বিয়া,RS
+SE,bn,সুইডেন,SE
+TZ,bn,তানজানিয়া,TZ
+TH,bn,থাইল্যান্ড,TH
+TR,bn,তুরস্ক,TR
+UA,bn,ইউক্রেন,UA
+PK,bn,পাকিস্তান,PK
+VN,bn,ভিয়েতনাম,VN
+HK,bn,হং কং,HK
+TW,bn,তাইওয়ান,TW
+CY,bn,সাইপ্রাস,CY
+KH,bn,কম্বোডিয়া,KH
+LI,bn,লিচেনস্টাইন,LI
+PG,bn,পাপুয়া নিউ গিনি,PG
+AE,bs,Ujedinjeni Arapski Emirati,AE
+BH,bs,Bahrein,BH
+DZ,bs,Alžir,DZ
+EG,bs,Egipat,EG
+IQ,bs,Irak,IQ
+JO,bs,Jordan,JO
+KW,bs,Kuvajt,KW
+LB,bs,Liban,LB
+LY,bs,Libija,LY
+MA,bs,Maroko,MA
+OM,bs,Oman,OM
+QA,bs,Katar,QA
+SA,bs,Saudijska Arabija,SA
+TN,bs,Tunis,TN
+YE,bs,Jemen,YE
+AZ,bs,Azerbejdžan,AZ
+BY,bs,Bjelorusija,BY
+BG,bs,Bugarska,BG
+BD,bs,Bangladeš,BD
+BA,bs,Bosna i Hercegovina,BA
+CZ,bs,Češka,CZ
+DK,bs,Danska,DK
+AT,bs,Austrija,AT
+CH,bs,Švicarska,CH
+DE,bs,Njemačka,DE
+GR,bs,Grčka,GR
+AU,bs,Australija,AU
+BE,bs,Belgija,BE
+CA,bs,Kanada,CA
+GB,bs,Ujedinjeno Kraljevstvo,GB
+GH,bs,Gana,GH
+IE,bs,Irska,IE
+IL,bs,Izrael,IL
+IN,bs,Indija,IN
+JM,bs,Jamajka,JM
+KE,bs,Kenija,KE
+MT,bs,Malta,MT
+NG,bs,Nigerija,NG
+NZ,bs,Novi Zeland,NZ
+SG,bs,Singapur,SG
+UG,bs,Uganda,UG
+US,bs,Sjedinjene Američke Države,US
+ZA,bs,Južnoafrička Republika,ZA
+ZW,bs,Zimbabve,ZW
+AR,bs,Argentina,AR
+BO,bs,Bolivija,BO
+CL,bs,Čile,CL
+CO,bs,Kolumbija,CO
+CR,bs,Kostarika,CR
+DO,bs,Dominikanska Republika,DO
+EC,bs,Ekvador,EC
+ES,bs,Španija,ES
+GT,bs,Gvatemala,GT
+HN,bs,Honduras,HN
+MX,bs,Meksiko,MX
+NI,bs,Nikaragva,NI
+PA,bs,Panama,PA
+PE,bs,Peru,PE
+PR,bs,Portoriko,PR
+PY,bs,Paragvaj,PY
+SV,bs,Salvador,SV
+UY,bs,Urugvaj,UY
+VE,bs,Venecuela,VE
+EE,bs,Estonija,EE
+FI,bs,Finska,FI
+PH,bs,Filipini,PH
+FR,bs,Francuska,FR
+SN,bs,Senegal,SN
+HR,bs,Hrvatska,HR
+HU,bs,Mađarska,HU
+ID,bs,Indonezija,ID
+IS,bs,Island,IS
+IT,bs,Italija,IT
+JP,bs,Japan,JP
+GE,bs,Gruzija,GE
+KZ,bs,Kazahstan,KZ
+KR,bs,Južna Koreja,KR
+LU,bs,Luksemburg,LU
+LA,bs,Laos,LA
+LT,bs,Litvanija,LT
+LV,bs,Latvija,LV
+MK,bs,Sjeverna Makedonija,MK
+MY,bs,Malezija,MY
+NO,bs,Norveška,NO
+NP,bs,Nepal,NP
+NL,bs,Nizozemska,NL
+PL,bs,Poljska,PL
+BR,bs,Brazil,BR
+PT,bs,Portugal,PT
+MD,bs,Moldavija,MD
+RO,bs,Rumunija,RO
+RU,bs,Rusija,RU
+LK,bs,Šri Lanka,LK
+SK,bs,Slovačka,SK
+SI,bs,Slovenija,SI
+ME,bs,Crna Gora,ME
+RS,bs,Srbija,RS
+SE,bs,Švedska,SE
+TZ,bs,Tanzanija,TZ
+TH,bs,Tajland,TH
+TR,bs,Turska,TR
+UA,bs,Ukrajina,UA
+PK,bs,Pakistan,PK
+VN,bs,Vijetnam,VN
+HK,bs,Hong Kong,HK
+TW,bs,Tajvan,TW
+CY,bs,Kipar,CY
+KH,bs,Kambodža,KH
+LI,bs,Lihtenštajn,LI
+PG,bs,Papua Nova Gvineja,PG
+AE,ca,Emirats Àrabs Units,AE
+BH,ca,Bahrain,BH
+DZ,ca,Algèria,DZ
+EG,ca,Egipte,EG
+IQ,ca,Iraq,IQ
+JO,ca,Jordània,JO
+KW,ca,Kuwait,KW
+LB,ca,Líban,LB
+LY,ca,Líbia,LY
+MA,ca,Marroc,MA
+OM,ca,Oman,OM
+QA,ca,Qatar,QA
+SA,ca,Aràbia Saudita,SA
+TN,ca,Tunísia,TN
+YE,ca,Iemen,YE
+AZ,ca,Azerbaidjan,AZ
+BY,ca,Belarús,BY
+BG,ca,Bulgària,BG
+BD,ca,Bangladesh,BD
+BA,ca,Bòsnia i Hercegovina,BA
+CZ,ca,Txèquia,CZ
+DK,ca,Dinamarca,DK
+AT,ca,Àustria,AT
+CH,ca,Suïssa,CH
+DE,ca,Alemanya,DE
+GR,ca,Grècia,GR
+AU,ca,Austràlia,AU
+BE,ca,Bèlgica,BE
+CA,ca,Canadà,CA
+GB,ca,Regne Unit,GB
+GH,ca,Ghana,GH
+IE,ca,Irlanda,IE
+IL,ca,Israel,IL
+IN,ca,Índia,IN
+JM,ca,Jamaica,JM
+KE,ca,Kenya,KE
+MT,ca,Malta,MT
+NG,ca,Nigèria,NG
+NZ,ca,Nova Zelanda,NZ
+SG,ca,Singapur,SG
+UG,ca,Uganda,UG
+US,ca,Estats Units,US
+ZA,ca,Sud-àfrica,ZA
+ZW,ca,Zimbàbue,ZW
+AR,ca,Argentina,AR
+BO,ca,Bolívia,BO
+CL,ca,Xile,CL
+CO,ca,Colòmbia,CO
+CR,ca,Costa Rica,CR
+DO,ca,República Dominicana,DO
+EC,ca,Equador,EC
+ES,ca,Espanya,ES
+GT,ca,Guatemala,GT
+HN,ca,Hondures,HN
+MX,ca,Mèxic,MX
+NI,ca,Nicaragua,NI
+PA,ca,Panamà,PA
+PE,ca,Perú,PE
+PR,ca,Puerto Rico,PR
+PY,ca,Paraguai,PY
+SV,ca,El Salvador,SV
+UY,ca,Uruguai,UY
+VE,ca,Veneçuela,VE
+EE,ca,Estònia,EE
+FI,ca,Finlàndia,FI
+PH,ca,Filipines,PH
+FR,ca,França,FR
+SN,ca,Senegal,SN
+HR,ca,Croàcia,HR
+HU,ca,Hongria,HU
+ID,ca,Indonèsia,ID
+IS,ca,Islàndia,IS
+IT,ca,Itàlia,IT
+JP,ca,Japó,JP
+GE,ca,Geòrgia,GE
+KZ,ca,Kazakhstan,KZ
+KR,ca,Corea del Sud,KR
+LU,ca,Luxemburg,LU
+LA,ca,Laos,LA
+LT,ca,Lituània,LT
+LV,ca,Letònia,LV
+MK,ca,Macedònia del Nord,MK
+MY,ca,Malàisia,MY
+NO,ca,Noruega,NO
+NP,ca,Nepal,NP
+NL,ca,Països Baixos,NL
+PL,ca,Polònia,PL
+BR,ca,Brasil,BR
+PT,ca,Portugal,PT
+MD,ca,Moldàvia,MD
+RO,ca,Romania,RO
+RU,ca,Rússia,RU
+LK,ca,Sri Lanka,LK
+SK,ca,Eslovàquia,SK
+SI,ca,Eslovènia,SI
+ME,ca,Montenegro,ME
+RS,ca,Sèrbia,RS
+SE,ca,Suècia,SE
+TZ,ca,Tanzània,TZ
+TH,ca,Tailàndia,TH
+TR,ca,Turquia,TR
+UA,ca,Ucraïna,UA
+PK,ca,Pakistan,PK
+VN,ca,Vietnam,VN
+HK,ca,Hong Kong,HK
+TW,ca,Taiwan,TW
+CY,ca,Xipre,CY
+KH,ca,Cambodja,KH
+LI,ca,Liechtenstein,LI
+PG,ca,Papua Nova Guinea,PG
+AE,cs,Spojené arabské emiráty,AE
+BH,cs,Bahrajn,BH
+DZ,cs,Alžírsko,DZ
+EG,cs,Egypt,EG
+IQ,cs,Irák,IQ
+JO,cs,Jordánsko,JO
+KW,cs,Kuvajt,KW
+LB,cs,Libanon,LB
+LY,cs,Libye,LY
+MA,cs,Maroko,MA
+OM,cs,Omán,OM
+QA,cs,Katar,QA
+SA,cs,Saúdská Arábie,SA
+TN,cs,Tunisko,TN
+YE,cs,Jemen,YE
+AZ,cs,Ázerbájdžán,AZ
+BY,cs,Bělorusko,BY
+BG,cs,Bulharsko,BG
+BD,cs,Bangladéš,BD
+BA,cs,Bosna a Hercegovina,BA
+CZ,cs,Česko,CZ
+DK,cs,Dánsko,DK
+AT,cs,Rakousko,AT
+CH,cs,Švýcarsko,CH
+DE,cs,Německo,DE
+GR,cs,Řecko,GR
+AU,cs,Austrálie,AU
+BE,cs,Belgie,BE
+CA,cs,Kanada,CA
+GB,cs,Spojené království,GB
+GH,cs,Ghana,GH
+IE,cs,Irsko,IE
+IL,cs,Izrael,IL
+IN,cs,Indie,IN
+JM,cs,Jamajka,JM
+KE,cs,Keňa,KE
+MT,cs,Malta,MT
+NG,cs,Nigérie,NG
+NZ,cs,Nový Zéland,NZ
+SG,cs,Singapur,SG
+UG,cs,Uganda,UG
+US,cs,Spojené státy,US
+ZA,cs,Jihoafrická republika,ZA
+ZW,cs,Zimbabwe,ZW
+AR,cs,Argentina,AR
+BO,cs,Bolívie,BO
+CL,cs,Chile,CL
+CO,cs,Kolumbie,CO
+CR,cs,Kostarika,CR
+DO,cs,Dominikánská republika,DO
+EC,cs,Ekvádor,EC
+ES,cs,Španělsko,ES
+GT,cs,Guatemala,GT
+HN,cs,Honduras,HN
+MX,cs,Mexiko,MX
+NI,cs,Nikaragua,NI
+PA,cs,Panama,PA
+PE,cs,Peru,PE
+PR,cs,Portoriko,PR
+PY,cs,Paraguay,PY
+SV,cs,Salvador,SV
+UY,cs,Uruguay,UY
+VE,cs,Venezuela,VE
+EE,cs,Estonsko,EE
+FI,cs,Finsko,FI
+PH,cs,Filipíny,PH
+FR,cs,Francie,FR
+SN,cs,Senegal,SN
+HR,cs,Chorvatsko,HR
+HU,cs,Maďarsko,HU
+ID,cs,Indonésie,ID
+IS,cs,Island,IS
+IT,cs,Itálie,IT
+JP,cs,Japonsko,JP
+GE,cs,Gruzie,GE
+KZ,cs,Kazachstán,KZ
+KR,cs,Jižní Korea,KR
+LU,cs,Lucembursko,LU
+LA,cs,Laos,LA
+LT,cs,Litva,LT
+LV,cs,Lotyšsko,LV
+MK,cs,Severní Makedonie,MK
+MY,cs,Malajsie,MY
+NO,cs,Norsko,NO
+NP,cs,Nepál,NP
+NL,cs,Nizozemsko,NL
+PL,cs,Polsko,PL
+BR,cs,Brazílie,BR
+PT,cs,Portugalsko,PT
+MD,cs,Moldavsko,MD
+RO,cs,Rumunsko,RO
+RU,cs,Rusko,RU
+LK,cs,Srí Lanka,LK
+SK,cs,Slovensko,SK
+SI,cs,Slovinsko,SI
+ME,cs,Černá Hora,ME
+RS,cs,Srbsko,RS
+SE,cs,Švédsko,SE
+TZ,cs,Tanzánie,TZ
+TH,cs,Thajsko,TH
+TR,cs,Turecko,TR
+UA,cs,Ukrajina,UA
+PK,cs,Pákistán,PK
+VN,cs,Vietnam,VN
+HK,cs,Hongkong,HK
+TW,cs,Tchaj-wan,TW
+CY,cs,Kypr,CY
+KH,cs,Kambodža,KH
+LI,cs,Lichtenštejnsko,LI
+PG,cs,Papua Nová Guinea,PG
+AE,da,Forenede Arabiske Emirater,AE
+BH,da,Bahrain,BH
+DZ,da,Algeriet,DZ
+EG,da,Egypten,EG
+IQ,da,Irak,IQ
+JO,da,Jordan,JO
+KW,da,Kuwait,KW
+LB,da,Libanon,LB
+LY,da,Libyen,LY
+MA,da,Marokko,MA
+OM,da,Oman,OM
+QA,da,Qatar,QA
+SA,da,Saudi-Arabien,SA
+TN,da,Tunesien,TN
+YE,da,Yemen,YE
+AZ,da,Aserbajdsjan,AZ
+BY,da,Belarus,BY
+BG,da,Bulgarien,BG
+BD,da,Bangladesh,BD
+BA,da,Bosnien-Hercegovina,BA
+CZ,da,Tjekkiet,CZ
+DK,da,Danmark,DK
+AT,da,Østrig,AT
+CH,da,Schweiz,CH
+DE,da,Tyskland,DE
+GR,da,Grækenland,GR
+AU,da,Australien,AU
+BE,da,Belgien,BE
+CA,da,Canada,CA
+GB,da,Storbritannien og Nordirland,GB
+GH,da,Ghana,GH
+IE,da,Irland,IE
+IL,da,Israel,IL
+IN,da,Indien,IN
+JM,da,Jamaica,JM
+KE,da,Kenya,KE
+MT,da,Malta,MT
+NG,da,Nigeria,NG
+NZ,da,New Zealand,NZ
+SG,da,Singapore,SG
+UG,da,Uganda,UG
+US,da,USA,US
+ZA,da,Sydafrika,ZA
+ZW,da,Zimbabwe,ZW
+AR,da,Argentina,AR
+BO,da,Bolivia,BO
+CL,da,Chile,CL
+CO,da,Colombia,CO
+CR,da,Costa Rica,CR
+DO,da,Den Dominikanske Republik,DO
+EC,da,Ecuador,EC
+ES,da,Spanien,ES
+GT,da,Guatemala,GT
+HN,da,Honduras,HN
+MX,da,Mexico,MX
+NI,da,Nicaragua,NI
+PA,da,Panama,PA
+PE,da,Peru,PE
+PR,da,Puerto Rico,PR
+PY,da,Paraguay,PY
+SV,da,El Salvador,SV
+UY,da,Uruguay,UY
+VE,da,Venezuela,VE
+EE,da,Estland,EE
+FI,da,Finland,FI
+PH,da,Filippinerne,PH
+FR,da,Frankrig,FR
+SN,da,Senegal,SN
+HR,da,Kroatien,HR
+HU,da,Ungarn,HU
+ID,da,Indonesien,ID
+IS,da,Island,IS
+IT,da,Italien,IT
+JP,da,Japan,JP
+GE,da,Georgien,GE
+KZ,da,Kasakhstan,KZ
+KR,da,Sydkorea,KR
+LU,da,Luxembourg,LU
+LA,da,Laos,LA
+LT,da,Litauen,LT
+LV,da,Letland,LV
+MK,da,Republikken Nordmakedonien,MK
+MY,da,Malaysia,MY
+NO,da,Norge,NO
+NP,da,Nepal,NP
+NL,da,Nederlandene,NL
+PL,da,Polen,PL
+BR,da,Brasilien,BR
+PT,da,Portugal,PT
+MD,da,Moldova,MD
+RO,da,Rumænien,RO
+RU,da,Rusland,RU
+LK,da,Sri Lanka,LK
+SK,da,Slovakiet,SK
+SI,da,Slovenien,SI
+ME,da,Montenegro,ME
+RS,da,Serbien,RS
+SE,da,Sverige,SE
+TZ,da,Tanzania,TZ
+TH,da,Thailand,TH
+TR,da,Tyrkiet,TR
+UA,da,Ukraine,UA
+PK,da,Pakistan,PK
+VN,da,Vietnam,VN
+HK,da,Hongkong,HK
+TW,da,Taiwan,TW
+CY,da,Cypern,CY
+KH,da,Cambodja,KH
+LI,da,Liechtenstein,LI
+PG,da,Papua Ny Guinea,PG
+AE,de,Vereinigte Arabische Emirate,AE
+BH,de,Bahrain,BH
+DZ,de,Algerien,DZ
+EG,de,Ägypten,EG
+IQ,de,Irak,IQ
+JO,de,Jordanien,JO
+KW,de,Kuwait,KW
+LB,de,Libanon,LB
+LY,de,Libyen,LY
+MA,de,Marokko,MA
+OM,de,Oman,OM
+QA,de,Katar,QA
+SA,de,Saudi-Arabien,SA
+TN,de,Tunesien,TN
+YE,de,Jemen,YE
+AZ,de,Aserbaidschan,AZ
+BY,de, Belarus,BY
+BG,de,Bulgarien,BG
+BD,de,Bangladesch,BD
+BA,de,Bosnien und Herzegowina,BA
+CZ,de,Tschechien,CZ
+DK,de,Dänemark,DK
+AT,de,Österreich,AT
+CH,de,Schweiz,CH
+DE,de,Deutschland,DE
+GR,de,Griechenland,GR
+AU,de,Australien,AU
+BE,de,Belgien,BE
+CA,de,Kanada,CA
+GB,de,Vereinigtes Königreich,GB
+GH,de,Ghana,GH
+IE,de,Irland,IE
+IL,de,Israel,IL
+IN,de,Indien,IN
+JM,de,Jamaika,JM
+KE,de,Kenia,KE
+MT,de,Malta,MT
+NG,de,Nigeria,NG
+NZ,de,Neuseeland,NZ
+SG,de,Singapur,SG
+UG,de,Uganda,UG
+US,de,USA,US
+ZA,de,Südafrika,ZA
+ZW,de,Simbabwe,ZW
+AR,de,Argentinien,AR
+BO,de,Bolivien,BO
+CL,de,Chile,CL
+CO,de,Kolumbien,CO
+CR,de,Costa Rica,CR
+DO,de,Dominikanische Republik,DO
+EC,de,Ecuador,EC
+ES,de,Spanien,ES
+GT,de,Guatemala,GT
+HN,de,Honduras,HN
+MX,de,Mexiko,MX
+NI,de,Nicaragua,NI
+PA,de,Panama,PA
+PE,de,Peru,PE
+PR,de,Puerto Rico,PR
+PY,de,Paraguay,PY
+SV,de,El Salvador,SV
+UY,de,Uruguay,UY
+VE,de,Venezuela,VE
+EE,de,Estland,EE
+FI,de,Finnland,FI
+PH,de,Philippinen,PH
+FR,de,Frankreich,FR
+SN,de,Senegal,SN
+HR,de,Kroatien,HR
+HU,de,Ungarn,HU
+ID,de,Indonesien,ID
+IS,de,Island,IS
+IT,de,Italien,IT
+JP,de,Japan,JP
+GE,de,Georgien,GE
+KZ,de,Kasachstan,KZ
+KR,de,Südkorea,KR
+LU,de,Luxemburg,LU
+LA,de,Laos,LA
+LT,de,Litauen,LT
+LV,de,Lettland,LV
+MK,de,Nordmazedonien,MK
+MY,de,Malaysia,MY
+NO,de,Norwegen,NO
+NP,de,Nepal,NP
+NL,de,Niederlande,NL
+PL,de,Polen,PL
+BR,de,Brasilien,BR
+PT,de,Portugal,PT
+MD,de,Republik Moldau,MD
+RO,de,Rumänien,RO
+RU,de,Russland,RU
+LK,de,Sri Lanka,LK
+SK,de,Slowakei,SK
+SI,de,Slowenien,SI
+ME,de,Montenegro,ME
+RS,de,Serbien,RS
+SE,de,Schweden,SE
+TZ,de,Tansania,TZ
+TH,de,Thailand,TH
+TR,de,Türkei,TR
+UA,de,Ukraine,UA
+PK,de,Pakistan,PK
+VN,de,Vietnam,VN
+HK,de,Hongkong,HK
+TW,de,Taiwan,TW
+CY,de,Zypern,CY
+KH,de,Kambodscha,KH
+LI,de,Liechtenstein,LI
+PG,de,Papua-Neuguinea,PG
+AE,el,Ηνωμένα Αραβικά Εμιράτα,AE
+BH,el,Μπαχρέιν,BH
+DZ,el,Αλγερία,DZ
+EG,el,Αίγυπτος,EG
+IQ,el,Ιράκ,IQ
+JO,el,Ιορδανία,JO
+KW,el,Κουβέιτ,KW
+LB,el,Λίβανος,LB
+LY,el,Λιβύη,LY
+MA,el,Μαρόκο,MA
+OM,el,Ομάν,OM
+QA,el,Κατάρ,QA
+SA,el,Σαουδική Αραβία,SA
+TN,el,Τυνησία,TN
+YE,el,Υεμένη,YE
+AZ,el,Αζερμπαϊτζάν,AZ
+BY,el,Λευκορωσία,BY
+BG,el,Βουλγαρία,BG
+BD,el,Μπαγκλαντές,BD
+BA,el,Βοσνία και Ερζεγοβίνη,BA
+CZ,el,Τσεχία,CZ
+DK,el,Δανία,DK
+AT,el,Αυστρία,AT
+CH,el,Ελβετία,CH
+DE,el,Γερμανία,DE
+GR,el,Ελλάδα,GR
+AU,el,Αυστραλία,AU
+BE,el,Βέλγιο,BE
+CA,el,Καναδάς,CA
+GB,el,Ηνωμένο Βασίλειο,GB
+GH,el,Γκάνα,GH
+IE,el,Ιρλανδία,IE
+IL,el,Ισραήλ,IL
+IN,el,Ινδία,IN
+JM,el,Τζαμάικα,JM
+KE,el,Κένυα,KE
+MT,el,Μάλτα,MT
+NG,el,Νιγηρία,NG
+NZ,el,Νέα Ζηλανδία,NZ
+SG,el,Σιγκαπούρη,SG
+UG,el,Ουγκάντα,UG
+US,el,Ηνωμένες Πολιτείες,US
+ZA,el,Νότια Αφρική,ZA
+ZW,el,Ζιμπάμπουε,ZW
+AR,el,Αργεντινή,AR
+BO,el,Βολιβία,BO
+CL,el,Χιλή,CL
+CO,el,Κολομβία,CO
+CR,el,Κόστα Ρίκα,CR
+DO,el,Δομινικανή Δημοκρατία,DO
+EC,el,Ισημερινός,EC
+ES,el,Ισπανία,ES
+GT,el,Γουατεμάλα,GT
+HN,el,Ονδούρα,HN
+MX,el,Μεξικό,MX
+NI,el,Νικαράγουα,NI
+PA,el,Παναμάς,PA
+PE,el,Περού,PE
+PR,el,Πουέρτο Ρίκο,PR
+PY,el,Παραγουάη,PY
+SV,el,Ελ Σαλβαδόρ,SV
+UY,el,Ουρουγουάη,UY
+VE,el,Βενεζουέλα,VE
+EE,el,Εσθονία,EE
+FI,el,Φινλανδία,FI
+PH,el,Φιλιππίνες,PH
+FR,el,Γαλλία,FR
+SN,el,Σενεγάλη,SN
+HR,el,Κροατία,HR
+HU,el,Ουγγαρία,HU
+ID,el,Ινδονησία,ID
+IS,el,Ισλανδία,IS
+IT,el,Ιταλία,IT
+JP,el,Ιαπωνία,JP
+GE,el,Γεωργία,GE
+KZ,el,Καζακστάν,KZ
+KR,el,Νότια Κορέα,KR
+LU,el,Λουξεμβούργο,LU
+LA,el,Λάος,LA
+LT,el,Λιθουανία,LT
+LV,el,Λετονία,LV
+MK,el,Βόρεια Μακεδονία,MK
+MY,el,Μαλαισία,MY
+NO,el,Νορβηγία,NO
+NP,el,Νεπάλ,NP
+NL,el,Ολλανδία,NL
+PL,el,Πολωνία,PL
+BR,el,Βραζιλία,BR
+PT,el,Πορτογαλία,PT
+MD,el,Μολδαβία,MD
+RO,el,Ρουμανία,RO
+RU,el,Ρωσία,RU
+LK,el,Σρι Λάνκα,LK
+SK,el,Σλοβακία,SK
+SI,el,Σλοβενία,SI
+ME,el,Μαυροβούνιο,ME
+RS,el,Σερβία,RS
+SE,el,Σουηδία,SE
+TZ,el,Τανζανία,TZ
+TH,el,Ταϊλάνδη,TH
+TR,el,Τουρκία,TR
+UA,el,Ουκρανία,UA
+PK,el,Πακιστάν,PK
+VN,el,Βιετνάμ,VN
+HK,el,Χονγκ Κονγκ,HK
+TW,el,Ταϊβάν,TW
+CY,el,Κύπρος,CY
+KH,el,Καμπότζη,KH
+LI,el,Λιχτενστάιν,LI
+PG,el,Παπούα Νέα Γουινέα,PG
+AE,en,United Arab Emirates,AE
+BH,en,Bahrain,BH
+DZ,en,Algeria,DZ
+EG,en,Egypt,EG
+IQ,en,Iraq,IQ
+JO,en,Jordan,JO
+KW,en,Kuwait,KW
+LB,en,Lebanon,LB
+LY,en,Libya,LY
+MA,en,Morocco,MA
+OM,en,Oman,OM
+QA,en,Qatar,QA
+SA,en,Saudi Arabia,SA
+TN,en,Tunisia,TN
+YE,en,Yemen,YE
+AZ,en,Azerbaijan,AZ
+BY,en,Belarus,BY
+BG,en,Bulgaria,BG
+BD,en,Bangladesh,BD
+BA,en,Bosnia and Herzegovina,BA
+CZ,en,Czechia,CZ
+DK,en,Denmark,DK
+AT,en,Austria,AT
+CH,en,Switzerland,CH
+DE,en,Germany,DE
+GR,en,Greece,GR
+AU,en,Australia,AU
+BE,en,Belgium,BE
+CA,en,Canada,CA
+GB,en,United Kingdom,GB
+GH,en,Ghana,GH
+IE,en,Ireland,IE
+IL,en,Israel,IL
+IN,en,India,IN
+JM,en,Jamaica,JM
+KE,en,Kenya,KE
+MT,en,Malta,MT
+NG,en,Nigeria,NG
+NZ,en,New Zealand,NZ
+SG,en,Singapore,SG
+UG,en,Uganda,UG
+US,en,United States,US
+ZA,en,South Africa,ZA
+ZW,en,Zimbabwe,ZW
+AR,en,Argentina,AR
+BO,en,Bolivia,BO
+CL,en,Chile,CL
+CO,en,Colombia,CO
+CR,en,Costa Rica,CR
+DO,en,Dominican Republic,DO
+EC,en,Ecuador,EC
+ES,en,Spain,ES
+GT,en,Guatemala,GT
+HN,en,Honduras,HN
+MX,en,Mexico,MX
+NI,en,Nicaragua,NI
+PA,en,Panama,PA
+PE,en,Peru,PE
+PR,en,Puerto Rico,PR
+PY,en,Paraguay,PY
+SV,en,El Salvador,SV
+UY,en,Uruguay,UY
+VE,en,Venezuela,VE
+EE,en,Estonia,EE
+FI,en,Finland,FI
+PH,en,Philippines,PH
+FR,en,France,FR
+SN,en,Senegal,SN
+HR,en,Croatia,HR
+HU,en,Hungary,HU
+ID,en,Indonesia,ID
+IS,en,Iceland,IS
+IT,en,Italy,IT
+JP,en,Japan,JP
+GE,en,Georgia,GE
+KZ,en,Kazakhstan,KZ
+KR,en,South Korea,KR
+LU,en,Luxembourg,LU
+LA,en,Laos,LA
+LT,en,Lithuania,LT
+LV,en,Latvia,LV
+MK,en,North Macedonia,MK
+MY,en,Malaysia,MY
+NO,en,Norway,NO
+NP,en,Nepal,NP
+NL,en,Netherlands,NL
+PL,en,Poland,PL
+BR,en,Brazil,BR
+PT,en,Portugal,PT
+MD,en,Moldova,MD
+RO,en,Romania,RO
+RU,en,Russia,RU
+LK,en,Sri Lanka,LK
+SK,en,Slovakia,SK
+SI,en,Slovenia,SI
+ME,en,Montenegro,ME
+RS,en,Serbia,RS
+SE,en,Sweden,SE
+TZ,en,Tanzania,TZ
+TH,en,Thailand,TH
+TR,en,Turkey,TR
+UA,en,Ukraine,UA
+PK,en,Pakistan,PK
+VN,en,Vietnam,VN
+HK,en,Hong Kong,HK
+TW,en,Taiwan,TW
+CY,en,Cyprus,CY
+KH,en,Cambodia,KH
+LI,en,Liechtenstein,LI
+PG,en,Papua New Guinea,PG
+AE,en-GB,United Arab Emirates,AE
+BH,en-GB,Bahrain,BH
+DZ,en-GB,Algeria,DZ
+EG,en-GB,Egypt,EG
+IQ,en-GB,Iraq,IQ
+JO,en-GB,Jordan,JO
+KW,en-GB,Kuwait,KW
+LB,en-GB,Lebanon,LB
+LY,en-GB,Libya,LY
+MA,en-GB,Morocco,MA
+OM,en-GB,Oman,OM
+QA,en-GB,Qatar,QA
+SA,en-GB,Saudi Arabia,SA
+TN,en-GB,Tunisia,TN
+YE,en-GB,Yemen,YE
+AZ,en-GB,Azerbaijan,AZ
+BY,en-GB,Belarus,BY
+BG,en-GB,Bulgaria,BG
+BD,en-GB,Bangladesh,BD
+BA,en-GB,Bosnia and Herzegovina,BA
+CZ,en-GB,Czechia,CZ
+DK,en-GB,Denmark,DK
+AT,en-GB,Austria,AT
+CH,en-GB,Switzerland,CH
+DE,en-GB,Germany,DE
+GR,en-GB,Greece,GR
+AU,en-GB,Australia,AU
+BE,en-GB,Belgium,BE
+CA,en-GB,Canada,CA
+GB,en-GB,United Kingdom,GB
+GH,en-GB,Ghana,GH
+IE,en-GB,Ireland,IE
+IL,en-GB,Israel,IL
+IN,en-GB,India,IN
+JM,en-GB,Jamaica,JM
+KE,en-GB,Kenya,KE
+MT,en-GB,Malta,MT
+NG,en-GB,Nigeria,NG
+NZ,en-GB,New Zealand,NZ
+SG,en-GB,Singapore,SG
+UG,en-GB,Uganda,UG
+US,en-GB,United States,US
+ZA,en-GB,South Africa,ZA
+ZW,en-GB,Zimbabwe,ZW
+AR,en-GB,Argentina,AR
+BO,en-GB,Bolivia,BO
+CL,en-GB,Chile,CL
+CO,en-GB,Colombia,CO
+CR,en-GB,Costa Rica,CR
+DO,en-GB,Dominican Republic,DO
+EC,en-GB,Ecuador,EC
+ES,en-GB,Spain,ES
+GT,en-GB,Guatemala,GT
+HN,en-GB,Honduras,HN
+MX,en-GB,Mexico,MX
+NI,en-GB,Nicaragua,NI
+PA,en-GB,Panama,PA
+PE,en-GB,Peru,PE
+PR,en-GB,Puerto Rico,PR
+PY,en-GB,Paraguay,PY
+SV,en-GB,El Salvador,SV
+UY,en-GB,Uruguay,UY
+VE,en-GB,Venezuela,VE
+EE,en-GB,Estonia,EE
+FI,en-GB,Finland,FI
+PH,en-GB,Philippines,PH
+FR,en-GB,France,FR
+SN,en-GB,Senegal,SN
+HR,en-GB,Croatia,HR
+HU,en-GB,Hungary,HU
+ID,en-GB,Indonesia,ID
+IS,en-GB,Iceland,IS
+IT,en-GB,Italy,IT
+JP,en-GB,Japan,JP
+GE,en-GB,Georgia,GE
+KZ,en-GB,Kazakhstan,KZ
+KR,en-GB,South Korea,KR
+LU,en-GB,Luxembourg,LU
+LA,en-GB,Laos,LA
+LT,en-GB,Lithuania,LT
+LV,en-GB,Latvia,LV
+MK,en-GB,North Macedonia,MK
+MY,en-GB,Malaysia,MY
+NO,en-GB,Norway,NO
+NP,en-GB,Nepal,NP
+NL,en-GB,Netherlands,NL
+PL,en-GB,Poland,PL
+BR,en-GB,Brazil,BR
+PT,en-GB,Portugal,PT
+MD,en-GB,Moldova,MD
+RO,en-GB,Romania,RO
+RU,en-GB,Russia,RU
+LK,en-GB,Sri Lanka,LK
+SK,en-GB,Slovakia,SK
+SI,en-GB,Slovenia,SI
+ME,en-GB,Montenegro,ME
+RS,en-GB,Serbia,RS
+SE,en-GB,Sweden,SE
+TZ,en-GB,Tanzania,TZ
+TH,en-GB,Thailand,TH
+TR,en-GB,Turkey,TR
+UA,en-GB,Ukraine,UA
+PK,en-GB,Pakistan,PK
+VN,en-GB,Vietnam,VN
+HK,en-GB,Hong Kong,HK
+TW,en-GB,Taiwan,TW
+CY,en-GB,Cyprus,CY
+KH,en-GB,Cambodia,KH
+LI,en-GB,Liechtenstein,LI
+PG,en-GB,Papua New Guinea,PG
+AE,en-IN,United Arab Emirates,AE
+BH,en-IN,Bahrain,BH
+DZ,en-IN,Algeria,DZ
+EG,en-IN,Egypt,EG
+IQ,en-IN,Iraq,IQ
+JO,en-IN,Jordan,JO
+KW,en-IN,Kuwait,KW
+LB,en-IN,Lebanon,LB
+LY,en-IN,Libya,LY
+MA,en-IN,Morocco,MA
+OM,en-IN,Oman,OM
+QA,en-IN,Qatar,QA
+SA,en-IN,Saudi Arabia,SA
+TN,en-IN,Tunisia,TN
+YE,en-IN,Yemen,YE
+AZ,en-IN,Azerbaijan,AZ
+BY,en-IN,Belarus,BY
+BG,en-IN,Bulgaria,BG
+BD,en-IN,Bangladesh,BD
+BA,en-IN,Bosnia and Herzegovina,BA
+CZ,en-IN,Czechia,CZ
+DK,en-IN,Denmark,DK
+AT,en-IN,Austria,AT
+CH,en-IN,Switzerland,CH
+DE,en-IN,Germany,DE
+GR,en-IN,Greece,GR
+AU,en-IN,Australia,AU
+BE,en-IN,Belgium,BE
+CA,en-IN,Canada,CA
+GB,en-IN,United Kingdom,GB
+GH,en-IN,Ghana,GH
+IE,en-IN,Ireland,IE
+IL,en-IN,Israel,IL
+IN,en-IN,India,IN
+JM,en-IN,Jamaica,JM
+KE,en-IN,Kenya,KE
+MT,en-IN,Malta,MT
+NG,en-IN,Nigeria,NG
+NZ,en-IN,New Zealand,NZ
+SG,en-IN,Singapore,SG
+UG,en-IN,Uganda,UG
+US,en-IN,United States,US
+ZA,en-IN,South Africa,ZA
+ZW,en-IN,Zimbabwe,ZW
+AR,en-IN,Argentina,AR
+BO,en-IN,Bolivia,BO
+CL,en-IN,Chile,CL
+CO,en-IN,Colombia,CO
+CR,en-IN,Costa Rica,CR
+DO,en-IN,Dominican Republic,DO
+EC,en-IN,Ecuador,EC
+ES,en-IN,Spain,ES
+GT,en-IN,Guatemala,GT
+HN,en-IN,Honduras,HN
+MX,en-IN,Mexico,MX
+NI,en-IN,Nicaragua,NI
+PA,en-IN,Panama,PA
+PE,en-IN,Peru,PE
+PR,en-IN,Puerto Rico,PR
+PY,en-IN,Paraguay,PY
+SV,en-IN,El Salvador,SV
+UY,en-IN,Uruguay,UY
+VE,en-IN,Venezuela,VE
+EE,en-IN,Estonia,EE
+FI,en-IN,Finland,FI
+PH,en-IN,Philippines,PH
+FR,en-IN,France,FR
+SN,en-IN,Senegal,SN
+HR,en-IN,Croatia,HR
+HU,en-IN,Hungary,HU
+ID,en-IN,Indonesia,ID
+IS,en-IN,Iceland,IS
+IT,en-IN,Italy,IT
+JP,en-IN,Japan,JP
+GE,en-IN,Georgia,GE
+KZ,en-IN,Kazakhstan,KZ
+KR,en-IN,South Korea,KR
+LU,en-IN,Luxembourg,LU
+LA,en-IN,Laos,LA
+LT,en-IN,Lithuania,LT
+LV,en-IN,Latvia,LV
+MK,en-IN,North Macedonia,MK
+MY,en-IN,Malaysia,MY
+NO,en-IN,Norway,NO
+NP,en-IN,Nepal,NP
+NL,en-IN,Netherlands,NL
+PL,en-IN,Poland,PL
+BR,en-IN,Brazil,BR
+PT,en-IN,Portugal,PT
+MD,en-IN,Moldova,MD
+RO,en-IN,Romania,RO
+RU,en-IN,Russia,RU
+LK,en-IN,Sri Lanka,LK
+SK,en-IN,Slovakia,SK
+SI,en-IN,Slovenia,SI
+ME,en-IN,Montenegro,ME
+RS,en-IN,Serbia,RS
+SE,en-IN,Sweden,SE
+TZ,en-IN,Tanzania,TZ
+TH,en-IN,Thailand,TH
+TR,en-IN,Turkey,TR
+UA,en-IN,Ukraine,UA
+PK,en-IN,Pakistan,PK
+VN,en-IN,Vietnam,VN
+HK,en-IN,Hong Kong,HK
+TW,en-IN,Taiwan,TW
+CY,en-IN,Cyprus,CY
+KH,en-IN,Cambodia,KH
+LI,en-IN,Liechtenstein,LI
+PG,en-IN,Papua New Guinea,PG
+AE,es,Emiratos Árabes Unidos,AE
+BH,es,Baréin,BH
+DZ,es,Argelia,DZ
+EG,es,Egipto,EG
+IQ,es,Iraq,IQ
+JO,es,Jordania,JO
+KW,es,Kuwait,KW
+LB,es,El Líbano,LB
+LY,es,Libia,LY
+MA,es,Marruecos,MA
+OM,es,Omán,OM
+QA,es,Qatar,QA
+SA,es,Arabia Saudí,SA
+TN,es,Túnez,TN
+YE,es,Yemen,YE
+AZ,es,Azerbaiyán,AZ
+BY,es,Bielorrusia,BY
+BG,es,Bulgaria,BG
+BD,es,Bangladesh,BD
+BA,es,Bosnia y Herzegovina,BA
+CZ,es,Chequia,CZ
+DK,es,Dinamarca,DK
+AT,es,Austria,AT
+CH,es,Suiza,CH
+DE,es,Alemania,DE
+GR,es,Grecia,GR
+AU,es,Australia,AU
+BE,es,Bélgica,BE
+CA,es,Canadá,CA
+GB,es,Reino Unido,GB
+GH,es,Ghana,GH
+IE,es,Irlanda,IE
+IL,es,Israel,IL
+IN,es,La India,IN
+JM,es,Jamaica,JM
+KE,es,Kenia,KE
+MT,es,Malta,MT
+NG,es,Nigeria,NG
+NZ,es,Nueva Zelanda,NZ
+SG,es,Singapur,SG
+UG,es,Uganda,UG
+US,es,Estados Unidos,US
+ZA,es,Sudáfrica,ZA
+ZW,es,Zimbabue,ZW
+AR,es,Argentina,AR
+BO,es,Bolivia,BO
+CL,es,Chile,CL
+CO,es,Colombia,CO
+CR,es,Costa Rica,CR
+DO,es,República Dominicana,DO
+EC,es,Ecuador,EC
+ES,es,España,ES
+GT,es,Guatemala,GT
+HN,es,Honduras,HN
+MX,es,México,MX
+NI,es,Nicaragua,NI
+PA,es,Panamá,PA
+PE,es,Perú,PE
+PR,es,Puerto Rico,PR
+PY,es,Paraguay,PY
+SV,es,El Salvador,SV
+UY,es,Uruguay,UY
+VE,es,Venezuela,VE
+EE,es,Estonia,EE
+FI,es,Finlandia,FI
+PH,es,Filipinas,PH
+FR,es,Francia,FR
+SN,es,Senegal,SN
+HR,es,Croacia,HR
+HU,es,Hungría,HU
+ID,es,Indonesia,ID
+IS,es,Islandia,IS
+IT,es,Italia,IT
+JP,es,Japón,JP
+GE,es,Georgia,GE
+KZ,es,Kazajistán,KZ
+KR,es,Corea del Sur,KR
+LU,es,Luxemburgo,LU
+LA,es,Laos,LA
+LT,es,Lituania,LT
+LV,es,Letonia,LV
+MK,es,Macedonia del Norte,MK
+MY,es,Malasia,MY
+NO,es,Noruega,NO
+NP,es,Nepal,NP
+NL,es,Países Bajos,NL
+PL,es,Polonia,PL
+BR,es,Brasil,BR
+PT,es,Portugal,PT
+MD,es,Moldavia,MD
+RO,es,Rumanía,RO
+RU,es,Rusia,RU
+LK,es,Sri Lanka,LK
+SK,es,Eslovaquia,SK
+SI,es,Eslovenia,SI
+ME,es,Montenegro,ME
+RS,es,Serbia,RS
+SE,es,Suecia,SE
+TZ,es,Tanzania,TZ
+TH,es,Tailandia,TH
+TR,es,Turquía,TR
+UA,es,Ucrania,UA
+PK,es,Pakistán,PK
+VN,es,Vietnam,VN
+HK,es,Hong Kong,HK
+TW,es,Taiwán,TW
+CY,es,Chipre,CY
+KH,es,Camboya,KH
+LI,es,Liechtenstein,LI
+PG,es,Papúa-Nueva Guinea,PG
+AE,es-419,Emiratos Árabes Unidos,AE
+BH,es-419,Bahrein,BH
+DZ,es-419,Argelia,DZ
+EG,es-419,Egipto,EG
+IQ,es-419,Iraq,IQ
+JO,es-419,Jordania,JO
+KW,es-419,Kuwait,KW
+LB,es-419,El Líbano,LB
+LY,es-419,Libia,LY
+MA,es-419,Marruecos,MA
+OM,es-419,Omán,OM
+QA,es-419,Qatar,QA
+SA,es-419,Arabia Saudita,SA
+TN,es-419,Túnez,TN
+YE,es-419,Yemen,YE
+AZ,es-419,Azerbaiyán,AZ
+BY,es-419,Bielorrusia,BY
+BG,es-419,Bulgaria,BG
+BD,es-419,Bangladés,BD
+BA,es-419,Bosnia y Herzegovina,BA
+CZ,es-419,República Checa,CZ
+DK,es-419,Dinamarca,DK
+AT,es-419,Austria,AT
+CH,es-419,Suiza,CH
+DE,es-419,Alemania,DE
+GR,es-419,Grecia,GR
+AU,es-419,Australia,AU
+BE,es-419,Bélgica,BE
+CA,es-419,Canadá,CA
+GB,es-419,Reino Unido,GB
+GH,es-419,Ghana,GH
+IE,es-419,Irlanda,IE
+IL,es-419,Israel,IL
+IN,es-419,La India,IN
+JM,es-419,Jamaica,JM
+KE,es-419,Kenia,KE
+MT,es-419,Malta,MT
+NG,es-419,Nigeria,NG
+NZ,es-419,Nueva Zelanda,NZ
+SG,es-419,Singapur,SG
+UG,es-419,Uganda,UG
+US,es-419,Estados Unidos,US
+ZA,es-419,Sudáfrica,ZA
+ZW,es-419,Zimbabue,ZW
+AR,es-419,Argentina,AR
+BO,es-419,Bolivia,BO
+CL,es-419,Chile,CL
+CO,es-419,Colombia,CO
+CR,es-419,Costa Rica,CR
+DO,es-419,República Dominicana,DO
+EC,es-419,Ecuador,EC
+ES,es-419,España,ES
+GT,es-419,Guatemala,GT
+HN,es-419,Honduras,HN
+MX,es-419,México,MX
+NI,es-419,Nicaragua,NI
+PA,es-419,Panamá,PA
+PE,es-419,Perú,PE
+PR,es-419,Puerto Rico,PR
+PY,es-419,Paraguay,PY
+SV,es-419,El Salvador,SV
+UY,es-419,Uruguay,UY
+VE,es-419,Venezuela,VE
+EE,es-419,Estonia,EE
+FI,es-419,Finlandia,FI
+PH,es-419,Filipinas,PH
+FR,es-419,Francia,FR
+SN,es-419,Senegal,SN
+HR,es-419,Croacia,HR
+HU,es-419,Hungría,HU
+ID,es-419,Indonesia,ID
+IS,es-419,Islandia,IS
+IT,es-419,Italia,IT
+JP,es-419,Japón,JP
+GE,es-419,Georgia,GE
+KZ,es-419,Kazajstán,KZ
+KR,es-419,Corea del Sur,KR
+LU,es-419,Luxemburgo,LU
+LA,es-419,Laos,LA
+LT,es-419,Lituania,LT
+LV,es-419,Letonia,LV
+MK,es-419,Macedonia del Norte,MK
+MY,es-419,Malasia,MY
+NO,es-419,Noruega,NO
+NP,es-419,Nepal,NP
+NL,es-419,Holanda,NL
+PL,es-419,Polonia,PL
+BR,es-419,Brasil,BR
+PT,es-419,Portugal,PT
+MD,es-419,Moldavia,MD
+RO,es-419,Rumania,RO
+RU,es-419,Rusia,RU
+LK,es-419,Sri Lanka,LK
+SK,es-419,Eslovaquia,SK
+SI,es-419,Eslovenia,SI
+ME,es-419,Montenegro,ME
+RS,es-419,Serbia,RS
+SE,es-419,Suecia,SE
+TZ,es-419,Tanzania,TZ
+TH,es-419,Tailandia,TH
+TR,es-419,Türkiye,TR
+UA,es-419,Ucrania,UA
+PK,es-419,Pakistán,PK
+VN,es-419,Vietnam,VN
+HK,es-419,Hong Kong,HK
+TW,es-419,Taiwán,TW
+CY,es-419,Chipre,CY
+KH,es-419,Camboya,KH
+LI,es-419,Liechtenstein,LI
+PG,es-419,Papúa-Nueva Guinea,PG
+AE,es-US,Emiratos Árabes Unidos,AE
+BH,es-US,Bahrein,BH
+DZ,es-US,Argelia,DZ
+EG,es-US,Egipto,EG
+IQ,es-US,Iraq,IQ
+JO,es-US,Jordania,JO
+KW,es-US,Kuwait,KW
+LB,es-US,El Líbano,LB
+LY,es-US,Libia,LY
+MA,es-US,Marruecos,MA
+OM,es-US,Omán,OM
+QA,es-US,Qatar,QA
+SA,es-US,Arabia Saudita,SA
+TN,es-US,Túnez,TN
+YE,es-US,Yemen,YE
+AZ,es-US,Azerbaiyán,AZ
+BY,es-US,Bielorrusia,BY
+BG,es-US,Bulgaria,BG
+BD,es-US,Bangladés,BD
+BA,es-US,Bosnia y Herzegovina,BA
+CZ,es-US,República Checa,CZ
+DK,es-US,Dinamarca,DK
+AT,es-US,Austria,AT
+CH,es-US,Suiza,CH
+DE,es-US,Alemania,DE
+GR,es-US,Grecia,GR
+AU,es-US,Australia,AU
+BE,es-US,Bélgica,BE
+CA,es-US,Canadá,CA
+GB,es-US,Reino Unido,GB
+GH,es-US,Ghana,GH
+IE,es-US,Irlanda,IE
+IL,es-US,Israel,IL
+IN,es-US,La India,IN
+JM,es-US,Jamaica,JM
+KE,es-US,Kenia,KE
+MT,es-US,Malta,MT
+NG,es-US,Nigeria,NG
+NZ,es-US,Nueva Zelanda,NZ
+SG,es-US,Singapur,SG
+UG,es-US,Uganda,UG
+US,es-US,Estados Unidos,US
+ZA,es-US,Sudáfrica,ZA
+ZW,es-US,Zimbabue,ZW
+AR,es-US,Argentina,AR
+BO,es-US,Bolivia,BO
+CL,es-US,Chile,CL
+CO,es-US,Colombia,CO
+CR,es-US,Costa Rica,CR
+DO,es-US,República Dominicana,DO
+EC,es-US,Ecuador,EC
+ES,es-US,España,ES
+GT,es-US,Guatemala,GT
+HN,es-US,Honduras,HN
+MX,es-US,México,MX
+NI,es-US,Nicaragua,NI
+PA,es-US,Panamá,PA
+PE,es-US,Perú,PE
+PR,es-US,Puerto Rico,PR
+PY,es-US,Paraguay,PY
+SV,es-US,El Salvador,SV
+UY,es-US,Uruguay,UY
+VE,es-US,Venezuela,VE
+EE,es-US,Estonia,EE
+FI,es-US,Finlandia,FI
+PH,es-US,Filipinas,PH
+FR,es-US,Francia,FR
+SN,es-US,Senegal,SN
+HR,es-US,Croacia,HR
+HU,es-US,Hungría,HU
+ID,es-US,Indonesia,ID
+IS,es-US,Islandia,IS
+IT,es-US,Italia,IT
+JP,es-US,Japón,JP
+GE,es-US,Georgia,GE
+KZ,es-US,Kazajstán,KZ
+KR,es-US,Corea del Sur,KR
+LU,es-US,Luxemburgo,LU
+LA,es-US,Laos,LA
+LT,es-US,Lituania,LT
+LV,es-US,Letonia,LV
+MK,es-US,Macedonia del Norte,MK
+MY,es-US,Malasia,MY
+NO,es-US,Noruega,NO
+NP,es-US,Nepal,NP
+NL,es-US,Holanda,NL
+PL,es-US,Polonia,PL
+BR,es-US,Brasil,BR
+PT,es-US,Portugal,PT
+MD,es-US,Moldavia,MD
+RO,es-US,Rumania,RO
+RU,es-US,Rusia,RU
+LK,es-US,Sri Lanka,LK
+SK,es-US,Eslovaquia,SK
+SI,es-US,Eslovenia,SI
+ME,es-US,Montenegro,ME
+RS,es-US,Serbia,RS
+SE,es-US,Suecia,SE
+TZ,es-US,Tanzania,TZ
+TH,es-US,Tailandia,TH
+TR,es-US,Türkiye,TR
+UA,es-US,Ucrania,UA
+PK,es-US,Pakistán,PK
+VN,es-US,Vietnam,VN
+HK,es-US,Hong Kong,HK
+TW,es-US,Taiwán,TW
+CY,es-US,Chipre,CY
+KH,es-US,Camboya,KH
+LI,es-US,Liechtenstein,LI
+PG,es-US,Papúa-Nueva Guinea,PG
+AE,et,Araabia Ühendemiraadid,AE
+BH,et,Bahrein,BH
+DZ,et,Alžeeria,DZ
+EG,et,Egiptus,EG
+IQ,et,Iraak,IQ
+JO,et,Jordaania,JO
+KW,et,Kuveit,KW
+LB,et,Liibanon,LB
+LY,et,Liibüa,LY
+MA,et,Maroko,MA
+OM,et,Omaan,OM
+QA,et,Katar,QA
+SA,et,Saudi Araabia,SA
+TN,et,Tuneesia,TN
+YE,et,Jeemen,YE
+AZ,et,Aserbaidžaan,AZ
+BY,et,Valgevene,BY
+BG,et,Bulgaaria,BG
+BD,et,Bangladesh,BD
+BA,et,Bosnia ja Hertsegoviina,BA
+CZ,et,Tšehhi,CZ
+DK,et,Taani,DK
+AT,et,Austria,AT
+CH,et,Šveits,CH
+DE,et,Saksamaa,DE
+GR,et,Kreeka,GR
+AU,et,Austraalia,AU
+BE,et,Belgia,BE
+CA,et,Kanada,CA
+GB,et,Ühendkuningriik,GB
+GH,et,Ghana,GH
+IE,et,Iirimaa,IE
+IL,et,Iisrael,IL
+IN,et,India,IN
+JM,et,Jamaica,JM
+KE,et,Keenia,KE
+MT,et,Malta,MT
+NG,et,Nigeeria,NG
+NZ,et,Uus-Meremaa,NZ
+SG,et,Singapur,SG
+UG,et,Uganda,UG
+US,et,Ameerika Ühendriigid,US
+ZA,et,Lõuna-Aafrika,ZA
+ZW,et,Zimbabwe,ZW
+AR,et,Argentiina,AR
+BO,et,Boliivia,BO
+CL,et,Tšiili,CL
+CO,et,Kolumbia,CO
+CR,et,Costa Rica,CR
+DO,et,Dominikaani Vabariik,DO
+EC,et,Ecuador,EC
+ES,et,Hispaania,ES
+GT,et,Guatemala,GT
+HN,et,Honduras,HN
+MX,et,Mehhiko,MX
+NI,et,Nicaragua,NI
+PA,et,Panama,PA
+PE,et,Peruu,PE
+PR,et,Puerto Rico,PR
+PY,et,Paraguay,PY
+SV,et,El Salvador,SV
+UY,et,Uruguay,UY
+VE,et,Venezuela,VE
+EE,et,Eesti,EE
+FI,et,Soome,FI
+PH,et,Filipiinid,PH
+FR,et,Prantsusmaa,FR
+SN,et,Senegal,SN
+HR,et,Horvaatia,HR
+HU,et,Ungari,HU
+ID,et,Indoneesia,ID
+IS,et,Island,IS
+IT,et,Itaalia,IT
+JP,et,Jaapan,JP
+GE,et,Gruusia,GE
+KZ,et,Kasahstan,KZ
+KR,et,Lõuna-Korea,KR
+LU,et,Luksemburg,LU
+LA,et,Laos,LA
+LT,et,Leedu,LT
+LV,et,Läti,LV
+MK,et,Põhja-Makedoonia,MK
+MY,et,Malaisia,MY
+NO,et,Norra,NO
+NP,et,Nepal,NP
+NL,et,Holland,NL
+PL,et,Poola,PL
+BR,et,Brasiilia,BR
+PT,et,Portugal,PT
+MD,et,Moldova,MD
+RO,et,Rumeenia,RO
+RU,et,Venemaa,RU
+LK,et,Sri Lanka,LK
+SK,et,Slovakkia,SK
+SI,et,Sloveenia,SI
+ME,et,Montenegro,ME
+RS,et,Serbia,RS
+SE,et,Rootsi,SE
+TZ,et,Tansaania,TZ
+TH,et,Tai,TH
+TR,et,Türgi,TR
+UA,et,Ukraina,UA
+PK,et,Pakistan,PK
+VN,et,Vietnam,VN
+HK,et,Hongkong,HK
+TW,et,Taiwan,TW
+CY,et,Küpros,CY
+KH,et,Kambodža,KH
+LI,et,Liechtenstein,LI
+PG,et,Paapua Uus-Guinea,PG
+AE,eu,Arabiar Emirerri Batuak,AE
+BH,eu,Bahrain,BH
+DZ,eu,Aljeria,DZ
+EG,eu,Egipto,EG
+IQ,eu,Irak,IQ
+JO,eu,Jordania,JO
+KW,eu,Kuwait,KW
+LB,eu,Libano,LB
+LY,eu,Libia,LY
+MA,eu,Maroko,MA
+OM,eu,Oman,OM
+QA,eu,Qatar,QA
+SA,eu,Saudi Arabia,SA
+TN,eu,Tunisia,TN
+YE,eu,Yemen,YE
+AZ,eu,Azerbaijan,AZ
+BY,eu,Bielorrusia,BY
+BG,eu,Bulgaria,BG
+BD,eu,Bangladesh,BD
+BA,eu,Bosnia-Herzegovina,BA
+CZ,eu,Txekia,CZ
+DK,eu,Danimarka,DK
+AT,eu,Austria,AT
+CH,eu,Suitza,CH
+DE,eu,Alemania,DE
+GR,eu,Grezia,GR
+AU,eu,Australia,AU
+BE,eu,Belgika,BE
+CA,eu,Kanada,CA
+GB,eu,Erresuma Batua,GB
+GH,eu,Ghana,GH
+IE,eu,Irlanda,IE
+IL,eu,Israel,IL
+IN,eu,India,IN
+JM,eu,Jamaika,JM
+KE,eu,Kenya,KE
+MT,eu,Malta,MT
+NG,eu,Nigeria,NG
+NZ,eu,Zeelanda Berria,NZ
+SG,eu,Singapur,SG
+UG,eu,Uganda,UG
+US,eu,Ameriketako Estatu Batuak,US
+ZA,eu,Hego Afrika,ZA
+ZW,eu,Zimbabwe,ZW
+AR,eu,Argentina,AR
+BO,eu,Bolivia,BO
+CL,eu,Txile,CL
+CO,eu,Kolonbia,CO
+CR,eu,Costa Rica,CR
+DO,eu,Dominikar Errepublika,DO
+EC,eu,Ekuador,EC
+ES,eu,Espainia,ES
+GT,eu,Guatemala,GT
+HN,eu,Honduras,HN
+MX,eu,Mexiko,MX
+NI,eu,Nikaragua,NI
+PA,eu,Panama,PA
+PE,eu,Peru,PE
+PR,eu,Puerto Rico,PR
+PY,eu,Paraguay,PY
+SV,eu,El Salvador,SV
+UY,eu,Uruguai,UY
+VE,eu,Venezuela,VE
+EE,eu,Estonia,EE
+FI,eu,Finlandia,FI
+PH,eu,Filipinak,PH
+FR,eu,Frantzia,FR
+SN,eu,Senegal,SN
+HR,eu,Kroazia,HR
+HU,eu,Hungaria,HU
+ID,eu,Indonesia,ID
+IS,eu,Islandia,IS
+IT,eu,Italia,IT
+JP,eu,Japonia,JP
+GE,eu,Georgia,GE
+KZ,eu,Kazakhstan,KZ
+KR,eu,Hego Korea,KR
+LU,eu,Luxenburgo,LU
+LA,eu,Laos,LA
+LT,eu,Lituania,LT
+LV,eu,Letonia,LV
+MK,eu,Ipar Mazedonia,MK
+MY,eu,Malaysia,MY
+NO,eu,Norvegia,NO
+NP,eu,Nepal,NP
+NL,eu,Herbehereak,NL
+PL,eu,Polonia,PL
+BR,eu,Brasil,BR
+PT,eu,Portugal,PT
+MD,eu,Moldavia,MD
+RO,eu,Errumania,RO
+RU,eu,Errusia,RU
+LK,eu,Sri Lanka,LK
+SK,eu,Eslovakia,SK
+SI,eu,Eslovenia,SI
+ME,eu,Montenegro,ME
+RS,eu,Serbia,RS
+SE,eu,Suedia,SE
+TZ,eu,Tanzania,TZ
+TH,eu,Thailandia,TH
+TR,eu,Turkia,TR
+UA,eu,Ukraina,UA
+PK,eu,Pakistan,PK
+VN,eu,Vietnam,VN
+HK,eu,Hong Kong,HK
+TW,eu,Taiwan,TW
+CY,eu,Zipre,CY
+KH,eu,Kanbodia,KH
+LI,eu,Liechtenstein,LI
+PG,eu,Papua Ginea Berria,PG
+AE,fa,امارات متحدهٔ عربی,AE
+BH,fa,بحرین,BH
+DZ,fa,الجزایر,DZ
+EG,fa,مصر,EG
+IQ,fa,عراق,IQ
+JO,fa,اردن,JO
+KW,fa,کویت,KW
+LB,fa,لبنان,LB
+LY,fa,لیبی,LY
+MA,fa,مراکش,MA
+OM,fa,عمان,OM
+QA,fa,قطر,QA
+SA,fa,عربستان سعودی,SA
+TN,fa,تونس,TN
+YE,fa,یمن,YE
+AZ,fa,آذربایجان,AZ
+BY,fa,بلاروس,BY
+BG,fa,بلغارستان,BG
+BD,fa,بنگلادش,BD
+BA,fa,بوسنی و هرزگوین,BA
+CZ,fa,جمهوری چک,CZ
+DK,fa,دانمارک,DK
+AT,fa,اتریش,AT
+CH,fa,سوئیس,CH
+DE,fa,آلمان,DE
+GR,fa,یونان,GR
+AU,fa,استرالیا,AU
+BE,fa,بلژیک,BE
+CA,fa,کانادا,CA
+GB,fa,انگلستان,GB
+GH,fa,غنا,GH
+IE,fa,ایرلند,IE
+IL,fa,اسرائیل,IL
+IN,fa,هند,IN
+JM,fa,جامائیکا,JM
+KE,fa,کنیا,KE
+MT,fa,مالت,MT
+NG,fa,نیجریه,NG
+NZ,fa,نیوزلند,NZ
+SG,fa,سنگاپور,SG
+UG,fa,اوگاندا,UG
+US,fa,ایالات متحده,US
+ZA,fa,آفریقای جنوبی,ZA
+ZW,fa,زیمبابوه,ZW
+AR,fa,آرژانتین,AR
+BO,fa,بولیوی,BO
+CL,fa,شیلی,CL
+CO,fa,کلمبیا,CO
+CR,fa,کاستاریکا,CR
+DO,fa,جمهوری دومینیکن,DO
+EC,fa,اکوادور,EC
+ES,fa,اسپانیا,ES
+GT,fa,گواتمالا,GT
+HN,fa,هندوراس,HN
+MX,fa,مکزیک,MX
+NI,fa,نیکاراگوئه,NI
+PA,fa,پاناما,PA
+PE,fa,پرو,PE
+PR,fa,پورتوریکو,PR
+PY,fa,پاراگوئه,PY
+SV,fa,السالوادور,SV
+UY,fa,اوروگوئه,UY
+VE,fa,ونزوئلا,VE
+EE,fa,استونی,EE
+FI,fa,فنلاند,FI
+PH,fa,فیلیپین,PH
+FR,fa,فرانسه,FR
+SN,fa,سنگال,SN
+HR,fa,کرواسی,HR
+HU,fa,مجارستان,HU
+ID,fa,اندونزی,ID
+IS,fa,ایسلند,IS
+IT,fa,ایتالیا,IT
+JP,fa,ژاپن,JP
+GE,fa,گرجستان,GE
+KZ,fa,قزاقستان,KZ
+KR,fa,کرهٔ جنوبی,KR
+LU,fa,لوکزامبورگ,LU
+LA,fa,لائوس,LA
+LT,fa,لیتوانی,LT
+LV,fa,لتونی,LV
+MK,fa,مقدونیه شمالی,MK
+MY,fa,مالزی,MY
+NO,fa,نروژ,NO
+NP,fa,نپال,NP
+NL,fa,هلند,NL
+PL,fa,لهستان,PL
+BR,fa,برزیل,BR
+PT,fa,پرتغالی,PT
+MD,fa,مولداوی,MD
+RO,fa,رومانی,RO
+RU,fa,روسیه,RU
+LK,fa,سری لانکا,LK
+SK,fa,اسلواکی,SK
+SI,fa,اسلوونی,SI
+ME,fa,مونته‌نگرو,ME
+RS,fa,صربستان,RS
+SE,fa,سوئد,SE
+TZ,fa,تانزانیا,TZ
+TH,fa,تایلند,TH
+TR,fa,ترکیه,TR
+UA,fa,اکراین,UA
+PK,fa,پاکستان,PK
+VN,fa,ویتنام,VN
+HK,fa,هنگ کنگ,HK
+TW,fa,تایوان,TW
+CY,fa,قبرس,CY
+KH,fa,کمبوجیه,KH
+LI,fa,لیختن اشتاین,LI
+PG,fa,پاپوآ گینه نو,PG
+AE,fi,Arabiemiirikunnat,AE
+BH,fi,Bahrain,BH
+DZ,fi,Algeria,DZ
+EG,fi,Egypti,EG
+IQ,fi,Irak,IQ
+JO,fi,Jordania,JO
+KW,fi,Kuwait,KW
+LB,fi,Libanon,LB
+LY,fi,Libya,LY
+MA,fi,Marokko,MA
+OM,fi,Oman,OM
+QA,fi,Qatar,QA
+SA,fi,Saudi-Arabia,SA
+TN,fi,Tunisia,TN
+YE,fi,Jemen,YE
+AZ,fi,Azerbaidžan,AZ
+BY,fi,Valko-Venäjä,BY
+BG,fi,Bulgaria,BG
+BD,fi,Bangladesh,BD
+BA,fi,Bosnia ja Hertsegovina,BA
+CZ,fi,Tšekki,CZ
+DK,fi,Tanska,DK
+AT,fi,Itävalta,AT
+CH,fi,Sveitsi,CH
+DE,fi,Saksa,DE
+GR,fi,Kreikka,GR
+AU,fi,Australia,AU
+BE,fi,Belgia,BE
+CA,fi,Kanada,CA
+GB,fi,Yhdistynyt kuningaskunta,GB
+GH,fi,Ghana,GH
+IE,fi,Irlanti,IE
+IL,fi,Israel,IL
+IN,fi,Intia,IN
+JM,fi,Jamaika,JM
+KE,fi,Kenia,KE
+MT,fi,Malta,MT
+NG,fi,Nigeria,NG
+NZ,fi,Uusi-Seelanti,NZ
+SG,fi,Singapore,SG
+UG,fi,Uganda,UG
+US,fi,Yhdysvallat,US
+ZA,fi,Etelä-Afrikka,ZA
+ZW,fi,Zimbabwe,ZW
+AR,fi,Argentiina,AR
+BO,fi,Bolivia,BO
+CL,fi,Chile,CL
+CO,fi,Kolumbia,CO
+CR,fi,Costa Rica,CR
+DO,fi,Dominikaaninen tasavalta,DO
+EC,fi,Ecuador,EC
+ES,fi,Espanja,ES
+GT,fi,Guatemala,GT
+HN,fi,Honduras,HN
+MX,fi,Meksiko,MX
+NI,fi,Nicaragua,NI
+PA,fi,Panama,PA
+PE,fi,Peru,PE
+PR,fi,Puerto Rico,PR
+PY,fi,Paraguay,PY
+SV,fi,El Salvador,SV
+UY,fi,Uruguay,UY
+VE,fi,Venezuela,VE
+EE,fi,Viro,EE
+FI,fi,Suomi,FI
+PH,fi,Filippiinit,PH
+FR,fi,Ranska,FR
+SN,fi,Senegal,SN
+HR,fi,Kroatia,HR
+HU,fi,Unkari,HU
+ID,fi,Indonesia,ID
+IS,fi,Islanti,IS
+IT,fi,Italia,IT
+JP,fi,Japani,JP
+GE,fi,Georgia,GE
+KZ,fi,Kazakstan,KZ
+KR,fi,Etelä-Korea,KR
+LU,fi,Luxemburg,LU
+LA,fi,Laos,LA
+LT,fi,Liettua,LT
+LV,fi,Latvia,LV
+MK,fi,Pohjois-Makedonia,MK
+MY,fi,Malesia,MY
+NO,fi,Norja,NO
+NP,fi,Nepal,NP
+NL,fi,Alankomaat,NL
+PL,fi,Puola,PL
+BR,fi,Brasilia,BR
+PT,fi,Portugali,PT
+MD,fi,Moldova,MD
+RO,fi,Romania,RO
+RU,fi,Venäjä,RU
+LK,fi,Sri Lanka,LK
+SK,fi,Slovakia,SK
+SI,fi,Slovenia,SI
+ME,fi,Montenegro,ME
+RS,fi,Serbia,RS
+SE,fi,Ruotsi,SE
+TZ,fi,Tansania,TZ
+TH,fi,Thaimaa,TH
+TR,fi,Turkki,TR
+UA,fi,Ukraina,UA
+PK,fi,Pakistan,PK
+VN,fi,Vietnam,VN
+HK,fi,Hongkong,HK
+TW,fi,Taiwan,TW
+CY,fi,Kypros,CY
+KH,fi,Kambodža,KH
+LI,fi,Liechtenstein,LI
+PG,fi,Papua-Uusi-Guinea,PG
+AE,fil,United Arab Emirates,AE
+BH,fil,Bahrain,BH
+DZ,fil,Algeria,DZ
+EG,fil,Egypt,EG
+IQ,fil,Iraq,IQ
+JO,fil,Jordan,JO
+KW,fil,Kuwait,KW
+LB,fil,Lebanon,LB
+LY,fil,Libya,LY
+MA,fil,Morocco,MA
+OM,fil,Oman,OM
+QA,fil,Qatar,QA
+SA,fil,Saudi Arabia,SA
+TN,fil,Tunisia,TN
+YE,fil,Yemen,YE
+AZ,fil,Azerbaijan,AZ
+BY,fil,Belarus,BY
+BG,fil,Bulgaria,BG
+BD,fil,Bangladesh,BD
+BA,fil,Bosnia and Herzegovina,BA
+CZ,fil,Czechia,CZ
+DK,fil,Denmark,DK
+AT,fil,Austria,AT
+CH,fil,Switzerland,CH
+DE,fil,Germany,DE
+GR,fil,Greece,GR
+AU,fil,Australia,AU
+BE,fil,Belgium,BE
+CA,fil,Canada,CA
+GB,fil,United Kingdom,GB
+GH,fil,Ghana,GH
+IE,fil,Ireland,IE
+IL,fil,Israel,IL
+IN,fil,India,IN
+JM,fil,Jamaica,JM
+KE,fil,Kenya,KE
+MT,fil,Malta,MT
+NG,fil,Nigeria,NG
+NZ,fil,New Zealand,NZ
+SG,fil,Singapore,SG
+UG,fil,Uganda,UG
+US,fil,United States,US
+ZA,fil,South Africa,ZA
+ZW,fil,Zimbabwe,ZW
+AR,fil,Argentina,AR
+BO,fil,Bolivia,BO
+CL,fil,Chile,CL
+CO,fil,Colombia,CO
+CR,fil,Costa Rica,CR
+DO,fil,Dominican Republic,DO
+EC,fil,Ecuador,EC
+ES,fil,Spain,ES
+GT,fil,Guatemala,GT
+HN,fil,Honduras,HN
+MX,fil,Mexico,MX
+NI,fil,Nicaragua,NI
+PA,fil,Panama,PA
+PE,fil,Peru,PE
+PR,fil,Puerto Rico,PR
+PY,fil,Paraguay,PY
+SV,fil,El Salvador,SV
+UY,fil,Uruguay,UY
+VE,fil,Venezuela,VE
+EE,fil,Estonia,EE
+FI,fil,Finland,FI
+PH,fil,Pilipinas,PH
+FR,fil,France,FR
+SN,fil,Senegal,SN
+HR,fil,Croatia,HR
+HU,fil,Hungary,HU
+ID,fil,Indonesia,ID
+IS,fil,Iceland,IS
+IT,fil,Italy,IT
+JP,fil,Japan,JP
+GE,fil,Georgia,GE
+KZ,fil,Kazakhstan,KZ
+KR,fil,South Korea,KR
+LU,fil,Luxembourg,LU
+LA,fil,Laos,LA
+LT,fil,Lithuania,LT
+LV,fil,Latvia,LV
+MK,fil,North Macedonia,MK
+MY,fil,Malaysia,MY
+NO,fil,Norway,NO
+NP,fil,Nepal,NP
+NL,fil,Netherlands,NL
+PL,fil,Poland,PL
+BR,fil,Brazil,BR
+PT,fil,Portugal,PT
+MD,fil,Moldova,MD
+RO,fil,Romania,RO
+RU,fil,Russia,RU
+LK,fil,Sri Lanka,LK
+SK,fil,Slovakia,SK
+SI,fil,Slovenia,SI
+ME,fil,Montenegro,ME
+RS,fil,Serbia,RS
+SE,fil,Sweden,SE
+TZ,fil,Tanzania,TZ
+TH,fil,Thailand,TH
+TR,fil,Turkey,TR
+UA,fil,Ukraine,UA
+PK,fil,Pakistan,PK
+VN,fil,Vietnam,VN
+HK,fil,Hong Kong,HK
+TW,fil,Taiwan,TW
+CY,fil,Cyprus,CY
+KH,fil,Cambodia,KH
+LI,fil,Liechtenstein,LI
+PG,fil,Papua New Guinea,PG
+AE,fr,Émirats Arabes Unis,AE
+BH,fr,Bahreïn,BH
+DZ,fr,Algérie,DZ
+EG,fr,Égypte,EG
+IQ,fr,Irak,IQ
+JO,fr,Jordanie,JO
+KW,fr,Koweït,KW
+LB,fr,Liban,LB
+LY,fr,Libye,LY
+MA,fr,Maroc,MA
+OM,fr,Oman,OM
+QA,fr,Qatar,QA
+SA,fr,Arabie saoudite,SA
+TN,fr,Tunisie,TN
+YE,fr,Yémen,YE
+AZ,fr,Azerbaïdjan,AZ
+BY,fr,Biélorussie,BY
+BG,fr,Bulgarie,BG
+BD,fr,Bangladesh,BD
+BA,fr,Bosnie-Herzégovine,BA
+CZ,fr,Tchéquie,CZ
+DK,fr,Danemark,DK
+AT,fr,Autriche,AT
+CH,fr,Suisse,CH
+DE,fr,Allemagne,DE
+GR,fr,Grèce,GR
+AU,fr,Australie,AU
+BE,fr,Belgique,BE
+CA,fr,Canada,CA
+GB,fr,Royaume-Uni,GB
+GH,fr,Ghana,GH
+IE,fr,Irlande,IE
+IL,fr,Israël,IL
+IN,fr,Inde,IN
+JM,fr,Jamaïque,JM
+KE,fr,Kenya,KE
+MT,fr,Malte,MT
+NG,fr,Nigeria,NG
+NZ,fr,Nouvelle-Zélande,NZ
+SG,fr,Singapour,SG
+UG,fr,Ouganda,UG
+US,fr,États-Unis,US
+ZA,fr,Afrique du Sud,ZA
+ZW,fr,Zimbabwe,ZW
+AR,fr,Argentine,AR
+BO,fr,Bolivie,BO
+CL,fr,Chili,CL
+CO,fr,Colombie,CO
+CR,fr,Costa Rica,CR
+DO,fr,République Dominicaine,DO
+EC,fr,Équateur,EC
+ES,fr,Espagne,ES
+GT,fr,Guatemala,GT
+HN,fr,Honduras,HN
+MX,fr,Mexique,MX
+NI,fr,Nicaragua,NI
+PA,fr,Panama,PA
+PE,fr,Pérou,PE
+PR,fr,Porto Rico,PR
+PY,fr,Paraguay,PY
+SV,fr,Salvador,SV
+UY,fr,Uruguay,UY
+VE,fr,Venezuela,VE
+EE,fr,Estonie,EE
+FI,fr,Finlande,FI
+PH,fr,Philippines,PH
+FR,fr,France,FR
+SN,fr,Sénégal,SN
+HR,fr,Croatie,HR
+HU,fr,Hongrie,HU
+ID,fr,Indonésie,ID
+IS,fr,Islande,IS
+IT,fr,Italie,IT
+JP,fr,Japon,JP
+GE,fr,Georgia,GE
+KZ,fr,Kazakhstan,KZ
+KR,fr,Corée du Sud,KR
+LU,fr,Luxembourg,LU
+LA,fr,Laos,LA
+LT,fr,Lituanie,LT
+LV,fr,Lettonie,LV
+MK,fr,Macédoine du Nord,MK
+MY,fr,Malaisie,MY
+NO,fr,Norvège,NO
+NP,fr,Népal,NP
+NL,fr,Pays-Bas,NL
+PL,fr,Pologne,PL
+BR,fr,Brésil,BR
+PT,fr,Portugal,PT
+MD,fr,Moldavie,MD
+RO,fr,Roumanie,RO
+RU,fr,Russie,RU
+LK,fr,Sri Lanka,LK
+SK,fr,Slovaquie,SK
+SI,fr,Slovénie,SI
+ME,fr,Monténégro,ME
+RS,fr,Serbie,RS
+SE,fr,Suède,SE
+TZ,fr,Tanzanie,TZ
+TH,fr,Thaïlande,TH
+TR,fr,Turquie,TR
+UA,fr,Ukraine,UA
+PK,fr,Pakistan,PK
+VN,fr,Vietnam,VN
+HK,fr,Hong Kong,HK
+TW,fr,Taïwan,TW
+CY,fr,Chypre,CY
+KH,fr,Cambodge,KH
+LI,fr,Liechtenstein,LI
+PG,fr,Papouasie-Nouvelle Guinée,PG
+AE,fr-CA,Émirats Arabes Unis,AE
+BH,fr-CA,Bahreïn,BH
+DZ,fr-CA,Algérie,DZ
+EG,fr-CA,Égypte,EG
+IQ,fr-CA,Irak,IQ
+JO,fr-CA,Jordanie,JO
+KW,fr-CA,Koweït,KW
+LB,fr-CA,Liban,LB
+LY,fr-CA,Libye,LY
+MA,fr-CA,Maroc,MA
+OM,fr-CA,Oman,OM
+QA,fr-CA,Qatar,QA
+SA,fr-CA,Arabie saoudite,SA
+TN,fr-CA,Tunisie,TN
+YE,fr-CA,Yémen,YE
+AZ,fr-CA,Azerbaïdjan,AZ
+BY,fr-CA,Biélorussie,BY
+BG,fr-CA,Bulgarie,BG
+BD,fr-CA,Bangladesh,BD
+BA,fr-CA,Bosnie-Herzégovine,BA
+CZ,fr-CA,Tchéquie,CZ
+DK,fr-CA,Danemark,DK
+AT,fr-CA,Autriche,AT
+CH,fr-CA,Suisse,CH
+DE,fr-CA,Allemagne,DE
+GR,fr-CA,Grèce,GR
+AU,fr-CA,Australie,AU
+BE,fr-CA,Belgique,BE
+CA,fr-CA,Canada,CA
+GB,fr-CA,Royaume-Uni,GB
+GH,fr-CA,Ghana,GH
+IE,fr-CA,Irlande,IE
+IL,fr-CA,Israël,IL
+IN,fr-CA,Inde,IN
+JM,fr-CA,Jamaïque,JM
+KE,fr-CA,Kenya,KE
+MT,fr-CA,Malte,MT
+NG,fr-CA,Nigéria,NG
+NZ,fr-CA,Nouvelle-Zélande,NZ
+SG,fr-CA,Singapour,SG
+UG,fr-CA,Ouganda,UG
+US,fr-CA,États-Unis,US
+ZA,fr-CA,Afrique du Sud,ZA
+ZW,fr-CA,Zimbabwe,ZW
+AR,fr-CA,Argentine,AR
+BO,fr-CA,Bolivie,BO
+CL,fr-CA,Chili,CL
+CO,fr-CA,Colombie,CO
+CR,fr-CA,Costa Rica,CR
+DO,fr-CA,République Dominicaine,DO
+EC,fr-CA,Équateur,EC
+ES,fr-CA,Espagne,ES
+GT,fr-CA,Guatemala,GT
+HN,fr-CA,Honduras,HN
+MX,fr-CA,Mexique,MX
+NI,fr-CA,Nicaragua,NI
+PA,fr-CA,Panama,PA
+PE,fr-CA,Pérou,PE
+PR,fr-CA,Porto Rico,PR
+PY,fr-CA,Paraguay,PY
+SV,fr-CA,Salvador,SV
+UY,fr-CA,Uruguay,UY
+VE,fr-CA,Venezuela,VE
+EE,fr-CA,Estonie,EE
+FI,fr-CA,Finlande,FI
+PH,fr-CA,Philippines,PH
+FR,fr-CA,France,FR
+SN,fr-CA,Sénégal,SN
+HR,fr-CA,Croatie,HR
+HU,fr-CA,Hongrie,HU
+ID,fr-CA,Indonésie,ID
+IS,fr-CA,Islande,IS
+IT,fr-CA,Italie,IT
+JP,fr-CA,Japon,JP
+GE,fr-CA,Géorgie,GE
+KZ,fr-CA,Kazakhstan,KZ
+KR,fr-CA,Corée du Sud,KR
+LU,fr-CA,Luxembourg,LU
+LA,fr-CA,Laos,LA
+LT,fr-CA,Lituanie,LT
+LV,fr-CA,Lettonie,LV
+MK,fr-CA,Macédoine du Nord,MK
+MY,fr-CA,Malaisie,MY
+NO,fr-CA,Norvège,NO
+NP,fr-CA,Népal,NP
+NL,fr-CA,Pays-Bas,NL
+PL,fr-CA,Pologne,PL
+BR,fr-CA,Brésil,BR
+PT,fr-CA,Portugal,PT
+MD,fr-CA,Moldavie,MD
+RO,fr-CA,Roumanie,RO
+RU,fr-CA,Russie,RU
+LK,fr-CA,Sri Lanka,LK
+SK,fr-CA,Slovaquie,SK
+SI,fr-CA,Slovénie,SI
+ME,fr-CA,Monténégro,ME
+RS,fr-CA,Serbie,RS
+SE,fr-CA,Suède,SE
+TZ,fr-CA,Tanzanie,TZ
+TH,fr-CA,Thaïlande,TH
+TR,fr-CA,Turquie,TR
+UA,fr-CA,Ukraine,UA
+PK,fr-CA,Pakistan,PK
+VN,fr-CA,Vietnam,VN
+HK,fr-CA,Hong Kong,HK
+TW,fr-CA,Taïwan,TW
+CY,fr-CA,Chypre,CY
+KH,fr-CA,Cambodge,KH
+LI,fr-CA,Liechtenstein,LI
+PG,fr-CA,Papouasie-Nouvelle Guinée,PG
+AE,gl,Emiratos Árabes Unidos,AE
+BH,gl,Bahrein,BH
+DZ,gl,Alxeria,DZ
+EG,gl,Exipto,EG
+IQ,gl,Iraq,IQ
+JO,gl,Xordania,JO
+KW,gl,Kuwait,KW
+LB,gl,Líbano,LB
+LY,gl,Libia,LY
+MA,gl,Marrocos,MA
+OM,gl,Omán,OM
+QA,gl,Qatar,QA
+SA,gl,Arabia Saudita,SA
+TN,gl,Tunisia,TN
+YE,gl,Iemen,YE
+AZ,gl,Acerbaixán,AZ
+BY,gl,Bielorrusia,BY
+BG,gl,Bulgaria,BG
+BD,gl,Bangladesh,BD
+BA,gl,Bosnia e Herzegovina,BA
+CZ,gl,Chequia,CZ
+DK,gl,Dinamarca,DK
+AT,gl,Austria,AT
+CH,gl,Suíza,CH
+DE,gl,Alemaña,DE
+GR,gl,Grecia,GR
+AU,gl,Australia,AU
+BE,gl,Bélxica,BE
+CA,gl,Canadá,CA
+GB,gl,Reino Unido,GB
+GH,gl,Ghana,GH
+IE,gl,Irlanda,IE
+IL,gl,Israel,IL
+IN,gl,India,IN
+JM,gl,Xamaica,JM
+KE,gl,Kenya,KE
+MT,gl,Malta,MT
+NG,gl,Nixeria,NG
+NZ,gl,Nova Zelandia,NZ
+SG,gl,Singapur,SG
+UG,gl,Uganda,UG
+US,gl,Estados Unidos,US
+ZA,gl,Sudáfrica,ZA
+ZW,gl,Cimbabue,ZW
+AR,gl,Arxentina,AR
+BO,gl,Bolivia,BO
+CL,gl,Chile,CL
+CO,gl,Colombia,CO
+CR,gl,Costa Rica,CR
+DO,gl,República Dominicana,DO
+EC,gl,Ecuador,EC
+ES,gl,España,ES
+GT,gl,Guatemala,GT
+HN,gl,Honduras,HN
+MX,gl,México,MX
+NI,gl,Nicaragua,NI
+PA,gl,Panamá,PA
+PE,gl,Perú,PE
+PR,gl,Porto Rico,PR
+PY,gl,Paraguai,PY
+SV,gl,O Salvador,SV
+UY,gl,Uruguai,UY
+VE,gl,Venezuela,VE
+EE,gl,Estonia,EE
+FI,gl,Finlandia,FI
+PH,gl,Filipinas,PH
+FR,gl,Francia,FR
+SN,gl,Senegal,SN
+HR,gl,Croacia,HR
+HU,gl,Hungría,HU
+ID,gl,Indonesia,ID
+IS,gl,Islandia,IS
+IT,gl,Italia,IT
+JP,gl,Xapón,JP
+GE,gl,Xeorxia,GE
+KZ,gl,Casaquistán,KZ
+KR,gl,Corea do Sur,KR
+LU,gl,Luxemburgo,LU
+LA,gl,Laos,LA
+LT,gl,Lituania,LT
+LV,gl,Letonia,LV
+MK,gl,Macedonia do Norte,MK
+MY,gl,Malaisia,MY
+NO,gl,Noruega,NO
+NP,gl,Nepal,NP
+NL,gl,Países Baixos,NL
+PL,gl,Polonia,PL
+BR,gl,Brasil,BR
+PT,gl,Portugal,PT
+MD,gl,Moldova,MD
+RO,gl,Romanía,RO
+RU,gl,Rusia,RU
+LK,gl,Sri Lanka,LK
+SK,gl,Eslovaquia,SK
+SI,gl,Eslovenia,SI
+ME,gl,Montenegro,ME
+RS,gl,Serbia,RS
+SE,gl,Suecia,SE
+TZ,gl,Tanzania,TZ
+TH,gl,Tailandia,TH
+TR,gl,Turquía,TR
+UA,gl,Ucraína,UA
+PK,gl,Paquistán,PK
+VN,gl,Vietnam,VN
+HK,gl,Hong Kong,HK
+TW,gl,Taiwán,TW
+CY,gl,Chipre,CY
+KH,gl,Camboxa,KH
+LI,gl,Liechtenstein,LI
+PG,gl,Papúa Nova Guinea,PG
+AE,gu,યુનાઇટેડ અરબ એમિરેટ્સ,AE
+BH,gu,બેહરીન,BH
+DZ,gu,અલ્જીરિયા,DZ
+EG,gu,ઇજિપ્ત,EG
+IQ,gu,ઇરાક,IQ
+JO,gu,જોર્ડન,JO
+KW,gu,કુવૈત,KW
+LB,gu,લેબનોન,LB
+LY,gu,લિબિયા,LY
+MA,gu,મોરોક્કો,MA
+OM,gu,ઑમાન,OM
+QA,gu,કતાર,QA
+SA,gu,સાઉદી અરેબિયા,SA
+TN,gu,ટ્યુનિશિયા,TN
+YE,gu,યેમેન,YE
+AZ,gu,અઝરબૈજાન,AZ
+BY,gu,બેલારુસ,BY
+BG,gu,બલ્ગેરિયા,BG
+BD,gu,બાંગ્લાદેશ,BD
+BA,gu,બોસ્નિયા અને હર્ઝેગોવિના,BA
+CZ,gu,ચેકીયા,CZ
+DK,gu,ડેનમાર્ક,DK
+AT,gu,ઑસ્ટ્રિયા,AT
+CH,gu,સ્વિટ્ઝર્લૅન્ડ,CH
+DE,gu,જર્મની,DE
+GR,gu,ગ્રીસ,GR
+AU,gu,ઑસ્ટ્રેલિયા,AU
+BE,gu,બેલ્જીયમ,BE
+CA,gu,કેનેડા,CA
+GB,gu,યુનાઇટેડ કિંગડમ,GB
+GH,gu,ઘાના,GH
+IE,gu,આયર્લેંડ,IE
+IL,gu,ઇઝરાઇલ,IL
+IN,gu,ભારત,IN
+JM,gu,જમૈકા,JM
+KE,gu,કેન્યા,KE
+MT,gu,માલ્ટા,MT
+NG,gu,નાઇજીરીયા,NG
+NZ,gu,ન્યુઝીલેન્ડ,NZ
+SG,gu,સિંગાપુર,SG
+UG,gu,યુગાંડા,UG
+US,gu,યુનાઇટેડ સ્ટેટ્સ,US
+ZA,gu,દક્ષિણ આફ્રિકા,ZA
+ZW,gu,ઝીમ્બાબ્વે,ZW
+AR,gu,અર્જેન્ટીના,AR
+BO,gu,બોલિવિયા,BO
+CL,gu,ચિલી,CL
+CO,gu,કોલમ્બિયા,CO
+CR,gu,કોસ્ટા રિકા,CR
+DO,gu,ડોમિનિકન રીપબ્લિક પર,DO
+EC,gu,એક્વાડોર,EC
+ES,gu,સ્પેન,ES
+GT,gu,ગ્વાટેમાલા,GT
+HN,gu,હોન્ડુરસ,HN
+MX,gu,મેક્સિકો,MX
+NI,gu,નિકારાગુઆ,NI
+PA,gu,પનામા,PA
+PE,gu,પેરુ,PE
+PR,gu,પ્યુઅર્ટો રિકો,PR
+PY,gu,પેરાગ્વે,PY
+SV,gu,એલ સેલ્વાડોર,SV
+UY,gu,ઉરુગ્વે,UY
+VE,gu,વેનેઝુએલા,VE
+EE,gu,એસ્ટોનિયા,EE
+FI,gu,ફીનલેંડ,FI
+PH,gu,ફિલિપિન્સ,PH
+FR,gu,ફ્રાંસ,FR
+SN,gu,સેનેગલ,SN
+HR,gu,ક્રોએશિયા,HR
+HU,gu,હંગેરી,HU
+ID,gu,ઇન્ડોનેશિયા,ID
+IS,gu,આઇસલેન્ડ,IS
+IT,gu,ઇટાલી,IT
+JP,gu,જાપાન,JP
+GE,gu,જ્યોર્જિયા,GE
+KZ,gu,કઝાકિસ્તાન,KZ
+KR,gu,દક્ષિણ કોરિયા,KR
+LU,gu,લક્ઝમબર્ગ,LU
+LA,gu,લાઓસ,LA
+LT,gu,લિથુનિયા,LT
+LV,gu,લેતવિયા,LV
+MK,gu,ઉત્તર મેસેડોનિયા,MK
+MY,gu,મલેશિયા,MY
+NO,gu,નૉર્વે,NO
+NP,gu,નેપાળ,NP
+NL,gu,નેધરલેન્ડ,NL
+PL,gu,પોલેન્ડ,PL
+BR,gu,બ્રાઝિલ,BR
+PT,gu,પોર્ટુગલ,PT
+MD,gu,મોલડોવા,MD
+RO,gu,રોમાનિયા,RO
+RU,gu,રશિયા,RU
+LK,gu,શ્રીલંકા,LK
+SK,gu,સ્લોવેકિયા,SK
+SI,gu,સ્લોવેનિયા,SI
+ME,gu,મૉન્ટેંનેગ્રો,ME
+RS,gu,સર્બિયા,RS
+SE,gu,સ્વીડન,SE
+TZ,gu,તાંઝાનિયા,TZ
+TH,gu,થાઇલેંડ,TH
+TR,gu,ટર્કી,TR
+UA,gu,યુક્રેન,UA
+PK,gu,પાકિસ્તાન,PK
+VN,gu,વિયેતનામ,VN
+HK,gu,હોંગકોંગ,HK
+TW,gu,તાઇવાન,TW
+CY,gu,સાયપ્રસ,CY
+KH,gu,કંબોડિયા,KH
+LI,gu,લૈચટેંસ્ટેઇન,LI
+PG,gu,પપુઆ ન્યુ ગિની,PG
+AE,hi,संयुक्त अरब अमीरात,AE
+BH,hi,बहरीन,BH
+DZ,hi,अल्जीरिया,DZ
+EG,hi,मिस्र,EG
+IQ,hi,इराक़,IQ
+JO,hi,जॉर्डन,JO
+KW,hi,कुवैत,KW
+LB,hi,लेबनान,LB
+LY,hi,लीबिया,LY
+MA,hi,मोरक्को,MA
+OM,hi,ओमान,OM
+QA,hi,कतर,QA
+SA,hi,सऊदी अरब,SA
+TN,hi,ट्यूनीशिया,TN
+YE,hi,यमन,YE
+AZ,hi,अज़रबैजान,AZ
+BY,hi,बेलारूस,BY
+BG,hi,बुल्गारिया,BG
+BD,hi,बांग्लादेश,BD
+BA,hi,बोस्निया और हर्जेगोविना,BA
+CZ,hi,चेकिया,CZ
+DK,hi,डेनमार्क,DK
+AT,hi,ऑस्ट्रिया,AT
+CH,hi,स्विट्ज़रलैंड,CH
+DE,hi,जर्मनी,DE
+GR,hi,यूनान,GR
+AU,hi,ऑस्ट्रेलिया,AU
+BE,hi,बेल्जियम,BE
+CA,hi,कनाडा,CA
+GB,hi,यूनाइटेड किंगडम,GB
+GH,hi,घाना,GH
+IE,hi,आयरलैंड,IE
+IL,hi,इज़रायल,IL
+IN,hi,भारत,IN
+JM,hi,जमैका,JM
+KE,hi,केन्या,KE
+MT,hi,माल्टा,MT
+NG,hi,नाइजीरिया,NG
+NZ,hi,न्यूज़ीलैंड,NZ
+SG,hi,सिंगापुर,SG
+UG,hi,युगांडा,UG
+US,hi,संयुक्त राज्य अमेरिका,US
+ZA,hi,दक्षिण अफ़्रीका,ZA
+ZW,hi,ज़िम्बाब्वे,ZW
+AR,hi,अर्जेंटीना,AR
+BO,hi,बोलिविया,BO
+CL,hi,चिली,CL
+CO,hi,कोलंबिया,CO
+CR,hi,कोस्टा रिका,CR
+DO,hi,डोमिनिकन गणराज्य,DO
+EC,hi,इक्वाडोर,EC
+ES,hi,स्पेन,ES
+GT,hi,ग्वाटेमाला,GT
+HN,hi,होंडुरास,HN
+MX,hi,मेक्सिको,MX
+NI,hi,निकारागुआ,NI
+PA,hi,पनामा,PA
+PE,hi,पेरू,PE
+PR,hi,प्योर्तो रिको,PR
+PY,hi,पराग्वे,PY
+SV,hi,एल साल्वाडोर,SV
+UY,hi,उरुग्वे,UY
+VE,hi,वेनेज़ुएला,VE
+EE,hi,एस्टोनिया,EE
+FI,hi,फ़िनलैंड,FI
+PH,hi,फ़िलिपींस,PH
+FR,hi,फ़्रांस,FR
+SN,hi,सेनेगल,SN
+HR,hi,क्रोएशिया,HR
+HU,hi,हंगरी,HU
+ID,hi,इंडोनेशिया,ID
+IS,hi,आइसलैंड,IS
+IT,hi,इटली,IT
+JP,hi,जापान,JP
+GE,hi,जॉर्जिया,GE
+KZ,hi,कज़ाकिस्तान,KZ
+KR,hi,दक्षिण कोरिया,KR
+LU,hi,लक्ज़मबर्ग,LU
+LA,hi,लाओस,LA
+LT,hi,लिथुआनिया,LT
+LV,hi,लातविया,LV
+MK,hi,उत्तरी मैसेडोनिया,MK
+MY,hi,मलेशिया,MY
+NO,hi,नॉर्वे,NO
+NP,hi,नेपाल,NP
+NL,hi,नीदरलैंड,NL
+PL,hi,पोलैंड,PL
+BR,hi,ब्राज़ील,BR
+PT,hi,पुर्तगाल,PT
+MD,hi,मॉल्डोवा,MD
+RO,hi,रोमानिया,RO
+RU,hi,रूस,RU
+LK,hi,श्रीलंका,LK
+SK,hi,स्लोवाकिया,SK
+SI,hi,स्लोवेनिया,SI
+ME,hi,मोंटेनीग्रो,ME
+RS,hi,सर्बिया,RS
+SE,hi,स्वीडन,SE
+TZ,hi,तंज़ानिया,TZ
+TH,hi,थाईलैंड,TH
+TR,hi,तुर्किये,TR
+UA,hi,यूक्रेन,UA
+PK,hi,पाकिस्तान,PK
+VN,hi,वियतनाम,VN
+HK,hi,हॉन्ग कॉन्ग,HK
+TW,hi,ताईवान,TW
+CY,hi,साइप्रस,CY
+KH,hi,कंबोडिया,KH
+LI,hi,लिख्तेंस्ताइन,LI
+PG,hi,पापुआ न्यू गिनी,PG
+AE,hr,Ujedinjeni Arapski Emirati,AE
+BH,hr,Bahrein,BH
+DZ,hr,Alžir,DZ
+EG,hr,Egipat,EG
+IQ,hr,Irak,IQ
+JO,hr,Jordan,JO
+KW,hr,Kuvajt,KW
+LB,hr,Libanon,LB
+LY,hr,Libija,LY
+MA,hr,Maroko,MA
+OM,hr,Oman,OM
+QA,hr,Katar,QA
+SA,hr,Saudijska Arabija,SA
+TN,hr,Tunis,TN
+YE,hr,Jemen,YE
+AZ,hr,Azerbajdžan,AZ
+BY,hr,Bjelorusija,BY
+BG,hr,Bugarska,BG
+BD,hr,Bangladeš,BD
+BA,hr,Bosna i Hercegovina,BA
+CZ,hr,Češka,CZ
+DK,hr,Danska,DK
+AT,hr,Austrija,AT
+CH,hr,Švicarska,CH
+DE,hr,Njemačka,DE
+GR,hr,Grčka,GR
+AU,hr,Australija,AU
+BE,hr,Belgija,BE
+CA,hr,Kanada,CA
+GB,hr,Ujedinjeno Kraljevstvo,GB
+GH,hr,Gana,GH
+IE,hr,Irska,IE
+IL,hr,Izrael,IL
+IN,hr,Indija,IN
+JM,hr,Jamajka,JM
+KE,hr,Kenija,KE
+MT,hr,Malta,MT
+NG,hr,Nigerija,NG
+NZ,hr,Novi Zeland,NZ
+SG,hr,Singapur,SG
+UG,hr,Uganda,UG
+US,hr,Sjedinjene Američke Države,US
+ZA,hr,Južna Afrika,ZA
+ZW,hr,Zimbabve,ZW
+AR,hr,Argentina,AR
+BO,hr,Bolivija,BO
+CL,hr,Čile,CL
+CO,hr,Kolumbija,CO
+CR,hr,Kostarika,CR
+DO,hr,Dominikanska Republika,DO
+EC,hr,Ekvador,EC
+ES,hr,Španjolska,ES
+GT,hr,Gvatemala,GT
+HN,hr,Honduras,HN
+MX,hr,Meksiko,MX
+NI,hr,Nikaragva,NI
+PA,hr,Panama,PA
+PE,hr,Peru,PE
+PR,hr,Portoriko,PR
+PY,hr,Paragvaj,PY
+SV,hr,Salvador,SV
+UY,hr,Urugvaj,UY
+VE,hr,Venezuela,VE
+EE,hr,Estonija,EE
+FI,hr,Finska,FI
+PH,hr,Filipini,PH
+FR,hr,Francuska,FR
+SN,hr,Senegal,SN
+HR,hr,Hrvatska,HR
+HU,hr,Mađarska,HU
+ID,hr,Indonezija,ID
+IS,hr,Island,IS
+IT,hr,Italija,IT
+JP,hr,Japan,JP
+GE,hr,Gruzija,GE
+KZ,hr,Kazahstan,KZ
+KR,hr,Južna Koreja,KR
+LU,hr,Luksemburg,LU
+LA,hr,Laos,LA
+LT,hr,Litva,LT
+LV,hr,Latvija,LV
+MK,hr,Sjeverna Makedonija,MK
+MY,hr,Malezija,MY
+NO,hr,Norveška,NO
+NP,hr,Nepal,NP
+NL,hr,Nizozemska,NL
+PL,hr,Poljska,PL
+BR,hr,Brazil,BR
+PT,hr,Portugal,PT
+MD,hr,Moldavija,MD
+RO,hr,Rumunjska,RO
+RU,hr,Rusija,RU
+LK,hr,Šri Lanka,LK
+SK,hr,Slovačka,SK
+SI,hr,Slovenija,SI
+ME,hr,Crna Gora,ME
+RS,hr,Srbija,RS
+SE,hr,Švedska,SE
+TZ,hr,Tanzanija,TZ
+TH,hr,Tajland,TH
+TR,hr,Turska,TR
+UA,hr,Ukrajina,UA
+PK,hr,Pakistan,PK
+VN,hr,Vijetnam,VN
+HK,hr,Hong Kong,HK
+TW,hr,Tajvan,TW
+CY,hr,Cipar,CY
+KH,hr,Kambodža,KH
+LI,hr,Lihtenštajn,LI
+PG,hr,Papua Nova Gvineja,PG
+AE,hu,Egyesült Arab Emírségek,AE
+BH,hu,Bahrein,BH
+DZ,hu,Algéria,DZ
+EG,hu,Egyiptom,EG
+IQ,hu,Irak,IQ
+JO,hu,Jordánia,JO
+KW,hu,Kuvait,KW
+LB,hu,Libanon,LB
+LY,hu,Líbia,LY
+MA,hu,Marokkó,MA
+OM,hu,Omán,OM
+QA,hu,Katar,QA
+SA,hu,Szaúd-Arábia,SA
+TN,hu,Tunézia,TN
+YE,hu,Jemen,YE
+AZ,hu,Azerbajdzsán,AZ
+BY,hu,Belarusz,BY
+BG,hu,Bulgária,BG
+BD,hu,Banglades,BD
+BA,hu,Bosznia és Hercegovina,BA
+CZ,hu,Csehország,CZ
+DK,hu,Dánia,DK
+AT,hu,Ausztria,AT
+CH,hu,Svájc,CH
+DE,hu,Németország,DE
+GR,hu,Görögország,GR
+AU,hu,Ausztrália,AU
+BE,hu,Belgium,BE
+CA,hu,Kanada,CA
+GB,hu,Egyesült Királyság,GB
+GH,hu,Ghána,GH
+IE,hu,Írország,IE
+IL,hu,Izrael,IL
+IN,hu,India,IN
+JM,hu,Jamaica,JM
+KE,hu,Kenya,KE
+MT,hu,Málta,MT
+NG,hu,Nigéria,NG
+NZ,hu,Új-Zéland,NZ
+SG,hu,Szingapúr,SG
+UG,hu,Uganda,UG
+US,hu,Egyesült Államok,US
+ZA,hu,Dél-Afrika,ZA
+ZW,hu,Zimbabwe,ZW
+AR,hu,Argentína,AR
+BO,hu,Bolívia,BO
+CL,hu,Chile,CL
+CO,hu,Kolumbia,CO
+CR,hu,Costa Rica,CR
+DO,hu,Dominikai Köztársaság,DO
+EC,hu,Ecuador,EC
+ES,hu,Spanyolország,ES
+GT,hu,Guatemala,GT
+HN,hu,Honduras,HN
+MX,hu,Mexikó,MX
+NI,hu,Nicaragua,NI
+PA,hu,Panama,PA
+PE,hu,Peru,PE
+PR,hu,Puerto Rico,PR
+PY,hu,Paraguay,PY
+SV,hu,El Salvador,SV
+UY,hu,Uruguay,UY
+VE,hu,Venezuela,VE
+EE,hu,Észtország,EE
+FI,hu,Finnország,FI
+PH,hu,Fülöp-szigetek,PH
+FR,hu,Franciaország,FR
+SN,hu,Szenegál,SN
+HR,hu,Horvátország,HR
+HU,hu,Magyarország,HU
+ID,hu,Indonézia,ID
+IS,hu,Izland,IS
+IT,hu,Olaszország,IT
+JP,hu,Japán,JP
+GE,hu,Grúzia,GE
+KZ,hu,Kazahsztán,KZ
+KR,hu,Dél-Korea,KR
+LU,hu,Luxemburg,LU
+LA,hu,Laosz,LA
+LT,hu,Litvánia,LT
+LV,hu,Lettország,LV
+MK,hu,Észak-Macedónia,MK
+MY,hu,Malajzia,MY
+NO,hu,Norvégia,NO
+NP,hu,Nepál,NP
+NL,hu,Hollandia,NL
+PL,hu,Lengyelország,PL
+BR,hu,Brazília,BR
+PT,hu,Portugália,PT
+MD,hu,Moldova,MD
+RO,hu,Románia,RO
+RU,hu,Oroszország,RU
+LK,hu,Srí Lanka,LK
+SK,hu,Szlovákia,SK
+SI,hu,Szlovénia,SI
+ME,hu,Montenegró,ME
+RS,hu,Szerbia,RS
+SE,hu,Svédország,SE
+TZ,hu,Tanzánia,TZ
+TH,hu,Thaiföld,TH
+TR,hu,Törökország,TR
+UA,hu,Ukrajna,UA
+PK,hu,Pakisztán,PK
+VN,hu,Vietnam,VN
+HK,hu,Hongkong,HK
+TW,hu,Tajvan,TW
+CY,hu,Ciprus,CY
+KH,hu,Kambodzsa,KH
+LI,hu,Liechtenstein,LI
+PG,hu,Pápua Új-Guinea,PG
+AE,hy,Արաբական Միացյալ Էմիրություններ,AE
+BH,hy,Բահրեյն,BH
+DZ,hy,Ալժիր,DZ
+EG,hy,Եգիպտոս,EG
+IQ,hy,Իրաք,IQ
+JO,hy,Հորդանան,JO
+KW,hy,Քուվեյթ,KW
+LB,hy,Լիբանան,LB
+LY,hy,Լիբիա,LY
+MA,hy,Մարոկկո,MA
+OM,hy,Օման,OM
+QA,hy,Կատար,QA
+SA,hy,Սաուդյան Արաբիա,SA
+TN,hy,Թունիս,TN
+YE,hy,Յեմեն,YE
+AZ,hy,Ադրբեջան,AZ
+BY,hy,Բելառուս,BY
+BG,hy,Բուլղարիա,BG
+BD,hy,Բանգլադեշ,BD
+BA,hy,Բոսնիա և Հերցեգովինա,BA
+CZ,hy,Չեխիա,CZ
+DK,hy,Դանիա,DK
+AT,hy,Ավստրիա,AT
+CH,hy,Շվեյցարիա,CH
+DE,hy,Գերմանիա,DE
+GR,hy,Հունաստան,GR
+AU,hy,Ավստրալիա,AU
+BE,hy,Բելգիա,BE
+CA,hy,Կանադա,CA
+GB,hy,Միացյալ Թագավորություն,GB
+GH,hy,Գանա,GH
+IE,hy,Իռլանդիա,IE
+IL,hy,Իսրայել,IL
+IN,hy,Հնդկաստան,IN
+JM,hy,Ջամայկա,JM
+KE,hy,Քենիա,KE
+MT,hy,Մալթա,MT
+NG,hy,Նիգերիա,NG
+NZ,hy,Նոր Զելանդիա,NZ
+SG,hy,Սինգապուր,SG
+UG,hy,Ուգանդա,UG
+US,hy,Միացյալ Նահանգներ,US
+ZA,hy,Հարավային Աֆրիկա,ZA
+ZW,hy,Զիմբաբվե,ZW
+AR,hy,Արգենտինա,AR
+BO,hy,Բոլիվիա,BO
+CL,hy,Չիլի,CL
+CO,hy,Կոլումբիա,CO
+CR,hy,Կոստա Ռիկա,CR
+DO,hy,Դոմինիկյան Հանրապետություն,DO
+EC,hy,Էկվադոր,EC
+ES,hy,Իսպանիա,ES
+GT,hy,Գվատեմալա,GT
+HN,hy,Հոնդուրաս,HN
+MX,hy,Մեքսիկա,MX
+NI,hy,Նիկարագուա,NI
+PA,hy,Պանամա,PA
+PE,hy,Պերու,PE
+PR,hy,Պուերտո Ռիկո,PR
+PY,hy,Պարագվայ,PY
+SV,hy,Էլ Սալվադոր,SV
+UY,hy,Ուրուգվայ,UY
+VE,hy,Վենեսուելա,VE
+EE,hy,Էստոնիա,EE
+FI,hy,Ֆինլանդիա,FI
+PH,hy,Ֆիլիպիններ,PH
+FR,hy,Ֆրանսիա,FR
+SN,hy,Սենեգալ,SN
+HR,hy,Խորվաթիա,HR
+HU,hy,Հունգարիա,HU
+ID,hy,Ինդոնեզիա,ID
+IS,hy,Իսլանդիա,IS
+IT,hy,Իտալիա,IT
+JP,hy,Ճապոնիա,JP
+GE,hy,Վրաստան,GE
+KZ,hy,Ղազախստան,KZ
+KR,hy,Հարավային Կորեա,KR
+LU,hy,Լյուքսեմբուրգ,LU
+LA,hy,Լաոս,LA
+LT,hy,Լիտվա,LT
+LV,hy,Լատվիա,LV
+MK,hy,Հյուսիսային Մակեդոնիա,MK
+MY,hy,Մալայզիա,MY
+NO,hy,Նորվեգիա,NO
+NP,hy,Նեպալ,NP
+NL,hy,Նիդեռլանդներ,NL
+PL,hy,Լեհաստան,PL
+BR,hy,Բրազիլիա,BR
+PT,hy,Պորտուգալիա,PT
+MD,hy,Մոլդովա,MD
+RO,hy,Ռումինիա,RO
+RU,hy,Ռուսաստան,RU
+LK,hy,Շրի Լանկա,LK
+SK,hy,Սլովակիա,SK
+SI,hy,Սլովենիա,SI
+ME,hy,Չեռնոգորիա,ME
+RS,hy,Սերբիա,RS
+SE,hy,Շվեդիա,SE
+TZ,hy,Տանզանիա,TZ
+TH,hy,Թաիլանդ,TH
+TR,hy,Թուրքիա,TR
+UA,hy,Ուկրաինա,UA
+PK,hy,Պակիստան,PK
+VN,hy,Վիետնամ,VN
+HK,hy,Հոնկոնգ,HK
+TW,hy,Թայվան,TW
+CY,hy,Կիպրոս,CY
+KH,hy,Կամբոջա,KH
+LI,hy,Լիխտենշտեյն,LI
+PG,hy,Պապուա Նոր Գվինեա,PG
+AE,id,Uni Emirat Arab,AE
+BH,id,Bahrain,BH
+DZ,id,Aljazair,DZ
+EG,id,Mesir,EG
+IQ,id,Irak,IQ
+JO,id,Yordania,JO
+KW,id,Kuwait,KW
+LB,id,Lebanon,LB
+LY,id,Libya,LY
+MA,id,Maroko,MA
+OM,id,Oman,OM
+QA,id,Qatar,QA
+SA,id,Arab Saudi,SA
+TN,id,Tunisia,TN
+YE,id,Yaman,YE
+AZ,id,Azerbaijan,AZ
+BY,id,Belarus,BY
+BG,id,Bulgaria,BG
+BD,id,Bangladesh,BD
+BA,id,Bosnia dan Herzegovina,BA
+CZ,id,Ceko,CZ
+DK,id,Denmark,DK
+AT,id,Austria,AT
+CH,id,Swiss,CH
+DE,id,Jerman,DE
+GR,id,Yunani,GR
+AU,id,Australia,AU
+BE,id,Belgia,BE
+CA,id,Kanada,CA
+GB,id,Inggris,GB
+GH,id,Ghana,GH
+IE,id,Irlandia,IE
+IL,id,Israel,IL
+IN,id,India,IN
+JM,id,Jamaika,JM
+KE,id,Kenya,KE
+MT,id,Malta,MT
+NG,id,Nigeria,NG
+NZ,id,Selandia Baru,NZ
+SG,id,Singapura,SG
+UG,id,Uganda,UG
+US,id,Amerika Serikat,US
+ZA,id,Afrika Selatan,ZA
+ZW,id,Zimbabwe,ZW
+AR,id,Argentina,AR
+BO,id,Bolivia,BO
+CL,id,Cile,CL
+CO,id,Kolombia,CO
+CR,id,Costa Rica,CR
+DO,id,Republik Dominika,DO
+EC,id,Ekuador,EC
+ES,id,Spanyol,ES
+GT,id,Guatemala,GT
+HN,id,Honduras,HN
+MX,id,Meksiko,MX
+NI,id,Nikaragua,NI
+PA,id,Panama,PA
+PE,id,Peru,PE
+PR,id,Puerto Riko,PR
+PY,id,Paraguay,PY
+SV,id,El Salvador,SV
+UY,id,Uruguay,UY
+VE,id,Venezuela,VE
+EE,id,Estonia,EE
+FI,id,Finlandia,FI
+PH,id,Filipina,PH
+FR,id,Prancis,FR
+SN,id,Senegal,SN
+HR,id,Kroasia,HR
+HU,id,Hungaria,HU
+ID,id,Indonesia,ID
+IS,id,Islandia,IS
+IT,id,Italia,IT
+JP,id,Jepang,JP
+GE,id,Georgia,GE
+KZ,id,Kazakhstan,KZ
+KR,id,Korea Selatan,KR
+LU,id,Luksemburg,LU
+LA,id,Laos,LA
+LT,id,Lituania,LT
+LV,id,Latvia,LV
+MK,id,Makedonia Utara,MK
+MY,id,Malaysia,MY
+NO,id,Norwegia,NO
+NP,id,Nepal,NP
+NL,id,Belanda,NL
+PL,id,Polandia,PL
+BR,id,Brasil,BR
+PT,id,Portugal,PT
+MD,id,Moldova,MD
+RO,id,Rumania,RO
+RU,id,Rusia,RU
+LK,id,Sri Lanka,LK
+SK,id,Slovakia,SK
+SI,id,Slovenia,SI
+ME,id,Montenegro,ME
+RS,id,Serbia,RS
+SE,id,Swedia,SE
+TZ,id,Tanzania,TZ
+TH,id,Thailand,TH
+TR,id,Turki,TR
+UA,id,Ukraina,UA
+PK,id,Pakistan,PK
+VN,id,Vietnam,VN
+HK,id,Hong Kong,HK
+TW,id,Taiwan,TW
+CY,id,Siprus,CY
+KH,id,Kamboja,KH
+LI,id,Liechtenstein,LI
+PG,id,Papua Nugini,PG
+AE,is,Sameinuðu arabísku furstadæmin,AE
+BH,is,Barein,BH
+DZ,is,Alsír,DZ
+EG,is,Egyptaland,EG
+IQ,is,Írak,IQ
+JO,is,Jórdanía,JO
+KW,is,Kúveit,KW
+LB,is,Líbanon,LB
+LY,is,Líbía,LY
+MA,is,Marokkó,MA
+OM,is,Óman,OM
+QA,is,Katar,QA
+SA,is,Sádi-Arabía,SA
+TN,is,Túnis,TN
+YE,is,Jemen,YE
+AZ,is,Aserbaídsjan,AZ
+BY,is,Hvíta-Rússland,BY
+BG,is,Búlgaría,BG
+BD,is,Bangladess,BD
+BA,is,Bosnía og Hersegóvína,BA
+CZ,is,Tékkland,CZ
+DK,is,Danmörk,DK
+AT,is,Austurríki,AT
+CH,is,Sviss,CH
+DE,is,Þýskaland,DE
+GR,is,Grikkland,GR
+AU,is,Ástralía,AU
+BE,is,Belgía,BE
+CA,is,Kanada,CA
+GB,is,Bretland,GB
+GH,is,Gana,GH
+IE,is,Írland,IE
+IL,is,Ísrael,IL
+IN,is,Indland,IN
+JM,is,Jamaíka,JM
+KE,is,Kenía,KE
+MT,is,Malta,MT
+NG,is,Nígería,NG
+NZ,is,Nýja-Sjáland,NZ
+SG,is,Singapúr,SG
+UG,is,Úganda,UG
+US,is,Bandaríkin,US
+ZA,is,Suður-Afríka,ZA
+ZW,is,Simbabve,ZW
+AR,is,Argentína,AR
+BO,is,Bólivía,BO
+CL,is,Síle,CL
+CO,is,Kólumbía,CO
+CR,is,Kosta Ríka,CR
+DO,is,Dóminíska lýðveldið,DO
+EC,is,Ekvador,EC
+ES,is,Spánn,ES
+GT,is,Gvatemala,GT
+HN,is,Hondúras,HN
+MX,is,Mexíkó,MX
+NI,is,Níkaragva,NI
+PA,is,Panama,PA
+PE,is,Perú,PE
+PR,is,Púertó Ríkó,PR
+PY,is,Paragvæ,PY
+SV,is,El Salvador,SV
+UY,is,Úrúgvæ,UY
+VE,is,Venesúela,VE
+EE,is,Eistland,EE
+FI,is,Finnland,FI
+PH,is,Filippseyjar,PH
+FR,is,Frakkland,FR
+SN,is,Senegal,SN
+HR,is,Króatía,HR
+HU,is,Ungverjaland,HU
+ID,is,Indónesía,ID
+IS,is,Ísland,IS
+IT,is,Ítalía,IT
+JP,is,Japan,JP
+GE,is,Georgía,GE
+KZ,is,Kasakstan,KZ
+KR,is,Suður-Kórea,KR
+LU,is,Lúxemborg,LU
+LA,is,Laos,LA
+LT,is,Litháen,LT
+LV,is,Lettland,LV
+MK,is,Norður-Makedónía,MK
+MY,is,Malasía,MY
+NO,is,Noregur,NO
+NP,is,Nepal,NP
+NL,is,Holland,NL
+PL,is,Pólland,PL
+BR,is,Brasilía,BR
+PT,is,Portúgal,PT
+MD,is,Moldóva,MD
+RO,is,Rúmenía,RO
+RU,is,Rússland,RU
+LK,is,Srí Lanka,LK
+SK,is,Slóvakía,SK
+SI,is,Slóvenía,SI
+ME,is,Svartfjallaland,ME
+RS,is,Serbía,RS
+SE,is,Svíþjóð,SE
+TZ,is,Tansanía,TZ
+TH,is,Tæland,TH
+TR,is,Tyrkland,TR
+UA,is,Úkraína,UA
+PK,is,Pakistan,PK
+VN,is,Víetnam,VN
+HK,is,Hong Kong,HK
+TW,is,Taívan,TW
+CY,is,Kýpur,CY
+KH,is,Kambódía,KH
+LI,is,Liechtenstein,LI
+PG,is,Papúa Nýja-Gínea,PG
+AE,it,Emirati Arabi Uniti,AE
+BH,it,Bahrein,BH
+DZ,it,Algeria,DZ
+EG,it,Egitto,EG
+IQ,it,Iraq,IQ
+JO,it,Giordania,JO
+KW,it,Kuwait,KW
+LB,it,Libano,LB
+LY,it,Libia,LY
+MA,it,Marocco,MA
+OM,it,Oman,OM
+QA,it,Qatar,QA
+SA,it,Arabia Saudita,SA
+TN,it,Tunisia,TN
+YE,it,Yemen,YE
+AZ,it,Azerbaigian,AZ
+BY,it,Bielorussia,BY
+BG,it,Bulgaria,BG
+BD,it,Bangladesh,BD
+BA,it,Bosnia-Erzegovina,BA
+CZ,it,Repubblica Ceca,CZ
+DK,it,Danimarca,DK
+AT,it,Austria,AT
+CH,it,Svizzera,CH
+DE,it,Germania,DE
+GR,it,Grecia,GR
+AU,it,Australia,AU
+BE,it,Belgio,BE
+CA,it,Canada,CA
+GB,it,Regno Unito,GB
+GH,it,Ghana,GH
+IE,it,Irlanda,IE
+IL,it,Israele,IL
+IN,it,India,IN
+JM,it,Giamaica,JM
+KE,it,Kenya,KE
+MT,it,Malta,MT
+NG,it,Nigeria,NG
+NZ,it,Nuova Zelanda,NZ
+SG,it,Singapore,SG
+UG,it,Uganda,UG
+US,it,Stati Uniti,US
+ZA,it,Sudafrica,ZA
+ZW,it,Zimbabwe,ZW
+AR,it,Argentina,AR
+BO,it,Bolivia,BO
+CL,it,Cile,CL
+CO,it,Colombia,CO
+CR,it,Costa Rica,CR
+DO,it,Repubblica Dominicana,DO
+EC,it,Ecuador,EC
+ES,it,Spagna,ES
+GT,it,Guatemala,GT
+HN,it,Honduras,HN
+MX,it,Messico,MX
+NI,it,Nicaragua,NI
+PA,it,Panama,PA
+PE,it,Perù,PE
+PR,it,Portorico,PR
+PY,it,Paraguay,PY
+SV,it,El Salvador,SV
+UY,it,Uruguay,UY
+VE,it,Venezuela,VE
+EE,it,Estonia,EE
+FI,it,Finlandia,FI
+PH,it,Filippine,PH
+FR,it,Francia,FR
+SN,it,Senegal,SN
+HR,it,Croazia,HR
+HU,it,Ungheria,HU
+ID,it,Indonesia,ID
+IS,it,Islanda,IS
+IT,it,Italia,IT
+JP,it,Giappone,JP
+GE,it,Georgia,GE
+KZ,it,Kazakistan,KZ
+KR,it,Corea del Sud,KR
+LU,it,Lussemburgo,LU
+LA,it,Laos,LA
+LT,it,Lituania,LT
+LV,it,Lettonia,LV
+MK,it,Macedonia del Nord,MK
+MY,it,Malesia,MY
+NO,it,Norvegia,NO
+NP,it,Nepal,NP
+NL,it,Paesi Bassi,NL
+PL,it,Polonia,PL
+BR,it,Brasile,BR
+PT,it,Portogallo,PT
+MD,it,Moldavia,MD
+RO,it,Romania,RO
+RU,it,Russia,RU
+LK,it,Sri Lanka,LK
+SK,it,Slovacchia,SK
+SI,it,Slovenia,SI
+ME,it,Montenegro,ME
+RS,it,Serbia,RS
+SE,it,Svezia,SE
+TZ,it,Tanzania,TZ
+TH,it,Thailandia,TH
+TR,it,Turchia,TR
+UA,it,Ucraina,UA
+PK,it,Pakistan,PK
+VN,it,Vietnam,VN
+HK,it,Hong Kong,HK
+TW,it,Taiwan,TW
+CY,it,Cipro,CY
+KH,it,Cambogia,KH
+LI,it,Liechtenstein,LI
+PG,it,Papua Nuova Guinea,PG
+AE,iw,איחוד האמירויות הערביות,AE
+BH,iw,בחריין,BH
+DZ,iw,אלג'יריה,DZ
+EG,iw,מצרים,EG
+IQ,iw,עירק,IQ
+JO,iw,ירדן,JO
+KW,iw,כוויית,KW
+LB,iw,לבנון,LB
+LY,iw,לוב,LY
+MA,iw,מרוקו,MA
+OM,iw,עומאן,OM
+QA,iw,קטאר,QA
+SA,iw,ערב הסעודית,SA
+TN,iw,תוניסיה,TN
+YE,iw,תימן,YE
+AZ,iw,אזרביג'ן,AZ
+BY,iw,בלרוס,BY
+BG,iw,בולגריה,BG
+BD,iw,בנגלדש,BD
+BA,iw,בוסניה והרצוגובינה,BA
+CZ,iw,צ'כיה,CZ
+DK,iw,דנמרק,DK
+AT,iw,אוסטריה,AT
+CH,iw,שווייץ,CH
+DE,iw,גרמניה,DE
+GR,iw,יוון,GR
+AU,iw,אוסטרליה,AU
+BE,iw,בלגיה,BE
+CA,iw,קנדה,CA
+GB,iw,בריטניה,GB
+GH,iw,גאנה,GH
+IE,iw,אירלנד,IE
+IL,iw,ישראל,IL
+IN,iw,הודו,IN
+JM,iw,ג'מייקה,JM
+KE,iw,קניה,KE
+MT,iw,מלטה,MT
+NG,iw,ניגריה,NG
+NZ,iw,ניו זילנד,NZ
+SG,iw,סינגפור,SG
+UG,iw,אוגנדה,UG
+US,iw,ארצות הברית,US
+ZA,iw,דרום אפריקה,ZA
+ZW,iw,זימבבואה,ZW
+AR,iw,ארגנטינה,AR
+BO,iw,בוליביה,BO
+CL,iw,צ'ילה,CL
+CO,iw,קולומביה,CO
+CR,iw,קוסטה ריקה,CR
+DO,iw,הרפובליקה הדומיניקנית,DO
+EC,iw,אקוודור,EC
+ES,iw,ספרד,ES
+GT,iw,גווטמלה,GT
+HN,iw,הונדורס,HN
+MX,iw,מקסיקו,MX
+NI,iw,ניקרגואה,NI
+PA,iw,פנמה,PA
+PE,iw,פרו,PE
+PR,iw,פוארטו ריקו,PR
+PY,iw,פרגוואי,PY
+SV,iw,אל סלבדור,SV
+UY,iw,אורוגוואי,UY
+VE,iw,ונצואלה,VE
+EE,iw,אסטוניה,EE
+FI,iw,פינלנד,FI
+PH,iw,הפיליפינים,PH
+FR,iw,צרפת,FR
+SN,iw,סנגל,SN
+HR,iw,קרואטיה,HR
+HU,iw,הונגריה,HU
+ID,iw,אינדונזיה,ID
+IS,iw,איסלנד,IS
+IT,iw,איטליה,IT
+JP,iw,יפן,JP
+GE,iw,גיאורגיה,GE
+KZ,iw,קזחסטן,KZ
+KR,iw,דרום קוריאה,KR
+LU,iw,לוקסמבורג,LU
+LA,iw,לאוס,LA
+LT,iw,ליטא,LT
+LV,iw,לטביה,LV
+MK,iw,מקדוניה הצפונית,MK
+MY,iw,מלזיה,MY
+NO,iw,נורווגיה,NO
+NP,iw,נפאל,NP
+NL,iw,הולנד,NL
+PL,iw,פולין,PL
+BR,iw,ברזיל,BR
+PT,iw,פורטוגל,PT
+MD,iw,מולדובה,MD
+RO,iw,רומניה,RO
+RU,iw,רוסיה,RU
+LK,iw,סרי לנקה,LK
+SK,iw,סלובקיה,SK
+SI,iw,סלובניה,SI
+ME,iw,מונטנגרו,ME
+RS,iw,סרביה,RS
+SE,iw,שוודיה,SE
+TZ,iw,טנזניה,TZ
+TH,iw,תאילנד,TH
+TR,iw,טורקיה,TR
+UA,iw,אוקראינה,UA
+PK,iw,פקיסטן,PK
+VN,iw,וייטנאם,VN
+HK,iw,הונג קונג,HK
+TW,iw,טייוואן,TW
+CY,iw,קפריסין,CY
+KH,iw,קמבודיה,KH
+LI,iw,ליכטנשטיין,LI
+PG,iw,פפואה גיניאה החדשה,PG
+AE,ja,アラブ首長国連邦,AE
+BH,ja,バーレーン,BH
+DZ,ja,アルジェリア,DZ
+EG,ja,エジプト,EG
+IQ,ja,イラク,IQ
+JO,ja,ヨルダン,JO
+KW,ja,クウェート,KW
+LB,ja,レバノン,LB
+LY,ja,リビア,LY
+MA,ja,モロッコ,MA
+OM,ja,オマーン,OM
+QA,ja,カタール,QA
+SA,ja,サウジアラビア,SA
+TN,ja,チュニジア,TN
+YE,ja,イエメン,YE
+AZ,ja,アゼルバイジャン,AZ
+BY,ja,ベラルーシ,BY
+BG,ja,ブルガリア,BG
+BD,ja,バングラディッシュ人民共和国,BD
+BA,ja,ボスニア ヘルツェゴビナ,BA
+CZ,ja,チェコ,CZ
+DK,ja,デンマーク,DK
+AT,ja,オーストリア,AT
+CH,ja,スイス,CH
+DE,ja,ドイツ,DE
+GR,ja,ギリシャ,GR
+AU,ja,オーストラリア,AU
+BE,ja,ベルギー,BE
+CA,ja,カナダ,CA
+GB,ja,イギリス,GB
+GH,ja,ガーナ,GH
+IE,ja,アイルランド,IE
+IL,ja,イスラエル,IL
+IN,ja,インド,IN
+JM,ja,ジャマイカ,JM
+KE,ja,ケニア,KE
+MT,ja,マルタ,MT
+NG,ja,ナイジェリア,NG
+NZ,ja,ニュージーランド,NZ
+SG,ja,シンガポール,SG
+UG,ja,ウガンダ,UG
+US,ja,アメリカ,US
+ZA,ja,南アフリカ,ZA
+ZW,ja,ジンバブエ,ZW
+AR,ja,アルゼンチン,AR
+BO,ja,ボリビア共和国,BO
+CL,ja,チリ,CL
+CO,ja,コロンビア,CO
+CR,ja,コスタリカ共和国,CR
+DO,ja,ドミニカ共和国,DO
+EC,ja,エクアドル共和国,EC
+ES,ja,スペイン,ES
+GT,ja,グァテマラ共和国,GT
+HN,ja,ホンジュラス共和国,HN
+MX,ja,メキシコ,MX
+NI,ja,ニカラグア共和国,NI
+PA,ja,パナマ共和国,PA
+PE,ja,ペルー,PE
+PR,ja,プエルトリコ,PR
+PY,ja,パラグアイ共和国,PY
+SV,ja,エルサルバドル共和国,SV
+UY,ja,ウルグアイ共和国,UY
+VE,ja,ベネズエラ共和国,VE
+EE,ja,エストニア,EE
+FI,ja,フィンランド,FI
+PH,ja,フィリピン,PH
+FR,ja,フランス,FR
+SN,ja,セネガル,SN
+HR,ja,クロアチア,HR
+HU,ja,ハンガリー,HU
+ID,ja,インドネシア,ID
+IS,ja,アイスランド,IS
+IT,ja,イタリア,IT
+JP,ja,日本,JP
+GE,ja,ジョージア,GE
+KZ,ja,カザフスタン,KZ
+KR,ja,韓国,KR
+LU,ja,ルクセンブルグ,LU
+LA,ja,ラオス,LA
+LT,ja,リトアニア,LT
+LV,ja,ラトビア,LV
+MK,ja,北マケドニア,MK
+MY,ja,マレーシア,MY
+NO,ja,ノルウェー,NO
+NP,ja,ネパール,NP
+NL,ja,オランダ,NL
+PL,ja,ポーランド,PL
+BR,ja,ブラジル,BR
+PT,ja,ポルトガル,PT
+MD,ja,モルドバ共和国,MD
+RO,ja,ルーマニア,RO
+RU,ja,ロシア,RU
+LK,ja,スリランカ,LK
+SK,ja,スロバキア,SK
+SI,ja,スロベニア,SI
+ME,ja,モンテネグロ,ME
+RS,ja,セルビア,RS
+SE,ja,スウェーデン,SE
+TZ,ja,タンザニア,TZ
+TH,ja,タイ,TH
+TR,ja,トルコ,TR
+UA,ja,ウクライナ,UA
+PK,ja,パキスタン,PK
+VN,ja,ベトナム,VN
+HK,ja,香港,HK
+TW,ja,台湾,TW
+CY,ja,キプロス共和国,CY
+KH,ja,カンボジア国,KH
+LI,ja,リヒテンシュタイン公国,LI
+PG,ja,パプア　ニューギニア,PG
+AE,ka,არაბეთის გაერთიანებული საამიროები,AE
+BH,ka,ბაჰრეინი,BH
+DZ,ka,ალჟირი,DZ
+EG,ka,ეგვიპტე,EG
+IQ,ka,ერაყი,IQ
+JO,ka,იორდანია,JO
+KW,ka,ქუვეითი,KW
+LB,ka,ლიბანი,LB
+LY,ka,ლიბია,LY
+MA,ka,მაროკო,MA
+OM,ka,ომანი,OM
+QA,ka,კატარი,QA
+SA,ka,საუდის არაბეთი,SA
+TN,ka,ტუნისი,TN
+YE,ka,იემენი,YE
+AZ,ka,აზერბაიჯანი,AZ
+BY,ka,ბელარუსი,BY
+BG,ka,ბულგარეთი,BG
+BD,ka,ბანგლადეში,BD
+BA,ka,ბოსნია და ჰერცეგოვინა,BA
+CZ,ka,ჩეხეთი,CZ
+DK,ka,დანია,DK
+AT,ka,ავსტრია,AT
+CH,ka,შვეიცარია,CH
+DE,ka,გერმანია,DE
+GR,ka,საბერძნეთი,GR
+AU,ka,ავსტრალია,AU
+BE,ka,ბელგია,BE
+CA,ka,კანადა,CA
+GB,ka,გაერთიანებული სამეფო,GB
+GH,ka,განა,GH
+IE,ka,ირლანდია,IE
+IL,ka,ისრაელი,IL
+IN,ka,ინდოეთი,IN
+JM,ka,იამაიკა,JM
+KE,ka,კენია,KE
+MT,ka,მალტა,MT
+NG,ka,ნიგერია,NG
+NZ,ka,ახალი ზელანდია,NZ
+SG,ka,სინგაპური,SG
+UG,ka,უგანდა,UG
+US,ka,ამერიკის შეერთებული შტატები,US
+ZA,ka,სამხრეთ აფრიკა,ZA
+ZW,ka,ზიმბაბვე,ZW
+AR,ka,არგენტინა,AR
+BO,ka,ბოლივია,BO
+CL,ka,ჩილე,CL
+CO,ka,კოლუმბია,CO
+CR,ka,კოსტა-რიკა,CR
+DO,ka,დომინიკელთა რესპუბლიკა,DO
+EC,ka,ეკვადორი,EC
+ES,ka,ესპანეთი,ES
+GT,ka,გვატემალა,GT
+HN,ka,ჰონდურასი,HN
+MX,ka,მექსიკა,MX
+NI,ka,ნიკარაგუა,NI
+PA,ka,პანამა,PA
+PE,ka,პერუ,PE
+PR,ka,პუერტო-რიკო,PR
+PY,ka,პარაგვაი,PY
+SV,ka,ელ-სალვადორი,SV
+UY,ka,ურუგვაი,UY
+VE,ka,ვენესუელა,VE
+EE,ka,ესტონეთი,EE
+FI,ka,ფინეთი,FI
+PH,ka,ფილიპინები,PH
+FR,ka,საფრანგეთი,FR
+SN,ka,სენეგალი,SN
+HR,ka,ხორვატია,HR
+HU,ka,უნგრეთი,HU
+ID,ka,ინდონეზია,ID
+IS,ka,ისლანდია,IS
+IT,ka,იტალია,IT
+JP,ka,იაპონია,JP
+GE,ka,საქართველო,GE
+KZ,ka,ყაზახეთი,KZ
+KR,ka,სამხრეთ კორეა,KR
+LU,ka,ლუქსემბურგი,LU
+LA,ka,ლაოსი,LA
+LT,ka,ლიტვა,LT
+LV,ka,ლატვია,LV
+MK,ka,ჩრდილოეთი მაკედონია,MK
+MY,ka,მალაიზია,MY
+NO,ka,ნორვეგია,NO
+NP,ka,ნეპალი,NP
+NL,ka,ნიდერლანდი,NL
+PL,ka,პოლონეთი,PL
+BR,ka,ბრაზილია,BR
+PT,ka,პორტუგალია,PT
+MD,ka,მოლდოვა,MD
+RO,ka,რუმინეთი,RO
+RU,ka,რუსეთი,RU
+LK,ka,შრი-ლანკა,LK
+SK,ka,სლოვაკეთი,SK
+SI,ka,სლოვენია,SI
+ME,ka,მონტენეგრო,ME
+RS,ka,სერბეთი,RS
+SE,ka,შვედეთი,SE
+TZ,ka,ტანზანია,TZ
+TH,ka,ტაილანდი,TH
+TR,ka,თურქეთი,TR
+UA,ka,უკრაინა,UA
+PK,ka,პაკისტანი,PK
+VN,ka,ვიეტნამი,VN
+HK,ka,ჰონგ-კონგი,HK
+TW,ka,ტაივანი,TW
+CY,ka,კვიპროსი,CY
+KH,ka,კამბოჯა,KH
+LI,ka,ლიხტენშტეინი,LI
+PG,ka,პაპუა-ახალი გვინეა,PG
+AE,kk,Біріккен Араб Әмірлігі,AE
+BH,kk,Бахрейн,BH
+DZ,kk,Aлжир,DZ
+EG,kk,Мысыр,EG
+IQ,kk,Ирак,IQ
+JO,kk,Иордания,JO
+KW,kk,Kувейт,KW
+LB,kk,Ливан,LB
+LY,kk,Ливия,LY
+MA,kk,Mарокко,MA
+OM,kk,Oман,OM
+QA,kk,Қатар,QA
+SA,kk,Сауд Арабиясы,SA
+TN,kk,Tунис,TN
+YE,kk,Йемен,YE
+AZ,kk,Әзірбайжан,AZ
+BY,kk,Беларусь,BY
+BG,kk,Болгария,BG
+BD,kk,Бангладеш,BD
+BA,kk,Босния және Герцеговина,BA
+CZ,kk,Чехия,CZ
+DK,kk,Дания,DK
+AT,kk,Aвстрия,AT
+CH,kk,Швейцария,CH
+DE,kk,Германия,DE
+GR,kk,Греция,GR
+AU,kk,Aвстралия,AU
+BE,kk,Бельгия,BE
+CA,kk,Канада,CA
+GB,kk,Ұлыбритания,GB
+GH,kk,Гана,GH
+IE,kk,Ирландия,IE
+IL,kk,Израиль,IL
+IN,kk,Үндістан,IN
+JM,kk,Ямайка,JM
+KE,kk,Кения,KE
+MT,kk,Maльта,MT
+NG,kk,Нигерия,NG
+NZ,kk,Жаңа Зеландия,NZ
+SG,kk,Сингапур,SG
+UG,kk,Уганда,UG
+US,kk,АҚШ,US
+ZA,kk,Оңтүстік Африка,ZA
+ZW,kk,Зимбабве,ZW
+AR,kk,Aргентина,AR
+BO,kk,Боливия,BO
+CL,kk,Чили,CL
+CO,kk,Колумбия,CO
+CR,kk,Коста Рика,CR
+DO,kk,Доминикан Республикасы,DO
+EC,kk,Эквад,EC
+ES,kk,Испания,ES
+GT,kk,Гватемала,GT
+HN,kk,Гондурас,HN
+MX,kk,Meксика,MX
+NI,kk,Никарагуа,NI
+PA,kk,Панама,PA
+PE,kk,Перу,PE
+PR,kk,Пуэрто-Рико,PR
+PY,kk,Парагвай,PY
+SV,kk,Эль Сальвадор,SV
+UY,kk,Уругвай,UY
+VE,kk,Венесуэла,VE
+EE,kk,Эстония,EE
+FI,kk,Финляндия,FI
+PH,kk,Филиппин аралдары,PH
+FR,kk,Франция,FR
+SN,kk,Сенегал,SN
+HR,kk,Хорватия,HR
+HU,kk,Венгрия,HU
+ID,kk,Индонезия,ID
+IS,kk,Исландия,IS
+IT,kk,Италия,IT
+JP,kk,Жапония,JP
+GE,kk,Грузия,GE
+KZ,kk,Қазақстан,KZ
+KR,kk,Оңтүстік Корея,KR
+LU,kk,Люксембург,LU
+LA,kk,Лаос,LA
+LT,kk,Литва,LT
+LV,kk,Латвия,LV
+MK,kk,Солтүстік Македония,MK
+MY,kk,Maлазия,MY
+NO,kk,Норвегия,NO
+NP,kk,Непал,NP
+NL,kk,Нидерланд,NL
+PL,kk,Польша,PL
+BR,kk,Бразилия,BR
+PT,kk,Португалия,PT
+MD,kk,Молдавия,MD
+RO,kk,Румыния,RO
+RU,kk,Ресей,RU
+LK,kk,Шри Ланка,LK
+SK,kk,Словакия,SK
+SI,kk,Словения,SI
+ME,kk,Moнтене,ME
+RS,kk,Сербия,RS
+SE,kk,Швеция,SE
+TZ,kk,Танзания,TZ
+TH,kk,Tайланд,TH
+TR,kk,Tүркия,TR
+UA,kk,Украина,UA
+PK,kk,Пакистан,PK
+VN,kk,Вьетнам,VN
+HK,kk,Гонконг,HK
+TW,kk,Тайвань,TW
+CY,kk,Кипр,CY
+KH,kk,Камбоджия,KH
+LI,kk,Лихтенштейн,LI
+PG,kk,Папуа Жаңа Гвинеясы,PG
+AE,km,អេមីរ៉ាតអារ៉ាប់រួម,AE
+BH,km,បារ៉ែន​,BH
+DZ,km,អាល់ហ្សេរី,DZ
+EG,km,អេហ្ស៊ីប,EG
+IQ,km,អ៊ីរ៉ាក់,IQ
+JO,km,ហ្ស៊កដានី,JO
+KW,km,គុយវ៉ែត,KW
+LB,km,លីបង់,LB
+LY,km,លីប៊ី​,LY
+MA,km,ម៉ារ៉ុក,MA
+OM,km,អូម៉ង់,OM
+QA,km,កា​តា​,QA
+SA,km,អា​រ៉ា​ប៊ី​សា​អូឌីត​,SA
+TN,km,ទុយណេស៊ី,TN
+YE,km,យេម៉ែន,YE
+AZ,km,អាស៊ែបៃហ្សង់,AZ
+BY,km,បេឡារុស,BY
+BG,km,ប៊ុលហ្គារី,BG
+BD,km,បង់ក្លាដែស,BD
+BA,km,បូស៊្នី និង​​ហឺស៊ីកូវីណា,BA
+CZ,km,ឆេកឈីយ៉ា,CZ
+DK,km,ដាណឺម៉ាក,DK
+AT,km,អូទ្រីស,AT
+CH,km,ស៊្វីស,CH
+DE,km,អាល្លឺម៉ង់,DE
+GR,km,ក្រិក,GR
+AU,km,អូស្ត្រាលី,AU
+BE,km,បែលហ្ស៊ិក,BE
+CA,km,កាណាដា,CA
+GB,km,ចក្រភពអង់គ្លេស,GB
+GH,km,ហ្គាណា,GH
+IE,km,អៀរឡង់,IE
+IL,km,អ៊ី​ស្រា​អែ​ល,IL
+IN,km,ឥណ្ឌា,IN
+JM,km,យ៉ាមីកា,JM
+KE,km,កេនយ៉ា,KE
+MT,km,ម៉ាល់,MT
+NG,km,​នីហ្សេរីយ៉ា,NG
+NZ,km,នូវែលហ្សេឡង់,NZ
+SG,km,សិង្ហបុរី,SG
+UG,km,អ៊ូ​ហ្គ​ង់​ដា,UG
+US,km,សហរដ្ឋអាមេរិក,US
+ZA,km,អា​ហ្រ្វិ​ក​ខាងត្បូង​,ZA
+ZW,km,ស៊ីមបាវ៉េ,ZW
+AR,km,​អាហ្សង់ទីន,AR
+BO,km,បូលីវី,BO
+CL,km,ស៊ីលី,CL
+CO,km,កូឡុំប៊ី,CO
+CR,km,កូស្តារីកូ,CR
+DO,km,ដូមីនីក (សាធារណរដ្ឋ),DO
+EC,km,អេក្វាទ័រ,EC
+ES,km,អេស្ប៉ាញ,ES
+GT,km,ហ្គាតេម៉ាឡា,GT
+HN,km,ហុងឌូរ៉ាស,HN
+MX,km,ម៉ិកស៊ិក,MX
+NI,km,នីការ៉ាហ្គា,NI
+PA,km,ប៉ាណាម៉ា,PA
+PE,km,​ប៉េរូ,PE
+PR,km,ព័រតូរីកូ,PR
+PY,km,ប៉ារ៉ាហ្គាយ,PY
+SV,km,អែ​ល​សាល់​វ៉ា​ឌ័​រ,SV
+UY,km,អ៊ុយរូហ្គាយ,UY
+VE,km,វ៉េណេស៊ុយអេឡា,VE
+EE,km,អេស្តូនី,EE
+FI,km,ហ្វាំងឡង់,FI
+PH,km,ហ្វីលីពីន,PH
+FR,km,បារាំង,FR
+SN,km,សេណេហ្គាល់,SN
+HR,km,ក្រូអាត,HR
+HU,km,​ហុងគ្រី,HU
+ID,km,ឥណ្ឌូណេស៊ី,ID
+IS,km,អ៊ីស្លង់,IS
+IT,km,អ៊ីតាលី,IT
+JP,km,​ជប៉ុន,JP
+GE,km,ចចចា,GE
+KZ,km,កាសាស្ថាន,KZ
+KR,km,កូរ៉េ​ខាងត្បូង,KR
+LU,km,លុចសំបួ,LU
+LA,km,ឡាវ,LA
+LT,km,លីទុយអានី,LT
+LV,km,ឡេតូនី,LV
+MK,km,ម៉ាសេដ្វានខាងជើង,MK
+MY,km,ម៉ាឡេស៊ី,MY
+NO,km,ន័រវែស,NO
+NP,km,នេប៉ាល់,NP
+NL,km,ហូឡង់,NL
+PL,km,​ប៉ូឡូញ,PL
+BR,km,ប្រេស៊ីល,BR
+PT,km,ព័រទុយហ្គាល់,PT
+MD,km,ម៉ូដូវ៉ា,MD
+RO,km,រូម៉ានី,RO
+RU,km,រុស្ស៊ី,RU
+LK,km,ស្រីលង្កា,LK
+SK,km,ស្លូវ៉ាគី,SK
+SI,km,ស្លូ​វេ​នី,SI
+ME,km,ម៉ុង​តេ​ណេ​ហ្គ្រោ,ME
+RS,km,សើប,RS
+SE,km,ស៊ុយអែត,SE
+TZ,km,តង់សានី,TZ
+TH,km,ថៃ,TH
+TR,km,​តួ​ក​គី,TR
+UA,km,អ៊ុយក្រែន,UA
+PK,km,ប៉ាគីស្ថាន,PK
+VN,km,វៀតណាម,VN
+HK,km,ហុងកុង,HK
+TW,km,តៃវ៉ាន់,TW
+CY,km,ស៊ីប,CY
+KH,km,​កម្ពុជា,KH
+LI,km,លិចតិនស្តាញ,LI
+PG,km,ប៉ាពូអាស៊ីនូវែលហ្គីណេ,PG
+AE,kn,ಯುನೈಟೆಡ್ ಅರಬ್ ಎಮಿರೇಟ್ಸ್,AE
+BH,kn,ಬಹ್ರೇನ್,BH
+DZ,kn,ಅಲ್ಜೀರಿಯಾ,DZ
+EG,kn,ಈಜಿಪ್ಟ್,EG
+IQ,kn,ಇರಾಕ್,IQ
+JO,kn,ಜೋರ್ಡಾನ್,JO
+KW,kn,ಕುವೈತ್,KW
+LB,kn,ಲೆಬೆನಾನ್,LB
+LY,kn,ಲಿಬಿಯಾ,LY
+MA,kn,ಮೊರಾಕ್ಕೋ,MA
+OM,kn,ಓಮನ್,OM
+QA,kn,ಖತಾರ್,QA
+SA,kn,ಸೌದಿ ಅರೇಬಿಯಾ,SA
+TN,kn,ಟ್ಯುನೀಸಿಯಾ,TN
+YE,kn,ಯೆಮನ್,YE
+AZ,kn,ಅಜರ್ಬೈಜಾನ್,AZ
+BY,kn,ಬೆಲಾರಸ್,BY
+BG,kn,ಬಲ್ಗೇರಿಯಾ,BG
+BD,kn,ಬಾಂಗ್ಲಾದೇಶ,BD
+BA,kn,ಬೋಸ್ನಿಯಾ ಮತ್ತು ಹರ್ಜೆಗೋವಿನಾ,BA
+CZ,kn,ಝೆಕಿಯಾ,CZ
+DK,kn,ಡೆನ್ಮಾರ್ಕ್,DK
+AT,kn,ಆಸ್ಟ್ರಿಯಾ,AT
+CH,kn,ಸ್ವಿಟ್ಜರ್ಲ್ಯಾಂಡ್,CH
+DE,kn,ಜರ್ಮನಿ,DE
+GR,kn,ಗ್ರೀಸ್,GR
+AU,kn,ಆಸ್ಟ್ರೇಲಿಯಾ,AU
+BE,kn,ಬೆಲ್ಜಿಯಂ,BE
+CA,kn,ಕೆನಡಾ,CA
+GB,kn,ಯುನೈಟೆಡ್ ಕಿಂಗ್‌ಡಮ್‌‌,GB
+GH,kn,ಘಾನಾ,GH
+IE,kn,ಐರ್ಲ್ಯಾಂಡ್,IE
+IL,kn,ಇಸ್ರೇಲ್,IL
+IN,kn,ಭಾರತ,IN
+JM,kn,ಜಮೈಕಾ,JM
+KE,kn,ಕೀನ್ಯಾ,KE
+MT,kn,ಮಾಲ್ಟಾ,MT
+NG,kn,ನೈಜೀರಿಯಾ,NG
+NZ,kn,ನ್ಯೂಜಿಲ್ಯಾಂಡ್,NZ
+SG,kn,ಸಿಂಗಾಪೂರ್,SG
+UG,kn,ಉಗಾಂಡಾ,UG
+US,kn,ಸಂಯುಕ್ತ ರಾಷ್ಟ್ರಗಳು,US
+ZA,kn,ದಕ್ಷಿಣ ಆಫ್ರಿಕಾ,ZA
+ZW,kn,ಜಿಂಬಾಬ್ವೆ,ZW
+AR,kn,ಅರ್ಜೆಂಟಿನಾ,AR
+BO,kn,ಬೊಲಿವಿಯಾ,BO
+CL,kn,ಚಿಲಿ,CL
+CO,kn,ಕೊಲಂಬಿಯಾ,CO
+CR,kn,ಕೋಸ್ಟಾ ರಿಕಾ,CR
+DO,kn,ಡೊಮಿನಿಕನ್ ಗಣರಾಜ್ಯ,DO
+EC,kn,ಈಕ್ವೆಡಾರ್‌‌ ,EC
+ES,kn,ಸ್ಪೇನ್,ES
+GT,kn,ಗ್ವಾಟೆಮಾಲಾ,GT
+HN,kn,ಹೊಂಡೂರಾಸ್,HN
+MX,kn,ಮೆಕ್ಸಿಕೊ,MX
+NI,kn,ನಿಕರಾಗುವಾ,NI
+PA,kn,ಪನಾಮಾ,PA
+PE,kn,ಪೆರು,PE
+PR,kn,ಪ್ಯುರ್ಟೋ ರಿಕೊ,PR
+PY,kn,ಪರಾಗ್ವೇ,PY
+SV,kn,ಎಲ್ ಸಾಲ್ವಡೋರ್,SV
+UY,kn,ಉರುಗ್ವೇ,UY
+VE,kn,ವೆನಿಜುವೆಲಾ,VE
+EE,kn,ಎಸ್ಟೋನಿಯಾ,EE
+FI,kn,ಫಿನ್‌ಲ್ಯಾಂಡ್,FI
+PH,kn,ಫಿಲಿಫೈನ್ಸ್,PH
+FR,kn,ಫ್ರಾನ್ಸ್,FR
+SN,kn,ಸೆನೆಗಲ್,SN
+HR,kn,ಕ್ರೋಯೇಶಿಯಾ,HR
+HU,kn,ಹಂಗೇರಿ,HU
+ID,kn,ಇಂಡೋನೇಷ್ಯಾ,ID
+IS,kn,ಐಸ್‌ಲ್ಯಾಂಡ್,IS
+IT,kn,ಇಟಲಿ,IT
+JP,kn,ಜಪಾನ್,JP
+GE,kn,ಜಾರ್ಜಿಯಾ,GE
+KZ,kn,ಕಝಾಕಿಸ್ತಾನ್,KZ
+KR,kn,ದಕ್ಷಿಣ ಕೊರಿಯಾ,KR
+LU,kn,ಲಕ್ಸೆಂಬರ್ಗ್,LU
+LA,kn,ಲಾವೊಸ್,LA
+LT,kn,ಲಿಥುವೇನಿಯಾ,LT
+LV,kn,ಲಾಟ್ವಿಯಾ,LV
+MK,kn,ಉತ್ತರ ಮೆಸಿಡೋನಿಯಾ,MK
+MY,kn,ಮಲೇಶಿಯಾ,MY
+NO,kn,ನಾರ್ವೇ,NO
+NP,kn,ನೇಪಾಳ,NP
+NL,kn,ನೆದರ್‌ಲ್ಯಾಂಡ್ಸ್,NL
+PL,kn,ಪೊಲಾಂಡ್,PL
+BR,kn,ಬ್ರೆಜಿಲ್,BR
+PT,kn,ಪೋರ್ಚುಗಲ್,PT
+MD,kn,ಮಾಲ್ಡೋವಾ,MD
+RO,kn,ರೊಮೇನಿಯಾ,RO
+RU,kn,ರಷ್ಯಾ,RU
+LK,kn,ಶ್ರೀಲಂಕಾ,LK
+SK,kn,ಸ್ಲೋವೇಕಿಯಾ,SK
+SI,kn,ಸ್ಲೋವೇನಿಯಾ,SI
+ME,kn,ಮಾಂಟೆನೆಗ್ರೊ,ME
+RS,kn,ಸೆರ್ಬಿಯಾ,RS
+SE,kn,ಸ್ವೀಡನ್,SE
+TZ,kn,ತಾಂಜೇನಿಯಾ,TZ
+TH,kn,ಥಾಯ್ಲೆಂಡ್,TH
+TR,kn,ಟರ್ಕಿ,TR
+UA,kn,ಉಕ್ರೇನ್,UA
+PK,kn,ಪಾಕಿಸ್ತಾನ,PK
+VN,kn,ವಿಯೆಟ್ನಾಂ,VN
+HK,kn,ಹಾಂಗ್ ಕಾಂಗ್,HK
+TW,kn,ತೈವಾನ್,TW
+CY,kn,ಸೈಪ್ರಸ್,CY
+KH,kn,ಕಾಂಬೋಡಿಯಾ,KH
+LI,kn,ಲೈಕೆನ್‌ಟೆನ್‌ಸ್ಟೈನ್,LI
+PG,kn,ಪಪುವಾ ನ್ಯೂ ಗ್ಯುನಿಯಾ,PG
+AE,ko,아랍 에미레이트,AE
+BH,ko,바레인,BH
+DZ,ko,알제리,DZ
+EG,ko,이집트,EG
+IQ,ko,이라크,IQ
+JO,ko,요르단,JO
+KW,ko,쿠웨이트,KW
+LB,ko,레바논,LB
+LY,ko,리비아,LY
+MA,ko,모로코,MA
+OM,ko,오만,OM
+QA,ko,카타르,QA
+SA,ko,사우디아라비아,SA
+TN,ko,튀니지,TN
+YE,ko,예멘,YE
+AZ,ko,아제르바이잔,AZ
+BY,ko,벨로루시,BY
+BG,ko,불가리아,BG
+BD,ko,방글라데시,BD
+BA,ko,보스니아-헤르체코비나,BA
+CZ,ko,체코,CZ
+DK,ko,덴마크,DK
+AT,ko,오스트리아,AT
+CH,ko,스위스,CH
+DE,ko,독일,DE
+GR,ko,그리스,GR
+AU,ko,호주,AU
+BE,ko,벨기에,BE
+CA,ko,캐나다,CA
+GB,ko,영국,GB
+GH,ko,가나,GH
+IE,ko,아일랜드,IE
+IL,ko,이스라엘,IL
+IN,ko,인도,IN
+JM,ko,자메이카,JM
+KE,ko,케냐,KE
+MT,ko,몰타,MT
+NG,ko,나이지리아,NG
+NZ,ko,뉴질랜드,NZ
+SG,ko,싱가포르,SG
+UG,ko,우간다,UG
+US,ko,미국,US
+ZA,ko,남아프리카,ZA
+ZW,ko,짐바브웨,ZW
+AR,ko,아르헨티나,AR
+BO,ko,볼리비아,BO
+CL,ko,칠레,CL
+CO,ko,콜롬비아,CO
+CR,ko,코스타리카,CR
+DO,ko,도미니카 공화국,DO
+EC,ko,에콰도르,EC
+ES,ko,스페인,ES
+GT,ko,과테말라,GT
+HN,ko,온두라스,HN
+MX,ko,멕시코,MX
+NI,ko,니카라과,NI
+PA,ko,파나마,PA
+PE,ko,페루,PE
+PR,ko,푸에르토리코,PR
+PY,ko,파라과이,PY
+SV,ko,엘살바도르,SV
+UY,ko,우루과이,UY
+VE,ko,베네수엘라,VE
+EE,ko,에스토니아,EE
+FI,ko,핀란드,FI
+PH,ko,필리핀,PH
+FR,ko,프랑스,FR
+SN,ko,세네갈,SN
+HR,ko,크로아티아,HR
+HU,ko,헝가리,HU
+ID,ko,인도네시아,ID
+IS,ko,아이슬란드,IS
+IT,ko,이탈리아,IT
+JP,ko,일본,JP
+GE,ko,그루지아,GE
+KZ,ko,카자흐스탄,KZ
+KR,ko,한국,KR
+LU,ko,룩셈부르크,LU
+LA,ko,라오스,LA
+LT,ko,리투아니아,LT
+LV,ko,라트비아,LV
+MK,ko,북마케도니아,MK
+MY,ko,말레이시아,MY
+NO,ko,노르웨이,NO
+NP,ko,네팔,NP
+NL,ko,네덜란드,NL
+PL,ko,폴란드,PL
+BR,ko,브라질,BR
+PT,ko,포르투갈,PT
+MD,ko,몰도바,MD
+RO,ko,루마니아,RO
+RU,ko,러시아,RU
+LK,ko,스리랑카,LK
+SK,ko,슬로바키아,SK
+SI,ko,슬로베니아,SI
+ME,ko,몬테네그로,ME
+RS,ko,세르비아,RS
+SE,ko,스웨덴,SE
+TZ,ko,탄자니아,TZ
+TH,ko,태국,TH
+TR,ko,터키,TR
+UA,ko,우크라이나,UA
+PK,ko,파키스탄,PK
+VN,ko,베트남,VN
+HK,ko,홍콩,HK
+TW,ko,대만,TW
+CY,ko,사이프러스,CY
+KH,ko,캄보디아,KH
+LI,ko,리히텐슈타인,LI
+PG,ko,파푸아 뉴기니,PG
+AE,ky,Бириккен Араб Эмираттары,AE
+BH,ky,Бахрейн,BH
+DZ,ky,Алжир,DZ
+EG,ky,Мисир,EG
+IQ,ky,Ирак,IQ
+JO,ky,Иордания,JO
+KW,ky,Кувейт,KW
+LB,ky,Ливан,LB
+LY,ky,Ливия,LY
+MA,ky,Марокко,MA
+OM,ky,Оман,OM
+QA,ky,Катар,QA
+SA,ky,Сауд Арабиясы,SA
+TN,ky,Тунис,TN
+YE,ky,Йемен,YE
+AZ,ky,Азербайжан,AZ
+BY,ky,Беларусь,BY
+BG,ky,Болгария,BG
+BD,ky,Баңладеш,BD
+BA,ky,Босния жана Герцеговина,BA
+CZ,ky,Чехия,CZ
+DK,ky,Дания,DK
+AT,ky,Австрия,AT
+CH,ky,Швейцария,CH
+DE,ky,Алмания,DE
+GR,ky,Греция,GR
+AU,ky,Австралия,AU
+BE,ky,Белгия,BE
+CA,ky,Канада,CA
+GB,ky,Улуу Британия,GB
+GH,ky,Гана,GH
+IE,ky,Ирландия,IE
+IL,ky,Израил,IL
+IN,ky,Индия,IN
+JM,ky,Жамайка,JM
+KE,ky,Кения,KE
+MT,ky,Малта,MT
+NG,ky,Нигерия,NG
+NZ,ky,Жаңы Зеландия,NZ
+SG,ky,Сиңапур,SG
+UG,ky,Уганда,UG
+US,ky,Кошмо Штаттар,US
+ZA,ky,Түштүк Африка,ZA
+ZW,ky,Зимбабве,ZW
+AR,ky,Аргентина,AR
+BO,ky,Боливия,BO
+CL,ky,Чили,CL
+CO,ky,Колумбия,CO
+CR,ky,Коста Рика,CR
+DO,ky,Доминикан Республикасы,DO
+EC,ky,Эквадор,EC
+ES,ky,Испания,ES
+GT,ky,Гватемала,GT
+HN,ky,Гондурас,HN
+MX,ky,Мексика,MX
+NI,ky,Никарагуа,NI
+PA,ky,Панама,PA
+PE,ky,Перу,PE
+PR,ky,Пуэрто Рико,PR
+PY,ky,Парагвай,PY
+SV,ky,Салвадор,SV
+UY,ky,Уругвай,UY
+VE,ky,Венесуэла,VE
+EE,ky,Эстония,EE
+FI,ky,Финляндия,FI
+PH,ky,Филиппин,PH
+FR,ky,Франция,FR
+SN,ky,Сенегал,SN
+HR,ky,Хорватия,HR
+HU,ky,Веңрия,HU
+ID,ky,Индонезия,ID
+IS,ky,Исландия,IS
+IT,ky,Италия,IT
+JP,ky,Жапан,JP
+GE,ky,Грузия,GE
+KZ,ky,Казакстан,KZ
+KR,ky,Түштүк Корея,KR
+LU,ky,Люксембург,LU
+LA,ky,Лаос,LA
+LT,ky,Литва,LT
+LV,ky,Латвия,LV
+MK,ky,Түндүк Македония,MK
+MY,ky,Малайзия,MY
+NO,ky,Норвегия,NO
+NP,ky,Непал,NP
+NL,ky,Нидерланд,NL
+PL,ky,Польша,PL
+BR,ky,Бразилия,BR
+PT,ky,Португалия,PT
+MD,ky,Молдова,MD
+RO,ky,Румыния,RO
+RU,ky,Орусия,RU
+LK,ky,Шри Ланка,LK
+SK,ky,Словакия,SK
+SI,ky,Словения,SI
+ME,ky,Монтенегро,ME
+RS,ky,Сербия,RS
+SE,ky,Швеция,SE
+TZ,ky,Танзания,TZ
+TH,ky,Таиланд,TH
+TR,ky,Түркия,TR
+UA,ky,Украина,UA
+PK,ky,Пакистан,PK
+VN,ky,Вьетнам,VN
+HK,ky,Гонконг,HK
+TW,ky,Тайван,TW
+CY,ky,Кипр,CY
+KH,ky,Камбодиа,KH
+LI,ky,Лихтенштейн,LI
+PG,ky,Папуа Жаңы Гвинея,PG
+AE,lo,ສະຫະລັດອາຣັບອາມິເຣດ,AE
+BH,lo,ບາເຣນ,BH
+DZ,lo,ອັລຈີເຣຍ,DZ
+EG,lo,ອີຢິບ,EG
+IQ,lo,ອີຣັກ,IQ
+JO,lo,ຈໍແດນ,JO
+KW,lo,ຄູເວດ,KW
+LB,lo,ເລບານອນ,LB
+LY,lo,ລິບຢາ,LY
+MA,lo,ມໍຣັອກໂຄ,MA
+OM,lo,ໂອມານ,OM
+QA,lo,ກາຕາ,QA
+SA,lo,ຊາອູດິ ອາຣາເບຍ,SA
+TN,lo,ຕູນິເຊຍ,TN
+YE,lo,ເຢເມນ,YE
+AZ,lo,ເອເຊີໄບຈານ,AZ
+BY,lo,ເບລາຣຸສ,BY
+BG,lo,ບັງກາເຣຍ,BG
+BD,lo,ບັງຄລາເທດ,BD
+BA,lo,ບອສເນຍ ແລະ ເຮີເຊໂກວິນາ,BA
+CZ,lo,ເຊກເຊຍ,CZ
+DK,lo,ເດນມາກ,DK
+AT,lo,ອອດສະເຕຣຍ,AT
+CH,lo,ສະວິດເຊີແລນ,CH
+DE,lo,ເຢຍລະມັນ,DE
+GR,lo,ກຣີດຊ໌,GR
+AU,lo,ອອສເຕຣເລຍ,AU
+BE,lo,ເບວຢຽມ,BE
+CA,lo,ຄານາດາ,CA
+GB,lo,ສະຫະລາດຊະອານາຈັກ,GB
+GH,lo,ການາ,GH
+IE,lo,ໄອຣ໌ແລນ,IE
+IL,lo,ອິສຣາເອວ,IL
+IN,lo,ອິນເດຍ,IN
+JM,lo,ຈາໄມກາ,JM
+KE,lo,ເຄນຢາ,KE
+MT,lo,ມັລຕາ,MT
+NG,lo,ໄນຈິເຣຍ,NG
+NZ,lo,ນິວຊີແລນ,NZ
+SG,lo,ສິງກະໂປ,SG
+UG,lo,ອູກັນດາ,UG
+US,lo,ສະຫະລັດອາເມລິກາ,US
+ZA,lo,ອາຟຣິກາໃຕ້,ZA
+ZW,lo,ຊິມບັບເວ,ZW
+AR,lo,ອາເຈນຕິນາ,AR
+BO,lo,ໂບລິເວຍ,BO
+CL,lo,ຊິລີ,CL
+CO,lo,ໂຄລົມເບຍ,CO
+CR,lo,ໂຄສຕາ ຣິກາ,CR
+DO,lo,ສາທາລະນະລັດໂດມິນິແກນ,DO
+EC,lo,ອີກົວດໍ,EC
+ES,lo,ສະເປນ,ES
+GT,lo,ກົວເຕມາລາ,GT
+HN,lo,ຮອນດູຣາສ,HN
+MX,lo,ເມັກຊິໂກ,MX
+NI,lo,ນິກາຣາກົວ,NI
+PA,lo,ພານາມາ,PA
+PE,lo,ເປຣູ,PE
+PR,lo,ເປີໂຕ ຣິໂກ,PR
+PY,lo,ພາຣາກວຍ,PY
+SV,lo,ເອລ ຊາວາດໍ,SV
+UY,lo,ອູຣູກວຍ,UY
+VE,lo,ເວເນຊູເອລາ,VE
+EE,lo,ເອສໂຕເນຍ,EE
+FI,lo,ຟິນແລນ,FI
+PH,lo,ຟິລິບປິນ,PH
+FR,lo,ຝຣັ່ງ,FR
+SN,lo,ເຊເນກັລ,SN
+HR,lo,ໂຄຣເອເຊຍ,HR
+HU,lo,ຮັງກາຣີ,HU
+ID,lo,ອິນໂດເນເຊຍ,ID
+IS,lo,ໄອສແລນ,IS
+IT,lo,ອິຕາລີ,IT
+JP,lo,ຍີ່ປຸ່ນ,JP
+GE,lo,ຈໍເຈຍ,GE
+KZ,lo,ຄາຊັກສະຖານ,KZ
+KR,lo,ເກົາຫລີໃຕ້,KR
+LU,lo,ລັກຊຳເບີກ,LU
+LA,lo,ລາວ,LA
+LT,lo,ລິທົວເນຍ,LT
+LV,lo,ລັດເວຍ,LV
+MK,lo,ມາເຊໂດເນຍເໜືອ,MK
+MY,lo,ມາເລເຊຍ,MY
+NO,lo,ນໍເວ,NO
+NP,lo,ເນປານ,NP
+NL,lo,ເນເທີແລນ,NL
+PL,lo,ໂປແລນ,PL
+BR,lo,ບຣາຊິລ,BR
+PT,lo,ປໍຕູກອລ,PT
+MD,lo,ໂມໂດເວຍ,MD
+RO,lo,ໂຣມາເນຍ,RO
+RU,lo,ຣັດເຊຍ,RU
+LK,lo,ສີລັງກາ,LK
+SK,lo,ສະໂລວາເກຍ,SK
+SI,lo,ສະໂລເວເນຍ,SI
+ME,lo,ມອນເຕເນໂກຣ,ME
+RS,lo,ເຊີເບຍ,RS
+SE,lo,ສະວີເດນ,SE
+TZ,lo,ແທນຊາເນຍ,TZ
+TH,lo,ໄທ,TH
+TR,lo,ເຕີກີ,TR
+UA,lo,ຢູເຄຣນ,UA
+PK,lo,ປາກີສະຖານ,PK
+VN,lo,ຫວຽດນາມ,VN
+HK,lo,ຮອງກົງ,HK
+TW,lo,ໄຕ້ຫວັນ,TW
+CY,lo,ໄຊປຣັສ,CY
+KH,lo,ກຳປູເຈຍ,KH
+LI,lo,ລິກເຕນສະຕາຍ,LI
+PG,lo,ປາປົວ ນິວ ກິນີ,PG
+AE,lt,Jungtiniai Arabų Emyratai,AE
+BH,lt,Bahreinas,BH
+DZ,lt,Alžyras,DZ
+EG,lt,Egiptas,EG
+IQ,lt,Irakas,IQ
+JO,lt,Jordanija,JO
+KW,lt,Kuveitas,KW
+LB,lt,Libanas,LB
+LY,lt,Libija,LY
+MA,lt,Marokas,MA
+OM,lt,Omanas,OM
+QA,lt,Kataras,QA
+SA,lt,Saudo Arabija,SA
+TN,lt,Tunisas,TN
+YE,lt,Jemenas,YE
+AZ,lt,Azerbaidžanas,AZ
+BY,lt,Baltarusija,BY
+BG,lt,Bulgarija,BG
+BD,lt,Bangladešas,BD
+BA,lt,Bosnija ir Hercegovina,BA
+CZ,lt,Čekija,CZ
+DK,lt,Danija,DK
+AT,lt,Austrija,AT
+CH,lt,Šveicarija,CH
+DE,lt,Vokietija,DE
+GR,lt,Graikija,GR
+AU,lt,Australija,AU
+BE,lt,Belgija,BE
+CA,lt,Kanada,CA
+GB,lt,Jungtinė Karalystė,GB
+GH,lt,Gana,GH
+IE,lt,Airija,IE
+IL,lt,Izraelis,IL
+IN,lt,Indija,IN
+JM,lt,Jamaika,JM
+KE,lt,Kenija,KE
+MT,lt,Malta,MT
+NG,lt,Nigerija,NG
+NZ,lt,Naujoji Zelandija,NZ
+SG,lt,Singapūras,SG
+UG,lt,Uganda,UG
+US,lt,Jungtinės Amerikos Valstijos,US
+ZA,lt,Pietų Afrika,ZA
+ZW,lt,Zimbabvė,ZW
+AR,lt,Argentina,AR
+BO,lt,Bolivija,BO
+CL,lt,Čilė,CL
+CO,lt,Kolumbija,CO
+CR,lt,Kosta Rika,CR
+DO,lt,Dominikos Respublika,DO
+EC,lt,Ekvadoras,EC
+ES,lt,Ispanija,ES
+GT,lt,Gvatemala,GT
+HN,lt,Hondūras,HN
+MX,lt,Meksika,MX
+NI,lt,Nikaragva,NI
+PA,lt,Panama,PA
+PE,lt,Peru,PE
+PR,lt,Puerto Rikas,PR
+PY,lt,Paragvajus,PY
+SV,lt,Salvadoras,SV
+UY,lt,Urugvajus,UY
+VE,lt,Venesuela,VE
+EE,lt,Estija,EE
+FI,lt,Suomija,FI
+PH,lt,Filipinai,PH
+FR,lt,Prancūzija,FR
+SN,lt,Senegalas,SN
+HR,lt,Kroatija,HR
+HU,lt,Vengrija,HU
+ID,lt,Indonezija,ID
+IS,lt,Islandija,IS
+IT,lt,Italija,IT
+JP,lt,Japonija,JP
+GE,lt,Gruzija,GE
+KZ,lt,Kazachstanas,KZ
+KR,lt,Pietų Korėja,KR
+LU,lt,Liuksemburgas,LU
+LA,lt,Laosas,LA
+LT,lt,Lietuva,LT
+LV,lt,Latvija,LV
+MK,lt,Šiaurės Makedonija,MK
+MY,lt,Malaizija,MY
+NO,lt,Norvegija,NO
+NP,lt,Nepalas,NP
+NL,lt,Nyderlandai,NL
+PL,lt,Lenkija,PL
+BR,lt,Brazilija,BR
+PT,lt,Portugalija,PT
+MD,lt,Moldova,MD
+RO,lt,Rumunija,RO
+RU,lt,Rusija,RU
+LK,lt,Šri Lanka,LK
+SK,lt,Slovakija,SK
+SI,lt,Slovėnija,SI
+ME,lt,Juodkalnija,ME
+RS,lt,Serbija,RS
+SE,lt,Švedija,SE
+TZ,lt,Tanzanija,TZ
+TH,lt,Tailandas,TH
+TR,lt,Turkija,TR
+UA,lt,Ukraina,UA
+PK,lt,Pakistanas,PK
+VN,lt,Vietnamas,VN
+HK,lt,Honkongas,HK
+TW,lt,Taivanis,TW
+CY,lt,Kipras,CY
+KH,lt,Kambodža,KH
+LI,lt,Lichtenšteinas,LI
+PG,lt,Papua Naujoji Gvinėja,PG
+AE,lv,Apvienotie Arābu Emirāti,AE
+BH,lv,Bahreina,BH
+DZ,lv,Alžīrija,DZ
+EG,lv,Ēģipte,EG
+IQ,lv,Irāka,IQ
+JO,lv,Jordānija,JO
+KW,lv,Kuveita,KW
+LB,lv,Libāna,LB
+LY,lv,Lībija,LY
+MA,lv,Maroka,MA
+OM,lv,Omāna,OM
+QA,lv,Katara,QA
+SA,lv,Saūda Arābija,SA
+TN,lv,Tunisija,TN
+YE,lv,Jemena,YE
+AZ,lv,Azerbaidžāna,AZ
+BY,lv,Baltkrievija,BY
+BG,lv,Bulgārija,BG
+BD,lv,Bangladeša,BD
+BA,lv,Bosnija un Hercegovina,BA
+CZ,lv,Čehija,CZ
+DK,lv,Dānija,DK
+AT,lv,Austrija,AT
+CH,lv,Šveice,CH
+DE,lv,Vācija,DE
+GR,lv,Grieķija,GR
+AU,lv,Austrālija,AU
+BE,lv,Beļģija,BE
+CA,lv,Kanāda,CA
+GB,lv,Lielbritānija,GB
+GH,lv,Gana,GH
+IE,lv,Īrija,IE
+IL,lv,Izraēla,IL
+IN,lv,Indija,IN
+JM,lv,Jamaika,JM
+KE,lv,Kenija,KE
+MT,lv,Malta,MT
+NG,lv,Nigērija,NG
+NZ,lv,Jaunzēlande,NZ
+SG,lv,Singapūra,SG
+UG,lv,Uganda,UG
+US,lv,Amerikas Savienotās Valstis,US
+ZA,lv,Dienvidāfrikas Republika,ZA
+ZW,lv,Zimbabve,ZW
+AR,lv,Argentīna,AR
+BO,lv,Bolīvija,BO
+CL,lv,Čīle,CL
+CO,lv,Kolumbija,CO
+CR,lv,Kostarika,CR
+DO,lv,Dominikāna,DO
+EC,lv,Ekvadora,EC
+ES,lv,Spānija,ES
+GT,lv,Gvatemala,GT
+HN,lv,Hondurasa,HN
+MX,lv,Meksika,MX
+NI,lv,Nikaragva,NI
+PA,lv,Panama,PA
+PE,lv,Peru,PE
+PR,lv,Puertoriko,PR
+PY,lv,Paragvaja,PY
+SV,lv,Salvadora,SV
+UY,lv,Urugvaja,UY
+VE,lv,Venecuēla,VE
+EE,lv,Igaunija,EE
+FI,lv,Somija,FI
+PH,lv,Filipīnas,PH
+FR,lv,Francija,FR
+SN,lv,Senegāla,SN
+HR,lv,Horvātija,HR
+HU,lv,Ungārija,HU
+ID,lv,Indonēzija,ID
+IS,lv,Īslande,IS
+IT,lv,Itālija,IT
+JP,lv,Japāna,JP
+GE,lv,Gruzija,GE
+KZ,lv,Kazahstāna,KZ
+KR,lv,Dienvidkoreja,KR
+LU,lv,Luksemburga,LU
+LA,lv,Laosa,LA
+LT,lv,Lietuva,LT
+LV,lv,Latvija,LV
+MK,lv,Ziemeļmaķedonija,MK
+MY,lv,Malaizija,MY
+NO,lv,Norvēģija,NO
+NP,lv,Nepāla,NP
+NL,lv,Nīderlande,NL
+PL,lv,Polija,PL
+BR,lv,Brazīlija,BR
+PT,lv,Portugāle,PT
+MD,lv,Moldova,MD
+RO,lv,Rumānija,RO
+RU,lv,Krievija,RU
+LK,lv,Šrilanka,LK
+SK,lv,Slovākija,SK
+SI,lv,Slovēnija,SI
+ME,lv,Melnkalne,ME
+RS,lv,Serbija,RS
+SE,lv,Zviedrija,SE
+TZ,lv,Tanzānija,TZ
+TH,lv,Taizeme,TH
+TR,lv,Turcija,TR
+UA,lv,Ukraina,UA
+PK,lv,Pakistāna,PK
+VN,lv,Vjetnama,VN
+HK,lv,Honkonga,HK
+TW,lv,Taivāna,TW
+CY,lv,Kipra,CY
+KH,lv,Kambodža,KH
+LI,lv,Lihtenšteina,LI
+PG,lv,Papua-Jaungvineja,PG
+AE,mk,Обединети Арапски Емирати,AE
+BH,mk,Бахреин,BH
+DZ,mk,Алжир,DZ
+EG,mk,Египет,EG
+IQ,mk,Ирак,IQ
+JO,mk,Јордан,JO
+KW,mk,Кувајт,KW
+LB,mk,Либан,LB
+LY,mk,Либија,LY
+MA,mk,Мароко,MA
+OM,mk,Оман,OM
+QA,mk,Катар,QA
+SA,mk,Саудиска Арабија,SA
+TN,mk,Тунис,TN
+YE,mk,Јемен,YE
+AZ,mk,Азербејџан,AZ
+BY,mk,Белорусија,BY
+BG,mk,Бугарија,BG
+BD,mk,Бангладеш,BD
+BA,mk,Босна и Херцеговина,BA
+CZ,mk,Чешка,CZ
+DK,mk,Данска,DK
+AT,mk,Австрија,AT
+CH,mk,Швајцарија,CH
+DE,mk,Германија,DE
+GR,mk,Грција,GR
+AU,mk,Австралија,AU
+BE,mk,Белгија,BE
+CA,mk,Канада,CA
+GB,mk,Обединето Кралство,GB
+GH,mk,Гана,GH
+IE,mk,Ирска,IE
+IL,mk,Израел,IL
+IN,mk,Индија,IN
+JM,mk,Јамајка,JM
+KE,mk,Кенија,KE
+MT,mk,Малта,MT
+NG,mk,Нигерија,NG
+NZ,mk,Нов Зеланд,NZ
+SG,mk,Сингапур,SG
+UG,mk,Уганда,UG
+US,mk,Соединети Американски Држави,US
+ZA,mk,Јужна Африка,ZA
+ZW,mk,Зимбабве,ZW
+AR,mk,Аргентина,AR
+BO,mk,Боливија,BO
+CL,mk,Чиле,CL
+CO,mk,Колумбија,CO
+CR,mk,Костарика,CR
+DO,mk,Доминиканска Република,DO
+EC,mk,Еквадор,EC
+ES,mk,Шпанија,ES
+GT,mk,Гватемала,GT
+HN,mk,Хондурас,HN
+MX,mk,Мексико,MX
+NI,mk,Никарагва,NI
+PA,mk,Панама,PA
+PE,mk,Перу,PE
+PR,mk,Порторико,PR
+PY,mk,Парагвај,PY
+SV,mk,Ел Салвадор,SV
+UY,mk,Уругвај,UY
+VE,mk,Венецуела,VE
+EE,mk,Естонија,EE
+FI,mk,Финска,FI
+PH,mk,Филипини,PH
+FR,mk,Франција,FR
+SN,mk,Сенегал,SN
+HR,mk,Хрватска,HR
+HU,mk,Унгарија,HU
+ID,mk,Индонезија,ID
+IS,mk,Исланд,IS
+IT,mk,Италија,IT
+JP,mk,Јапонија,JP
+GE,mk,Грузија,GE
+KZ,mk,Казахстан,KZ
+KR,mk,Јужна Кореја,KR
+LU,mk,Луксембург,LU
+LA,mk,Лаос,LA
+LT,mk,Литванија,LT
+LV,mk,Летонија,LV
+MK,mk,Северна Македонија,MK
+MY,mk,Малезија,MY
+NO,mk,Норвешка,NO
+NP,mk,Непал,NP
+NL,mk,Холандија,NL
+PL,mk,Полска,PL
+BR,mk,Бразил,BR
+PT,mk,Португалија,PT
+MD,mk,Молдавија,MD
+RO,mk,Романија,RO
+RU,mk,Русија,RU
+LK,mk,Шри Ланка,LK
+SK,mk,Словачка,SK
+SI,mk,Словенија,SI
+ME,mk,Црна Гора,ME
+RS,mk,Србија,RS
+SE,mk,Шведска,SE
+TZ,mk,Танзанија,TZ
+TH,mk,Тајланд,TH
+TR,mk,Турција,TR
+UA,mk,Украина,UA
+PK,mk,Пакистан,PK
+VN,mk,Виетнам,VN
+HK,mk,Хонгконг,HK
+TW,mk,Тајван,TW
+CY,mk,Кипар,CY
+KH,mk,Камбоџа,KH
+LI,mk,Лихтенштајн,LI
+PG,mk,Папуа Нова Гвинеја,PG
+AE,ml,യുണൈറ്റഡ് അറബ് എമിറേറ്റ്സ്,AE
+BH,ml,ബഹ്റിന്‍,BH
+DZ,ml,അൾജീരിയ,DZ
+EG,ml,ഈജിപ്‌റ്റ്,EG
+IQ,ml,ഇറാഖ്,IQ
+JO,ml,ജോർദ്ദാൻ,JO
+KW,ml,കുവൈത്ത്,KW
+LB,ml,ലെബനന്‍,LB
+LY,ml,ലിബിയ,LY
+MA,ml,മൊറോക്കോ,MA
+OM,ml,ഒമാന്‍,OM
+QA,ml,ഖത്തര്‍,QA
+SA,ml,സൌദി അറേബ്യ,SA
+TN,ml,ടുണിഷ്യ,TN
+YE,ml,യെമൻ,YE
+AZ,ml,അസര്‍ബൈജാന്‍,AZ
+BY,ml,ബെലാറസ്,BY
+BG,ml,ബള്‍ഗേറിയ,BG
+BD,ml,ബംഗ്ലാദേശ്,BD
+BA,ml,ബോസ്നിയയും ഹെര്‍സേഗോവിനയും,BA
+CZ,ml,ചെഷിയ,CZ
+DK,ml,ഡെന്‍മാര്‍ക്ക്,DK
+AT,ml,ഓസ്ട്രിയ,AT
+AU,mn,Австрали улс,AU
+CH,ml,സ്വിറ്റ്സര്‍ലാന്‍റ്,CH
+DE,ml,ജര്‍മ്മനി,DE
+GR,ml,ഗ്രീസ്,GR
+AU,ml,ഓസ്ട്രേലിയ,AU
+BE,ml,ബെൽജിയം,BE
+CA,ml,കാനഡ,CA
+GB,ml,യുണൈറ്റഡ് കിംഗ്ഡം,GB
+GH,ml,ഘാന,GH
+IE,ml,അയര്‍ലാന്‍ഡ്,IE
+IL,ml,ഇസ്രായേല്‍,IL
+IN,ml,ഇന്ത്യ,IN
+JM,ml,ജമൈക്ക,JM
+KE,ml,കെനിയ,KE
+MT,ml,മാള്‍ട്ട,MT
+NG,ml,നൈജീരിയ,NG
+NZ,ml,ന്യൂസിലാന്‍ഡ്,NZ
+SG,ml,സിംഗപ്പൂർ,SG
+UG,ml,ഉഗാണ്ട,UG
+US,ml,യുണൈറ്റഡ് സ്റ്റേറ്റ്സ്,US
+ZA,ml,ദക്ഷിണാഫ്രിക്ക,ZA
+ZW,ml,സിംബാബ്‌വേ,ZW
+AR,ml,അർജന്റീന,AR
+BO,ml,ബൊളീവിയ,BO
+CL,ml,ചിലി,CL
+CO,ml,കൊളംബിയ,CO
+CR,ml,കോസ്റ്റ റിക്ക,CR
+DO,ml,ഡൊമിനിക്കന്‍ റിപ്പബ്ലിക്ക്,DO
+EC,ml,ഇക്വഡോര്‍,EC
+ES,ml,സ്പെയിന്‍,ES
+GT,ml,ഗ്വാട്ടിമാല,GT
+HN,ml,ഹോണ്ടുറാസ്,HN
+MX,ml,മെക്‌സിക്കോ,MX
+NI,ml,നിക്കരാഗ്വെ,NI
+PA,ml,പനാമ,PA
+PE,ml,പെറു,PE
+PR,ml,പ്യൂര്‍ട്ടോ റിക്ക,PR
+PY,ml,പരാഗ്വേ,PY
+SV,ml,എല്‍ സാല്‍വദോര്‍,SV
+UY,ml,ഉറുഗ്വേ,UY
+VE,ml,വെനെസ്വല,VE
+EE,ml,എസ്തോണിയ,EE
+FI,ml,ഫിന്‍ലാന്‍ഡ്,FI
+PH,ml,ഫിലിപ്പീന്‍സ്,PH
+FR,ml,ഫ്രാന്‍സ്,FR
+SN,ml,സെനഗല്‍,SN
+HR,ml,ക്രൊയേഷ്യ,HR
+HU,ml,ഹംഗറി,HU
+ID,ml,ഇന്തോനേഷ്യ,ID
+IS,ml,ഐസ്‌ലാന്‍റ്,IS
+IT,ml,ഇറ്റലി,IT
+JP,ml,ജപ്പാന്‍,JP
+GE,ml,ജോര്‍ജ്ജിയ,GE
+KZ,ml,കസാഖിസ്ഥാന്‍,KZ
+KR,ml,ദക്ഷിണ കൊറിയ,KR
+LU,ml,ലക്‌സംബര്‍ഗ്,LU
+LA,ml,ലാവോസ്,LA
+LT,ml,ലിത്വാനിയ,LT
+LV,ml,ലാത്വിയ,LV
+MK,ml,നോർത്ത് മാസിഡോണിയ,MK
+MY,ml,മലേഷ്യ,MY
+NO,ml,നോര്‍വേ,NO
+NP,ml,നേപ്പാള്‍,NP
+NL,ml,നെതര്‍ലാന്‍റ്‌സ്,NL
+PL,ml,പോളണ്ട്,PL
+BR,ml,ബ്രസീല്‍,BR
+PT,ml,പോര്‍ച്ചുഗല്‍,PT
+MD,ml,മൊല്‍ദോവ,MD
+RO,ml,റുമാനിയ,RO
+RU,ml,റഷ്യ,RU
+LK,ml,ശ്രീലങ്ക,LK
+SK,ml,സ്ലൊവാക്യ,SK
+SI,ml,സ്ലൊവേനിയ,SI
+ME,ml,മോണ്ടെനെഗ്രോ,ME
+RS,ml,സെര്‍ബിയ,RS
+SE,ml,സ്വീഡന്‍,SE
+TZ,ml,ടാന്‍സാനിയ,TZ
+TH,ml,തായ്‌ലാന്‍റ്,TH
+TR,ml,തുര്‍ക്കി,TR
+UA,ml,ഉക്രെയ്ന്‍,UA
+PK,ml,പാക്കിസ്ഥാന്‍,PK
+VN,ml,വിയറ്റ്നാം,VN
+HK,ml,ഹോങ്കോംഗ്,HK
+TW,ml,തായ്‌വാന്‍,TW
+CY,ml,സൈപ്രസ്,CY
+KH,ml,കമ്പോഡിയ,KH
+LI,ml,ലിച്ചെന്‍സ്റ്റീന്‍,LI
+PG,ml,പാപ്പുവ ന്യൂ ഗിനിയ,PG
+AE,mn,Арабын Нэгдсэн Эмират улс,AE
+BH,mn,Бахрейн,BH
+DZ,mn,Алжир улс,DZ
+EG,mn,Египет,EG
+IQ,mn,Ирак,IQ
+JO,mn,Йордан улс,JO
+KW,mn,Кувейт,KW
+LB,mn,Ливан улс,LB
+LY,mn,Ливи,LY
+MA,mn,Марокко,MA
+OM,mn,Оман улс,OM
+QA,mn,Катар улс,QA
+SA,mn,Саудын Араб,SA
+TN,mn,Тунис улс,TN
+YE,mn,Йемен,YE
+AZ,mn,Азербайжан улс,AZ
+BY,mn,Беларус,BY
+BG,mn,Болгар,BG
+BD,mn,Бангладеш улс,BD
+BA,mn,Босни-Херцеговин улс,BA
+CZ,mn,Чех,CZ
+DK,mn,Дани,DK
+AT,mn,Австри,AT
+CH,mn,Швейцарь улс,CH
+DE,mn,Герман улс,DE
+GR,mn,Грек,GR
+BE,mn,Бельги,BE
+CA,mn,Канад улс,CA
+GB,mn,Их Британи улс,GB
+GH,mn,Гана улс,GH
+IE,mn,Ирланд улс,IE
+IL,mn,Израйль,IL
+IN,mn,Энэтхэг,IN
+JM,mn,Ямайка,JM
+KE,mn,Кени улс,KE
+MT,mn,Мальта,MT
+NG,mn,Нигери,NG
+NZ,mn,Шинэ Зеланд улс,NZ
+SG,mn,Сингапур,SG
+UG,mn,Уганда улс,UG
+US,mn,АНУ,US
+ZA,mn,Өмнөд Африк,ZA
+ZW,mn,Зимбабве,ZW
+AR,mn,Аргентин улс,AR
+BO,mn,Боливи улс,BO
+CL,mn,Чили,CL
+CO,mn,Колумби,CO
+CR,mn,Коста Рика,CR
+DO,mn,Доминиканы Бүгд Найрамдах улс,DO
+EC,mn,Эквадор улс,EC
+ES,mn,Испани улс,ES
+GT,mn,Гватемаль,GT
+HN,mn,Хондурас,HN
+MX,mn,Мексик улс,MX
+NI,mn,Никарагуа,NI
+PA,mn,Панама,PA
+PE,mn,Перу улс,PE
+PR,mn,Пуэрто-Рико,PR
+PY,mn,Парагвай,PY
+SV,mn,Эл Сальвадор,SV
+UY,mn,Уругвай улс,UY
+VE,mn,Венесуэл,VE
+EE,mn,Эстон,EE
+FI,mn,Финланд,FI
+PH,mn,Филиппин улс,PH
+FR,mn,Франц,FR
+SN,mn,Сенегал,SN
+HR,mn,Хорват,HR
+HU,mn,Унгар улс,HU
+ID,mn,Индонез улс,ID
+IS,mn,Исланд улс,IS
+IT,mn,Итали,IT
+JP,mn,Япон,JP
+GE,mn,Гүрж,GE
+KZ,mn,Казахстан,KZ
+KR,mn,Өмнөд Солонгос улс,KR
+LU,mn,Люксембург,LU
+LA,mn,Лаос улс,LA
+LT,mn,Литва,LT
+LV,mn,Латви улс,LV
+MK,mn,Хойд Македон,MK
+MY,mn,Малайз,MY
+NO,mn,Норвег улс,NO
+NP,mn,Балба улс,NP
+NL,mn,Нидерланд,NL
+PL,mn,Польш улс,PL
+BR,mn,Бразил,BR
+PT,mn,Португал улс,PT
+MD,mn,Молдав улс,MD
+RO,mn,Румын улс,RO
+RU,mn,Орос,RU
+LK,mn,Шри-Ланка,LK
+SK,mn,Словак улс,SK
+SI,mn,Словени,SI
+ME,mn,Монтенегро улс,ME
+RS,mn,Серби,RS
+SE,mn,Швед,SE
+TZ,mn,Танзани,TZ
+TH,mn,Тайланд,TH
+TR,mn,Турк улс,TR
+UA,mn,Украйн,UA
+PK,mn,Пакистан,PK
+VN,mn,Вьетнам,VN
+HK,mn,Хонконг,HK
+TW,mn,Тайвань,TW
+CY,mn,Кипр,CY
+KH,mn,Камбож улс,KH
+LI,mn,Лихтенштайн,LI
+PG,mn,Папуа-Шинэ Гвиней,PG
+AE,mr,संयुक्त अरब अमीरात,AE
+BH,mr,बहारीन,BH
+DZ,mr,अल्जीरिया,DZ
+EG,mr,इजिप्त,EG
+IQ,mr,इराक,IQ
+JO,mr,जॉर्डन,JO
+KW,mr,कुवेत,KW
+LB,mr, लेबानन,LB
+LY,mr,लिबिया,LY
+MA,mr,मोरोक्को,MA
+OM,mr,ओमान,OM
+QA,mr,कतार,QA
+SA,mr,सौदी अरेबिया,SA
+TN,mr,ट्यूनिशिया,TN
+YE,mr,येमेन,YE
+AZ,mr,अझरबैजान,AZ
+BY,mr,बेलारुस,BY
+BG,mr,बल्गेरिया,BG
+BD,mr,बांगलादेश,BD
+BA,mr,बोस्निया आणि हर्जेगोविना,BA
+CZ,mr,झेकिया,CZ
+DK,mr,डेन्मार्क,DK
+AT,mr,ऑस्ट्रिया,AT
+CH,mr,स्वित्झर्लंड,CH
+DE,mr,जर्मनी,DE
+GR,mr,ग्रीस,GR
+AU,mr,ऑस्ट्रेलिया,AU
+BE,mr,बेल्जियम,BE
+CA,mr,कॅनडा,CA
+GB,mr,युनायटेड किंगडम,GB
+GH,mr,घाना,GH
+IE,mr,आयर्लंड,IE
+IL,mr,इस्त्राइल,IL
+IN,mr,भारत,IN
+JM,mr,जमैका,JM
+KE,mr,केनिया,KE
+MT,mr,माल्टा,MT
+NG,mr,नायजेरिया,NG
+NZ,mr,न्यूझीलँड,NZ
+SG,mr,सिंगापूर,SG
+UG,mr,युगांडा,UG
+US,mr,युनायटेड स्टेट्स,US
+ZA,mr,दक्षिण अफ्रिका,ZA
+ZW,mr,झिंबाब्वे,ZW
+AR,mr,अर्जेंटिना,AR
+BO,mr,बोलिव्हिया,BO
+CL,mr,चिली,CL
+CO,mr,कोलंबिया,CO
+CR,mr,कोस्टा रिका,CR
+DO,mr,डोमिनिकन प्रजासत्ताक येथे,DO
+EC,mr,इक्वेडोर,EC
+ES,mr,स्पेन,ES
+GT,mr,ग्वाटेमाला,GT
+HN,mr,होंडुरास,HN
+MX,mr,मेक्सिको,MX
+NI,mr,निकाराग्वे,NI
+PA,mr,पनामा,PA
+PE,mr,पेरु,PE
+PR,mr,पोर्टो रिको,PR
+PY,mr,पराग्वे,PY
+SV,mr,एल साल्वाडोर,SV
+UY,mr,उरूग्वे,UY
+VE,mr,व्हेनेझुएला,VE
+EE,mr,इस्टोनिया,EE
+FI,mr,फिनलँड,FI
+PH,mr,फिलीपीन्‍स,PH
+FR,mr,फ्रान्स,FR
+SN,mr,सेनेगल,SN
+HR,mr,क्रोएशिया,HR
+HU,mr,हंगेरी,HU
+ID,mr,इंडोनेशिया,ID
+IS,mr,आइसलँड,IS
+IT,mr,इटली,IT
+JP,mr,जपान,JP
+GE,mr,जॉर्जिया,GE
+KZ,mr,कझाकस्तान,KZ
+KR,mr,दक्षिण कोरिया,KR
+LU,mr,लक्झेंबर्ग,LU
+LA,mr,लाओस,LA
+LT,mr,लिथुआनिया,LT
+LV,mr,लाटव्हिया,LV
+MK,mr,उत्तर मॅसेडोनिया,MK
+MY,mr,मलेशिया,MY
+NO,mr,नॉर्वे,NO
+NP,mr,नेपाळ,NP
+NL,mr,नेदरलँड,NL
+PL,mr,पोलंड,PL
+BR,mr,ब्राझील,BR
+PT,mr,पोर्तुगाल,PT
+MD,mr,मोल्डोव्हा,MD
+RO,mr,रोमानिया,RO
+RU,mr,रशिया,RU
+LK,mr,श्रीलंका,LK
+SK,mr,स्लोव्हाकिया,SK
+SI,mr,स्लोव्हेनिया,SI
+ME,mr,मॉन्टेनेग्रो,ME
+RS,mr,सर्बिया,RS
+SE,mr,स्वीडन,SE
+TZ,mr,टांझानिया,TZ
+TH,mr,थायलंड,TH
+TR,mr,तुर्की,TR
+UA,mr,यूक्रेन,UA
+PK,mr,पाकिस्तान,PK
+VN,mr,व्हिएतनाम,VN
+HK,mr,हाँगकाँग,HK
+TW,mr,तैवान,TW
+CY,mr,सायप्रस,CY
+KH,mr,कंबोडिया,KH
+LI,mr,लिक्टेनस्टाइन,LI
+PG,mr,पापुआ न्यू गिनी,PG
+AE,ms,Emiriah Arab Bersatu,AE
+BH,ms,Bahrain,BH
+DZ,ms,Algeria,DZ
+EG,ms,Mesir,EG
+IQ,ms,Iraq,IQ
+JO,ms,Jordan,JO
+KW,ms,Kuwait,KW
+LB,ms,Lubnan,LB
+LY,ms,Libya,LY
+MA,ms,Maghribi,MA
+OM,ms,Oman,OM
+QA,ms,Qatar,QA
+SA,ms,Arab Saudi,SA
+TN,ms,Tunisia,TN
+YE,ms,Yaman,YE
+AZ,ms,Azerbaijan,AZ
+BY,ms,Belarus,BY
+BG,ms,Bulgaria,BG
+BD,ms,Bangladesh,BD
+BA,ms,Bosnia dan Herzegovina,BA
+CZ,ms,Czechia,CZ
+DK,ms,Denmark,DK
+AT,ms,Austria,AT
+CH,ms,Switzerland,CH
+DE,ms,Jerman,DE
+GR,ms,Greece,GR
+AU,ms,Australia,AU
+BE,ms,Belgium,BE
+CA,ms,Kanada,CA
+GB,ms,United Kingdom,GB
+GH,ms,Ghana,GH
+IE,ms,Ireland,IE
+IL,ms,Israel,IL
+IN,ms,India,IN
+JM,ms,Jamaica,JM
+KE,ms,Kenya,KE
+MT,ms,Malta,MT
+NG,ms,Nigeria,NG
+NZ,ms,New Zealand,NZ
+SG,ms,Singapura,SG
+UG,ms,Uganda,UG
+US,ms,Amerika Syarikat,US
+ZA,ms,Afrika Selatan,ZA
+ZW,ms,Zimbabwe,ZW
+AR,ms,Argentina,AR
+BO,ms,Bolivia,BO
+CL,ms,Chile,CL
+CO,ms,Colombia,CO
+CR,ms,Costa Rica,CR
+DO,ms,Republik Dominica,DO
+EC,ms,Ecuador,EC
+ES,ms,Sepanyol,ES
+GT,ms,Guatemala,GT
+HN,ms,Honduras,HN
+MX,ms,Mexico,MX
+NI,ms,Nicaragua,NI
+PA,ms,Panama,PA
+PE,ms,Peru,PE
+PR,ms,Puerto Rico,PR
+PY,ms,Paraguay,PY
+SV,ms,El Salvador,SV
+UY,ms,Uruguay,UY
+VE,ms,Venezuela,VE
+EE,ms,Estonia,EE
+FI,ms,Finland,FI
+PH,ms,Filipina,PH
+FR,ms,Perancis,FR
+SN,ms,Senegal,SN
+HR,ms,Croatia,HR
+HU,ms,Hungary,HU
+ID,ms,Indonesia,ID
+IS,ms,Iceland,IS
+IT,ms,Itali,IT
+JP,ms,Jepun,JP
+GE,ms,Georgia,GE
+KZ,ms,Kazakhstan,KZ
+KR,ms,Korea Selatan,KR
+LU,ms,Luxembourg,LU
+LA,ms,Laos,LA
+LT,ms,Lithuania,LT
+LV,ms,Latvia,LV
+MK,ms,Macedonia Utara,MK
+MY,ms,Malaysia,MY
+NO,ms,Norway,NO
+NP,ms,Nepal,NP
+NL,ms,Belanda,NL
+PL,ms,Poland,PL
+BR,ms,Brazil,BR
+PT,ms,Portugal,PT
+MD,ms,Moldova,MD
+RO,ms,Romania,RO
+RU,ms,Rusia,RU
+LK,ms,Sri Lanka,LK
+SK,ms,Slovakia,SK
+SI,ms,Slovenia,SI
+ME,ms,Montenegro,ME
+RS,ms,Serbia,RS
+SE,ms,Sweden,SE
+TZ,ms,Tanzania,TZ
+TH,ms,Thailand,TH
+TR,ms,Turki,TR
+UA,ms,Ukraine,UA
+PK,ms,Pakistan,PK
+VN,ms,Vietnam,VN
+HK,ms,Hong Kong,HK
+TW,ms,Taiwan,TW
+CY,ms,Cyprus,CY
+KH,ms,Kemboja,KH
+LI,ms,Liechtenstein,LI
+PG,ms,Papua New Guinea,PG
+AE,my,အာရပ် စော်ဘွားများ ပြည်ထောင်စု,AE
+BH,my,ဘာရိန်း,BH
+DZ,my,အယ်လ်ဂျီးရီးယား,DZ
+EG,my,အီဂျစ်,EG
+IQ,my,အီရတ်,IQ
+JO,my,ဂျော်ဒန်,JO
+KW,my,ကူဝိတ်,KW
+LB,my,လက်ဘနွန်,LB
+LY,my,လစ်ဗျား,LY
+MA,my,မော်ရိုကို,MA
+OM,my,အိုမန်,OM
+QA,my,ကာတာ,QA
+SA,my,ဆော်ဒီအာရေးဗျ,SA
+TN,my,တူနီးရှား,TN
+YE,my,ယီမင်,YE
+AZ,my,အဇာဘိုင်ဂျန်,AZ
+BY,my,ဘီလာရုစ်,BY
+BG,my,ဘူဂေးရီးယား,BG
+BD,my,ဘင်္ဂလားဒေ့ရှ်,BD
+BA,my,ဘော့စနီးယား နှင့် ဟာဇီဂိုဗီးနား,BA
+CZ,my,ချက်ကီယာ,CZ
+DK,my,ဒိန်းမတ်,DK
+AT,my,သြစတြီးယား,AT
+CH,my,ဆွစ်ဇာလန်,CH
+DE,my,ဂျာမနီ,DE
+GR,my,ဂရိ,GR
+AU,my,သြစတြေးလျ,AU
+BE,my,ဘယ်လ်ဂျီယံ,BE
+CA,my,ကနေဒါ,CA
+GB,my,ယူနိုင်တက် ကင်းဒမ်း,GB
+GH,my,ဂါနာ,GH
+IE,my,အိုင်ယာလန်,IE
+IL,my,အစ္စရေး,IL
+IN,my,အိန္ဒိယ,IN
+JM,my,ဂျမေကာ,JM
+KE,my,ကင်ညာ,KE
+MT,my,မောလ်တာ,MT
+NG,my,နိုက်ဂျီးရီးယား,NG
+NZ,my,နယူးဇီလန်,NZ
+SG,my,စင်ကာပူ,SG
+UG,my,ယူဂန်ဒါ,UG
+US,my,အမေရိကန် ပြည်ထောင်စု,US
+ZA,my,တောင်အာဖရိက,ZA
+ZW,my,ဇင်ဘာဘွေ,ZW
+AR,my,အာဂျင်တီးနား,AR
+BO,my,ဘိုလီးဗီးယား,BO
+CL,my,ချီလီ,CL
+CO,my,ကိုလံဘီယာ,CO
+CR,my,ကိုစတာရီကာ,CR
+DO,my,ဒိုမီနီကန် သမ္မတနိုင်ငံ,DO
+EC,my,အီကွေဒေါ,EC
+ES,my,စပိန်,ES
+GT,my,ဂွါတီမာလာ,GT
+HN,my,ဟွန်ဒူရပ်စ်,HN
+MX,my,မက္ကဆီကို,MX
+NI,my,နီကာရာဂွာ,NI
+PA,my,ပနားမား,PA
+PE,my,ပီရူး,PE
+PR,my,ပွာတို ရီကို,PR
+PY,my,ပါရာဂွေး,PY
+SV,my,အယ်လ်ဆယ်လ်ဗယ်ဒေါ,SV
+UY,my,ဥရုဂွေး,UY
+VE,my,ဗင်နီဇွဲလား,VE
+EE,my,အက်စ်တိုးနီးယား,EE
+FI,my,ဖင်လန်,FI
+PH,my,ဖိလစ်ပိုင်,PH
+FR,my,ပြင်သစ်,FR
+SN,my,ဆီနီဂေါ,SN
+HR,my,ခရိုအေးရှား,HR
+HU,my,ဟန်ဂေရီ,HU
+ID,my,အင်ဒိုနီးရှား,ID
+IS,my,အိုက်စလန်,IS
+IT,my,အီတလီ,IT
+JP,my,ဂျပန်,JP
+GE,my,​ဂျော်ဂျီယာ,GE
+KZ,my,ကာဇက်စတန်,KZ
+KR,my,တောင်ကိုရီးယား,KR
+LU,my,လူဇင်းဘတ်,LU
+LA,my,လာအို,LA
+LT,my,လီသူရေးနီးယား,LT
+LV,my,လတ်ဗီးယား,LV
+MK,my,မြောက်မက်ဆီဒိုးနီးယား,MK
+MY,my,မလေးရှား,MY
+NO,my,နော်ဝေး,NO
+NP,my,နီပေါ,NP
+NL,my,နယ်သာလန်,NL
+PL,my,ပိုလန်,PL
+BR,my,ဘရာဇီးလ်,BR
+PT,my,ပေါ်တူဂီ,PT
+MD,my,မော်ဒိုဗာ,MD
+RO,my,ရိုမေးနီးယား,RO
+RU,my,ရုရှား,RU
+LK,my,သီရိလင်္ကာ,LK
+SK,my,ဆလိုဗက်ကီးယား,SK
+SI,my,ဆလိုဗေးနီးယား,SI
+ME,my,မွန်တီနီဂရိုး,ME
+RS,my,ဆားဗီးယား,RS
+SE,my,ဆွီဒင်,SE
+TZ,my,တန်ဇန်းနီးယား,TZ
+TH,my,ထိုင်း,TH
+TR,my,တူရကီ,TR
+UA,my,ယူကရိန်း,UA
+PK,my,ပါကစ္စတန်,PK
+VN,my,ဗီယက်နမ်,VN
+HK,my,ဟောင်ကောင်,HK
+TW,my,ထိုင်ဝမ်,TW
+CY,my,ဆိုက်ပရပ်စ်,CY
+KH,my,ကမ္ဘောဒီးယား,KH
+LI,my,လီချင်စတိန်း,LI
+PG,my,ပါပူဝါးနယူးဂီနီ,PG
+AE,ne,संयुक्त अरब इमिरेट्स,AE
+BH,ne,बहराइन,BH
+DZ,ne,अल्जेरिया,DZ
+EG,ne,इजिप्ट,EG
+IQ,ne,इराक,IQ
+JO,ne,जोर्डन,JO
+KW,ne,कुवेत,KW
+LB,ne,लेबनान,LB
+LY,ne,लिबिया,LY
+MA,ne,मोरक्को,MA
+OM,ne,ओमान,OM
+QA,ne,कतार,QA
+SA,ne,साउदी अरब,SA
+TN,ne,ट्युनिसिया,TN
+YE,ne,यमन,YE
+AZ,ne,अजरबैजान,AZ
+BY,ne,बेलारूस,BY
+BG,ne,बुल्गेरिया,BG
+BD,ne,बंगलादेश,BD
+BA,ne,बोस्निया र हर्जगोभिना,BA
+CZ,ne,चेखिया,CZ
+DK,ne,डेनमार्क,DK
+AT,ne,अस्ट्रिया,AT
+CH,ne,स्विट्जरल्यान्ड,CH
+DE,ne,जर्मनी,DE
+GR,ne,ग्रीस,GR
+AU,ne,अस्ट्रेलिया,AU
+BE,ne,बेल्जियम,BE
+CA,ne,क्यानाडा,CA
+GB,ne,यूनाइटेड किङ्डम,GB
+GH,ne,घाना,GH
+IE,ne,आयरल्यान्ड,IE
+IL,ne,इजरायल,IL
+IN,ne,भारत,IN
+JM,ne,जमैका,JM
+KE,ne,केन्या,KE
+MT,ne,माल्टा,MT
+NG,ne,नाइजेरिया,NG
+NZ,ne,न्यूजिल्यान्ड,NZ
+SG,ne,सिङ्गापुर,SG
+UG,ne,युगान्डा,UG
+US,ne,संयुक्त राज्य,US
+ZA,ne,दक्षिण अफ्रिका,ZA
+ZW,ne,जिम्बाब्वे,ZW
+AR,ne,अर्जेन्टिना,AR
+BO,ne,बोलिभिया,BO
+CL,ne,चिली,CL
+CO,ne,कोलम्बिया,CO
+CR,ne,कोस्टा रिका,CR
+DO,ne,डोमिनिकन गणराज्य,DO
+EC,ne,इक्वेडर,EC
+ES,ne,स्पेन,ES
+GT,ne,ग्वाटेमाला,GT
+HN,ne,होन्डुरस,HN
+MX,ne,मेक्सिको,MX
+NI,ne,निकारागुआ,NI
+PA,ne,पनामा,PA
+PE,ne,पेरु,PE
+PR,ne,प्यूर्टो रिको,PR
+PY,ne,पाराग्वे,PY
+SV,ne,अल सल्वाडोर,SV
+UY,ne,उरुग्वे,UY
+VE,ne,भेनेजुएला,VE
+EE,ne,इस्टोनिया,EE
+FI,ne,फिनल्यान्ड,FI
+PH,ne,फिलिपिन्स,PH
+FR,ne,फ्रान्स,FR
+SN,ne,सेनेगल,SN
+HR,ne,क्रोएशिया,HR
+HU,ne,हंगेरी,HU
+ID,ne,इन्डोनेसिया,ID
+IS,ne,आइसल्यान्ड,IS
+IT,ne,इटाली,IT
+JP,ne,जापान,JP
+GE,ne,जर्जिया,GE
+KZ,ne,काजकिस्तान,KZ
+KR,ne,दक्षिण कोरिया,KR
+LU,ne,लक्जम्बर्ग,LU
+LA,ne,लाओस,LA
+LT,ne,लिथुआनिया,LT
+LV,ne,लाट्भिया,LV
+MK,ne,उत्तरी म्यासेडोनिया,MK
+MY,ne,मलेसिया,MY
+NO,ne,नर्वे,NO
+NP,ne,नेपाल,NP
+NL,ne,नेदरल्यान्ड,NL
+PL,ne,पोल्याण्ड,PL
+BR,ne,ब्राजिल,BR
+PT,ne,पोर्चुगल,PT
+MD,ne,माल्डोभा,MD
+RO,ne,रोमानिया,RO
+RU,ne,रूस,RU
+LK,ne,श्रीलंका,LK
+SK,ne,स्लोभाकिया,SK
+SI,ne,स्लोभेनिया,SI
+ME,ne,मोन्टेनेग्रो,ME
+RS,ne,सर्बिया,RS
+SE,ne,स्विडेन,SE
+TZ,ne,तान्जानिया,TZ
+TH,ne,थाइल्यान्ड,TH
+TR,ne,टर्की,TR
+UA,ne,युक्रेन,UA
+PK,ne,पाकिस्तान,PK
+VN,ne,भियतनाम,VN
+HK,ne,हङ्कङ,HK
+TW,ne,ताइवान,TW
+CY,ne,साइप्रस,CY
+KH,ne,कम्बोडिया,KH
+LI,ne,लिच्टेन्स्टिन,LI
+PG,ne,पपुवा न्यू गिनी,PG
+AE,nl,Verenigde Arabische Emiraten,AE
+BH,nl,Bahrein,BH
+DZ,nl,Algerije,DZ
+EG,nl,Egypte,EG
+IQ,nl,Irak,IQ
+JO,nl,Jordanië,JO
+KW,nl,Koeweit,KW
+LB,nl,Libanon,LB
+LY,nl,Libië,LY
+MA,nl,Marokko,MA
+OM,nl,Oman,OM
+QA,nl,Qatar,QA
+SA,nl,Saudi-Arabië,SA
+TN,nl,Tunesië,TN
+YE,nl,Jemen,YE
+AZ,nl,Azerbeidzjan,AZ
+BY,nl,Belarus,BY
+BG,nl,Bulgarije,BG
+BD,nl,Bangladesh,BD
+BA,nl,Bosnië-Herzegovina,BA
+CZ,nl,Tsjechië,CZ
+DK,nl,Denemarken,DK
+AT,nl,Oostenrijk,AT
+CH,nl,Zwitserland,CH
+DE,nl,Duitsland,DE
+GR,nl,Griekenland,GR
+AU,nl,Australië,AU
+BE,nl,België,BE
+CA,nl,Canada,CA
+GB,nl,Verenigd Koninkrijk,GB
+GH,nl,Ghana,GH
+IE,nl,Ierland,IE
+IL,nl,Israël,IL
+IN,nl,India,IN
+JM,nl,Jamaica,JM
+KE,nl,Kenia,KE
+MT,nl,Malta,MT
+NG,nl,Nigeria,NG
+NZ,nl,Nieuw-Zeeland,NZ
+SG,nl,Singapore,SG
+UG,nl,Oeganda,UG
+US,nl,Verenigde Staten,US
+ZA,nl,Zuid-Afrika,ZA
+ZW,nl,Zimbabwe,ZW
+AR,nl,Argentinië,AR
+BO,nl,Bolivia,BO
+CL,nl,Chili,CL
+CO,nl,Colombia,CO
+CR,nl,Costa Rica,CR
+DO,nl,Dominicaanse Republiek,DO
+EC,nl,Ecuador,EC
+ES,nl,Spanje,ES
+GT,nl,Guatemala,GT
+HN,nl,Honduras,HN
+MX,nl,Mexico,MX
+NI,nl,Nicaragua,NI
+PA,nl,Panama,PA
+PE,nl,Peru,PE
+PR,nl,Puerto Rico,PR
+PY,nl,Paraguay,PY
+SV,nl,El Salvador,SV
+UY,nl,Uruguay,UY
+VE,nl,Venezuela,VE
+EE,nl,Estland,EE
+FI,nl,Finland,FI
+PH,nl,Filipijnen,PH
+FR,nl,Frankrijk,FR
+SN,nl,Senegal,SN
+HR,nl,Kroatië,HR
+HU,nl,Hongarije,HU
+ID,nl,Indonesië,ID
+IS,nl,IJsland,IS
+IT,nl,Italië,IT
+JP,nl,Japan,JP
+GE,nl,Georgië,GE
+KZ,nl,Kazachstan,KZ
+KR,nl,Zuid-Korea,KR
+LU,nl,Luxemburg,LU
+LA,nl,Laos,LA
+LT,nl,Litouwen,LT
+LV,nl,Letland,LV
+MK,nl,Noord-Macedonië,MK
+MY,nl,Maleisië,MY
+NO,nl,Noorwegen,NO
+NP,nl,Nepal,NP
+NL,nl,Nederland,NL
+PL,nl,Polen,PL
+BR,nl,Brazilië,BR
+PT,nl,Portugal,PT
+MD,nl,Moldavië,MD
+RO,nl,Roemenië,RO
+RU,nl,Rusland,RU
+LK,nl,Sri Lanka,LK
+SK,nl,Slowakije,SK
+SI,nl,Slovenië,SI
+ME,nl,Montenegro,ME
+RS,nl,Servië,RS
+SE,nl,Zweden,SE
+TZ,nl,Tanzania,TZ
+TH,nl,Thailand,TH
+TR,nl,Turkije,TR
+UA,nl,Oekraïne,UA
+PK,nl,Pakistan,PK
+VN,nl,Vietnam,VN
+HK,nl,Hong Kong,HK
+TW,nl,Taiwan,TW
+CY,nl,Cyprus,CY
+KH,nl,Cambodja,KH
+LI,nl,Liechtenstein,LI
+PG,nl,Papoea-Nieuw-Guinea,PG
+AE,no,De forente arabiske emirater,AE
+BH,no,Bahrain,BH
+DZ,no,Algerie,DZ
+EG,no,Egypt,EG
+IQ,no,Irak,IQ
+JO,no,Jordan,JO
+KW,no,Kuwait,KW
+LB,no,Libanon,LB
+LY,no,Libya,LY
+MA,no,Marokko,MA
+OM,no,Oman,OM
+QA,no,Qatar,QA
+SA,no,Saudi-Arabia,SA
+TN,no,Tunisia,TN
+YE,no,Jemen,YE
+AZ,no,Aserbajdsjan,AZ
+BY,no,Belarus,BY
+BG,no,Bulgaria,BG
+BD,no,Bangladesh,BD
+BA,no,Bosnia-Hercegovina,BA
+CZ,no,Tsjekkia,CZ
+DK,no,Danmark,DK
+AT,no,Østerrike,AT
+CH,no,Sveits,CH
+DE,no,Tyskland,DE
+GR,no,Hellas,GR
+AU,no,Australia,AU
+BE,no,Belgia,BE
+CA,no,Canada,CA
+GB,no,Storbritannia,GB
+GH,no,Ghana,GH
+IE,no,Irland,IE
+IL,no,Israel,IL
+IN,no,India,IN
+JM,no,Jamaica,JM
+KE,no,Kenya,KE
+MT,no,Malta,MT
+NG,no,Nigeria,NG
+NZ,no,New Zealand,NZ
+SG,no,Singapore,SG
+UG,no,Uganda,UG
+US,no,USA,US
+ZA,no,Sør-Afrika,ZA
+ZW,no,Zimbabwe,ZW
+AR,no,Argentina,AR
+BO,no,Bolivia,BO
+CL,no,Chile,CL
+CO,no,Colombia,CO
+CR,no,Costa Rica,CR
+DO,no,Den dominikanske republikk,DO
+EC,no,Ecuador,EC
+ES,no,Spania,ES
+GT,no,Guatemala,GT
+HN,no,Honduras,HN
+MX,no,Mexico,MX
+NI,no,Nicaragua,NI
+PA,no,Panama,PA
+PE,no,Peru,PE
+PR,no,Puerto Rico,PR
+PY,no,Paraguay,PY
+SV,no,El Salvador,SV
+UY,no,Uruguay,UY
+VE,no,Venezuela,VE
+EE,no,Estland,EE
+FI,no,Finland,FI
+PH,no,Filippinene,PH
+FR,no,Frankrike,FR
+SN,no,Senegal,SN
+HR,no,Kroatia,HR
+HU,no,Ungarn,HU
+ID,no,Indonesia,ID
+IS,no,Island,IS
+IT,no,Italia,IT
+JP,no,Japan,JP
+GE,no,Georgia,GE
+KZ,no,Kasakhstan,KZ
+KR,no,Sør-Korea,KR
+LU,no,Luxemburg,LU
+LA,no,Laos,LA
+LT,no,Litauen,LT
+LV,no,Latvia,LV
+MK,no,Nord-Makedonia,MK
+MY,no,Malaysia,MY
+NO,no,Norge,NO
+NP,no,Nepal,NP
+NL,no,Nederland,NL
+PL,no,Polen,PL
+BR,no,Brasil,BR
+PT,no,Portugal,PT
+MD,no,Moldova,MD
+RO,no,Romania,RO
+RU,no,Russland,RU
+LK,no,Sri Lanka,LK
+SK,no,Slovakia,SK
+SI,no,Slovenia,SI
+ME,no,Montenegro,ME
+RS,no,Serbia,RS
+SE,no,Sverige,SE
+TZ,no,Tanzania,TZ
+TH,no,Thailand,TH
+TR,no,Tyrkia,TR
+UA,no,Ukraina,UA
+PK,no,Pakistan,PK
+VN,no,Vietnam,VN
+HK,no,Hongkong,HK
+TW,no,Taiwan,TW
+CY,no,Kypros,CY
+KH,no,Kambodsja,KH
+LI,no,Liechtenstein,LI
+PG,no,Papua Ny-Guinea,PG
+AE,or,ୟୁନାଇଟେଡ୍ ଆରବ ଏମିରେଟ୍‌ସ,AE
+BH,or,ବାହାରିନ,BH
+DZ,or,ଆଲଜେରିଆ,DZ
+EG,or,ଇଜିପ୍ଟ,EG
+IQ,or,ଇରାକ୍,IQ
+JO,or,ଜୋର୍ଡାନ୍,JO
+KW,or,କୁଏତ୍,KW
+LB,or,ଲେବାନନ୍,LB
+LY,or,ଲିବିଆ,LY
+MA,or,ମୋରୋକ୍କୋ,MA
+OM,or,ଓମାନ୍,OM
+QA,or,କତାର୍,QA
+SA,or,ସାଉଦି ଆରବ,SA
+TN,or,ଟ୍ୟୁନିସିଆ,TN
+YE,or,ୟେମେନ୍,YE
+AZ,or,ଆଜେରବାଇଜାନ୍,AZ
+BY,or,ବେଲାରୁସ୍,BY
+BG,or,ବୁଲ୍‌ଗେରିଆ,BG
+BD,or,ବାଂଲାଦେଶ,BD
+BA,or,ବୋସନିଆ ଏଣ୍ଡ ହେର୍ଜେଗୋଭିନା,BA
+CZ,or,Czechia,CZ
+DK,or,ଡେନମାର୍କ,DK
+AT,or,ଅଷ୍ଟ୍ରିଆ,AT
+CH,or,ସ୍ଵିଜରଲ୍ୟାଣ୍ଡ,CH
+DE,or,ଜର୍ମାନୀ,DE
+GR,or,ଗ୍ରୀସ୍,GR
+AU,or,ଅଷ୍ଟ୍ରେଲିଆ,AU
+BE,or,ବେଲଜିୟମ୍,BE
+CA,or,କାନାଡା,CA
+GB,or,ଯୁକ୍ତ ରାଜ୍ୟ,GB
+GH,or,ଘାନା,GH
+IE,or,ଆୟରଲ୍ୟାଣ୍ଡ୍,IE
+IL,or,ଇସ୍ରାଏଲ୍,IL
+IN,or,ଭାରତ,IN
+JM,or,ଜାମାଇକା,JM
+KE,or,କେନିଆ,KE
+MT,or,ମାଲ୍‌ଟା,MT
+NG,or,ନାଇଜେରିଆ,NG
+NZ,or,ନ୍ୟୁଜିଲ୍ୟାଣ୍ଡ,NZ
+SG,or,ସିଙ୍ଗାପୁର,SG
+UG,or,ଉଗାଣ୍ଡା,UG
+US,or,ଯୁକ୍ତରାଷ୍ଟ୍ର ଆମେରିକା,US
+ZA,or,ଦକ୍ଷିଣ ଆଫ୍ରିକା,ZA
+ZW,or,ଜିମ୍ବାୱେ,ZW
+AR,or,ଆର୍ଜେଣ୍ଟିନା,AR
+BO,or,ବୋଲିଭିଆ,BO
+CL,or,ଚିଲି,CL
+CO,or,କୋଲମ୍ବିଆ,CO
+CR,or,କୋଷ୍ଟା ରିକା,CR
+DO,or,ଡୋମିନିକାନ୍ ରିପବ୍ଲିକ୍,DO
+EC,or,ଇକୁଏଡର୍,EC
+ES,or,ସ୍ପେନ୍,ES
+GT,or,ଗୁଆଟେମାଲା,GT
+HN,or,ହୋଣ୍ଡୁରାସ୍,HN
+MX,or,ମେକ୍ସିକୋ,MX
+NI,or,ନିକାରାଗୁଆ,NI
+PA,or,ପାନାମା,PA
+PE,or,ପେରୁ,PE
+PR,or,ପୁଏର୍ଟୋ ରିକୋ,PR
+PY,or,ପାରାଗୁଏ,PY
+SV,or,ଏଲ୍ ସାଲ୍‌ଭାଡୋର୍,SV
+UY,or,ଉରୁଗୁଏ,UY
+VE,or,ଭେନେଜୁଏଲା,VE
+EE,or,ଏଷ୍ଟୋନିଆ,EE
+FI,or,ଫିନ‌ଲ୍ୟାଣ୍ଡ,FI
+PH,or,ଫିଲିପାଇନ୍ସ,PH
+FR,or,ଫ୍ରାନ୍ସ,FR
+SN,or,ସେନେଗାଲ୍,SN
+HR,or,କ୍ରୋଏସିଆ,HR
+HU,or,ହଙ୍ଗେରୀ,HU
+ID,or,ଇଣ୍ଡୋନେସିଆ,ID
+IS,or,ଆଇସ୍‍ଲ୍ୟାଣ୍ଡ,IS
+IT,or,ଇଟାଲୀ,IT
+JP,or,ଜାପାନ,JP
+GE,or,ଜର୍ଜିଆ,GE
+KZ,or,କାଜାଖସ୍ତାନ୍,KZ
+KR,or,ଦକ୍ଷିଣ କୋରିଆ,KR
+LU,or,ଲକ୍ସେମବର୍ଗ,LU
+LA,or,ଲାଓସ୍,LA
+LT,or,ଲିଥୁଆନିଆ,LT
+LV,or,ଲାଟଭିଆ,LV
+MK,or,ଉତ୍ତର ମାସେଡୋନିଆ,MK
+MY,or,ମାଲେସିଆ,MY
+NO,or,ନରୱେ,NO
+NP,or,ନେପାଳ,NP
+NL,or,ନେଦରଲ୍ୟାଣ୍ଡ,NL
+PL,or,ପୋଲାଣ୍ଡ,PL
+BR,or,ବ୍ରାଜିଲ୍,BR
+PT,or,ପର୍ତ୍ତୁଗାଲ୍,PT
+MD,or,ମୋଲ୍‌ଡୋଭା,MD
+RO,or,ରୋମାନିଆ,RO
+RU,or,ଋଷିଆ,RU
+LK,or,ଶ୍ରୀଲଙ୍କା,LK
+SK,or,ସ୍ଲୋଭାକିଆ,SK
+SI,or,ସ୍ଲୋଭେନିଆ,SI
+ME,or,ମୋଣ୍ଟେନେଗ୍ରୋ,ME
+RS,or,ସର୍ବିଆ,RS
+SE,or,ସ୍ୱିଡେନ୍,SE
+TZ,or,ତାଞ୍ଜାନିଆ,TZ
+TH,or,ଥାଇଲ୍ୟାଣ୍ଡ,TH
+TR,or,ତୁର୍କୀ,TR
+UA,or,ୟୁକ୍ରେନ୍,UA
+PK,or,ପାକିସ୍ତାନ,PK
+VN,or,ଭିଏତ୍‌ନାମ,VN
+HK,or,ହଙ୍ଗକଙ୍ଗ,HK
+TW,or,ତାଇୱାନ୍,TW
+CY,or,ସାଇପ୍ରସ୍,CY
+KH,or,କମ୍ଵୋଡିଆ,KH
+LI,or,ଲିଚେଟିଷ୍ଟେନ୍,LI
+PG,or,ପାପୁଆ ନ୍ୟୁ ଗୁଏନା,PG
+AE,pa,ਸੰਯੁਕਤ ਅਰਬ ਅਮੀਰਾਤ,AE
+BH,pa,ਬਹਿਰੀਨ,BH
+DZ,pa,ਅਲਜੀਰੀਆ,DZ
+EG,pa,ਮਿਸਰ,EG
+IQ,pa,ਇਰਾਕ,IQ
+JO,pa,ਜਾਰਡਨ,JO
+KW,pa,ਕੁਵੈਤ,KW
+LB,pa,ਲੇਬਨਾਨ,LB
+LY,pa,ਲੀਬੀਆ,LY
+MA,pa,ਮੋਰੋਕੋ,MA
+OM,pa,ਓਮਾਨ,OM
+QA,pa,ਕਤਰ,QA
+SA,pa,ਸਾਊਦੀ ਅਰਬ,SA
+TN,pa,ਟਿਊਨੀਸ਼ੀਆ,TN
+YE,pa,ਯਮਨ,YE
+AZ,pa,ਅਜ਼ਰਬਾਈਜ਼ਾਨ,AZ
+BY,pa,ਬੇਲਾਰੂਸ,BY
+BG,pa,ਬੁਲਗਾਰੀਆ,BG
+BD,pa,ਬੰਗਲਾਦੇਸ਼,BD
+BA,pa,ਬੋਸਨੀਆ ਅਤੇ ਹਰਜ਼ੇਗੋਵਿਨਾ,BA
+CZ,pa,ਚੈੱਕੀਆ,CZ
+DK,pa,ਡੈਨਮਾਰਕ,DK
+AT,pa,ਆਸਟਰੀਆ,AT
+CH,pa,ਸਵਿਟਜ਼ਰਲੈਂਡ,CH
+DE,pa,ਜਰਮਨੀ,DE
+GR,pa,ਗ੍ਰੀਸ,GR
+AU,pa,ਆਸਟ੍ਰੇਲੀਆ,AU
+BE,pa,ਬੈਲਜੀਅਮ,BE
+CA,pa,ਕੈਨੇਡਾ,CA
+GB,pa,ਯੂਨਾਈਟਡ ਕਿੰਗਡਮ,GB
+GH,pa,ਘਾਨਾ,GH
+IE,pa,ਆਇਰਲੈਂਡ,IE
+IL,pa,ਇਜ਼ਰਾਈਲ,IL
+IN,pa,ਭਾਰਤ,IN
+JM,pa,ਜਮੈਕਾ,JM
+KE,pa,ਕੀਨੀਆ,KE
+MT,pa,ਮਾਲਟਾ,MT
+NG,pa,ਨਾਈਜੀਰੀਆ,NG
+NZ,pa,ਨਿਊਜ਼ੀਲੈਂਡ,NZ
+SG,pa,ਸਿੰਗਾਪੁਰ,SG
+UG,pa,ਯੂਗਾਂਡਾ,UG
+US,pa,ਸੰਯੁਕਤ ਰਾਜ ਅਮਰੀਕਾ,US
+ZA,pa,ਦੱਖਣੀ ਅਫਰੀਕਾ,ZA
+ZW,pa,ਜ਼ਿੰਬਾਬਵੇ,ZW
+AR,pa,ਅਰਜਨਟੀਨਾ,AR
+BO,pa,ਬੋਲੀਵੀਆ,BO
+CL,pa,ਚਿੱਲੀ,CL
+CO,pa,ਕੋਲੰਬੀਆ,CO
+CR,pa,ਕੋਸਟਾ ਰੀਕਾ,CR
+DO,pa,ਡੋਮੀਨਿਕ ਰਿਪਬਲਿਕ,DO
+EC,pa,ਇਕਵਾਡੋਰ,EC
+ES,pa,ਸਪੇਨ,ES
+GT,pa,ਗੁਆਟੇਮਾਲਾ,GT
+HN,pa,ਹੰਡੁਰਸ,HN
+MX,pa,ਮੈਕਸੀਕੋ,MX
+NI,pa,ਨਿਕਾਰਾਗੁਆ,NI
+PA,pa,ਪਨਾਮਾ,PA
+PE,pa,ਪੇਰੂ,PE
+PR,pa,ਪਿਉਰਟੋ ਰਿਕੋ,PR
+PY,pa,ਪੈਰਾਗੁਆ,PY
+SV,pa,ਏਲ ਸਾਲਵਾਡੋਰ,SV
+UY,pa,ਉਰੂਗਵੇ,UY
+VE,pa,ਵੈਨੇਜ਼ੁਏਲਾ,VE
+EE,pa,ਇਸਤੋਨੀਆ,EE
+FI,pa,ਫਿਨਲੈਂਡ,FI
+PH,pa,ਫਿਲੀਪੀਨਜ਼,PH
+FR,pa,ਫਰਾਂਸ,FR
+SN,pa,ਸੇਨੇਗਲ,SN
+HR,pa,ਕਰੋਸ਼ੀਆ,HR
+HU,pa,ਹੰਗਰੀ,HU
+ID,pa,ਇੰਡੋਨੇਸ਼ੀਆ,ID
+IS,pa,ਆਈਸਲੈਂਡ,IS
+IT,pa,ਇਟਲੀ,IT
+JP,pa,ਜਾਪਾਨ,JP
+GE,pa,ਜਾਰਜੀਆ,GE
+KZ,pa,ਕਜ਼ਾਕਿਸਤਾਨ,KZ
+KR,pa,ਦੱਖਣੀ ਕੋਰੀਆ,KR
+LU,pa,ਲਕਸਮਬਰਗ,LU
+LA,pa,ਲਾਓਸ,LA
+LT,pa,ਲਿਥੂਆਨੀਆ,LT
+LV,pa,ਲਾਤਵੀਆ,LV
+MK,pa,ਉੱਤਰੀ ਮਕਦੂਨੀਆ,MK
+MY,pa,ਮਲੇਸ਼ੀਆ,MY
+NO,pa,ਨਾਰਵੇ,NO
+NP,pa,ਨੇਪਾਲ,NP
+NL,pa,ਨੀਂਦਰਲੈਂਡਸ,NL
+PL,pa,ਪੋਲੈਂਡ,PL
+BR,pa,ਬ੍ਰਾਜ਼ੀਲ,BR
+PT,pa,ਪੁਰਤਗਾਲ,PT
+MD,pa,ਮਾਲਡੋਵਾ,MD
+RO,pa,ਰੋਮਾਨੀਆ,RO
+RU,pa,ਰੂਸ,RU
+LK,pa,ਸ਼੍ਰੀ ਲੰਕਾ,LK
+SK,pa,ਸਲੋਵਾਕੀਆ,SK
+SI,pa,ਸਲੋਵੇਨੀਆ,SI
+ME,pa,ਮੋਂਟੇਨੇਗਰੋ,ME
+RS,pa,ਸਰਬੀਆ,RS
+SE,pa,ਸਵੀਡਨ,SE
+TZ,pa,ਤਨਜ਼ਾਨੀਆ,TZ
+TH,pa,ਥਾਈਲੈਂਡ,TH
+TR,pa,ਤੁਰਕੀ,TR
+UA,pa,ਯੂਕਰੇਨ,UA
+PK,pa,ਪਾਕਿਸਤਾਨ,PK
+VN,pa,ਵੀਅਤਨਾਮ,VN
+HK,pa,ਹਾਂਗ ਕਾਂਗ,HK
+TW,pa,ਤਾਈਵਾਨ,TW
+CY,pa,ਸਾਈਪ੍ਰਸ,CY
+KH,pa,ਕੰਬੋਡੀਆ,KH
+LI,pa,ਲਿਚੇਂਸਟਾਈਨ,LI
+PG,pa,ਪਾਪੁਆ ਨਿਊ ਗਿੰਨੀ,PG
+AE,pl,Zjednoczone Emiraty Arabskie,AE
+BH,pl,Bahrajn,BH
+DZ,pl,Algieria,DZ
+EG,pl,Egipt,EG
+IQ,pl,Irak,IQ
+JO,pl,Jordania,JO
+KW,pl,Kuwejt,KW
+LB,pl,Liban,LB
+LY,pl,Libia,LY
+MA,pl,Maroko,MA
+OM,pl,Oman,OM
+QA,pl,Katar,QA
+SA,pl,Arabia Saudyjska,SA
+TN,pl,Tunezja,TN
+YE,pl,Jemen,YE
+AZ,pl,Azerbejdżan,AZ
+BY,pl,Białoruś,BY
+BG,pl,Bułgaria,BG
+BD,pl,Bangladesz,BD
+BA,pl,Bośnia i Hercegowina,BA
+CZ,pl,Czechy,CZ
+DK,pl,Dania,DK
+AT,pl,Austria,AT
+CH,pl,Szwajcaria,CH
+DE,pl,Niemcy,DE
+GR,pl,Grecja,GR
+AU,pl,Australia,AU
+BE,pl,Belgia,BE
+CA,pl,Kanada,CA
+GB,pl,Wielka Brytania,GB
+GH,pl,Ghana,GH
+IE,pl,Irlandia,IE
+IL,pl,Izrael,IL
+IN,pl,Indie,IN
+JM,pl,Jamajka,JM
+KE,pl,Kenia,KE
+MT,pl,Malta,MT
+NG,pl,Nigeria,NG
+NZ,pl,Nowa Zelandia,NZ
+SG,pl,Singapur,SG
+UG,pl,Uganda,UG
+US,pl,Stany Zjednoczone,US
+ZA,pl,Republika Południowej Afryki,ZA
+ZW,pl,Zimbabwe,ZW
+AR,pl,Argentyna,AR
+BO,pl,Boliwia,BO
+CL,pl,Chile,CL
+CO,pl,Kolumbia,CO
+CR,pl,Kostaryka,CR
+DO,pl,Dominikana,DO
+EC,pl,Ekwador,EC
+ES,pl,Hiszpania,ES
+GT,pl,Gwatemala,GT
+HN,pl,Honduras,HN
+MX,pl,Meksyk,MX
+NI,pl,Nikaragua,NI
+PA,pl,Panama,PA
+PE,pl,Peru,PE
+PR,pl,Portoryko,PR
+PY,pl,Paragwaj,PY
+SV,pl,Salwador,SV
+UY,pl,Urugwaj,UY
+VE,pl,Wenezuela,VE
+EE,pl,Estonia,EE
+FI,pl,Finlandia,FI
+PH,pl,Filipiny,PH
+FR,pl,Francja,FR
+SN,pl,Senegal,SN
+HR,pl,Chorwacja,HR
+HU,pl,Węgry,HU
+ID,pl,Indonezja,ID
+IS,pl,Islandia,IS
+IT,pl,Włochy,IT
+JP,pl,Japonia,JP
+GE,pl,Georgia,GE
+KZ,pl,Kazachstan,KZ
+KR,pl,Korea Południowa,KR
+LU,pl,Luksemburg,LU
+LA,pl,Laos,LA
+LT,pl,Litwa,LT
+LV,pl,Łotwa,LV
+MK,pl,Macedonia Północna,MK
+MY,pl,Malezja,MY
+NO,pl,Norwegia,NO
+NP,pl,Nepal,NP
+NL,pl,Holandia,NL
+PL,pl,Polska,PL
+BR,pl,Brazylia,BR
+PT,pl,Portugalia,PT
+MD,pl,Mołdawia,MD
+RO,pl,Rumunia,RO
+RU,pl,Rosja,RU
+LK,pl,Sri Lanka,LK
+SK,pl,Słowacja,SK
+SI,pl,Słowenia,SI
+ME,pl,Czarnogóra,ME
+RS,pl,Serbia,RS
+SE,pl,Szwecja,SE
+TZ,pl,Tanzania,TZ
+TH,pl,Tajlandia,TH
+TR,pl,Turcja,TR
+UA,pl,Ukraina,UA
+PK,pl,Pakistan,PK
+VN,pl,Wietnam,VN
+HK,pl,Hongkong,HK
+TW,pl,Tajwan,TW
+CY,pl,Cypr,CY
+KH,pl,Kambodża,KH
+LI,pl,Lichtenstein,LI
+PG,pl,Papua-Nowa Gwinea,PG
+AE,pt,Emirados Árabes Unidos,AE
+BH,pt,Barein,BH
+DZ,pt,Argélia,DZ
+EG,pt,Egito,EG
+IQ,pt,Iraque,IQ
+JO,pt,Jordânia,JO
+KW,pt,Kuwait,KW
+LB,pt,Líbano,LB
+LY,pt,Líbia,LY
+MA,pt,Marrocos,MA
+OM,pt,Omã,OM
+QA,pt,Catar,QA
+SA,pt,Arábia Saudita,SA
+TN,pt,Tunísia,TN
+YE,pt,Iêmen,YE
+AZ,pt,Azerbaijão,AZ
+BY,pt,Bielorrússia,BY
+BG,pt,Bulgária,BG
+BD,pt,Bangladesh,BD
+BA,pt,Bósnia-Herzegovina,BA
+CZ,pt,República Tcheca,CZ
+DK,pt,Dinamarca,DK
+AT,pt,Áustria,AT
+CH,pt,Suíça,CH
+DE,pt,Alemanha,DE
+GR,pt,Grécia,GR
+AU,pt,Austrália,AU
+BE,pt,Bélgica,BE
+CA,pt,Canadá,CA
+GB,pt,Reino Unido,GB
+GH,pt,Gana,GH
+IE,pt,Irlanda,IE
+IL,pt,Israel,IL
+IN,pt,Índia,IN
+JM,pt,Jamaica,JM
+KE,pt,Quênia,KE
+MT,pt,Malta,MT
+NG,pt,Nigéria,NG
+NZ,pt,Nova Zelândia,NZ
+SG,pt,Singapura,SG
+UG,pt,Uganda,UG
+US,pt,Estados Unidos,US
+ZA,pt,África do Sul,ZA
+ZW,pt,Zimbábue,ZW
+AR,pt,Argentina,AR
+BO,pt,Bolívia,BO
+CL,pt,Chile,CL
+CO,pt,Colômbia,CO
+CR,pt,Costa Rica,CR
+DO,pt,República Dominicana,DO
+EC,pt,Equador,EC
+ES,pt,Espanha,ES
+GT,pt,Guatemala,GT
+HN,pt,Honduras,HN
+MX,pt,México,MX
+NI,pt,Nicarágua,NI
+PA,pt,Panamá,PA
+PE,pt,Peru,PE
+PR,pt,Porto Rico,PR
+PY,pt,Paraguai,PY
+SV,pt,El Salvador,SV
+UY,pt,Uruguai,UY
+VE,pt,Venezuela,VE
+EE,pt,Estônia,EE
+FI,pt,Finlândia,FI
+PH,pt,Filipinas,PH
+FR,pt,França,FR
+SN,pt,Senegal,SN
+HR,pt,Croácia,HR
+HU,pt,Hungria,HU
+ID,pt,Indonésia,ID
+IS,pt,Islândia,IS
+IT,pt,Itália,IT
+JP,pt,Japão,JP
+GE,pt,Georgia,GE
+KZ,pt,Cazaquistão,KZ
+KR,pt,Coréia do Sul,KR
+LU,pt,Luxemburgo,LU
+LA,pt,Laos,LA
+LT,pt,Lituânia,LT
+LV,pt,Letônia,LV
+MK,pt,Macedônia do Norte,MK
+MY,pt,Malásia,MY
+NO,pt,Noruega,NO
+NP,pt,Nepal,NP
+NL,pt,Países Baixos,NL
+PL,pt,Polônia,PL
+BR,pt,Brasil,BR
+PT,pt,Portugal,PT
+MD,pt,Moldávia,MD
+RO,pt,Romênia,RO
+RU,pt,Rússia,RU
+LK,pt,Sri Lanka,LK
+SK,pt,Eslováquia,SK
+SI,pt,Eslovênia,SI
+ME,pt,Montenegro,ME
+RS,pt,Sérvia,RS
+SE,pt,Suécia,SE
+TZ,pt,Tanzânia,TZ
+TH,pt,Tailândia,TH
+TR,pt,Turquia,TR
+UA,pt,Ucrânia,UA
+PK,pt,Paquistão,PK
+VN,pt,Vietnã,VN
+HK,pt,Hong Kong,HK
+TW,pt,Taiwan,TW
+CY,pt,Chipre,CY
+KH,pt,Camboja,KH
+LI,pt,Liechtenstein,LI
+PG,pt,Papua-Nova Guiné,PG
+AE,pt-PT,Emirados Árabes Unidos,AE
+BH,pt-PT,Barém,BH
+DZ,pt-PT,Argélia,DZ
+EG,pt-PT,Egito,EG
+IQ,pt-PT,Iraque,IQ
+JO,pt-PT,Jordânia,JO
+KW,pt-PT,Kuwait,KW
+LB,pt-PT,Líbano,LB
+LY,pt-PT,Líbia,LY
+MA,pt-PT,Marrocos,MA
+OM,pt-PT,Omã,OM
+QA,pt-PT,Catar,QA
+SA,pt-PT,Arábia Saudita,SA
+TN,pt-PT,Tunísia,TN
+YE,pt-PT,Iémen,YE
+AZ,pt-PT,Azerbaijão,AZ
+BY,pt-PT,Bielorrússia,BY
+BG,pt-PT,Bulgária,BG
+BD,pt-PT,Bangladeche,BD
+BA,pt-PT,Bósnia-Herzegovina,BA
+CZ,pt-PT,Chéquia,CZ
+DK,pt-PT,Dinamarca,DK
+AT,pt-PT,Áustria,AT
+CH,pt-PT,Suíça,CH
+DE,pt-PT,Alemanha,DE
+GR,pt-PT,Grécia,GR
+AU,pt-PT,Austrália,AU
+BE,pt-PT,Bélgica,BE
+CA,pt-PT,Canadá,CA
+GB,pt-PT,Reino Unido,GB
+GH,pt-PT,Gana,GH
+IE,pt-PT,Irlanda,IE
+IL,pt-PT,Israel,IL
+IN,pt-PT,Índia,IN
+JM,pt-PT,Jamaica,JM
+KE,pt-PT,Quénia,KE
+MT,pt-PT,Malta,MT
+NG,pt-PT,Nigéria,NG
+NZ,pt-PT,Nova Zelândia,NZ
+SG,pt-PT,Singapura,SG
+UG,pt-PT,Uganda,UG
+US,pt-PT,Estados Unidos,US
+ZA,pt-PT,África do Sul,ZA
+ZW,pt-PT,Zimbabué,ZW
+AR,pt-PT,Argentina,AR
+BO,pt-PT,Bolívia,BO
+CL,pt-PT,Chile,CL
+CO,pt-PT,Colômbia,CO
+CR,pt-PT,Costa Rica,CR
+DO,pt-PT,República Dominicana,DO
+EC,pt-PT,Equador,EC
+ES,pt-PT,Espanha,ES
+GT,pt-PT,Guatemala,GT
+HN,pt-PT,Honduras,HN
+MX,pt-PT,México,MX
+NI,pt-PT,Nicarágua,NI
+PA,pt-PT,Panamá,PA
+PE,pt-PT,Peru,PE
+PR,pt-PT,Porto Rico,PR
+PY,pt-PT,Paraguai,PY
+SV,pt-PT,El Salvador,SV
+UY,pt-PT,Uruguai,UY
+VE,pt-PT,Venezuela,VE
+EE,pt-PT,Estónia,EE
+FI,pt-PT,Finlândia,FI
+PH,pt-PT,Filipinas,PH
+FR,pt-PT,França,FR
+SN,pt-PT,Senegal,SN
+HR,pt-PT,Croácia,HR
+HU,pt-PT,Hungria,HU
+ID,pt-PT,Indonésia,ID
+IS,pt-PT,Islândia,IS
+IT,pt-PT,Itália,IT
+JP,pt-PT,Japão,JP
+GE,pt-PT,Geórgia,GE
+KZ,pt-PT,Cazaquistão,KZ
+KR,pt-PT,Coreia do Sul,KR
+LU,pt-PT,Luxemburgo,LU
+LA,pt-PT,Laos,LA
+LT,pt-PT,Lituânia,LT
+LV,pt-PT,Letónia,LV
+MK,pt-PT,Macedónia do Norte,MK
+MY,pt-PT,Malásia,MY
+NO,pt-PT,Noruega,NO
+NP,pt-PT,Nepal,NP
+NL,pt-PT,Holanda,NL
+PL,pt-PT,Polónia,PL
+BR,pt-PT,Brasil,BR
+PT,pt-PT,Portugal,PT
+MD,pt-PT,Moldávia,MD
+RO,pt-PT,Roménia,RO
+RU,pt-PT,Rússia,RU
+LK,pt-PT,Sri Lanka,LK
+SK,pt-PT,Eslováquia,SK
+SI,pt-PT,Eslovénia,SI
+ME,pt-PT,Montenegro,ME
+RS,pt-PT,Sérvia,RS
+SE,pt-PT,Suécia,SE
+TZ,pt-PT,Tanzânia,TZ
+TH,pt-PT,Tailândia,TH
+TR,pt-PT,Turquia,TR
+UA,pt-PT,Ucrânia,UA
+PK,pt-PT,Paquistão,PK
+VN,pt-PT,Vietname,VN
+HK,pt-PT,Hong Kong,HK
+TW,pt-PT,Taiwan,TW
+CY,pt-PT,Chipre,CY
+KH,pt-PT,Camboja,KH
+LI,pt-PT,Lienchtenstein,LI
+PG,pt-PT,Papuásia-Nova Guiné,PG
+AE,ro,Emiratele Arabe Unite,AE
+BH,ro,Bahrein,BH
+DZ,ro,Algeria,DZ
+EG,ro,Egipt,EG
+IQ,ro,Irak,IQ
+JO,ro,Iordania,JO
+KW,ro,Kuweit,KW
+LB,ro,Liban,LB
+LY,ro,Libia,LY
+MA,ro,Maroc,MA
+OM,ro,Oman,OM
+QA,ro,Qatar,QA
+SA,ro,Arabia Saudită,SA
+TN,ro,Tunisia,TN
+YE,ro,Yemen,YE
+AZ,ro,Azerbaidjan,AZ
+BY,ro,Belarus,BY
+BG,ro,Bulgaria,BG
+BD,ro,Bangladesh,BD
+BA,ro,Bosnia și Herțegovina,BA
+CZ,ro,Cehia,CZ
+DK,ro,Danemarca,DK
+AT,ro,Austria,AT
+CH,ro,Elveția,CH
+DE,ro,Germania,DE
+GR,ro,Grecia,GR
+AU,ro,Australia,AU
+BE,ro,Belgia,BE
+CA,ro,Canada,CA
+GB,ro,Regatul Unit,GB
+GH,ro,Ghana,GH
+IE,ro,Irlanda,IE
+IL,ro,Israel,IL
+IN,ro,India,IN
+JM,ro,Jamaica,JM
+KE,ro,Kenya,KE
+MT,ro,Malta,MT
+NG,ro,Nigeria,NG
+NZ,ro,Noua Zeelandă,NZ
+SG,ro,Singapore,SG
+UG,ro,Uganda,UG
+US,ro,Statele Unite ale Americii,US
+ZA,ro,Africa de Sud,ZA
+ZW,ro,Zimbabwe,ZW
+AR,ro,Argentina,AR
+BO,ro,Bolivia,BO
+CL,ro,Chile,CL
+CO,ro,Columbia,CO
+CR,ro,Costa Rica,CR
+DO,ro,Republica Dominicană,DO
+EC,ro,Ecuador,EC
+ES,ro,Spania,ES
+GT,ro,Guatemala,GT
+HN,ro,Honduras,HN
+MX,ro,Mexic,MX
+NI,ro,Nicaragua,NI
+PA,ro,Panama,PA
+PE,ro,Peru,PE
+PR,ro,Puerto Rico,PR
+PY,ro,Paraguay,PY
+SV,ro,El Salvador,SV
+UY,ro,Uruguay,UY
+VE,ro,Venezuela,VE
+EE,ro,Estonia,EE
+FI,ro,Finlanda,FI
+PH,ro,Filipine,PH
+FR,ro,Franța,FR
+SN,ro,Senegal,SN
+HR,ro,Croația,HR
+HU,ro,Ungaria,HU
+ID,ro,Indonezia,ID
+IS,ro,Islanda,IS
+IT,ro,Italia,IT
+JP,ro,Japonia,JP
+GE,ro,Georgia,GE
+KZ,ro,Kazahstan,KZ
+KR,ro,Coreea de Sud,KR
+LU,ro,Luxemburg,LU
+LA,ro,Laos,LA
+LT,ro,Lituania,LT
+LV,ro,Letonia,LV
+MK,ro,Macedonia de Nord,MK
+MY,ro,Malaezia,MY
+NO,ro,Norvegia,NO
+NP,ro,Nepal,NP
+NL,ro,Țările de Jos,NL
+PL,ro,Polonia,PL
+BR,ro,Brazilia,BR
+PT,ro,Portugalia,PT
+MD,ro,Moldova,MD
+RO,ro,România,RO
+RU,ro,Rusia,RU
+LK,ro,Sri Lanka,LK
+SK,ro,Slovacia,SK
+SI,ro,Slovenia,SI
+ME,ro,Muntenegru,ME
+RS,ro,Serbia,RS
+SE,ro,Suedia,SE
+TZ,ro,Tanzania,TZ
+TH,ro,Thailanda,TH
+TR,ro,Turcia,TR
+UA,ro,Ucraina,UA
+PK,ro,Pakistan,PK
+VN,ro,Vietnam,VN
+HK,ro,Hong Kong,HK
+TW,ro,Taiwan,TW
+CY,ro,Cipru,CY
+KH,ro,Cambodgia,KH
+LI,ro,Liechtenstein,LI
+PG,ro,Papua Noua Guinee,PG
+AE,ru,Объединенные Арабские Эмираты,AE
+BH,ru,Бахрейн,BH
+DZ,ru,Алжир,DZ
+EG,ru,Египет,EG
+IQ,ru,Ирак,IQ
+JO,ru,Иордания,JO
+KW,ru,Кувейт,KW
+LB,ru,Ливан,LB
+LY,ru,Ливия,LY
+MA,ru,Марокко,MA
+OM,ru,Оман,OM
+QA,ru,Катар,QA
+SA,ru,Саудовская Аравия,SA
+TN,ru,Тунис,TN
+YE,ru,Йемен,YE
+AZ,ru,Азербайджан,AZ
+BY,ru,Беларусь,BY
+BG,ru,Болгария,BG
+BD,ru,Бангладеш,BD
+BA,ru,Босния и Герцеговина,BA
+CZ,ru,Чехия,CZ
+DK,ru,Дания,DK
+AT,ru,Австрия,AT
+CH,ru,Швейцария,CH
+DE,ru,Германия,DE
+GR,ru,Греция,GR
+AU,ru,Австралия,AU
+BE,ru,Бельгия,BE
+CA,ru,Канада,CA
+GB,ru,Великобритания,GB
+GH,ru,Гана,GH
+IE,ru,Ирландия,IE
+IL,ru,Израиль,IL
+IN,ru,Индия,IN
+JM,ru,Ямайка,JM
+KE,ru,Кения,KE
+MT,ru,Мальта,MT
+NG,ru,Нигерия,NG
+NZ,ru,Новая Зеландия,NZ
+SG,ru,Сингапур,SG
+UG,ru,Уганда,UG
+US,ru,США,US
+ZA,ru,Южно-Африканская Республика,ZA
+ZW,ru,Зимбабве,ZW
+AR,ru,Аргентина,AR
+BO,ru,Боливия,BO
+CL,ru,Чили,CL
+CO,ru,Колумбия,CO
+CR,ru,Коста-Рика,CR
+DO,ru,Доминиканская Республика,DO
+EC,ru,Эквадор,EC
+ES,ru,Испания,ES
+GT,ru,Гватемала,GT
+HN,ru,Гондурас,HN
+MX,ru,Мексика,MX
+NI,ru,Никарагуа,NI
+PA,ru,Панама,PA
+PE,ru,Перу,PE
+PR,ru,Пуэрто-Рико,PR
+PY,ru,Парагвай,PY
+SV,ru,Сальвадор,SV
+UY,ru,Уругвай,UY
+VE,ru,Венесуэла,VE
+EE,ru,Эстония,EE
+FI,ru,Финляндия,FI
+PH,ru,Филиппины,PH
+FR,ru,Франция,FR
+SN,ru,Сенегал,SN
+HR,ru,Хорватия,HR
+HU,ru,Венгрия,HU
+ID,ru,Индонезия,ID
+IS,ru,Исландия,IS
+IT,ru,Италия,IT
+JP,ru,Япония,JP
+GE,ru,Грузия,GE
+KZ,ru,Казахстан,KZ
+KR,ru,Южная Корея,KR
+LU,ru,Люксембург,LU
+LA,ru,Лаос,LA
+LT,ru,Литва,LT
+LV,ru,Латвия,LV
+MK,ru,Северная Македония,MK
+MY,ru,Малайзия,MY
+NO,ru,Норвегия,NO
+NP,ru,Непал,NP
+NL,ru,Нидерланды,NL
+PL,ru,Польша,PL
+BR,ru,Бразилия,BR
+PT,ru,Португалия,PT
+MD,ru,Молдова,MD
+RO,ru,Румыния,RO
+RU,ru,Россия,RU
+LK,ru,Шри-Ланка,LK
+SK,ru,Словакия,SK
+SI,ru,Словения,SI
+ME,ru,Черногория,ME
+RS,ru,Сербия,RS
+SE,ru,Швеция,SE
+TZ,ru,Танзания,TZ
+TH,ru,Таиланд,TH
+TR,ru,Турция,TR
+UA,ru,Украина,UA
+PK,ru,Пакистан,PK
+VN,ru,Вьетнам,VN
+HK,ru,Гонконг,HK
+TW,ru,Тайвань,TW
+CY,ru,Кипр,CY
+KH,ru,Камбоджа,KH
+LI,ru,Лихтенштейн,LI
+PG,ru,Папуа-Новая Гвинея,PG
+AE,si,එක්සත් අරාබි එමීර් රාජ්‍යය,AE
+BH,si,බහ්රයින්,BH
+DZ,si,අල්ජීරියාව,DZ
+EG,si,මිසරය,EG
+IQ,si,ඉරාකය,IQ
+JO,si,ජෝර්දානය,JO
+KW,si,කුවෛත්,KW
+LB,si,ලෙබනනය,LB
+LY,si,ලිබියාව,LY
+MA,si,මොරොක්කෝව,MA
+OM,si,ඕමානය,OM
+QA,si,කටාර්,QA
+SA,si,සවුදි අරාබිය,SA
+TN,si,තූනිසියාව,TN
+YE,si,යෙමනය,YE
+AZ,si,අසර්බයිජාන්,AZ
+BY,si,බෙලාරුස්,BY
+BG,si,බල්ගාරියාව,BG
+BD,si,බංගලාදේශය,BD
+BA,si,බොස්නියා හා හර්සගෝවිනා,BA
+CZ,si,චෙක් ජනරජය,CZ
+DK,si,ඩෙන්මාර්කය,DK
+AT,si,ඕස්ට්‍රියාව,AT
+CH,si,ස්විට්සර්ලන්තය,CH
+DE,si,ජර්මනිය,DE
+GR,si,ග්‍රීසිය,GR
+AU,si,ඕස්ට්‍රේලියාව,AU
+BE,si,බෙල්ජියම,BE
+CA,si,කැනඩාව,CA
+GB,si,එක්සත් රාජධානිය,GB
+GH,si,ඝානාව,GH
+IE,si,අයර්ලන්තය,IE
+IL,si,ඊශ්‍රායලය,IL
+IN,si,ඉන්දියාව,IN
+JM,si,ජමෙයිකාව,JM
+KE,si,කෙන්යාව,KE
+MT,si,මෝල්ටාව,MT
+NG,si,නයිජීරියාව,NG
+NZ,si,නවසීලන්තය,NZ
+SG,si,සිංගප්පූරුව,SG
+UG,si,උගන්ඩාව,UG
+US,si,එක්සත් ජනපදය,US
+ZA,si,දකුණු අප්‍රිකාව,ZA
+ZW,si,සිම්බාබ්වේ,ZW
+AR,si,ආජන්තීනාව,AR
+BO,si,බොලිවියාව,BO
+CL,si,චිලී,CL
+CO,si,කොලොම්බියාව,CO
+CR,si,කොස්ටා රිකා,CR
+DO,si,ඩොමිනිකන් ජනරජය,DO
+EC,si,ඉක්වදෝරය,EC
+ES,si,ස්පාඤ්ඤය,ES
+GT,si,ගෝතමාලාව,GT
+HN,si,හොණ්ඩුරාස්,HN
+MX,si,මෙක්සිකෝව,MX
+NI,si,නිකරාගුවා,NI
+PA,si,පැනමා,PA
+PE,si,පෙරු රාජ්‍යය,PE
+PR,si,පුවෙර්ටෝ රිකෝව,PR
+PY,si,පැරගුවේ,PY
+SV,si,එල් සල්වඩෝර්,SV
+UY,si,උරුගුවේ,UY
+VE,si,වෙනිසියුලාව,VE
+EE,si,එස්තෝනියාව,EE
+FI,si,ෆින්ලන්තය,FI
+PH,si,ෆිලිපීනය,PH
+FR,si,ප්‍රංශය,FR
+SN,si,සෙනෙගල්,SN
+HR,si,ක්‍රොඒෂියාව,HR
+HU,si,හංගේරිය,HU
+ID,si,ඉන්දුනීසියාව,ID
+IS,si,අයිස්ලන්තය,IS
+IT,si,ඉතාලිය,IT
+JP,si,ජපානය,JP
+GE,si,ජෝර්ජියාව,GE
+KZ,si,කසක්ස්ථානය,KZ
+KR,si,දකුණු කොරියාව,KR
+LU,si,ලක්සම්බර්ගය,LU
+LA,si,ලාඕසය,LA
+LT,si,ලිතුවේනියාව,LT
+LV,si,ලැට්වියාව,LV
+MK,si,උතුරු මැසිඩෝනියාව,MK
+MY,si,මැලේසියාව,MY
+NO,si,නෝර්වේ,NO
+NP,si,නේපාලය,NP
+NL,si,නෙදර්ලන්තය,NL
+PL,si,පෝලන්තය,PL
+BR,si,බ්‍රසීලය,BR
+PT,si,පෘතුගාලය,PT
+MD,si,මෝල්ඩෝවා,MD
+RO,si,රුමේනියාව,RO
+RU,si,රුසියාව,RU
+LK,si,ශ්‍රී ලංකාව,LK
+SK,si,ස්ලොවේකියාව,SK
+SI,si,ස්ලොවේනියාව,SI
+ME,si,මොන්තෙනෙග්‍රෝ,ME
+RS,si,සර්බියාව,RS
+SE,si,ස්වීඩනය,SE
+TZ,si,තන්සානියාව,TZ
+TH,si,තායිලන්තය,TH
+TR,si,තුර්කිය,TR
+UA,si,යුක්රේනය,UA
+PK,si,පාකිස්ථානය,PK
+VN,si,වියට්නාමය,VN
+HK,si,හොං කොං,HK
+TW,si,තායිවානය,TW
+CY,si,සයිප්‍රසය,CY
+KH,si,කාම්බෝජය,KH
+LI,si,ලියෙක්ටෙන්ස්ටෙයින්,LI
+PG,si,පපුවා නිව් ගිනී රාජ්‍යය,PG
+AE,sk,Spojené arabské emiráty,AE
+BH,sk,Bahrajn,BH
+DZ,sk,Alžírsko,DZ
+EG,sk,Egypt,EG
+IQ,sk,Irak,IQ
+JO,sk,Jordánsko,JO
+KW,sk,Kuvajt,KW
+LB,sk,Libanon,LB
+LY,sk,Líbya,LY
+MA,sk,Maroko,MA
+OM,sk,Omán,OM
+QA,sk,Katar,QA
+SA,sk,Saudská Arábia,SA
+TN,sk,Tunisko,TN
+YE,sk,Jemen,YE
+AZ,sk,Azerbajdžan,AZ
+BY,sk,Bielorusko,BY
+BG,sk,Bulharsko,BG
+BD,sk,Bangladéš,BD
+BA,sk,Bosna a Hercegovina,BA
+CZ,sk,Česko,CZ
+DK,sk,Dánsko,DK
+AT,sk,Rakúsko,AT
+CH,sk,Švajčiarsko,CH
+DE,sk,Nemecko,DE
+GR,sk,Grécko,GR
+AU,sk,Austrália,AU
+BE,sk,Belgicko,BE
+CA,sk,Kanada,CA
+GB,sk,Spojené kráľovstvo,GB
+GH,sk,Ghana,GH
+IE,sk,Írsko,IE
+IL,sk,Izrael,IL
+IN,sk,India,IN
+JM,sk,Jamajka,JM
+KE,sk,Keňa,KE
+MT,sk,Malta,MT
+NG,sk,Nigéria,NG
+NZ,sk,Nový Zéland,NZ
+SG,sk,Singapur,SG
+UG,sk,Uganda,UG
+US,sk,Spojené štáty,US
+ZA,sk,Juhoafrická republika,ZA
+ZW,sk,Zimbabwe,ZW
+AR,sk,Argentína,AR
+BO,sk,Bolívia,BO
+CL,sk,Čile,CL
+CO,sk,Kolumbia,CO
+CR,sk,Kostarika,CR
+DO,sk,Dominikánska republika,DO
+EC,sk,Ekvádor,EC
+ES,sk,Španielsko,ES
+GT,sk,Guatemala,GT
+HN,sk,Honduras,HN
+MX,sk,Mexiko,MX
+NI,sk,Nikaragua,NI
+PA,sk,Panama,PA
+PE,sk,Peru,PE
+PR,sk,Portoriko,PR
+PY,sk,Paraguaj,PY
+SV,sk,Salvádor,SV
+UY,sk,Uruguaj,UY
+VE,sk,Venezuela,VE
+EE,sk,Estónsko,EE
+FI,sk,Fínsko,FI
+PH,sk,Filipíny,PH
+FR,sk,Francúzsko,FR
+SN,sk,Senegal,SN
+HR,sk,Chorvátsko,HR
+HU,sk,Maďarsko,HU
+ID,sk,Indonézia,ID
+IS,sk,Island,IS
+IT,sk,Taliansko,IT
+JP,sk,Japonsko,JP
+GE,sk,Gruzínsko,GE
+KZ,sk,Kazachstan,KZ
+KR,sk,Južná Kórea,KR
+LU,sk,Luxembursko,LU
+LA,sk,Laos,LA
+LT,sk,Litva,LT
+LV,sk,Lotyšsko,LV
+MK,sk,Severné Macedónsko,MK
+MY,sk,Malajzia,MY
+NO,sk,Nórsko,NO
+NP,sk,Nepál,NP
+NL,sk,Holandsko,NL
+PL,sk,Poľsko,PL
+BR,sk,Brazília,BR
+PT,sk,Portugalsko,PT
+MD,sk,Moldavsko,MD
+RO,sk,Rumunsko,RO
+RU,sk,Rusko,RU
+LK,sk,Srí Lanka,LK
+SK,sk,Slovensko,SK
+SI,sk,Slovinsko,SI
+ME,sk,Čierna Hora,ME
+RS,sk,Srbsko,RS
+SE,sk,Švédsko,SE
+TZ,sk,Tanzánia,TZ
+TH,sk,Thajsko,TH
+TR,sk,Turecko,TR
+UA,sk,Ukrajina,UA
+PK,sk,Pakistan,PK
+VN,sk,Vietnam,VN
+HK,sk,Hongkong,HK
+TW,sk,Taiwan,TW
+CY,sk,Cyprus,CY
+KH,sk,Kambodža,KH
+LI,sk,Lichtenštajnsko,LI
+PG,sk,Papua – Nová Guinea,PG
+AE,sl,Združeni arabski emirati,AE
+BH,sl,Bahrajn,BH
+DZ,sl,Alžirija,DZ
+EG,sl,Egipt,EG
+IQ,sl,Irak,IQ
+JO,sl,Jordanija,JO
+KW,sl,Kuvajt,KW
+LB,sl,Libanon,LB
+LY,sl,Libija,LY
+MA,sl,Maroko,MA
+OM,sl,Oman,OM
+QA,sl,Katar,QA
+SA,sl,Saudova Arabija,SA
+TN,sl,Tunizija,TN
+YE,sl,Jemen,YE
+AZ,sl,Azerbajdžan,AZ
+BY,sl,Belorusija,BY
+BG,sl,Bolgarija,BG
+BD,sl,Bangladeš,BD
+BA,sl,Bosna in Hercegovina,BA
+CZ,sl,Češka,CZ
+DK,sl,Danska,DK
+AT,sl,Avstrija,AT
+CH,sl,Švica,CH
+DE,sl,Nemčija,DE
+GR,sl,Grčija,GR
+AU,sl,Avstralija,AU
+BE,sl,Belgija,BE
+CA,sl,Kanada,CA
+GB,sl,Združeno kraljestvo,GB
+GH,sl,Gana,GH
+IE,sl,Irska,IE
+IL,sl,Izrael,IL
+IN,sl,Indija,IN
+JM,sl,Jamajka,JM
+KE,sl,Kenija,KE
+MT,sl,Malta,MT
+NG,sl,Nigerija,NG
+NZ,sl,Nova Zelandija,NZ
+SG,sl,Singapur,SG
+UG,sl,Uganda,UG
+US,sl,Združene države,US
+ZA,sl,Južna Afrika,ZA
+ZW,sl,Zimbabve,ZW
+AR,sl,Argentina,AR
+BO,sl,Bolivija,BO
+CL,sl,Čile,CL
+CO,sl,Kolumbija,CO
+CR,sl,Kostarika,CR
+DO,sl,Dominikanska republika,DO
+EC,sl,Ekvador,EC
+ES,sl,Španija,ES
+GT,sl,Gvatemala,GT
+HN,sl,Honduras,HN
+MX,sl,Mehika,MX
+NI,sl,Nikaragva,NI
+PA,sl,Panama,PA
+PE,sl,Peru,PE
+PR,sl,Portoriko,PR
+PY,sl,Paragvaj,PY
+SV,sl,Salvador,SV
+UY,sl,Urugvaj,UY
+VE,sl,Venezuela,VE
+EE,sl,Estonija,EE
+FI,sl,Finska,FI
+PH,sl,Filipini,PH
+FR,sl,Francija,FR
+SN,sl,Senegal,SN
+HR,sl,Hrvaška,HR
+HU,sl,Madžarska,HU
+ID,sl,Indonezija,ID
+IS,sl,Islandija,IS
+IT,sl,Italija,IT
+JP,sl,Japonska,JP
+GE,sl,Gruzija,GE
+KZ,sl,Kazahstan,KZ
+KR,sl,Južna Koreja,KR
+LU,sl,Luksemburg,LU
+LA,sl,Laos,LA
+LT,sl,Litva,LT
+LV,sl,Latvija,LV
+MK,sl,Severna Makedonija,MK
+MY,sl,Malezija,MY
+NO,sl,Norveška,NO
+NP,sl,Nepal,NP
+NL,sl,Nizozemska,NL
+PL,sl,Poljska,PL
+BR,sl,Brazilija,BR
+PT,sl,Portugalska,PT
+MD,sl,Moldavija,MD
+RO,sl,Romunija,RO
+RU,sl,Rusija,RU
+LK,sl,Šrilanka,LK
+SK,sl,Slovaška,SK
+SI,sl,Slovenija,SI
+ME,sl,Črna gora,ME
+RS,sl,Srbija,RS
+SE,sl,Švedska,SE
+TZ,sl,Tanzanija,TZ
+TH,sl,Tajska,TH
+TR,sl,Turčija,TR
+UA,sl,Ukrajina,UA
+PK,sl,Pakistan,PK
+VN,sl,Vietnam,VN
+HK,sl,Hongkong,HK
+TW,sl,Tajvan,TW
+CY,sl,Ciper,CY
+KH,sl,Kambodža,KH
+LI,sl,Lihtenštajn,LI
+PG,sl,Papua Nova Gvineja,PG
+AE,sq,Emiratet e Bashkuara Arabe,AE
+BH,sq,Bahrein,BH
+DZ,sq,Algjeri,DZ
+EG,sq,Egjipt,EG
+IQ,sq,Irak,IQ
+JO,sq,Jordani,JO
+KW,sq,Kuvajt,KW
+LB,sq,Liban,LB
+LY,sq,Libia,LY
+MA,sq,Marok,MA
+OM,sq,Oman,OM
+QA,sq,Katar,QA
+SA,sq,Arabi Saudite,SA
+TN,sq,Tunizi,TN
+YE,sq,Jemen,YE
+AZ,sq,Azerbajxhan,AZ
+BY,sq,Bjellorusi,BY
+BG,sq,Bullgari,BG
+BD,sq,Bangladesh,BD
+BA,sq,Bosnjë-Hercegovinë,BA
+CZ,sq,Çeki,CZ
+DK,sq,Danimarkë,DK
+AT,sq,Austri,AT
+CH,sq,Zvicër,CH
+DE,sq,Gjermani,DE
+GR,sq,Greqi,GR
+AU,sq,Australi,AU
+BE,sq,Belgjikë,BE
+CA,sq,Kanada,CA
+GB,sq,Mbretëria e Bashkuar,GB
+GH,sq,Ganë,GH
+IE,sq,Irlandë,IE
+IL,sq,Izrael,IL
+IN,sq,Indi,IN
+JM,sq,Xhamajkë,JM
+KE,sq,Kenia,KE
+MT,sq,Maltë,MT
+NG,sq,Nigeri,NG
+NZ,sq,Zelanda e Re,NZ
+SG,sq,Singapor,SG
+UG,sq,Ugandë,UG
+US,sq,Shtetet e Bashkuara,US
+ZA,sq,Afrika e Jugut,ZA
+ZW,sq,Zimbabve,ZW
+AR,sq,Argjentinë,AR
+BO,sq,Bolivi,BO
+CL,sq,Kili,CL
+CO,sq,Kolumbi,CO
+CR,sq,Kosta Rikë,CR
+DO,sq,Republika Domenikane,DO
+EC,sq,Ekuador,EC
+ES,sq,Spanjë,ES
+GT,sq,Guatemalë,GT
+HN,sq,Honduras,HN
+MX,sq,Meksikë,MX
+NI,sq,Nikaragua,NI
+PA,sq,Panama,PA
+PE,sq,Peru,PE
+PR,sq,Porto-Riko,PR
+PY,sq,Paraguaj,PY
+SV,sq,Salvador,SV
+UY,sq,Uruguaj,UY
+VE,sq,Venezuelë,VE
+EE,sq,Estoni,EE
+FI,sq,Finlandë,FI
+PH,sq,Filipine,PH
+FR,sq,Francë,FR
+SN,sq,Senegal,SN
+HR,sq,Kroaci,HR
+HU,sq,Hungari,HU
+ID,sq,Indonezi,ID
+IS,sq,Islandë,IS
+IT,sq,Itali,IT
+JP,sq,Japoni,JP
+GE,sq,Gjeorgji,GE
+KZ,sq,Kazakistan,KZ
+KR,sq,Korea e Jugut,KR
+LU,sq,Luksemburg,LU
+LA,sq,Laosi,LA
+LT,sq,Lituani,LT
+LV,sq,Letoni,LV
+MK,sq,Maqedonia e Veriut,MK
+MY,sq,Malajzi,MY
+NO,sq,Norvegji,NO
+NP,sq,Nepal,NP
+NL,sq,Holandë,NL
+PL,sq,Poloni,PL
+BR,sq,Brazil,BR
+PT,sq,Portugali,PT
+MD,sq,Moldavi,MD
+RO,sq,Rumani,RO
+RU,sq,Rusi,RU
+LK,sq,Sri Lankë,LK
+SK,sq,Sllovaki,SK
+SI,sq,Slloveni,SI
+ME,sq,Mali i Zi,ME
+RS,sq,Serbi,RS
+SE,sq,Suedi,SE
+TZ,sq,Tanzani,TZ
+TH,sq,Tajlandë,TH
+TR,sq,Turqi,TR
+UA,sq,Ukrainë,UA
+PK,sq,Pakistan,PK
+VN,sq,Vietnam,VN
+HK,sq,Hong-Kong,HK
+TW,sq,Tajvan,TW
+CY,sq,Qipro,CY
+KH,sq,Kamboxhia,KH
+LI,sq,Lihtenshtajn,LI
+PG,sq,Papua Guineja e Re,PG
+AE,sr,Уједињени Арапски Емирати,AE
+BH,sr,Бахреин,BH
+DZ,sr,Алжир,DZ
+EG,sr,Египат,EG
+IQ,sr,Ирак,IQ
+JO,sr,Јордан,JO
+KW,sr,Кувајт,KW
+LB,sr,Либан,LB
+LY,sr,Либија,LY
+MA,sr,Мароко,MA
+OM,sr,Оман,OM
+QA,sr,Катар,QA
+SA,sr,Саудијска Арабија,SA
+TN,sr,Тунис,TN
+YE,sr,Јемен,YE
+AZ,sr,Азербејџан,AZ
+BY,sr,Белорусија,BY
+BG,sr,Бугарска,BG
+BD,sr,Бангладеш,BD
+BA,sr,Босна и Херцеговина,BA
+CZ,sr,Чешка,CZ
+DK,sr,Данска,DK
+AT,sr,Аустрија,AT
+CH,sr,Швајцарска,CH
+DE,sr,Немачка,DE
+GR,sr,Грчка,GR
+AU,sr,Аустралија,AU
+BE,sr,Белгија,BE
+CA,sr,Канада,CA
+GB,sr,Уједињено Краљевство,GB
+GH,sr,Гана,GH
+IE,sr,Ирска,IE
+IL,sr,Израел,IL
+IN,sr,Индија,IN
+JM,sr,Јамајка,JM
+KE,sr,Кенија,KE
+MT,sr,Малта,MT
+NG,sr,Нигерија,NG
+NZ,sr,Нови Зеланд,NZ
+SG,sr,Сингапур,SG
+UG,sr,Уганда,UG
+US,sr,САД,US
+ZA,sr,Јужноафричка Република,ZA
+ZW,sr,Зимбабве,ZW
+AR,sr,Аргентина,AR
+BO,sr,Боливија,BO
+CL,sr,Чиле,CL
+CO,sr,Колумбија,CO
+CR,sr,Костарика,CR
+DO,sr,Доминиканска Република,DO
+EC,sr,Еквадор,EC
+ES,sr,Шпанија,ES
+GT,sr,Гватемала,GT
+HN,sr,Хондурас,HN
+MX,sr,Мексико,MX
+NI,sr,Никарагва,NI
+PA,sr,Панама,PA
+PE,sr,Перу,PE
+PR,sr,Порторико,PR
+PY,sr,Парагвај,PY
+SV,sr,Салвадор,SV
+UY,sr,Уругвај,UY
+VE,sr,Венецуела,VE
+EE,sr,Естонија,EE
+FI,sr,Финска,FI
+PH,sr,Филипини,PH
+FR,sr,Француска,FR
+SN,sr,Сенегал,SN
+HR,sr,Хрватска,HR
+HU,sr,Мађарска,HU
+ID,sr,Индонезија,ID
+IS,sr,Исланд,IS
+IT,sr,Италија,IT
+JP,sr,Јапан,JP
+GE,sr,Грузија,GE
+KZ,sr,Казахстан,KZ
+KR,sr,Јужна Кореја,KR
+LU,sr,Луксембург,LU
+LA,sr,Лаос,LA
+LT,sr,Литванија,LT
+LV,sr,Летонија,LV
+MK,sr,Северна Македонија,MK
+MY,sr,Малезија,MY
+NO,sr,Норвешка,NO
+NP,sr,Непал,NP
+NL,sr,Холандија,NL
+PL,sr,Пољска,PL
+BR,sr,Бразил,BR
+PT,sr,Португалија,PT
+MD,sr,Молдавија,MD
+RO,sr,Румунија,RO
+RU,sr,Русија,RU
+LK,sr,Шри Ланка,LK
+SK,sr,Словачка,SK
+SI,sr,Словенија,SI
+ME,sr,Црна Гора,ME
+RS,sr,Србија,RS
+SE,sr,Шведска,SE
+TZ,sr,Танзанија,TZ
+TH,sr,Тајланд,TH
+TR,sr,Турска,TR
+UA,sr,Украјина,UA
+PK,sr,Пакистан,PK
+VN,sr,Вијетнам,VN
+HK,sr,Хонгконг,HK
+TW,sr,Тајван,TW
+CY,sr,Кипар,CY
+KH,sr,Камбоџа,KH
+LI,sr,Лихтенштајн,LI
+PG,sr,Папуа Нова Гвинеја,PG
+AE,sr-Latn,Ujedinjeni Arapski Emirati,AE
+BH,sr-Latn,Bahrein,BH
+DZ,sr-Latn,Alžir,DZ
+EG,sr-Latn,Egipat,EG
+IQ,sr-Latn,Irak,IQ
+JO,sr-Latn,Jordan,JO
+KW,sr-Latn,Kuvajt,KW
+LB,sr-Latn,Liban,LB
+LY,sr-Latn,Libija,LY
+MA,sr-Latn,Maroko,MA
+OM,sr-Latn,Oman,OM
+QA,sr-Latn,Katar,QA
+SA,sr-Latn,Saudijska Arabija,SA
+TN,sr-Latn,Tunis,TN
+YE,sr-Latn,Jemen,YE
+AZ,sr-Latn,Azerbejdžan,AZ
+BY,sr-Latn,Belorusija,BY
+BG,sr-Latn,Bugarska,BG
+BD,sr-Latn,Bangladeš,BD
+BA,sr-Latn,Bosna i Hercegovina,BA
+CZ,sr-Latn,Češka,CZ
+DK,sr-Latn,Danska,DK
+AT,sr-Latn,Austrija,AT
+CH,sr-Latn,Švajcarska,CH
+DE,sr-Latn,Nemačka,DE
+GR,sr-Latn,Grčka,GR
+AU,sr-Latn,Australija,AU
+BE,sr-Latn,Belgija,BE
+CA,sr-Latn,Kanada,CA
+GB,sr-Latn,Ujedinjeno Kraljevstvo,GB
+GH,sr-Latn,Gana,GH
+IE,sr-Latn,Irska,IE
+IL,sr-Latn,Izrael,IL
+IN,sr-Latn,Indija,IN
+JM,sr-Latn,Jamajka,JM
+KE,sr-Latn,Kenija,KE
+MT,sr-Latn,Malta,MT
+NG,sr-Latn,Nigerija,NG
+NZ,sr-Latn,Novi Zeland,NZ
+SG,sr-Latn,Singapur,SG
+UG,sr-Latn,Uganda,UG
+US,sr-Latn,SAD,US
+ZA,sr-Latn,Južnoafrička Republika,ZA
+ZW,sr-Latn,Zimbabve,ZW
+AR,sr-Latn,Argentina,AR
+BO,sr-Latn,Bolivija,BO
+CL,sr-Latn,Čile,CL
+CO,sr-Latn,Kolumbija,CO
+CR,sr-Latn,Kostarika,CR
+DO,sr-Latn,Dominikanska Republika,DO
+EC,sr-Latn,Ekvador,EC
+ES,sr-Latn,Španija,ES
+GT,sr-Latn,Gvatemala,GT
+HN,sr-Latn,Honduras,HN
+MX,sr-Latn,Meksiko,MX
+NI,sr-Latn,Nikaragva,NI
+PA,sr-Latn,Panama,PA
+PE,sr-Latn,Peru,PE
+PR,sr-Latn,Portoriko,PR
+PY,sr-Latn,Paragvaj,PY
+SV,sr-Latn,Salvador,SV
+UY,sr-Latn,Urugvaj,UY
+VE,sr-Latn,Venecuela,VE
+EE,sr-Latn,Estonija,EE
+FI,sr-Latn,Finska,FI
+PH,sr-Latn,Filipini,PH
+FR,sr-Latn,Francuska,FR
+SN,sr-Latn,Senegal,SN
+HR,sr-Latn,Hrvatska,HR
+HU,sr-Latn,Mađarska,HU
+ID,sr-Latn,Indonezija,ID
+IS,sr-Latn,Island,IS
+IT,sr-Latn,Italija,IT
+JP,sr-Latn,Japan,JP
+GE,sr-Latn,Gruzija,GE
+KZ,sr-Latn,Kazahstan,KZ
+KR,sr-Latn,Južna Koreja,KR
+LU,sr-Latn,Luksemburg,LU
+LA,sr-Latn,Laos,LA
+LT,sr-Latn,Litvanija,LT
+LV,sr-Latn,Letonija,LV
+MK,sr-Latn,Severna Makedonija,MK
+MY,sr-Latn,Malezija,MY
+NO,sr-Latn,Norveška,NO
+NP,sr-Latn,Nepal,NP
+NL,sr-Latn,Holandija,NL
+PL,sr-Latn,Poljska,PL
+BR,sr-Latn,Brazil,BR
+PT,sr-Latn,Portugalija,PT
+MD,sr-Latn,Moldavija,MD
+RO,sr-Latn,Rumunija,RO
+RU,sr-Latn,Rusija,RU
+LK,sr-Latn,Šri Lanka,LK
+SK,sr-Latn,Slovačka,SK
+SI,sr-Latn,Slovenija,SI
+ME,sr-Latn,Crna Gora,ME
+RS,sr-Latn,Srbija,RS
+SE,sr-Latn,Švedska,SE
+TZ,sr-Latn,Tanzanija,TZ
+TH,sr-Latn,Tajland,TH
+TR,sr-Latn,Turska,TR
+UA,sr-Latn,Ukrajina,UA
+PK,sr-Latn,Pakistan,PK
+VN,sr-Latn,Vijetnam,VN
+HK,sr-Latn,Hongkong,HK
+TW,sr-Latn,Tajvan,TW
+CY,sr-Latn,Kipar,CY
+KH,sr-Latn,Kambodža,KH
+LI,sr-Latn,Lihtenštajn,LI
+PG,sr-Latn,Papua Nova Gvineja,PG
+AE,sv,Förenade arabemiraten,AE
+BH,sv,Bahrain,BH
+DZ,sv,Algeriet,DZ
+EG,sv,Egypten,EG
+IQ,sv,Irak,IQ
+JO,sv,Jordanien,JO
+KW,sv,Kuwait,KW
+LB,sv,Libanon,LB
+LY,sv,Libyen,LY
+MA,sv,Marocko,MA
+OM,sv,Oman,OM
+QA,sv,Qatar,QA
+SA,sv,Saudiarabien,SA
+TN,sv,Tunisien,TN
+YE,sv,Jemen,YE
+AZ,sv,Azerbadjan,AZ
+BY,sv,Belarus,BY
+BG,sv,Bulgarien,BG
+BD,sv,Bangladesh,BD
+BA,sv,Bosnien-Hercegovina,BA
+CZ,sv,Tjeckien,CZ
+DK,sv,Danmark,DK
+AT,sv,Österrike,AT
+CH,sv,Schweiz,CH
+DE,sv,Tyskland,DE
+GR,sv,Grekland,GR
+AU,sv,Australien,AU
+BE,sv,Belgien,BE
+CA,sv,Kanada,CA
+GB,sv,Förenade kungariket,GB
+GH,sv,Ghana,GH
+IE,sv,Irland,IE
+IL,sv,Israel,IL
+IN,sv,Indien,IN
+JM,sv,Jamaica,JM
+KE,sv,Kenya,KE
+MT,sv,Malta,MT
+NG,sv,Nigeria,NG
+NZ,sv,Nya Zeeland,NZ
+SG,sv,Singapore,SG
+UG,sv,Uganda,UG
+US,sv,USA,US
+ZA,sv,Sydafrika,ZA
+ZW,sv,Zimbabwe,ZW
+AR,sv,Argentina,AR
+BO,sv,Bolivia,BO
+CL,sv,Chile,CL
+CO,sv,Colombia,CO
+CR,sv,Costa Rica,CR
+DO,sv,Dominikanska republiken,DO
+EC,sv,Ecuador,EC
+ES,sv,Spanien,ES
+GT,sv,Guatemala,GT
+HN,sv,Honduras,HN
+MX,sv,Mexiko,MX
+NI,sv,Nicaragua,NI
+PA,sv,Panama,PA
+PE,sv,Peru,PE
+PR,sv,Puerto Rico,PR
+PY,sv,Paraguay,PY
+SV,sv,El Salvador,SV
+UY,sv,Uruguay,UY
+VE,sv,Venezuela,VE
+EE,sv,Estland,EE
+FI,sv,Finland,FI
+PH,sv,Filippinerna,PH
+FR,sv,Frankrike,FR
+SN,sv,Senegal,SN
+HR,sv,Kroatien,HR
+HU,sv,Ungern,HU
+ID,sv,Indonesien,ID
+IS,sv,Island,IS
+IT,sv,Italien,IT
+JP,sv,Japan,JP
+GE,sv,Georgien,GE
+KZ,sv,Kazakstan,KZ
+KR,sv,Sydkorea,KR
+LU,sv,Luxemburg,LU
+LA,sv,Laos,LA
+LT,sv,Litauen,LT
+LV,sv,Lettland,LV
+MK,sv,Nordmakedonien,MK
+MY,sv,Malaysia,MY
+NO,sv,Norge,NO
+NP,sv,Nepal,NP
+NL,sv,Nederländerna,NL
+PL,sv,Polen,PL
+BR,sv,Brasilien,BR
+PT,sv,Portugal,PT
+MD,sv,Moldavien,MD
+RO,sv,Rumänien,RO
+RU,sv,Ryssland,RU
+LK,sv,Sri Lanka,LK
+SK,sv,Slovakien,SK
+SI,sv,Slovenien,SI
+ME,sv,Montenegro,ME
+RS,sv,Serbien,RS
+SE,sv,Sverige,SE
+TZ,sv,Tanzania,TZ
+TH,sv,Thailand,TH
+TR,sv,Turkiet,TR
+UA,sv,Ukraina,UA
+PK,sv,Pakistan,PK
+VN,sv,Vietnam,VN
+HK,sv,Hongkong,HK
+TW,sv,Taiwan,TW
+CY,sv,Cypern,CY
+KH,sv,Kambodja,KH
+LI,sv,Liechtenstein,LI
+PG,sv,Papua Nya Guinea,PG
+AE,sw,Muungano wa Falme za Kiarabu,AE
+BH,sw,Bahareni,BH
+DZ,sw,Aljeria,DZ
+EG,sw,Misri,EG
+IQ,sw,Iraki,IQ
+JO,sw,Jordan,JO
+KW,sw,Kuwait,KW
+LB,sw,Lebanoni,LB
+LY,sw,Libya,LY
+MA,sw,Moroko,MA
+OM,sw,Omani,OM
+QA,sw,Katari,QA
+SA,sw,Saudia,SA
+TN,sw,Tunisia,TN
+YE,sw,Yemen,YE
+AZ,sw,Azabajani,AZ
+BY,sw,Belarusi,BY
+BG,sw,Bulgaria,BG
+BD,sw,Bangladesh,BD
+BA,sw,Bosnia na Herzegovina,BA
+CZ,sw,Zechia,CZ
+DK,sw,Denmaki,DK
+AT,sw,Austria,AT
+CH,sw,Uswizi,CH
+DE,sw,Ujerumani,DE
+GR,sw,Ugiriki,GR
+AU,sw,Australia,AU
+BE,sw,Ubelgiji,BE
+CA,sw,Kanada,CA
+GB,sw,Uingereza,GB
+GH,sw,Ghana,GH
+IE,sw,Ayalandi,IE
+IL,sw,Uyahudi,IL
+IN,sw,India,IN
+JM,sw,Jamaika,JM
+KE,sw,Kenya,KE
+MT,sw,Malta,MT
+NG,sw,Naijeria,NG
+NZ,sw,Nyuzilandi,NZ
+SG,sw,Singapoo,SG
+UG,sw,Uganda,UG
+US,sw,Marekani,US
+ZA,sw,Afrika Kusini,ZA
+ZW,sw,Zimbabwe,ZW
+AR,sw,Ajentina,AR
+BO,sw,Bolivia,BO
+CL,sw,Chile,CL
+CO,sw,Kolombia,CO
+CR,sw,Kostarika,CR
+DO,sw,Jamhuri ya Dominika,DO
+EC,sw,Ekwado,EC
+ES,sw,Uhispania,ES
+GT,sw,Guatemala,GT
+HN,sw,Hondurasi,HN
+MX,sw,Meksiko,MX
+NI,sw,Nikaragua,NI
+PA,sw,Panama,PA
+PE,sw,Peru,PE
+PR,sw,Puerto Rico,PR
+PY,sw,Paragwai,PY
+SV,sw,Elsalvado,SV
+UY,sw,Urugwai,UY
+VE,sw,Venezuela,VE
+EE,sw,Estonia,EE
+FI,sw,Ufini,FI
+PH,sw,Ufilipino,PH
+FR,sw,Ufaransa,FR
+SN,sw,Senegali,SN
+HR,sw,Kroeshia,HR
+HU,sw,Hungaria,HU
+ID,sw,Indonesia,ID
+IS,sw,Aisilandi,IS
+IT,sw,Italia,IT
+JP,sw,Japani,JP
+GE,sw,Jojia,GE
+KZ,sw,Kazakhstan,KZ
+KR,sw,Korea Kusini,KR
+LU,sw,Lasembagi,LU
+LA,sw,Laosi,LA
+LT,sw,Litwania,LT
+LV,sw,Lativia,LV
+MK,sw,Masedonia Kaskazini,MK
+MY,sw,Malesia,MY
+NO,sw,Norway,NO
+NP,sw,Nepal,NP
+NL,sw,Uholanzi,NL
+PL,sw,Polandi,PL
+BR,sw,Brazil,BR
+PT,sw,Ureno,PT
+MD,sw,Moldova,MD
+RO,sw,Romania,RO
+RU,sw,Urusi,RU
+LK,sw,Sri Lanka,LK
+SK,sw,Slovakia,SK
+SI,sw,Slovenia,SI
+ME,sw,Montenegro,ME
+RS,sw,Serbia,RS
+SE,sw,Uswidi,SE
+TZ,sw,Tanzania,TZ
+TH,sw,Tailandi,TH
+TR,sw,Uturuki,TR
+UA,sw,Ukrainia,UA
+PK,sw,Pakistan,PK
+VN,sw,Vetinamu,VN
+HK,sw,Hong Kong,HK
+TW,sw,Taiwan,TW
+CY,sw,Saiprasi,CY
+KH,sw,Kambodia,KH
+LI,sw,Liechtenstein,LI
+PG,sw,Papua Gine Mpya,PG
+AE,ta,ஐக்கிய அரபு எமிரேட்ஸ்,AE
+BH,ta,பஹ்ரெய்ன்,BH
+DZ,ta,அல்ஜீரியா,DZ
+EG,ta,எகிப்து,EG
+IQ,ta,ஈராக்,IQ
+JO,ta,ஜோர்டான்,JO
+KW,ta,குவைத்,KW
+LB,ta,லெபனான்,LB
+LY,ta,லிபியா,LY
+MA,ta,மொராக்கோ,MA
+OM,ta,ஓமன்,OM
+QA,ta,கத்தார்,QA
+SA,ta,சவுதி அரேபியா,SA
+TN,ta,துனிசியா,TN
+YE,ta,ஏமன்,YE
+AZ,ta,அஜர்பைஜான்,AZ
+BY,ta,பெலாரஸ்,BY
+BG,ta,பல்கேரியா,BG
+BD,ta,பங்களாதேஷ்,BD
+BA,ta,போஸ்னியா மற்றும் ஹெர்ஸெகோவினா,BA
+CZ,ta,செக்கியா,CZ
+DK,ta,டென்மார்க்,DK
+AT,ta,ஆஸ்திரியா,AT
+CH,ta,ஸ்விட்சர்லாந்து,CH
+DE,ta,ஜெர்மனி,DE
+GR,ta,கிரீஸ்,GR
+AU,ta,ஆஸ்திரேலியா,AU
+BE,ta,பெல்ஜியம்,BE
+CA,ta,கனடா,CA
+GB,ta,யுனைடெட் கிங்டம்,GB
+GH,ta,கானா,GH
+IE,ta,அயர்லாந்து,IE
+IL,ta,இஸ்ரேல்,IL
+IN,ta,இந்தியா,IN
+JM,ta,ஜமைக்கா,JM
+KE,ta,கென்யா,KE
+MT,ta,மால்டா,MT
+NG,ta,நைஜீரியா,NG
+NZ,ta,நியூசிலாந்து,NZ
+SG,ta,சிங்கப்பூர்,SG
+UG,ta,உகாண்டா,UG
+US,ta,அமெரிக்க ஐக்கிய நாடுகள்,US
+ZA,ta,தென் ஆப்பிரிக்கா,ZA
+ZW,ta,ஜிம்பாப்வே,ZW
+AR,ta,அர்ஜென்டீனா,AR
+BO,ta,பொலிவியா,BO
+CL,ta,சிலி,CL
+CO,ta,கொலம்பியா,CO
+CR,ta,கோஸ்டா ரிகா,CR
+DO,ta,டொமினிகன் குடியரசு,DO
+EC,ta,ஈக்வெடார்,EC
+ES,ta,ஸ்பெயின்,ES
+GT,ta,கவுதமாலா,GT
+HN,ta,ஹோண்டுராஸ்,HN
+MX,ta,மெக்சிகோ,MX
+NI,ta,நிகரகுவா,NI
+PA,ta,பனாமா,PA
+PE,ta,பெரு,PE
+PR,ta,புயர்டோ ரிகோ,PR
+PY,ta,பராகுவே,PY
+SV,ta,எல் சால்வேடார்,SV
+UY,ta,உருகுவே,UY
+VE,ta,வெனிசுலா,VE
+EE,ta,எஸ்டோனியா,EE
+FI,ta,ஃபின்லாந்து,FI
+PH,ta,பிலிப்பைன்ஸ்,PH
+FR,ta,ஃபிரான்ஸ்,FR
+SN,ta,செனகல்,SN
+HR,ta,குரோஷியா,HR
+HU,ta,ஹங்கேரி,HU
+ID,ta,இந்தோனேஷியா,ID
+IS,ta,ஐஸ்லாந்து,IS
+IT,ta,இத்தாலி,IT
+JP,ta,ஜப்பான்,JP
+GE,ta,ஜார்ஜியா,GE
+KZ,ta,கஸகஸ்தான்,KZ
+KR,ta,தென்கொரியா,KR
+LU,ta,லக்சம்பர்க்,LU
+LA,ta,லாவோஸ்,LA
+LT,ta,லிதுவேனியா,LT
+LV,ta,லாத்வியா,LV
+MK,ta,வடக்கு மாசிடோனியா,MK
+MY,ta,மலேஷியா,MY
+NO,ta,நார்வே,NO
+NP,ta,நேபாளம்,NP
+NL,ta,நெதர்லாந்து,NL
+PL,ta,போலந்து,PL
+BR,ta,பிரேசில்,BR
+PT,ta,போர்ச்சுகல்,PT
+MD,ta,மல்டோவா,MD
+RO,ta,ரோமானியா,RO
+RU,ta,ரஷ்யா,RU
+LK,ta,இலங்கை,LK
+SK,ta,ஸ்லோவோக்கியா,SK
+SI,ta,ஸ்லோவேனியா,SI
+ME,ta,மாண்டிநீக்ரோ,ME
+RS,ta,செர்பியா,RS
+SE,ta,ஸ்வீடன்,SE
+TZ,ta,தான்சானியா,TZ
+TH,ta,தாய்லாந்து,TH
+TR,ta,துருக்கி,TR
+UA,ta,உக்ரைன்,UA
+PK,ta,பாகிஸ்தான்,PK
+VN,ta,வியட்நாம்,VN
+HK,ta,ஹாங்காங்,HK
+TW,ta,தைவான்,TW
+CY,ta,சைப்ரஸ்,CY
+KH,ta,கம்போடியா,KH
+LI,ta,லிச்சென்ஸ்டீன்,LI
+PG,ta,பபுவா நியூ கினியா,PG
+AE,te,యునైటెడ్ ఆరబ్ ఎమిరేట్స్,AE
+BH,te,బహరెయిన్,BH
+DZ,te,అల్జీరియా,DZ
+EG,te,ఈజిప్ట్,EG
+IQ,te,ఇరాక్,IQ
+JO,te,జోర్డాన్,JO
+KW,te,కువైట్,KW
+LB,te,లెబనాన్,LB
+LY,te,లిబియా,LY
+MA,te,మొరాక్కో,MA
+OM,te,ఒమన్,OM
+QA,te,ఖతార్,QA
+SA,te,సౌదీ అరేబియా,SA
+TN,te,ట్యునీషియా,TN
+YE,te,యెమెన్,YE
+AZ,te,అజర్‌బైజాన్,AZ
+BY,te,బెలారస్,BY
+BG,te,బల్గేరియా,BG
+BD,te,బంగ్లాదేశ్,BD
+BA,te,బోస్నియా మరియు హెర్జిగోవినా,BA
+CZ,te,చెకియా,CZ
+DK,te,డెన్మార్క్,DK
+AT,te,ఆస్ట్రియా,AT
+CH,te,స్విట్జర్లాండ్,CH
+DE,te,జర్మనీ,DE
+GR,te,గ్రీస్,GR
+AU,te,ఆస్ట్రేలియా,AU
+BE,te,బెల్జియం,BE
+CA,te,కెనడా,CA
+GB,te,యునైటెడ్ కింగ్‌డమ్,GB
+GH,te,ఘానా,GH
+IE,te,ఐర్లాండ్,IE
+IL,te,ఇజ్రాయెల్,IL
+IN,te,భారతదేశం,IN
+JM,te,జమైకా,JM
+KE,te,కెన్యా,KE
+MT,te,మాల్టా,MT
+NG,te,నైజీరియా,NG
+NZ,te,న్యూజిలాండ్,NZ
+SG,te,సింగపూర్,SG
+UG,te,ఉగాండా,UG
+US,te,సంయుక్త రాష్ట్రాలు,US
+ZA,te,దక్షిణాఫ్రికా,ZA
+ZW,te,జింబాబ్వే,ZW
+AR,te,అర్జెంటీనా,AR
+BO,te,బొలీవియా,BO
+CL,te,చిలీ,CL
+CO,te,కొలంబియా,CO
+CR,te,కోస్టా రికా,CR
+DO,te,డొమినికన్ రిపబ్లిక్,DO
+EC,te,ఈక్వెడార్,EC
+ES,te,స్పెయిన్,ES
+GT,te,గ్వాటిమాలా,GT
+HN,te,హోండూరస్,HN
+MX,te,మెక్సికో,MX
+NI,te,నికరాగువా,NI
+PA,te,పనామా,PA
+PE,te,పెరూ,PE
+PR,te,ప్యూర్టో రికో,PR
+PY,te,పరాగ్వే,PY
+SV,te,ఎల్ సాల్వడార్,SV
+UY,te,ఉరుగ్వే,UY
+VE,te,వెనెజువెలా,VE
+EE,te,ఈస్టోనియా,EE
+FI,te,ఫిన్లాండ్,FI
+PH,te,ఫిలిప్పీన్స్,PH
+FR,te,ఫ్రాన్స్,FR
+SN,te,సెనెగల్,SN
+HR,te,క్రొయేషియా,HR
+HU,te,హంగేరీ,HU
+ID,te,ఇండోనేషియా,ID
+IS,te,ఐస్‌ల్యాండ్,IS
+IT,te,ఇటలీ,IT
+JP,te,జపాన్,JP
+GE,te,జార్జియా,GE
+KZ,te,కజఖస్థాన్,KZ
+KR,te,దక్షిణ కొరియా,KR
+LU,te,లక్సెంబర్గ్,LU
+LA,te,లావోస్,LA
+LT,te,లిథువేనియా,LT
+LV,te,లాట్వియా,LV
+MK,te,ఉత్తర మేసిడోనియా,MK
+MY,te,మలేషియా,MY
+NO,te,నార్వే,NO
+NP,te,నేపాల్,NP
+NL,te,నెదర్లాండ్స్,NL
+PL,te,పోల్యాండ్,PL
+BR,te,బ్రెజిల్,BR
+PT,te,పోర్చుగల్,PT
+MD,te,మోల్డోవా,MD
+RO,te,రొమానియా,RO
+RU,te,రష్యా,RU
+LK,te,శ్రీలంక,LK
+SK,te,స్లొవేకియా,SK
+SI,te,స్లోవేనియా,SI
+ME,te,మాంటెనీగ్రో,ME
+RS,te,సెర్బియా,RS
+SE,te,స్వీడన్,SE
+TZ,te,టాంజానియా,TZ
+TH,te,థాయ్‌లాండ్,TH
+TR,te,టర్కీ,TR
+UA,te,ఉక్రెయిన్,UA
+PK,te,పాకిస్తాన్,PK
+VN,te,వియత్నాం,VN
+HK,te,హాంకాంగ్,HK
+TW,te,తైవాన్,TW
+CY,te,సైప్రస్,CY
+KH,te,కంబోడియా,KH
+LI,te,లీచ్‌టెన్‌స్టెయిన్,LI
+PG,te,పాపువా న్యూ గినియా,PG
+AE,th,สหรัฐอาหรับเอมิเรตส์,AE
+BH,th,บาห์เรน,BH
+DZ,th,แอลจีเรีย,DZ
+EG,th,อียิปต์,EG
+IQ,th,อิรัก,IQ
+JO,th,จอร์แดน,JO
+KW,th,คูเวต,KW
+LB,th,เลบานอน,LB
+LY,th,ลิเบีย,LY
+MA,th,โมร็อกโก,MA
+OM,th,โอมาน,OM
+QA,th,กาตาร์,QA
+SA,th,ซาอุดีอาระเบีย,SA
+TN,th,ตูนิเซีย,TN
+YE,th,เยเมน,YE
+AZ,th,อาเซอร์ไบจาน,AZ
+BY,th,เบลารุส,BY
+BG,th,บัลแกเรีย,BG
+BD,th,บังกลาเทศ,BD
+BA,th,บอสเนียและเฮอร์เซโกวีนา,BA
+CZ,th,เช็กเกีย,CZ
+DK,th,เดนมาร์ก,DK
+AT,th,ออสเตรีย,AT
+CH,th,สวิตเซอร์แลนด์,CH
+DE,th,เยอรมนี,DE
+GR,th,กรีซ,GR
+AU,th,ออสเตรเลีย,AU
+BE,th,เบลเยียม,BE
+CA,th,แคนาดา,CA
+GB,th,สหราชอาณาจักร,GB
+GH,th,กานา,GH
+IE,th,ไอร์แลนด์,IE
+IL,th,อิสราเอล,IL
+IN,th,อินเดีย,IN
+JM,th,จาเมกา,JM
+KE,th,เคนยา,KE
+MT,th,มอลตา,MT
+NG,th,ไนจีเรีย,NG
+NZ,th,นิวซีแลนด์,NZ
+SG,th,สิงคโปร์,SG
+UG,th,ยูกันดา,UG
+US,th,สหรัฐอเมริกา,US
+ZA,th,แอฟริกาใต้,ZA
+ZW,th,ซิมบับเว,ZW
+AR,th,อาร์เจนตินา,AR
+BO,th,โบลิเวีย,BO
+CL,th,ชิลี,CL
+CO,th,โคลัมเบีย,CO
+CR,th,คอสตาริกา,CR
+DO,th,สาธารณรัฐโดมินิกัน,DO
+EC,th,เอกวาดอร์,EC
+ES,th,สเปน,ES
+GT,th,กัวเตมาลา,GT
+HN,th,ฮอนดูรัส,HN
+MX,th,เม็กซิโก,MX
+NI,th,นิการากัว,NI
+PA,th,ปานามา,PA
+PE,th,เปรู,PE
+PR,th,เปอร์โตริโก,PR
+PY,th,ปารากวัย,PY
+SV,th,เอลซัลวาดอร์,SV
+UY,th,อุรุกวัย,UY
+VE,th,เวเนซุเอลา,VE
+EE,th,เอสโตเนีย,EE
+FI,th,ฟินแลนด์,FI
+PH,th,ฟิลิปปินส์,PH
+FR,th,ฝรั่งเศส,FR
+SN,th,เซเนกัล,SN
+HR,th,โครเอเชีย,HR
+HU,th,ฮังการี,HU
+ID,th,อินโดนีเซีย,ID
+IS,th,ไอซ์แลนด์,IS
+IT,th,อิตาลี,IT
+JP,th,ญี่ปุ่น,JP
+GE,th,จอร์เจีย,GE
+KZ,th,คาซักสถาน,KZ
+KR,th,เกาหลีใต้,KR
+LU,th,ลักเซมเบิร์ก,LU
+LA,th,ลาว,LA
+LT,th,ลิทัวเนีย,LT
+LV,th,ลัตเวีย,LV
+MK,th,มาซิโดเนียเหนือ,MK
+MY,th,มาเลเซีย,MY
+NO,th,นอร์เวย์,NO
+NP,th,เนปาล,NP
+NL,th,เนเธอร์แลนด์,NL
+PL,th,โปแลนด์,PL
+BR,th,บราซิล,BR
+PT,th,โปรตุเกส,PT
+MD,th,มอลโดวา,MD
+RO,th,โรมาเนีย,RO
+RU,th,รัสเซีย,RU
+LK,th,ศรีลังกา,LK
+SK,th,สโลวาเกีย,SK
+SI,th,สโลวีเนีย,SI
+ME,th,มอนเตเนโกร,ME
+RS,th,เซอร์เบีย,RS
+SE,th,สวีเดน,SE
+TZ,th,แทนซาเนีย,TZ
+TH,th,ประเทศไทย,TH
+TR,th,ตุรกี,TR
+UA,th,ยูเครน,UA
+PK,th,ปากีสถาน,PK
+VN,th,เวียดนาม,VN
+HK,th,ฮ่องกง,HK
+TW,th,ไต้หวัน,TW
+CY,th,ไซปรัส,CY
+KH,th,กัมพูชา,KH
+LI,th,ลิกเตนสไตน์,LI
+PG,th,ปาปัวนิวกินี,PG
+AE,tr,Birleşik Arap Emirlikleri,AE
+BH,tr,Bahreyn,BH
+DZ,tr,Cezayir,DZ
+EG,tr,Mısır,EG
+IQ,tr,Irak,IQ
+JO,tr,Ürdün,JO
+KW,tr,Kuveyt,KW
+LB,tr,Lübnan,LB
+LY,tr,Libya,LY
+MA,tr,Fas,MA
+OM,tr,Umman,OM
+QA,tr,Katar,QA
+SA,tr,Suudi Arabistan,SA
+TN,tr,Tunus,TN
+YE,tr,Yemen,YE
+AZ,tr,Azerbaycan,AZ
+BY,tr,Belarus,BY
+BG,tr,Bulgaristan,BG
+BD,tr,Bangladeş,BD
+BA,tr,Bosna ve Hersek,BA
+CZ,tr,Çekya,CZ
+DK,tr,Danimarka,DK
+AT,tr,Avusturya,AT
+CH,tr,İsviçre,CH
+DE,tr,Almanya,DE
+GR,tr,Yunanistan,GR
+AU,tr,Avustralya,AU
+BE,tr,Belçika,BE
+CA,tr,Kanada,CA
+GB,tr,İngiltere,GB
+GH,tr,Gana,GH
+IE,tr,İrlanda,IE
+IL,tr,İsrail,IL
+IN,tr,Hindistan,IN
+JM,tr,Jamaika,JM
+KE,tr,Kenya,KE
+MT,tr,Malta,MT
+NG,tr,Nijerya,NG
+NZ,tr,Yeni Zelanda,NZ
+SG,tr,Singapur,SG
+UG,tr,Uganda,UG
+US,tr,Amerika Birleşik Devletleri,US
+ZA,tr,Güney Afrika,ZA
+ZW,tr,Zimbabve,ZW
+AR,tr,Arjantin,AR
+BO,tr,Bolivya,BO
+CL,tr,Şili,CL
+CO,tr,Kolombiya,CO
+CR,tr,Kosta Rika,CR
+DO,tr,Dominik Cumhuriyeti,DO
+EC,tr,Ekvador,EC
+ES,tr,İspanya,ES
+GT,tr,Guatemala,GT
+HN,tr,Honduras,HN
+MX,tr,Meksika,MX
+NI,tr,Nikaragua,NI
+PA,tr,Panama,PA
+PE,tr,Peru,PE
+PR,tr,Porto Riko,PR
+PY,tr,Paraguay,PY
+SV,tr,El Salvador,SV
+UY,tr,Uruguay,UY
+VE,tr,Venezuela,VE
+EE,tr,Estonya,EE
+FI,tr,Finlandiya,FI
+PH,tr,Filipinler,PH
+FR,tr,Fransa,FR
+SN,tr,Senegal,SN
+HR,tr,Hırvatistan,HR
+HU,tr,Macaristan,HU
+ID,tr,Endonezya,ID
+IS,tr,İzlanda,IS
+IT,tr,İtalya,IT
+JP,tr,Japonya,JP
+GE,tr,Gürcistan,GE
+KZ,tr,Kazakistan,KZ
+KR,tr,Güney Kore,KR
+LU,tr,Lüksemburg,LU
+LA,tr,Laos,LA
+LT,tr,Litvanya,LT
+LV,tr,Letonya,LV
+MK,tr,Kuzey Makedonya,MK
+MY,tr,Malezya,MY
+NO,tr,Norveç,NO
+NP,tr,Nepal,NP
+NL,tr,Hollanda,NL
+PL,tr,Polonya,PL
+BR,tr,Brezilya,BR
+PT,tr,Portekiz,PT
+MD,tr,Moldova,MD
+RO,tr,Romanya,RO
+RU,tr,Rusya,RU
+LK,tr,Sri Lanka,LK
+SK,tr,Slovakya,SK
+SI,tr,Slovenya,SI
+ME,tr,Karadağ,ME
+RS,tr,Sırbistan,RS
+SE,tr,İsveç,SE
+TZ,tr,Tanzanya,TZ
+TH,tr,Tayland,TH
+TR,tr,Türkiye,TR
+UA,tr,Ukrayna,UA
+PK,tr,Pakistan,PK
+VN,tr,Vietnam,VN
+HK,tr,Hong Kong,HK
+TW,tr,Tayvan,TW
+CY,tr,Güney Kıbrıs Rum Yönetimi,CY
+KH,tr,Kamboçya,KH
+LI,tr,Liechtenstein,LI
+PG,tr,Papua Yeni Gine,PG
+AE,uk,Об'єднані Арабські Емірати,AE
+BH,uk,Бахрейн,BH
+DZ,uk,Алжир,DZ
+EG,uk,Єгипет,EG
+IQ,uk,Ірак,IQ
+JO,uk,Йорданія,JO
+KW,uk,Кувейт,KW
+LB,uk,Ліван,LB
+LY,uk,Лівія,LY
+MA,uk,Марокко,MA
+OM,uk,Оман,OM
+QA,uk,Катар,QA
+SA,uk,Саудівська Аравія,SA
+TN,uk,Туніс,TN
+YE,uk,Ємен,YE
+AZ,uk,Азербайджан,AZ
+BY,uk,Білорусь,BY
+BG,uk,Болгарія,BG
+BD,uk,Бангладеш,BD
+BA,uk,Боснія та Герцеговина,BA
+CZ,uk,Чехія,CZ
+DK,uk,Данія,DK
+AT,uk,Австрія,AT
+CH,uk,Швейцарія,CH
+DE,uk,Німеччина,DE
+GR,uk,Греція,GR
+AU,uk,Австралія,AU
+BE,uk,Бельгія,BE
+CA,uk,Канада,CA
+GB,uk,Велика Британія,GB
+GH,uk,Гана,GH
+IE,uk,Ірландія,IE
+IL,uk,Ізраїль,IL
+IN,uk,Індія,IN
+JM,uk,Ямайка,JM
+KE,uk,Кенія,KE
+MT,uk,Мальта,MT
+NG,uk,Нігерія,NG
+NZ,uk,Нова Зеландія,NZ
+SG,uk,Сінгапур,SG
+UG,uk,Уганда,UG
+US,uk,Сполучені Штати Америки,US
+ZA,uk,Південно-Африканська Республіка,ZA
+ZW,uk,Зімбабве,ZW
+AR,uk,Аргентина,AR
+BO,uk,Болівія,BO
+CL,uk,Чилі,CL
+CO,uk,Колумбія,CO
+CR,uk,Коста-Рика,CR
+DO,uk,Домініканська Республіка,DO
+EC,uk,Еквадор,EC
+ES,uk,Іспанія,ES
+GT,uk,Гватемала,GT
+HN,uk,Гондурас,HN
+MX,uk,Мексика,MX
+NI,uk,Нікарагуа,NI
+PA,uk,Панама,PA
+PE,uk,Перу,PE
+PR,uk,Пуерто-Рико,PR
+PY,uk,Парагвай,PY
+SV,uk,Сальвадор,SV
+UY,uk,Уругвай,UY
+VE,uk,Венесуела,VE
+EE,uk,Естонія,EE
+FI,uk,Фінляндія,FI
+PH,uk,Філіппіни,PH
+FR,uk,Франція,FR
+SN,uk,Сенегал,SN
+HR,uk,Хорватія,HR
+HU,uk,Угорщина,HU
+ID,uk,Індонезія,ID
+IS,uk,Ісландія,IS
+IT,uk,Італія,IT
+JP,uk,Японія,JP
+GE,uk,Грузія,GE
+KZ,uk,Казахстан,KZ
+KR,uk,Південна Корея,KR
+LU,uk,Люксембург,LU
+LA,uk,Лаос,LA
+LT,uk,Литва,LT
+LV,uk,Латвія,LV
+MK,uk,Північна Македонія,MK
+MY,uk,Малайзія,MY
+NO,uk,Норвегія,NO
+NP,uk,Непал,NP
+NL,uk,Нідерланди,NL
+PL,uk,Польща,PL
+BR,uk,Бразилія,BR
+PT,uk,Португалія,PT
+MD,uk,Молдова,MD
+RO,uk,Румунія,RO
+RU,uk,Росія,RU
+LK,uk,Шрі-Ланка,LK
+SK,uk,Словаччина,SK
+SI,uk,Словенія,SI
+ME,uk,Чорногорія,ME
+RS,uk,Сербія,RS
+SE,uk,Швеція,SE
+TZ,uk,Танзанія,TZ
+TH,uk,Таїланд,TH
+TR,uk,Туреччина,TR
+UA,uk,Україна,UA
+PK,uk,Пакистан,PK
+VN,uk,В'єтнам,VN
+HK,uk,Гонконг,HK
+TW,uk,Тайвань,TW
+CY,uk,Кіпр,CY
+KH,uk,Камбоджа,KH
+LI,uk,Ліхтенштейн,LI
+PG,uk,Папуа – Нова Гвінея,PG
+AE,ur,متحدہ عرب امارات,AE
+BH,ur,بحرین,BH
+DZ,ur,الجیریا,DZ
+EG,ur,مصر,EG
+IQ,ur,عراق,IQ
+JO,ur,اردن,JO
+KW,ur,کویت,KW
+LB,ur,لیبنان,LB
+LY,ur,لیبیا,LY
+MA,ur,مراقش,MA
+OM,ur,عمان,OM
+QA,ur,قطر,QA
+SA,ur,سعودی عرب,SA
+TN,ur,تیونس,TN
+YE,ur,یمن,YE
+AZ,ur,آذربائیجان,AZ
+BY,ur,بیلاروس,BY
+BG,ur,بلغاریہ,BG
+BD,ur,بنگلہ دیش,BD
+BA,ur,بوسنیا اور ہرزیگووینا,BA
+CZ,ur,چیکیا,CZ
+DK,ur,ڈنمارک,DK
+AT,ur,آسٹریا,AT
+CH,ur,سوئزرلینڈ,CH
+DE,ur,جرمنی,DE
+GR,ur,یونان,GR
+AU,ur,آسٹریلیا,AU
+BE,ur,بیلجئیم,BE
+CA,ur,کینیڈا,CA
+GB,ur,سلطنت متحدہ,GB
+GH,ur,گھانا,GH
+IE,ur,آئرلینڈ,IE
+IL,ur,اسرائیل,IL
+IN,ur,ہندوستان,IN
+JM,ur,جمائیکا,JM
+KE,ur,کینیا,KE
+MT,ur,مالٹا,MT
+NG,ur,نائجیریا,NG
+NZ,ur,نیوزی لینڈ,NZ
+SG,ur,سنگاپور,SG
+UG,ur,یوگنڈا,UG
+US,ur,ریاستہائے متحدہ,US
+ZA,ur,جنوبی افریقہ,ZA
+ZW,ur,زمبابوے,ZW
+AR,ur,ارجنٹینا,AR
+BO,ur,بولیویا,BO
+CL,ur,چلی,CL
+CO,ur,کولمبیا,CO
+CR,ur,کوسٹا ریکا,CR
+DO,ur,جمہوریہ ڈومنیکن,DO
+EC,ur,ایکواڈور,EC
+ES,ur,ہسپانیہ,ES
+GT,ur,گواٹیمالا,GT
+HN,ur,ہونڈوراس,HN
+MX,ur,میکسیکو,MX
+NI,ur,نکاراگوا,NI
+PA,ur,پناما,PA
+PE,ur,پیرو,PE
+PR,ur,پیورٹوریکو,PR
+PY,ur,پیراگوئے,PY
+SV,ur,ال سلواڈور,SV
+UY,ur,یوروگوے,UY
+VE,ur,وینیزوئیلا,VE
+EE,ur,ایسٹونیا,EE
+FI,ur,فن لینڈ,FI
+PH,ur,فلپائن,PH
+FR,ur,فرانس,FR
+SN,ur,سینیگل,SN
+HR,ur,کروشیا,HR
+HU,ur,ہنگری,HU
+ID,ur,انڈونیشیا,ID
+IS,ur,آئسلینڈ,IS
+IT,ur,اٹلی,IT
+JP,ur,جاپان,JP
+GE,ur,جارجیا,GE
+KZ,ur,قزاخستان,KZ
+KR,ur,جنوبی کوریا,KR
+LU,ur,لگژمبرگ,LU
+LA,ur,لاؤس,LA
+LT,ur,لتھوانیا,LT
+LV,ur,لاتویا,LV
+MK,ur,شمالی مقدونیہ,MK
+MY,ur,ملیشیا,MY
+NO,ur,ناروے,NO
+NP,ur,نیپال,NP
+NL,ur,نیدرلینڈز,NL
+PL,ur,پولینڈ,PL
+BR,ur,برازیل,BR
+PT,ur,پرتگال,PT
+MD,ur,مالدووا,MD
+RO,ur,رومانیا,RO
+RU,ur,روس,RU
+LK,ur,سری لنکا,LK
+SK,ur,سلوویکیا,SK
+SI,ur,سلووینیا,SI
+ME,ur,مونٹے نیگرو,ME
+RS,ur,سربیا,RS
+SE,ur,سویڈن,SE
+TZ,ur,تنزانیا,TZ
+TH,ur,تھائی لینڈ,TH
+TR,ur,ترکی,TR
+UA,ur,یوکرین,UA
+PK,ur,پاکستان,PK
+VN,ur,ویتنام,VN
+HK,ur,ہانگ کانگ,HK
+TW,ur,تائیوان,TW
+CY,ur,قبرص,CY
+KH,ur,کمبوڈیا,KH
+LI,ur,لیشٹنسٹائن,LI
+PG,ur,پپوا نیو گنی,PG
+AE,uz,Birlashgan Arab Amirliklari,AE
+BH,uz,Bahrayn,BH
+DZ,uz,Jazoir,DZ
+EG,uz,Misr,EG
+IQ,uz,Iroq,IQ
+JO,uz,Iordaniya,JO
+KW,uz,Quvayt,KW
+LB,uz,Livan,LB
+LY,uz,Liviya,LY
+MA,uz,Marokash,MA
+OM,uz,Ummon,OM
+QA,uz,Qatar,QA
+SA,uz,Saudiya Arabistoni,SA
+TN,uz,Tunis,TN
+YE,uz,Yaman,YE
+AZ,uz,Ozarbayjon,AZ
+BY,uz,Belarus,BY
+BG,uz,Bolgariya,BG
+BD,uz,Bangladesh,BD
+BA,uz,Bosniya va Gersegovina,BA
+CZ,uz,Chexiya,CZ
+DK,uz,Daniya,DK
+AT,uz,Avstriya,AT
+CH,uz,Shveytsariya,CH
+DE,uz,Germaniya,DE
+GR,uz,Gretsiya,GR
+AU,uz,Avstraliya,AU
+BE,uz,Belgiya,BE
+CA,uz,Kanada,CA
+GB,uz,Buyuk Britaniya,GB
+GH,uz,Gana,GH
+IE,uz,Irlandiya,IE
+IL,uz,Isroil,IL
+IN,uz,Hindiston,IN
+JM,uz,Yamayka,JM
+KE,uz,Keniya,KE
+MT,uz,Malta,MT
+NG,uz,Nigeriya,NG
+NZ,uz,Yangi Zelandiya,NZ
+SG,uz,Singapur,SG
+UG,uz,Uganda,UG
+US,uz,AQSH,US
+ZA,uz,Janubiy Afrika,ZA
+ZW,uz,Zimbabvе,ZW
+AR,uz,Argentina,AR
+BO,uz,Boliviya,BO
+CL,uz,Chili,CL
+CO,uz,Kolumbiya,CO
+CR,uz,Kosta-Rika,CR
+DO,uz,Dominikan Respublikasi,DO
+EC,uz,Ekvador,EC
+ES,uz,Ispaniya,ES
+GT,uz,Gvatemala,GT
+HN,uz,Gonduras,HN
+MX,uz,Meksika,MX
+NI,uz,Nikaragua,NI
+PA,uz,Panama,PA
+PE,uz,Peru,PE
+PR,uz,Puerto-Riko,PR
+PY,uz,Paragvay,PY
+SV,uz,Salvador,SV
+UY,uz,Urugvay,UY
+VE,uz,Venesuela,VE
+EE,uz,Estoniya,EE
+FI,uz,Finlandiya,FI
+PH,uz,Filippin,PH
+FR,uz,Fransiya,FR
+SN,uz,Senegal,SN
+HR,uz,Xorvatiya,HR
+HU,uz,Vengriya,HU
+ID,uz,Indoneziya,ID
+IS,uz,Islandiya,IS
+IT,uz,Italiya,IT
+JP,uz,Yaponiya,JP
+GE,uz,Gruziya,GE
+KZ,uz,Qozog‘iston,KZ
+KR,uz,Janubiy Koreya,KR
+LU,uz,Luksemburg,LU
+LA,uz,Laos,LA
+LT,uz,Litva,LT
+LV,uz,Latviya,LV
+MK,uz,Shimoliy Makedoniya,MK
+MY,uz,Malayziya,MY
+NO,uz,Norvegiya,NO
+NP,uz,Nepal,NP
+NL,uz,Gollandiya,NL
+PL,uz,Polsha,PL
+BR,uz,Braziliya,BR
+PT,uz,Portugaliya,PT
+MD,uz,Moldova,MD
+RO,uz,Ruminiya,RO
+RU,uz,Rossiya,RU
+LK,uz,Shri-Lanka,LK
+SK,uz,Slovakiya,SK
+SI,uz,Sloveniya,SI
+ME,uz,Chernogoriya,ME
+RS,uz,Serbiya,RS
+SE,uz,Shvetsiya,SE
+TZ,uz,Tanzaniya,TZ
+TH,uz,Tailand,TH
+TR,uz,Turkiya,TR
+UA,uz,Ukraina,UA
+PK,uz,Pokiston,PK
+VN,uz,Vyetnam,VN
+HK,uz,Gonkong,HK
+TW,uz,Tayvan,TW
+CY,uz,Kipr,CY
+KH,uz,Kambodja,KH
+LI,uz,Lixtenshteyn,LI
+PG,uz,Papua-Yangi Gvineya,PG
+AE,vi,Các Tiểu Vương quốc Ả Rập Thống nhất,AE
+BH,vi,Bahrain,BH
+DZ,vi,Algeria,DZ
+EG,vi,Ai Cập,EG
+IQ,vi,Iraq,IQ
+JO,vi,Jordan,JO
+KW,vi,Kuwait,KW
+LB,vi,Lebanon,LB
+LY,vi,Libya,LY
+MA,vi,Ma-rốc,MA
+OM,vi,Oman,OM
+QA,vi,Qatar,QA
+SA,vi,Ả-Rập Xê-út,SA
+TN,vi,Tunisia,TN
+YE,vi,Yemen,YE
+AZ,vi,Azerbaijan,AZ
+BY,vi,Belarus,BY
+BG,vi,Bungary,BG
+BD,vi,Bangladesh,BD
+BA,vi,Bosnia và Herzegovina,BA
+CZ,vi,Séc,CZ
+DK,vi,Đan Mạch,DK
+AT,vi,Áo,AT
+CH,vi,Thuỵ Sĩ,CH
+DE,vi,Đức,DE
+GR,vi,Hy Lạp,GR
+AU,vi,Úc,AU
+BE,vi,Bỉ,BE
+CA,vi,Canada,CA
+GB,vi,Vương quốc Anh,GB
+GH,vi,Ghana,GH
+IE,vi,Ireland,IE
+IL,vi,Israel,IL
+IN,vi,Ấn Độ,IN
+JM,vi,Jamaica,JM
+KE,vi,Kenya,KE
+MT,vi,Malta,MT
+NG,vi,Nigeria,NG
+NZ,vi,New Zealand,NZ
+SG,vi,Singapore,SG
+UG,vi,Uganda,UG
+US,vi,Hoa Kỳ,US
+ZA,vi,Nam Phi,ZA
+ZW,vi,Zimbabwe,ZW
+AR,vi,Argentina,AR
+BO,vi,Bolivia,BO
+CL,vi,Chile,CL
+CO,vi,Colombia,CO
+CR,vi,Costa Rica,CR
+DO,vi,Cộng hoà Dominica,DO
+EC,vi,Ecuador,EC
+ES,vi,Tây Ban Nha,ES
+GT,vi,Guatemala,GT
+HN,vi,Honduras,HN
+MX,vi,Mexico,MX
+NI,vi,Nicaragua,NI
+PA,vi,Panama,PA
+PE,vi,Peru,PE
+PR,vi,Puerto Rico,PR
+PY,vi,Paraguay,PY
+SV,vi,El Salvador,SV
+UY,vi,Uruguay,UY
+VE,vi,Venezuela,VE
+EE,vi,Estonia,EE
+FI,vi,Phần Lan,FI
+PH,vi,Philipin,PH
+FR,vi,Pháp,FR
+SN,vi,Senegal,SN
+HR,vi,Croatia,HR
+HU,vi,Hungary,HU
+ID,vi,Indonesia,ID
+IS,vi,Iceland,IS
+IT,vi,Ý,IT
+JP,vi,Nhật Bản,JP
+GE,vi,Georgia,GE
+KZ,vi,Kazakhstan,KZ
+KR,vi,Hàn Quốc,KR
+LU,vi,Luxembourg,LU
+LA,vi,Lào,LA
+LT,vi,Lithuania,LT
+LV,vi,Latvia,LV
+MK,vi,Bắc Macedonia,MK
+MY,vi,Malaysia,MY
+NO,vi,Na Uy,NO
+NP,vi,Nepal,NP
+NL,vi,Hà Lan,NL
+PL,vi,Ba Lan,PL
+BR,vi,Brazil,BR
+PT,vi,Bồ Đào Nha,PT
+MD,vi,Moldova,MD
+RO,vi,Rumani,RO
+RU,vi,Nga,RU
+LK,vi,Sri Lanka,LK
+SK,vi,Slovakia,SK
+SI,vi,Slovenia,SI
+ME,vi,Montenegro,ME
+RS,vi,Serbia,RS
+SE,vi,Thuỵ Điển,SE
+TZ,vi,Tanzania,TZ
+TH,vi,Thái Lan,TH
+TR,vi,Thổ Nhĩ Kỳ,TR
+UA,vi,Ukraina,UA
+PK,vi,Pakistan,PK
+VN,vi,Việt Nam,VN
+HK,vi,Hồng Kông,HK
+TW,vi,Đài Loan,TW
+CY,vi,Đảo Síp,CY
+KH,vi,Campuchia,KH
+LI,vi,Liechtenstein,LI
+PG,vi,Papua New Guinea,PG
+AE,zh-CN,阿拉伯联合酋长国,AE
+BH,zh-CN,巴林,BH
+DZ,zh-CN,阿尔及利亚,DZ
+EG,zh-CN,埃及,EG
+IQ,zh-CN,伊拉克,IQ
+JO,zh-CN,约旦,JO
+KW,zh-CN,科威特,KW
+LB,zh-CN,黎巴嫩,LB
+LY,zh-CN,利比亚,LY
+MA,zh-CN,摩洛哥,MA
+OM,zh-CN,阿曼,OM
+QA,zh-CN,卡塔尔,QA
+SA,zh-CN,沙特阿拉伯,SA
+TN,zh-CN,突尼斯,TN
+YE,zh-CN,也门,YE
+AZ,zh-CN,阿塞拜疆,AZ
+BY,zh-CN,白俄罗斯,BY
+BG,zh-CN,保加利亚,BG
+BD,zh-CN,孟加拉国,BD
+BA,zh-CN,波斯尼亚和黑塞哥维那,BA
+CZ,zh-CN,捷克,CZ
+DK,zh-CN,丹麦,DK
+AT,zh-CN,奥地利,AT
+CH,zh-CN,瑞士,CH
+DE,zh-CN,德国,DE
+GR,zh-CN,希腊,GR
+AU,zh-CN,澳大利亚,AU
+BE,zh-CN,比利时,BE
+CA,zh-CN,加拿大,CA
+GB,zh-CN,英国,GB
+GH,zh-CN,加纳,GH
+IE,zh-CN,爱尔兰,IE
+IL,zh-CN,以色列,IL
+IN,zh-CN,印度,IN
+JM,zh-CN,牙买加,JM
+KE,zh-CN,肯尼亚,KE
+MT,zh-CN,马耳他,MT
+NG,zh-CN,尼日利亚,NG
+NZ,zh-CN,新西兰,NZ
+SG,zh-CN,新加坡,SG
+UG,zh-CN,乌干达,UG
+US,zh-CN,美国,US
+ZA,zh-CN,南非,ZA
+ZW,zh-CN,津巴布韦,ZW
+AR,zh-CN,阿根廷,AR
+BO,zh-CN,玻利维亚,BO
+CL,zh-CN,智利,CL
+CO,zh-CN,哥伦比亚,CO
+CR,zh-CN,哥斯达黎加,CR
+DO,zh-CN,多米尼加共和国,DO
+EC,zh-CN,厄瓜多尔,EC
+ES,zh-CN,西班牙,ES
+GT,zh-CN,危地马拉,GT
+HN,zh-CN,洪都拉斯,HN
+MX,zh-CN,墨西哥,MX
+NI,zh-CN,尼加拉瓜,NI
+PA,zh-CN,巴拿马,PA
+PE,zh-CN,秘鲁,PE
+PR,zh-CN,波多黎各,PR
+PY,zh-CN,巴拉圭,PY
+SV,zh-CN,萨尔瓦多,SV
+UY,zh-CN,乌拉圭,UY
+VE,zh-CN,委内瑞拉,VE
+EE,zh-CN,爱沙尼亚,EE
+FI,zh-CN,芬兰,FI
+PH,zh-CN,菲律宾,PH
+FR,zh-CN,法国,FR
+SN,zh-CN,塞内加尔,SN
+HR,zh-CN,克罗地亚,HR
+HU,zh-CN,匈牙利,HU
+ID,zh-CN,印尼,ID
+IS,zh-CN,冰岛,IS
+IT,zh-CN,意大利,IT
+JP,zh-CN,日本,JP
+GE,zh-CN,格鲁吉亚共和国,GE
+KZ,zh-CN,哈萨克斯坦,KZ
+KR,zh-CN,韩国,KR
+LU,zh-CN,卢森堡公国,LU
+LA,zh-CN,老挝,LA
+LT,zh-CN,立陶宛,LT
+LV,zh-CN,拉脱维亚,LV
+MK,zh-CN,北马其顿,MK
+MY,zh-CN,马来西亚,MY
+NO,zh-CN,挪威,NO
+NP,zh-CN,尼泊尔,NP
+NL,zh-CN,荷兰,NL
+PL,zh-CN,波兰,PL
+BR,zh-CN,巴西,BR
+PT,zh-CN,葡萄牙,PT
+MD,zh-CN,摩尔多瓦,MD
+RO,zh-CN,罗马尼亚,RO
+RU,zh-CN,俄罗斯,RU
+LK,zh-CN,斯里兰卡,LK
+SK,zh-CN,斯洛伐克,SK
+SI,zh-CN,斯洛文尼亚,SI
+ME,zh-CN,黑山共和国,ME
+RS,zh-CN,塞尔维亚,RS
+SE,zh-CN,瑞典,SE
+TZ,zh-CN,坦桑尼亚,TZ
+TH,zh-CN,泰国,TH
+TR,zh-CN,土耳其,TR
+UA,zh-CN,乌克兰,UA
+PK,zh-CN,巴基斯坦,PK
+VN,zh-CN,越南,VN
+HK,zh-CN,香港,HK
+TW,zh-CN,台湾,TW
+CY,zh-CN,塞浦路斯,CY
+KH,zh-CN,柬埔寨,KH
+LI,zh-CN,列支敦士登,LI
+PG,zh-CN,巴布亚新几内亚,PG
+AE,zh-HK,阿拉伯聯合大公國,AE
+BH,zh-HK,巴林,BH
+DZ,zh-HK,阿爾及利亞,DZ
+EG,zh-HK,埃及,EG
+IQ,zh-HK,伊拉克,IQ
+JO,zh-HK,約旦,JO
+KW,zh-HK,科威特,KW
+LB,zh-HK,黎巴嫩,LB
+LY,zh-HK,利比亞,LY
+MA,zh-HK,摩洛哥,MA
+OM,zh-HK,阿曼,OM
+QA,zh-HK,卡塔爾,QA
+SA,zh-HK,沙地阿拉伯,SA
+TN,zh-HK,突尼西亞,TN
+YE,zh-HK,也門,YE
+AZ,zh-HK,亞塞拜疆,AZ
+BY,zh-HK,白俄羅斯,BY
+BG,zh-HK,保加利亞,BG
+BD,zh-HK,孟加拉,BD
+BA,zh-HK,波斯尼亞與黑塞哥維那,BA
+CZ,zh-HK,捷克,CZ
+DK,zh-HK,丹麥,DK
+AT,zh-HK,奧地利,AT
+CH,zh-HK,瑞士,CH
+DE,zh-HK,德國,DE
+GR,zh-HK,希臘,GR
+AU,zh-HK,澳洲,AU
+BE,zh-HK,比利時,BE
+CA,zh-HK,加拿大,CA
+GB,zh-HK,英國,GB
+GH,zh-HK,迦納,GH
+IE,zh-HK,愛爾蘭,IE
+IL,zh-HK,以色列,IL
+IN,zh-HK,印度,IN
+JM,zh-HK,牙買加,JM
+KE,zh-HK,肯亞,KE
+MT,zh-HK,馬爾他,MT
+NG,zh-HK,尼日利亞,NG
+NZ,zh-HK,紐西蘭,NZ
+SG,zh-HK,新加坡,SG
+UG,zh-HK,烏干達,UG
+US,zh-HK,美國,US
+ZA,zh-HK,南非,ZA
+ZW,zh-HK,津巴布韋,ZW
+AR,zh-HK,阿根廷,AR
+BO,zh-HK,玻利維亞,BO
+CL,zh-HK,智利,CL
+CO,zh-HK,哥倫比亞,CO
+CR,zh-HK,哥斯達黎加,CR
+DO,zh-HK,多明尼加共和國,DO
+EC,zh-HK,厄瓜多爾,EC
+ES,zh-HK,西班牙,ES
+GT,zh-HK,瓜地馬拉,GT
+HN,zh-HK,宏都拉斯,HN
+MX,zh-HK,墨西哥,MX
+NI,zh-HK,尼加拉瓜,NI
+PA,zh-HK,巴拿馬,PA
+PE,zh-HK,祕魯,PE
+PR,zh-HK,波多黎各,PR
+PY,zh-HK,巴拉圭,PY
+SV,zh-HK,薩爾瓦多,SV
+UY,zh-HK,烏拉圭,UY
+VE,zh-HK,委內瑞拉,VE
+EE,zh-HK,愛沙尼亞,EE
+FI,zh-HK,芬蘭,FI
+PH,zh-HK,菲律賓,PH
+FR,zh-HK,法國,FR
+SN,zh-HK,塞內加爾,SN
+HR,zh-HK,克羅地亞,HR
+HU,zh-HK,匈牙利,HU
+ID,zh-HK,印尼,ID
+IS,zh-HK,冰島,IS
+IT,zh-HK,意大利,IT
+JP,zh-HK,日本,JP
+GE,zh-HK,佐治亞州,GE
+KZ,zh-HK,哈薩克,KZ
+KR,zh-HK,南韓,KR
+LU,zh-HK,盧森堡,LU
+LA,zh-HK,寮國,LA
+LT,zh-HK,立陶宛,LT
+LV,zh-HK,拉脫維亞,LV
+MK,zh-HK,北馬其頓,MK
+MY,zh-HK,馬來西亞,MY
+NO,zh-HK,挪威,NO
+NP,zh-HK,尼泊爾,NP
+NL,zh-HK,荷蘭,NL
+PL,zh-HK,波蘭,PL
+BR,zh-HK,巴西,BR
+PT,zh-HK,葡萄牙,PT
+MD,zh-HK,摩爾多瓦,MD
+RO,zh-HK,羅馬尼亞,RO
+RU,zh-HK,俄羅斯,RU
+LK,zh-HK,斯里蘭卡,LK
+SK,zh-HK,斯洛伐克,SK
+SI,zh-HK,斯洛文尼亞,SI
+ME,zh-HK,蒙特內哥羅,ME
+RS,zh-HK,塞爾維亞,RS
+SE,zh-HK,瑞典,SE
+TZ,zh-HK,坦桑尼亞,TZ
+TH,zh-HK,泰國,TH
+TR,zh-HK,土耳其,TR
+UA,zh-HK,烏克蘭,UA
+PK,zh-HK,巴基斯坦,PK
+VN,zh-HK,越南,VN
+HK,zh-HK,香港,HK
+TW,zh-HK,台灣,TW
+CY,zh-HK,塞浦路斯,CY
+KH,zh-HK,柬埔寨,KH
+LI,zh-HK,列支敦斯登,LI
+PG,zh-HK,巴布亞新幾內亞,PG
+AE,zh-TW,阿拉伯聯合大公國,AE
+BH,zh-TW,巴林,BH
+DZ,zh-TW,阿爾及利亞,DZ
+EG,zh-TW,埃及,EG
+IQ,zh-TW,伊拉克,IQ
+JO,zh-TW,約旦,JO
+KW,zh-TW,科威特,KW
+LB,zh-TW,黎巴嫩,LB
+LY,zh-TW,利比亞,LY
+MA,zh-TW,摩洛哥,MA
+OM,zh-TW,阿曼,OM
+QA,zh-TW,卡達,QA
+SA,zh-TW,沙烏地阿拉伯,SA
+TN,zh-TW,突尼西亞,TN
+YE,zh-TW,葉門,YE
+AZ,zh-TW,亞賽拜然,AZ
+BY,zh-TW,白俄羅斯,BY
+BG,zh-TW,保加利亞,BG
+BD,zh-TW,孟加拉,BD
+BA,zh-TW,波士尼亞-赫塞哥維納,BA
+CZ,zh-TW,捷克,CZ
+DK,zh-TW,丹麥,DK
+AT,zh-TW,奧地利,AT
+CH,zh-TW,瑞士,CH
+DE,zh-TW,德國,DE
+GR,zh-TW,希臘,GR
+AU,zh-TW,澳洲,AU
+BE,zh-TW,比利時,BE
+CA,zh-TW,加拿大,CA
+GB,zh-TW,英國,GB
+GH,zh-TW,迦納,GH
+IE,zh-TW,愛爾蘭,IE
+IL,zh-TW,以色列,IL
+IN,zh-TW,印度,IN
+JM,zh-TW,牙買加,JM
+KE,zh-TW,肯亞,KE
+MT,zh-TW,馬爾他,MT
+NG,zh-TW,奈及利亞,NG
+NZ,zh-TW,紐西蘭,NZ
+SG,zh-TW,新加坡,SG
+UG,zh-TW,烏干達,UG
+US,zh-TW,美國,US
+ZA,zh-TW,南非,ZA
+ZW,zh-TW,辛巴威,ZW
+AR,zh-TW,阿根廷,AR
+BO,zh-TW,玻利維亞,BO
+CL,zh-TW,智利,CL
+CO,zh-TW,哥倫比亞,CO
+CR,zh-TW,哥斯大黎加,CR
+DO,zh-TW,多明尼加共和國,DO
+EC,zh-TW,厄瓜多,EC
+ES,zh-TW,西班牙,ES
+GT,zh-TW,瓜地馬拉,GT
+HN,zh-TW,宏都拉斯,HN
+MX,zh-TW,墨西哥,MX
+NI,zh-TW,尼加拉瓜,NI
+PA,zh-TW,巴拿馬,PA
+PE,zh-TW,祕魯,PE
+PR,zh-TW,波多黎克,PR
+PY,zh-TW,巴拉圭,PY
+SV,zh-TW,薩爾瓦多,SV
+UY,zh-TW,烏拉圭,UY
+VE,zh-TW,委內瑞拉,VE
+EE,zh-TW,愛沙尼亞,EE
+FI,zh-TW,芬蘭,FI
+PH,zh-TW,菲律賓,PH
+FR,zh-TW,法國,FR
+SN,zh-TW,塞內加爾,SN
+HR,zh-TW,克羅埃西亞,HR
+HU,zh-TW,匈牙利,HU
+ID,zh-TW,印尼,ID
+IS,zh-TW,冰島,IS
+IT,zh-TW,義大利,IT
+JP,zh-TW,日本,JP
+GE,zh-TW,喬治亞,GE
+KZ,zh-TW,哈薩克,KZ
+KR,zh-TW,南韓,KR
+LU,zh-TW,盧森堡,LU
+LA,zh-TW,寮國,LA
+LT,zh-TW,立陶宛,LT
+LV,zh-TW,拉脫維亞,LV
+MK,zh-TW,北馬其頓,MK
+MY,zh-TW,馬來西亞,MY
+NO,zh-TW,挪威,NO
+NP,zh-TW,尼泊爾,NP
+NL,zh-TW,荷蘭,NL
+PL,zh-TW,波蘭,PL
+BR,zh-TW,巴西,BR
+PT,zh-TW,葡萄牙,PT
+MD,zh-TW,摩爾多瓦,MD
+RO,zh-TW,羅馬尼亞,RO
+RU,zh-TW,俄羅斯,RU
+LK,zh-TW,斯里蘭卡,LK
+SK,zh-TW,斯洛伐克,SK
+SI,zh-TW,斯洛維尼亞,SI
+ME,zh-TW,蒙特內哥羅,ME
+RS,zh-TW,塞爾維亞,RS
+SE,zh-TW,瑞典,SE
+TZ,zh-TW,坦尚尼亞,TZ
+TH,zh-TW,泰國,TH
+TR,zh-TW,土耳其,TR
+UA,zh-TW,烏克蘭,UA
+PK,zh-TW,巴基斯坦,PK
+VN,zh-TW,越南,VN
+HK,zh-TW,香港,HK
+TW,zh-TW,台灣,TW
+CY,zh-TW,賽普勒斯,CY
+KH,zh-TW,柬埔寨,KH
+LI,zh-TW,列支敦士登,LI
+PG,zh-TW,巴布亞紐幾內亞,PG
+AE,zu,i-United Arab Emirates,AE
+BH,zu,i-Bahrain,BH
+DZ,zu,I-Algeria,DZ
+EG,zu,I-Egypt,EG
+IQ,zu,i-Iraq,IQ
+JO,zu,I-Jordan,JO
+KW,zu,i-Kuwait,KW
+LB,zu,i-Lebanon,LB
+LY,zu,i-Libya,LY
+MA,zu,I-Morocco,MA
+OM,zu,i-Oman,OM
+QA,zu,i-Qatar,QA
+SA,zu,I-Saudi Arabia,SA
+TN,zu,I-Tunisia,TN
+YE,zu,I-Yemen,YE
+AZ,zu,i-Azerbaijan,AZ
+BY,zu,i-Belarus,BY
+BG,zu,i-Bulgaria,BG
+BD,zu,i-Bangladesh,BD
+BA,zu,i-Bosnia ne-Herzegovina,BA
+CZ,zu,I-Czechia,CZ
+DK,zu,i-Denmark,DK
+AT,zu,i-Austria,AT
+CH,zu,i-Switzerland,CH
+DE,zu,i-Germany,DE
+GR,zu,i-Greece,GR
+AU,zu,i-Australia,AU
+BE,zu,I-Belgium,BE
+CA,zu,i-Canada,CA
+GB,zu,i-United Kingdom,GB
+GH,zu,i-Ghana,GH
+IE,zu,i-Ireland,IE
+IL,zu,i-Israel,IL
+IN,zu,i-India,IN
+JM,zu,i-Jamaica,JM
+KE,zu,I-Kenya,KE
+MT,zu,i-Malta,MT
+NG,zu,I-Nigeria,NG
+NZ,zu,i-New Zealand,NZ
+SG,zu,I-Singapore,SG
+UG,zu,I-Uganda,UG
+US,zu,i-United States,US
+ZA,zu,i-South Africa,ZA
+ZW,zu,i-Zimbabwe,ZW
+AR,zu,I-Argentina,AR
+BO,zu,i-Bolivia,BO
+CL,zu,I-Chile,CL
+CO,zu,I-Colombia,CO
+CR,zu,i-Costa Rica,CR
+DO,zu,i-Dominican Republic,DO
+EC,zu,i-Ecuador,EC
+ES,zu,i-Spain,ES
+GT,zu,i-Guatemala,GT
+HN,zu,i-Honduras,HN
+MX,zu,i-Mexico,MX
+NI,zu,i-Nicaragua,NI
+PA,zu,i-Panama,PA
+PE,zu,i-Peru,PE
+PR,zu,i-Puerto Rico,PR
+PY,zu,i-Paraguay,PY
+SV,zu,i-El Salvador,SV
+UY,zu,i-Uruguay,UY
+VE,zu,i-Venezuela,VE
+EE,zu,i-Estonia,EE
+FI,zu,i-Finland,FI
+PH,zu,I-Philippines,PH
+FR,zu,i-France,FR
+SN,zu,i-Senegal,SN
+HR,zu,i-Croatia,HR
+HU,zu,i-Hungary,HU
+ID,zu,i-Indonesia,ID
+IS,zu,i-Iceland,IS
+IT,zu,i-Italy,IT
+JP,zu,i-Japan,JP
+GE,zu,i-Georgia,GE
+KZ,zu,i-Kazakhstan,KZ
+KR,zu,i-South Korea,KR
+LU,zu,i-Luxembourg,LU
+LA,zu,i-Laos,LA
+LT,zu,i-Lithuania,LT
+LV,zu,i-Latvia,LV
+MK,zu,I-North Macedonia,MK
+MY,zu,i-Malaysia,MY
+NO,zu,i-Norway,NO
+NP,zu,i-Nepal,NP
+NL,zu,i-Netherlands,NL
+PL,zu,i-Poland,PL
+BR,zu,i-Brazil,BR
+PT,zu,i-Portugal,PT
+MD,zu,i-Moldova,MD
+RO,zu,i-Romania,RO
+RU,zu,i-Russia,RU
+LK,zu,i-Sri Lanka,LK
+SK,zu,i-Slovakia,SK
+SI,zu,i-Slovenia,SI
+ME,zu,i-Montenegro,ME
+RS,zu,isi-Serbia,RS
+SE,zu,i-Sweden,SE
+TZ,zu,i-Tanzania,TZ
+TH,zu,i-Thailand,TH
+TR,zu,i-Turkey,TR
+UA,zu,i-Ukraine,UA
+PK,zu,i-Pakistan,PK
+VN,zu,i-Vietnam,VN
+HK,zu,i-Hong Kong,HK
+TW,zu,i-Taiwan,TW
+CY,zu,i-Cyprus,CY
+KH,zu,i-Cambodia,KH
+LI,zu,i-Liechtenstein,LI
+PG,zu,i-Papua New Guinea,PG

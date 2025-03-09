@@ -16,49 +16,77 @@
  */
 package com.coyotesong.dojo.youtube.model;
 
+import com.coyotesong.dojo.youtube.lang3.MyToStringStyle;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.io.Serial;
 import java.io.Serializable;
 import java.time.Instant;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.time.temporal.ChronoUnit;
 
 /**
  * YouTube Playlist
- * <p>
- * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Playlist.html">Playlist</a>
+ *
+ * See [Playlist](https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Playlist.html)
  */
 @SuppressWarnings("unused")
 public class Playlist implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
+    private Integer key;
+    private Integer channelKey;
+
     private String id;
-    private String etag;
-    private String parentEtag;
-    private Instant publishedAt;
     private String channelId;
+    private Integer position;
+    private Boolean summary;  // true if search result
+
     private String title;
     private String description;
     private String lang;
+    private Instant publishedAt;
     private String channelTitle;
     private String embedHtml;
-    private String tnUrl;
+    private String tnDefaultUrl;
+    private String tnMediumUrl;
+    private String tnHighUrl;
+    private String tnStandardUrl;
+    private String tnMaxResUrl;
     private String tnVideoId;
-    private String hl;
+    private Long itemCount;
+
+    private PlaylistImage image;
+
+    private String etag;
+    private String parentEtag;
 
     private Instant lastChecked;
-
-    private String tags;
-
-    // tags
-    // thumbnails
 
     // note: description is always empty and title is always "Uploads from ${channel_title}"
     // note: thumbnailVideoId seems to always be empty
     // note: 'tags' is deprecated
+
+
+    public Integer getKey() {
+        return key;
+    }
+
+    public void setKey(Integer key) {
+        this.key = key;
+    }
+
+    public Integer getChannelKey() {
+        return channelKey;
+    }
+
+    public void setChannelKey(Integer channelKey) {
+        this.channelKey = channelKey;
+    }
 
     public String getId() {
         return id;
@@ -90,6 +118,11 @@ public class Playlist implements Serializable {
 
     public void setPublishedAt(Instant publishedAt) {
         this.publishedAt = publishedAt;
+        //if (publishedAt != null) {
+        //    this.publishedAt = ZonedDateTime.ofInstant(publishedAt, ZoneOffset.UTC).toInstant().truncatedTo(ChronoUnit.SECONDS);
+        //} else {
+        //    this.publishedAt = null;
+        //}
     }
 
     public String getChannelId() {
@@ -116,6 +149,14 @@ public class Playlist implements Serializable {
         this.description = description;
     }
 
+    public Long getItemCount() {
+        return itemCount;
+    }
+
+    public void setItemCount(Long itemCount) {
+        this.itemCount = itemCount;
+    }
+
     public String getChannelTitle() {
         return channelTitle;
     }
@@ -132,20 +173,44 @@ public class Playlist implements Serializable {
         this.embedHtml = embedHtml;
     }
 
-    public String getLang() {
-        return lang;
+    public String getTnDefaultUrl() {
+        return tnDefaultUrl;
     }
 
-    public void setLang(String lang) {
-        this.lang = lang;
+    public void setTnDefaultUrl(String tnDefaultUrl) {
+        this.tnDefaultUrl = tnDefaultUrl;
     }
 
-    public String getTnUrl() {
-        return tnUrl;
+    public String getTnMediumUrl() {
+        return tnMediumUrl;
     }
 
-    public void setTnUrl(String tnUrl) {
-        this.tnUrl = tnUrl;
+    public void setTnMediumUrl(String tnMediumUrl) {
+        this.tnMediumUrl = tnMediumUrl;
+    }
+
+    public String getTnHighUrl() {
+        return tnHighUrl;
+    }
+
+    public void setTnHighUrl(String tnHighUrl) {
+        this.tnHighUrl = tnHighUrl;
+    }
+
+    public String getTnStandardUrl() {
+        return tnStandardUrl;
+    }
+
+    public void setTnStandardUrl(String tnStandardUrl) {
+        this.tnStandardUrl = tnStandardUrl;
+    }
+
+    public String getTnMaxResUrl() {
+        return tnMaxResUrl;
+    }
+
+    public void setTnMaxResUrl(String tnMaxResUrl) {
+        this.tnMaxResUrl = tnMaxResUrl;
     }
 
     public String getTnVideoId() {
@@ -156,20 +221,32 @@ public class Playlist implements Serializable {
         this.tnVideoId = tnVideoId;
     }
 
-    public String getTags() {
-        return tags;
+    public String getLang() {
+        return lang;
     }
 
-    public void setTags(String tags) {
-        this.tags = tags;
+    public void setLang(String lang) {
+        this.lang = lang;
     }
 
-    public String getHl() {
-        return hl;
+    public void setPlaylistImage(PlaylistImage image) {
+        this.image = image;
     }
 
-    public void setHl(String hl) {
-        this.hl = hl;
+    public Integer getPosition() {
+        return position;
+    }
+
+    public void setPosition(Integer position) {
+        this.position = position;
+    }
+
+    public Boolean getSummary() {
+        return summary;
+    }
+
+    public void setSummary(Boolean summary) {
+        this.summary = summary;
     }
 
     public Instant getLastChecked() {
@@ -178,6 +255,11 @@ public class Playlist implements Serializable {
 
     public void setLastChecked(Instant lastChecked) {
         this.lastChecked = lastChecked;
+        //if (lastChecked != null) {
+        //    this.lastChecked = ZonedDateTime.ofInstant(lastChecked, ZoneOffset.UTC).toInstant().truncatedTo(ChronoUnit.SECONDS);
+        //} else {
+        //    this.lastChecked = null;
+        //}
     }
 
     @Override
@@ -188,49 +270,67 @@ public class Playlist implements Serializable {
 
         final Playlist that = (Playlist) o;
 
-        return new EqualsBuilder().append(etag, that.etag)
-                .append(parentEtag, that.parentEtag)
+        return new EqualsBuilder()
+                // DO NOT INCLUDE 'KEY'!
+                .append(id, that.id)
                 .append(channelId, that.channelId)
+                .append(position, that.position)
+                .append(summary, that.summary)
                 .append(title, that.title)
                 .append(description, that.description)
+                // .append(itemCount, that.itemCount)
                 .append(publishedAt, that.publishedAt)
-                .append(tnUrl, that.tnUrl)
-                .append(channelTitle, that.channelTitle)
-                .append(embedHtml, that.embedHtml)
+                // .append(tnDefaultUrl, that.tnDefaultUrl)
+                // .append(tnMediumUrl, that.tnMediumUrl)
+                // .append(tnHighUrl, that.tnHighUrl)
+                // .append(tnStandardUrl, that.tnStandardUrl)
+                // .append(tnMaxResUrl, that.tnMaxResUrl)
+                //.append(channelTitle, that.channelTitle)
+                // .append(embedHtml, that.embedHtml)
+                //.append(summary, that.summary)
                 .append(lastChecked, that.lastChecked)
                 // these are often null
+                // .append(tnVideoId, that.tnVideoId)
                 .append(lang, that.lang)
-                .append(tnVideoId, that.tnVideoId)
-                .append(tags, that.tags)
-                .append(hl, that.hl)
+                //.append(etag, that.etag)
+                //.append(parentEtag, that.parentEtag)
                 .isEquals();
     }
 
     @Override
     public int hashCode() {
         return new HashCodeBuilder(17, 37)
-                .append(etag)
+                .append(id)
                 .append(channelId)
                 .append(title)
+                // .append(etag)
                 .toHashCode();
     }
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+        return new ToStringBuilder(this, MyToStringStyle.DEFAULT_STYLE)
+                .append("key", key)
+                .append("channelKey", channelKey)
                 .append("id", id)
-                .append("etag", etag)
-                .append("publishedAt", publishedAt)
                 .append("channelId", channelId)
+                .append("position", position)
+                .append("summary", summary)
                 .append("title", title)
                 .append("description", description)
+                // .append("itemCount", itemCount)
+                .append("publishedAt", publishedAt)
+                //.append("channelTitle", channelTitle)
+                // .append("embedHtml", embedHtml)
+                // .append("tnDefaultUrl", tnDefaultUrl)
+                // .append("tnMediumUrl", tnMediumUrl)
+                // .append("tnHighUrl", tnHighUrl)
+                // .append("tnStandardUrl", tnStandardUrl)
+                // .append("tnMaxResUrl", tnMaxResUrl)
+                // .append("tnVideoId", tnVideoId)
                 .append("lang", lang)
-                .append("channelTitle", channelTitle)
-                .append("embedHtml", embedHtml)
-                .append("tnUrl", tnUrl)
-                .append("tnVideoId", tnVideoId)
                 .append("lastChecked", lastChecked)
-                .append("tags", tags)
+                // .append("etag", etag)
                 .toString();
     }
 }

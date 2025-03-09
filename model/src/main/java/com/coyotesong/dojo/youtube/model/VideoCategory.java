@@ -17,10 +17,10 @@
 
 package com.coyotesong.dojo.youtube.model;
 
+import com.coyotesong.dojo.youtube.lang3.MyToStringStyle;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.io.Serial;
 import java.io.Serializable;
@@ -134,7 +134,7 @@ public class VideoCategory implements Serializable {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+        return new ToStringBuilder(this, MyToStringStyle.DEFAULT_STYLE)
                 .append("id", id)
                 .append("etag", etag)
                 .append("hl", hl)

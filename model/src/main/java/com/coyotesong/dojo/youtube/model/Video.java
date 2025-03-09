@@ -16,6 +16,7 @@
  */
 package com.coyotesong.dojo.youtube.model;
 
+import com.coyotesong.dojo.youtube.lang3.MyToStringStyle;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
@@ -34,11 +35,10 @@ import java.util.Map;
 
 /**
  * YouTube video
- * <p>
+ *
  * This class has been extended with a 'NSFW' flag.
- * </p>
- * <p>
- * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Video.html">Video</a>
+ *
+ * See [Video](https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Video.html)
  */
 @SuppressWarnings("unused")
 public class Video implements Serializable {
@@ -106,10 +106,11 @@ public class Video implements Serializable {
     private String hl;
     private Instant lastChecked;
 
-    private ArrayList<String> topicCategories;
+    private ArrayList<WikipediaTopic> topicCategories;
     private ArrayList<String> topicIds;
     private ArrayList<String> relevantTopicIds;
 
+    private boolean summary;
     private Boolean nsfw;
 
     public Video() {
@@ -495,13 +496,13 @@ public class Video implements Serializable {
         this.lastChecked = lastChecked;
     }
 
-    public List<String> getTopicCategories() {
+    public List<WikipediaTopic> getTopicCategories() {
         return topicCategories;
     }
 
-    public void setTopicCategories(List<String> topicCategories) {
+    public void setTopicCategories(List<WikipediaTopic> topicCategories) {
         if (topicCategories instanceof ArrayList) {
-            this.topicCategories = (ArrayList<String>) topicCategories;
+            this.topicCategories = (ArrayList<WikipediaTopic>) topicCategories;
         } else {
             this.topicCategories.clear();
             this.topicCategories.addAll(topicCategories);
@@ -542,6 +543,14 @@ public class Video implements Serializable {
         this.hl = hl;
     }
 
+    public boolean isSummary() {
+        return summary;
+    }
+
+    public void setSummary(boolean summary) {
+        this.summary = summary;
+    }
+
     public Boolean getNsfw() {
         return nsfw;
     }
@@ -549,6 +558,7 @@ public class Video implements Serializable {
     public void setNsfw(Boolean nsfw) {
         this.nsfw = nsfw;
     }
+
 
     @Override
     public boolean equals(Object o) {
@@ -604,6 +614,7 @@ public class Video implements Serializable {
                 .append(topicIds, that.topicIds)
                 .append(relevantTopicIds, that.relevantTopicIds)
                 .append(hl, that.hl)
+                .append(summary, that.summary)
                 .append(nsfw, that.nsfw)
                 .isEquals();
     }
@@ -622,16 +633,16 @@ public class Video implements Serializable {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+        return new ToStringBuilder(this, MyToStringStyle.DEFAULT_STYLE)
                 .append("id", id)
-                .append("etag", etag)
-                .append("parentEtag", parentEtag)
+                .append("title", title)
+                .append("description", description)
+                .append("summary", summary)
                 .append("embedSrc", embedSrc)
                 .append("embedHtml", embedHtml)
                 .append("embedHeight", embedHeight)
                 .append("embedWidth", embedWidth)
                 .append("recordingDetails", recordingDetails)
-                .append("title", title)
                 .append("projectDetails", projectDetails)
                 .append("caption", caption)
                 .append("contentRating", contentRating)
@@ -650,7 +661,6 @@ public class Video implements Serializable {
                 .append("categoryId", categoryId)
                 .append("channelId", channelId)
                 .append("channelTitle", channelTitle)
-                .append("description", description)
                 .append("lang", lang)
                 .append("publishedAt", publishedAt)
                 .append("thumbnails", thumbnails)
@@ -670,6 +680,8 @@ public class Video implements Serializable {
                 .append("topicIds", topicIds)
                 .append("relevantTopicIds", relevantTopicIds)
                 .append("nsfw", nsfw)
+                // .append("etag", etag)
+                // .append("parentEtag", parentEtag)
                 .toString();
     }
 }

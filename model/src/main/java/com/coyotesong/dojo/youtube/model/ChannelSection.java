@@ -16,48 +16,57 @@
  */
 package com.coyotesong.dojo.youtube.model;
 
+import com.coyotesong.dojo.youtube.lang3.MyToStringStyle;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.time.Instant;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * YouTube Channel Section
- * <p>
- * 'Type' will be one of
- * <ul>
- *     <li>channelsectiontypeundefined</li>
- *     <li>recentuploads</li>
- *     <li>popularuploads</li>
- *     <li>singleplaylist</li>
- *     <li>multipleplaylists</li>
- *     <li>singlechannel ?</li>
- *     <li>multiplechannels ?</li>
- * </ul>
+ *
+ * `Type` will be one of
+ * - channelsectiontypeundefined
+ * - recentuploads
+ * - popularuploads
+ * - singleplaylist
+ * - multipleplaylists
+ * - singlechannel ?
+ * - multiplechannels ?
+ *
  * and possibly other values.
- * </p>
- * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/ChannelSection.html">ChannelSection</a>
+ *
+ * See [ChannelSection](https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/ChannelSection.html)
  */
 @SuppressWarnings("unused")
-public class ChannelSection {
+public class ChannelSection implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
 
-    private String id;
+    private Integer key;
+    private Integer channelKey;
+    private String sectionId;
     private String etag;
     private String parentEtag;
 
     // from 'ChannelSectionContentDetails'
-    private List<String> channelIds = new ArrayList<>();
-    private List<String> playlistIds = new ArrayList<>();
+    // 'ArrayList' for serialization
+    private ArrayList<String> channelIds = new ArrayList<>();
+    private ArrayList<String> playlistIds = new ArrayList<>();
 
     // from 'ChannelSectionSnippet'
     private String channelId;
     private String lang;
     // localized.title
-    private Long position;
+    private Integer position;
     private String style;
     private String title;
     private String type;
@@ -70,44 +79,28 @@ public class ChannelSection {
     // from 'ChannelSectionTargeting'
     // List<String> of countries, languages, and regions
 
-    public String getId() {
-        return id;
+    public Integer getKey() {
+        return key;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setKey(Integer key) {
+        this.key = key;
     }
 
-    public String getEtag() {
-        return etag;
+    public Integer getChannelKey() {
+        return channelKey;
     }
 
-    public void setEtag(String etag) {
-        this.etag = etag;
+    public void setChannelKey(Integer channelKey) {
+        this.channelKey = channelKey;
     }
 
-    public String getParentEtag() {
-        return parentEtag;
+    public String getSectionId() {
+        return sectionId;
     }
 
-    public void setParentEtag(String parentEtag) {
-        this.parentEtag = parentEtag;
-    }
-
-    public List<String> getChannelIds() {
-        return channelIds;
-    }
-
-    public void setChannelIds(List<String> channelIds) {
-        this.channelIds = channelIds;
-    }
-
-    public List<String> getPlaylistIds() {
-        return playlistIds;
-    }
-
-    public void setPlaylistIds(List<String> playlistIds) {
-        this.playlistIds = playlistIds;
+    public void setSectionId(String sectionId) {
+        this.sectionId = sectionId;
     }
 
     public String getChannelId() {
@@ -118,20 +111,44 @@ public class ChannelSection {
         this.channelId = channelId;
     }
 
+    public Integer getPosition() {
+        return position;
+    }
+
+    public void setPosition(Integer position) {
+        this.position = position;
+    }
+
+    public List<String> getPlaylistIds() {
+        return playlistIds;
+    }
+
+    public void setPlaylistIds(List<String> playlistIds) {
+        if (playlistIds instanceof ArrayList) {
+            this.playlistIds = (ArrayList<String>) playlistIds;
+        } else {
+            this.playlistIds = new ArrayList<>(playlistIds);
+        }
+    }
+
+    public List<String> getChannelIds() {
+        return channelIds;
+    }
+
+    public void setChannelIds(List<String> channelIds) {
+        if (channelIds instanceof ArrayList) {
+            this.channelIds = (ArrayList<String>) channelIds;
+        } else {
+            this.channelIds = new ArrayList<>(channelIds);
+        }
+    }
+
     public String getLang() {
         return lang;
     }
 
     public void setLang(String lang) {
         this.lang = lang;
-    }
-
-    public Long getPosition() {
-        return position;
-    }
-
-    public void setPosition(Long position) {
-        this.position = position;
     }
 
     public String getStyle() {
@@ -166,12 +183,28 @@ public class ChannelSection {
         this.hl = hl;
     }
 
+    public String getEtag() {
+        return etag;
+    }
+
+    public void setEtag(String etag) {
+        this.etag = etag;
+    }
+
+    public String getParentEtag() {
+        return parentEtag;
+    }
+
+    public void setParentEtag(String parentEtag) {
+        this.parentEtag = parentEtag;
+    }
+
     public Instant getLastChecked() {
         return lastChecked;
     }
 
     public void setLastChecked(Instant lastChecked) {
-        this.lastChecked = lastChecked;
+        this.lastChecked = ZonedDateTime.ofInstant(lastChecked, ZoneOffset.UTC).toInstant().truncatedTo(ChronoUnit.SECONDS);
     }
 
     @Override
@@ -183,26 +216,30 @@ public class ChannelSection {
         final ChannelSection that = (ChannelSection) o;
 
         return new EqualsBuilder()
-                .append(etag, that.etag)
-                .append(parentEtag, that.parentEtag)
-                .append(channelIds, that.channelIds)
-                .append(playlistIds, that.playlistIds)
+                // DO NOT INCLUDE 'KEY'
+                //.append(key, that.key)
+                //.append(channelKey, that.channelKey)
                 .append(channelId, that.channelId)
-                .append(lang, that.lang)
                 .append(position, that.position)
-                .append(style, that.style)
                 .append(title, that.title)
                 .append(type, that.type)
+                .append(lang, that.lang)
                 .append(hl, that.hl)
+                .append(style, that.style)
+                .append(channelIds, that.channelIds)
+                .append(playlistIds, that.playlistIds)
                 .append(lastChecked, that.lastChecked)
+                //.append(etag, that.etag)
+                //.append(parentEtag, that.parentEtag)
                 .isEquals();
     }
 
     @Override
     public int hashCode() {
         return new HashCodeBuilder(17, 37)
-                .append(etag)
+                // .append(etag)
                 .append(channelId)
+                .append(position)
                 .append(title)
                 .append(type)
                 .toHashCode();
@@ -210,9 +247,12 @@ public class ChannelSection {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
-                .append("id", id)
-                .append("etag", etag)
+        // return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+        return new ToStringBuilder(this, MyToStringStyle.DEFAULT_STYLE)
+                .append("key", key)
+                .append("channelKey", channelKey)
+                .append("sectionId", sectionId)
+                // .append("etag", etag)
                 .append("channelId", channelId)
                 .append("title", title)
                 .append("type", type)

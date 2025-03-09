@@ -17,13 +17,16 @@
 
 package com.coyotesong.dojo.youtube.model;
 
+import com.coyotesong.dojo.youtube.lang3.MyToStringStyle;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.io.Serial;
 import java.io.Serializable;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URL;
 
 /**
  * The YouTube 'topic category' field contains a wikipedia link.
@@ -37,8 +40,8 @@ public class WikipediaTopic implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
-    private Integer id;
-    private String url;
+    private Integer key;
+    private URL url;
     private String label;
     private boolean custom;
 
@@ -52,24 +55,24 @@ public class WikipediaTopic implements Serializable {
     /**
      * Copy constructor
      */
-    public WikipediaTopic(String url) {
-        this.url = url;
+    public WikipediaTopic(String url) throws MalformedURLException {
+        this.url = URI.create(url).toURL();
         this.label = url.substring(url.lastIndexOf("/") + 1).replace("_", " ");
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getKey() {
+        return key;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setKey(Integer key) {
+        this.key = key;
     }
 
-    public String getUrl() {
+    public URL getUrl() {
         return url;
     }
 
-    public void setUrl(String url) {
+    public void setUrl(URL url) {
         this.url = url;
     }
 
@@ -95,9 +98,10 @@ public class WikipediaTopic implements Serializable {
 
         if (o == null || getClass() != o.getClass()) return false;
 
-        WikipediaTopic that = (WikipediaTopic) o;
+        final WikipediaTopic that = (WikipediaTopic) o;
 
         return new EqualsBuilder()
+                // DO NOT INCLUDE KEY!
                 .append(url, that.url)
                 .append(label, that.label)
                 .append(custom, that.custom)
@@ -111,8 +115,8 @@ public class WikipediaTopic implements Serializable {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
-                .append("id", id)
+        return new ToStringBuilder(this, MyToStringStyle.DEFAULT_STYLE)
+                .append("key", key)
                 .append("url", url)
                 .append("label", label)
                 .append("custom", custom)

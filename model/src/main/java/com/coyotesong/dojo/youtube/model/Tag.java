@@ -22,6 +22,9 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
+import java.io.Serial;
+import java.io.Serializable;
+
 /**
  * YouTube Tag
  * <p>
@@ -30,7 +33,10 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  * </p>
  */
 @SuppressWarnings("unused")
-public class Tag {
+public class Tag implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
+
     private Integer id;
     private String tag;
     private String original;

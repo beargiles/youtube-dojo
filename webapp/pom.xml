@@ -35,23 +35,31 @@
         Webapp
     </description>
 
+    <properties>
+        <postgresql-jdbc.version>42.6.0</postgresql-jdbc.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.coyotesong.dojo</groupId>
-                <artifactId>youtube</artifactId>
-                <version>${parent.version}</version>
-                <scope>import</scope>
+                <groupId>com.coyotesong.dojo.youtube</groupId>
+                <artifactId>persistence-jooq-kata</artifactId>
+                <version>${project.parent.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.coyotesong.dojo.youtube</groupId>
+                <artifactId>service-youtube-kata</artifactId>
+                <version>${project.parent.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.coyotesong.dojo.youtube</groupId>
                 <artifactId>controller-spring-mvc-kata</artifactId>
-                <version>${parent.version}</version>
+                <version>${project.parent.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.coyotesong.dojo.youtube</groupId>
-                <artifactId>thymeleaf-kata</artifactId>
-                <version>${parent.version}</version>
+                <artifactId>presentation-thymeleaf-bootstrap-kata</artifactId>
+                <version>${project.parent.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -59,11 +67,36 @@
     <dependencies>
         <dependency>
             <groupId>com.coyotesong.dojo.youtube</groupId>
+            <artifactId>persistence-jooq-kata</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.coyotesong.dojo.youtube</groupId>
+            <artifactId>service-youtube-kata</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.coyotesong.dojo.youtube</groupId>
             <artifactId>controller-spring-mvc-kata</artifactId>
         </dependency>
         <dependency>
             <groupId>com.coyotesong.dojo.youtube</groupId>
-            <artifactId>thymeleaf-kata</artifactId>
+            <artifactId>presentation-thymeleaf-bootstrap-kata</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+        </dependency>
+
+        <!-- for 'java.time.Instance' -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgresql-jdbc.version}</version>
         </dependency>
     </dependencies>
 </project>

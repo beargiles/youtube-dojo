@@ -16,74 +16,92 @@
  */
 package com.coyotesong.dojo.youtube.model;
 
+import com.coyotesong.dojo.youtube.lang3.MyToStringStyle;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.Serial;
 import java.io.Serializable;
 import java.time.Instant;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * YouTube Channel
- * <p>
- * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Channel.html">Channel</a>
+ *
+ * See [Channels:List](https://developers.google.com/youtube/v3/docs/channels/list)
+ *
+ * See [Channel API](https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Channel.html)
  */
 @SuppressWarnings("unused")
 public class Channel implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
-    private String id;
-    private String etag;
-    private String parentEtag;
+    private static final Logger LOG = LoggerFactory.getLogger(Channel.class);
 
-    private String username;
+    private Integer key;
+    private String channelId;
+    private Boolean summary; // true if search results
+
+    private String handle;
     private String contentOwner;
     private String country;
-    private String customUrl;
     private String lang;
     private Instant publishedAt;
     private String description;
     private String title;
+    private Long videoCount;
+    private Long subscriberCount;
+    private Long viewCount;
     private String uploads;
     private String tnUrl;
     private String hl;
 
+    private String category;
+    private String etag;
+    private String parentEtag;
     private Boolean nsfw;
     private Instant lastChecked;
 
-    private ArrayList<Playlist> playlists;
+    private ArrayList<Playlist> playlists = new ArrayList<>();
+    private ArrayList<ChannelSection> sections = new ArrayList<>();
 
     // wikipedia
-    private ArrayList<WikipediaTopic> topicCategories;
+    private ArrayList<WikipediaTopic> topicCategories = new ArrayList<>();
     // topicIds = freebase topic ids
-    private ArrayList<String> topicIds;
+    private ArrayList<String> topicIds = new ArrayList<>();
 
     // statistics = commentCount, hiddenSubscriberCount(boolean), subscriberCount, videoCount, viewCount),
     // status = isLinked, longUploadStatus, madeForKids, privacyStatus, selfDeclaredMadeForKids
 
     // values that seem to be null in the channels I care: view_count, favorites, likes, watch_history, watch_later
 
-    private ArrayList<Video> videos;
+    private ArrayList<Video> videos = new ArrayList<>();
 
     public Channel() {
-        // fields are explicitly ArrayList<> due to serialization warnings
-        this.playlists = new ArrayList<>();
-        this.topicCategories = new ArrayList<>();
-        this.topicIds = new ArrayList<>();
-        this.videos = new ArrayList<>();
     }
 
-    public String getId() {
-        return id;
+    public Integer getKey() {
+        return key;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setKey(Integer key) {
+        this.key = key;
+    }
+
+    public String getChannelId() {
+        return channelId;
+    }
+
+    public void setChannelId(String channelId) {
+        this.channelId = channelId;
     }
 
     public String getEtag() {
@@ -102,14 +120,6 @@ public class Channel implements Serializable {
         this.parentEtag = parentEtag;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
     public String getContentOwner() {
         return contentOwner;
     }
@@ -126,12 +136,12 @@ public class Channel implements Serializable {
         this.country = country;
     }
 
-    public String getCustomUrl() {
-        return customUrl;
+    public String getHandle() {
+        return handle;
     }
 
-    public void setCustomUrl(String customUrl) {
-        this.customUrl = customUrl;
+    public void setHandle(String handle) {
+        this.handle = handle;
     }
 
     public String getLang() {
@@ -147,7 +157,7 @@ public class Channel implements Serializable {
     }
 
     public void setPublishedAt(Instant publishedAt) {
-        this.publishedAt = publishedAt;
+        this.publishedAt = ZonedDateTime.ofInstant(publishedAt, ZoneOffset.UTC).toInstant().truncatedTo(ChronoUnit.SECONDS);
     }
 
     public String getDescription() {
@@ -164,6 +174,30 @@ public class Channel implements Serializable {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public Long getVideoCount() {
+        return videoCount;
+    }
+
+    public void setVideoCount(Long videoCount) {
+        this.videoCount = videoCount;
+    }
+
+    public Long getSubscriberCount() {
+        return subscriberCount;
+    }
+
+    public void setSubscriberCount(Long subscriberCount) {
+        this.subscriberCount = subscriberCount;
+    }
+
+    public Long getViewCount() {
+        return viewCount;
+    }
+
+    public void setViewCount(Long viewCount) {
+        this.viewCount = viewCount;
     }
 
     public String getUploads() {
@@ -190,6 +224,14 @@ public class Channel implements Serializable {
         this.hl = hl;
     }
 
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
     public Instant getLastChecked() {
         return lastChecked;
     }
@@ -206,8 +248,15 @@ public class Channel implements Serializable {
         if (playlists instanceof ArrayList) {
             this.playlists = (ArrayList<Playlist>) playlists;
         } else {
+            if (this.playlists == null) {
+                // some database frameworks don't properly initialize the object
+                this.playlists = new ArrayList<>();
+            }
+
             this.playlists.clear();
-            this.playlists.addAll(playlists);
+            if (playlists != null) {
+                this.playlists.addAll(playlists);
+            }
         }
     }
 
@@ -219,8 +268,15 @@ public class Channel implements Serializable {
         if (topicCategories instanceof ArrayList) {
             this.topicCategories = (ArrayList<WikipediaTopic>) topicCategories;
         } else {
+            if (this.topicCategories == null) {
+                // some database frameworks don't properly initialize the object
+                this.topicCategories = new ArrayList<>();
+            }
+
             this.topicCategories.clear();
-            this.topicCategories.addAll(topicCategories);
+            if (topicCategories != null) {
+                this.topicCategories.addAll(topicCategories);
+            }
         }
     }
 
@@ -232,9 +288,24 @@ public class Channel implements Serializable {
         if (topicIds instanceof ArrayList) {
             this.topicIds = (ArrayList<String>) topicIds;
         } else {
+            if (this.topicIds == null) {
+                // some database frameworks don't properly initialize the object
+                this.topicIds = new ArrayList<>();
+            }
+
             this.topicIds.clear();
-            this.topicIds.addAll(topicIds);
+            if (topicIds != null) {
+                this.topicIds.addAll(topicIds);
+            }
         }
+    }
+
+    public Boolean getSummary() {
+        return summary;
+    }
+
+    public void setSummary(Boolean summary) {
+        this.summary = summary;
     }
 
     public Boolean getNsfw() {
@@ -245,6 +316,26 @@ public class Channel implements Serializable {
         this.nsfw = nsfw;
     }
 
+    public ArrayList<ChannelSection> getSections() {
+        return sections;
+    }
+
+    public void setSections(List<ChannelSection> sections) {
+        if (sections instanceof ArrayList) {
+            this.sections = (ArrayList<ChannelSection>) sections;
+        } else {
+            if (this.sections == null) {
+                // some database frameworks don't properly initialize the object
+                this.sections = new ArrayList<>();
+            }
+
+            this.sections.clear();
+            if (sections != null) {
+                this.sections.addAll(sections);
+            }
+        }
+    }
+
     public List<Video> getVideos() {
         return videos;
     }
@@ -253,8 +344,15 @@ public class Channel implements Serializable {
         if (videos instanceof ArrayList) {
             this.videos = (ArrayList<Video>) videos;
         } else {
+            if (this.videos == null) {
+                // some database frameworks don't properly initialize the object
+                this.videos = new ArrayList<>();
+            }
+
             this.videos.clear();
-            this.videos.addAll(videos);
+            if (videos != null) {
+                this.videos.addAll(videos);
+            }
         }
     }
 
@@ -266,54 +364,70 @@ public class Channel implements Serializable {
 
         final Channel that = (Channel) o;
 
-        return new EqualsBuilder().append(etag, that.etag)
-                .append(customUrl, that.customUrl)
+        return new EqualsBuilder()
+                // DO NOT INCLUDE 'KEY'
+                .append(channelId, that.channelId)
+                .append(handle, that.handle)
                 .append(title, that.title)
                 .append(description, that.description)
                 .append(publishedAt, that.publishedAt)
+                .append(videoCount, that.videoCount)
+                .append(subscriberCount, that.subscriberCount)
+                .append(viewCount, that.viewCount)
                 .append(uploads, that.uploads)
                 .append(tnUrl, that.tnUrl)
-                .append(lastChecked, that.lastChecked)
+                // .append(lastChecked, that.lastChecked)
+                .append(summary, that.summary)
                 // these are often null
                 .append(hl, that.hl)
-                .append(parentEtag, that.parentEtag)
+                // .append(parentEtag, that.parentEtag)
                 .append(contentOwner, that.contentOwner)
                 .append(lang, that.lang)
                 .append(country, that.country)
-                .append(username, that.username)
+                .append(nsfw, that.nsfw)
+                // collections...
+                .append(sections, that.sections)
+                .append(playlists, that.playlists)
                 .isEquals();
     }
 
     @Override
     public int hashCode() {
         return new HashCodeBuilder(17, 37)
-                .append(etag)
-                .append(customUrl)
+                .append(channelId)
+                .append(handle)
                 .toHashCode();
     }
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
-                .append("id", id)
-                .append("etag", etag)
-                .append("username", username)
-                .append("contentOwner", contentOwner)
-                .append("country", country)
-                .append("customUrl", customUrl)
-                .append("lang", lang)
-                .append("publishedAt", publishedAt)
-                .append("description", description)
+        // return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
+        return new ToStringBuilder(this, MyToStringStyle.DEFAULT_STYLE)
+                .append("key", key)
+                .append("channelId", channelId)
+                .append("handle", handle)
+                .append("summary", summary)
                 .append("title", title)
+                .append("description", description)
+                .append("country", country)
+                .append("publishedAt", publishedAt)
+                .append("videoCount", videoCount)
+                .append("subscriberCount", subscriberCount)
+                .append("viewCount", viewCount)
                 .append("uploads", uploads)
+                .append("contentOwner", contentOwner)
                 .append("tnUrl", tnUrl)
+                .append("lang", lang)
                 .append("hl", hl)
                 .append("nsfw", nsfw)
-                .append("lastChecked", lastChecked)
+                // .append("lastChecked", lastChecked)
+                .append("sections", sections)
                 .append("playlists", playlists)
                 .append("topicCategories", topicCategories)
                 .append("topicIds", topicIds)
                 .append("videos", videos)
+                // .append("etag", etag)
+                // .append("parent_etag", parentEtag)
                 .toString();
     }
 }

@@ -27,8 +27,8 @@ import java.time.Instant;
 
 /**
  * YouTube Caption
- * <p>
- * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Caption.html">Caption</a>
+ *
+ * See [Caption](https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Caption.html)
  */
 @SuppressWarnings("unused")
 public class Caption implements Serializable {

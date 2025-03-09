@@ -27,6 +27,11 @@ import java.io.Serializable;
 
 /**
  * YouTube I18nRegion
+ *
+ * YouTube provides information on 110 regions
+ *
+ * YouTube provides information in 83 locales (80 unique - (en, en-GB, en-IN) and (es-US, es-419) share parent etag
+ *
  * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/I18nRegion.html">I18nRegion</a>
  */
 @SuppressWarnings("unused")
@@ -34,43 +39,28 @@ public class I18nRegion implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
-    private String id;
+    private Integer key;
+    private String code;
+    private String hl;
+    private String name;
+    private String gl;  // two-letter ISO 3166 country code
     private String etag;
     private String parentEtag;
-    private String gl;
-    private String name;
-    private String hl;
 
-    public String getId() {
-        return id;
+    public Integer getKey() {
+        return key;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setKey(Integer key) {
+        this.key = key;
     }
 
-    public String getEtag() {
-        return etag;
+    public String getCode() {
+        return code;
     }
 
-    public String getParentEtag() {
-        return parentEtag;
-    }
-
-    public void setParentEtag(String parentEtag) {
-        this.parentEtag = parentEtag;
-    }
-
-    public void setEtag(String etag) {
-        this.etag = etag;
-    }
-
-    public String getGl() {
-        return gl;
-    }
-
-    public void setGl(String gl) {
-        this.gl = gl;
+    public void setCode(String code) {
+        this.code = code;
     }
 
     public String getName() {
@@ -81,12 +71,37 @@ public class I18nRegion implements Serializable {
         this.name = name;
     }
 
+    public String getGl() {
+        return gl;
+    }
+
+    public void setGl(String gl) {
+        this.gl = gl;
+    }
+
+    // alias
     public String getHl() {
         return hl;
     }
 
     public void setHl(String hl) {
         this.hl = hl;
+    }
+
+    public String getEtag() {
+        return etag;
+    }
+
+    public void setEtag(String etag) {
+        this.etag = etag;
+    }
+
+    public String getParentEtag() {
+        return parentEtag;
+    }
+
+    public void setParentEtag(String parentEtag) {
+       this.parentEtag = parentEtag;
     }
 
     @Override
@@ -98,32 +113,34 @@ public class I18nRegion implements Serializable {
         final I18nRegion that = (I18nRegion) o;
 
         return new EqualsBuilder()
+                // DO NOT INCLUDE KEY!
+                .append(code, that.code)
+                .append(name, that.name)
+                .append(hl, that.hl)
+                .append(gl, that.gl)
                 .append(etag, that.etag)
                 .append(parentEtag, that.parentEtag)
-                .append(gl, that.gl)
-                .append(name, that.name)
-                .append(hl, that.name)
                 .isEquals();
     }
 
     @Override
     public int hashCode() {
         return new HashCodeBuilder(17, 37)
-                .append(etag)
-                .append(gl)
+                .append(code)
                 .append(name)
+                .append(hl)
+                .append(gl)
                 .toHashCode();
     }
 
     @Override
     public String toString() {
         return new ToStringBuilder(this, ToStringStyle.JSON_STYLE)
-                .append("id", id)
-                .append("etag", etag)
-                .append("gl", gl)
-                .append("name", name)
+                .append("key", key)
+                .append("code", code)
                 .append("hl", hl)
-                .append("parentEtag", parentEtag)
+                .append("name", name)
+                .append("gl", gl)
                 .toString();
     }
 }

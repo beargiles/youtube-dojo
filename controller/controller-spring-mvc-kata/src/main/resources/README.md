@@ -1,0 +1,1 @@
+HTML content is located in `persistence-*-kata` modules.

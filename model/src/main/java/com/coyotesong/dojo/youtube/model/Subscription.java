@@ -31,6 +31,7 @@ import java.util.List;
  * YouTube Subscription
  * <p>
  * see <a href="https://googleapis.dev/java/google-api-services-youtube/latest/com/google/api/services/youtube/model/Subscription.html">Subscription</a>
+ * </p>
  */
 @SuppressWarnings("unused")
 public class Subscription implements Serializable {
