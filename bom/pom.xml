@@ -35,25 +35,21 @@
 
         <jetbrains.version>19.0.0</jetbrains.version>
 
-        <jooq.version>3.18.7</jooq.version>
-
         <hamcrest.version>2.2</hamcrest.version>
         <testng.version>7.8.0</testng.version>
         <junit.version>5.10.0</junit.version>
 
-        <google-api-services-youtube.version>v3-rev20231011-2.0.0</google-api-services-youtube.version>
+        <!--  we need to bunp spring-boot to use 3.19 -->
+        <jooq.version>3.18.7</jooq.version>
+
+        <!-- <google-api-services-youtube.version>v3-rev20231011-2.0.0</google-api-services-youtube.version> -->
+        <google-api-services-youtube.version>v3-rev20240514-2.0.0</google-api-services-youtube.version>
+        <apache-commons-csv.version>1.10.0</apache-commons-csv.version>
+        <apache-poi.version>5.2.5</apache-poi.version>
 
         <!--
         <spring-boot-test.version>2.7.5</spring-boot-test.version>
         -->
-
-        <!-- for auto-generation -->
-        <testcontainers.version>1.19.1</testcontainers.version>
-        <testcontainers-jooq-codegen-maven-plugin.version>0.0.3</testcontainers-jooq-codegen-maven-plugin.version>
-        <jooq.target.directory>src/main/java.jooq</jooq.target.directory>
-        <jooq.target.packageName>com.coyotesong.tabs.repo.jooq.generated</jooq.target.packageName>
-        <postgresql-jdbc.version>42.6.0</postgresql-jdbc.version>
-        <postgresql-docker.version>15-alpine</postgresql-docker.version>
     </properties>
 
     <dependencyManagement>
@@ -108,6 +104,39 @@
                 <groupId>com.google.apis</groupId>
                 <artifactId>google-api-services-youtube</artifactId>
                 <version>${google-api-services-youtube.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-csv</artifactId>
+                <version>${apache-commons-csv.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${apache-poi.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.coyotesong.dojo.youtube</groupId>
+                <artifactId>model</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jooq</groupId>
+                <artifactId>jooq</artifactId>
+                <version>${jooq.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.coyotesong.dojo.youtube</groupId>
+                <artifactId>model</artifactId>
+                <classifier>tests</classifier>
+                <type>test-jar</type>
+                <version>${project.version}</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
