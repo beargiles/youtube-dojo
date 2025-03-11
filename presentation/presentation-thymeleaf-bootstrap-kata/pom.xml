@@ -22,11 +22,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.coyotesong.dojo</groupId>
-        <artifactId>youtube</artifactId>
+        <groupId>com.coyotesong.dojo.youtube</groupId>
+        <artifactId>persistence</artifactId>
         <version>0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.coyotesong.dojo.youtube</groupId>
+    <groupId>com.coyotesong.dojo.youtube.persistence</groupId>
     <artifactId>presentation-thymeleaf-bootstrap-kata</artifactId>
 
     <name>YouTube Dojo - Presentation (Thymeleaf-Bootstrap Kata)</name>

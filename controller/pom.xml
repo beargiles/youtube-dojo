@@ -30,14 +30,15 @@
     <artifactId>controller</artifactId>
     <packaging>pom</packaging>
 
-    <name>YouTube Dojo - Controller Katas</name>
+    <name>YouTube Dojo - Controller POM</name>
 
     <description>
-        Controller katas
+        Controller
     </description>
 
     <modules>
-        <module>controller-spring-mvc-kata</module>
+        <module>controller-dojo</module>
+        <!-- <module>controller-spring-mvc-kata</module> -->
     </modules>
 
     <dependencyManagement>

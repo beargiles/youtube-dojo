@@ -22,25 +22,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.coyotesong.dojo</groupId>
-        <artifactId>youtube</artifactId>
+        <groupId>com.coyotesong.dojo.youtube</groupId>
+        <artifactId>presentation</artifactId>
         <version>0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.coyotesong.dojo.youtube</groupId>
-    <artifactId>persistence</artifactId>
-    <packaging>pom</packaging>
+    <groupId>com.coyotesong.dojo.youtube.presentation</groupId>
+    <artifactId>presentation-dojo</artifactId>
+    <packaging>jar</packaging>
 
-    <name>YouTube Dojo - Persistence Katas</name>
+    <name>YouTube Dojo - Presentation Dojo</name>
 
     <description>
-        Persistence POM
+        Presentation dojo
     </description>
-
-    <modules>
-        <module>persistence-dojo</module>
-        <!-- <module>persistence-jooq-kata</module> -->
-        <!-- <module>persistence-cache-jooq-kata</module> -->
-    </modules>
 
     <dependencyManagement>
         <dependencies>

@@ -26,6 +26,7 @@
         <artifactId>controller</artifactId>
         <version>0.1-SNAPSHOT</version>
     </parent>
+    <groupId>com.coyotesong.dojo.youtube.controller</groupId>
     <artifactId>controller-spring-mvc-kata</artifactId>
 
     <name>YouTube Dojo - Controller (Spring-MVC Kata)</name>

@@ -27,19 +27,18 @@
         <version>0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.coyotesong.dojo.youtube</groupId>
-    <artifactId>persistence</artifactId>
+    <artifactId>presentation</artifactId>
     <packaging>pom</packaging>
 
-    <name>YouTube Dojo - Persistence Katas</name>
+    <name>YouTube Dojo - Presentation POM</name>
 
     <description>
-        Persistence POM
+        Presentation dojo
     </description>
 
     <modules>
-        <module>persistence-dojo</module>
-        <!-- <module>persistence-jooq-kata</module> -->
-        <!-- <module>persistence-cache-jooq-kata</module> -->
+        <module>presentation-dojo</module>
+        <!-- <module>controller-spring-mvc-kata</module> -->
     </modules>
 
     <dependencyManagement>
